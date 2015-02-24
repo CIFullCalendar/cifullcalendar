@@ -5,7 +5,7 @@
  * @package		ci_fullcalendar
  * @category    Language
  * @author		sirdre
- * @link		/language/english/ENG_lang
+ * @link		/language/english/en_lang
  */
  
 //Common words
@@ -13,8 +13,8 @@
 $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendar';
 $lang['events'] = 'events';
-$lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2014 v'; 
 $lang['dashboard'] = 'Dashboard';
+$lang['tables'] = 'Tables';
 $lang['share'] = 'Share'; 
 $lang['users'] = 'Users'; 
 $lang['user'] = 'User'; 
@@ -45,6 +45,9 @@ $lang['ok'] = 'Ok';
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Save'; 
 $lang['cancel'] = 'Cancel'; 
+$lang['lat'] = 'Lat'; 
+$lang['lng'] = 'lng'; 
+$lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
 //
@@ -68,6 +71,8 @@ $lang['admin_modal_delete_user'] = 'Delete user Information';
 $lang['admin_modal_add_user'] = 'Add user Information';
 //calendar
 $lang['admin_modal_delete_calendar'] = 'Delete Calendar Information';
+//Maps
+$lang['admin_modal_maps_calendar'] = 'Delete Maps Information';
 
 
 $lang['admin_modal_member_since'] = 'Member Since';
@@ -94,6 +99,14 @@ $lang['admin_table_event_allday'] = 'All Day';
 $lang['admin_table_event_type'] = 'Public/Private';
 $lang['admin_table_event_noshow'] = 'Private';
 $lang['admin_table_event_show'] = 'Public';
+
+$lang['admin_table_markers_various_date'] = 'Various dates';
+$lang['admin_table_markers_info'] = 'Info';
+$lang['admin_table_markers_name'] = 'Title';
+$lang['admin_table_markers_address'] = 'Address';
+$lang['admin_table_markers_category'] = 'Category';
+$lang['admin_table_markers_description'] = 'Description';
+$lang['admin_table_markers_url'] = 'URL';
 
  
 //Profile
@@ -316,10 +329,17 @@ $lang['settings_form_site_name'] = 'Site Name';
 $lang['settings_form_site_email'] = 'Site Email';
 $lang['settings_form_meta_keywords'] = 'Site meta keywords';
 $lang['settings_form_meta_description'] = 'Site meta description';
+$lang['settings_form_timezone'] = 'Timezone';
+$lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';
 $lang['settings_form_submit_button'] = 'Submit';
 
- 
+//Theme
+//
+$lang['theme_settings_title'] = 'Theme Settings';
+$lang['theme_name'] = 'Theme';
+
+
  
 //Error
 // 
