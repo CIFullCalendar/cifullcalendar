@@ -339,6 +339,13 @@ $lang['settings_form_submit_button'] = 'Submit';
 $lang['theme_settings_title'] = 'Theme Settings';
 $lang['theme_name'] = 'Theme';
 
+//Language
+//
+$lang['theme_language'] = 'Language';
+//lang choices
+$lang['lang_english'] = 'English';
+$lang['lang_spanish'] = 'Spanish';
+$lang['lang_french'] = 'French';
 
  
 //Error
