@@ -339,6 +339,18 @@ $lang['settings_form_submit_button'] = 'Submit';
 $lang['theme_settings_title'] = 'Theme Settings';
 $lang['theme_name'] = 'Theme';
 
+//Edit
+$lang['profile_picture_title'] = 'Profile Picture Requirement';
+$lang['file_title'] = 'ICS File Requirement';
+
+$lang['profile_max_upload_width'] = 'Width';
+$lang['profile_max_upload_height'] = 'Height';
+$lang['profile_max_upload_filesize'] = 'Filesize';
+$lang['profile_allowed_extensions'] = 'Extension'; 
+$lang['file_max_upload_width'] = 'Width';
+$lang['file_max_upload_height'] = 'Height';
+$lang['file_max_upload_filesize'] = 'Filesize'; 
+
 //Language
 //
 $lang['theme_language'] = 'Language';
