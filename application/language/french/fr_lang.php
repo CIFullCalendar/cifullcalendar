@@ -340,13 +340,25 @@ $lang['settings_form_submit_button'] = 'Soumettre';
 $lang['theme_settings_title'] = 'Paramètres thème';
 $lang['theme_name'] = 'Thème';
 
+//Edit
+$lang['profile_picture_title'] = 'Profil Exigence de l\'image';
+$lang['file_title'] = 'Exigence du fichier ICS';
+
+$lang['profile_max_upload_width'] = 'largeur';
+$lang['profile_max_upload_height'] = 'Hauteur';
+$lang['profile_max_upload_filesize'] = 'Taille du fichier';
+$lang['profile_allowed_extensions'] = 'Extension'; 
+$lang['file_max_upload_width'] = 'largeur';
+$lang['file_max_upload_height'] = 'Hauteur';
+$lang['file_max_upload_filesize'] = 'Taille du fichier'; 
+
 //Language
 //
-$lang['theme_language'] = 'Language';
+$lang['theme_language'] = 'Langue';
 //lang choices
-$lang['lang_english'] = 'English';
-$lang['lang_spanish'] = 'Spanish';
-$lang['lang_french'] = 'French';
+$lang['lang_english'] = 'Anglais';
+$lang['lang_spanish'] = 'Espagnol';
+$lang['lang_french'] = 'Français';
  
 //Error
 // 
