@@ -263,6 +263,7 @@ $lang['calendar_modal_eventendrecurring'] = 'Fin';
 $lang['calendar_modal_eventnonerecurring'] = 'Non récurrent';
 $lang['calendar_modal_eventdaily'] = 'Quotidiennement';
 $lang['calendar_modal_eventweekly'] = 'Hebdomadaire';
+$lang['calendar_modal_event2week'] = 'toutes les 2 semaines';
 $lang['calendar_modal_eventmonthly'] = 'Mensuelle';
 $lang['calendar_modal_eventyearly'] = 'Annuel';
 
@@ -323,7 +324,10 @@ $lang['sources_message_warning'] = 'Non Sources disponibles';
 //Settings
 //
 $lang['settings_name'] = 'Paramètres';
-$lang['settings_form_name'] = 'Réglages de base';
+$lang['settings_basic_name'] = 'Réglages de base';
+$lang['settings_file_name'] = 'Réglages de ICal';
+$lang['settings_pic_name'] = 'Réglages de Pic';
+$lang['settings_theme_name'] = 'Réglages de thème';
 
 //Edit
 $lang['settings_form_site_name'] = 'Nom du site';
@@ -336,8 +340,6 @@ $lang['settings_form_debug'] = 'Debug';
 $lang['settings_form_submit_button'] = 'Soumettre';
 
 //Theme
-//
-$lang['theme_settings_title'] = 'Paramètres thème';
 $lang['theme_name'] = 'Thème';
 
 //Edit
