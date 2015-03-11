@@ -251,7 +251,6 @@ $lang['calendar_modal_eventallday'] = 'All Day';
 $lang['calendar_modal_eventshare'] = 'Share Event';
 $lang['calendar_modal_eventprivate'] = 'Private Event';
 $lang['calendar_modal_eventpublic'] = 'Public Event'; 
-$lang['calendar_modal_eventpublic'] = 'Public Event';
 
 $lang['calendar_modal_eventrendering'] = 'Placement';  
 $lang['calendar_modal_eventfgrender'] = 'Foreground'; 
@@ -265,6 +264,7 @@ $lang['calendar_modal_eventendrecurring'] = 'End';
 $lang['calendar_modal_eventnonerecurring'] = 'Non-recurring';
 $lang['calendar_modal_eventdaily'] = 'Daily';
 $lang['calendar_modal_eventweekly'] = 'Weekly';
+$lang['calendar_modal_event2weeks'] = 'Every 2 Weeks';
 $lang['calendar_modal_eventmonthly'] = 'Monthly';
 $lang['calendar_modal_eventyearly'] = 'Yearly'; 
 
@@ -322,7 +322,10 @@ $lang['sources_message_warning'] = 'No Sources available';
 //Settings
 //
 $lang['settings_name'] = 'Settings';
-$lang['settings_form_name'] = 'Basic Settings';
+$lang['settings_basic_name'] = 'Basic Settings';
+$lang['settings_file_name'] = 'ICal Settings';
+$lang['settings_pic_name'] = 'Pic Settings';
+$lang['settings_theme_name'] = 'Theme Settings';
 
 //Edit
 $lang['settings_form_site_name'] = 'Site Name';
@@ -334,9 +337,7 @@ $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';
 $lang['settings_form_submit_button'] = 'Submit';
 
-//Theme
-//
-$lang['theme_settings_title'] = 'Theme Settings';
+//Theme 
 $lang['theme_name'] = 'Theme';
 
 //Edit
