@@ -7,366 +7,367 @@
  * @author		sirdre
  * @link		/language/spanish/es_lang
  */
- 
+  
 //Common words
 //
-$lang['home'] = ' ';
-$lang['calendar'] = ' ';
-$lang['events'] = ' ';
-$lang['dashboard'] = ' ';
-$lang['tables'] = ' ';
-$lang['share'] = ' '; 
-$lang['users'] = ' '; 
-$lang['user'] = ' '; 
-$lang['admin'] = ' '; 
-$lang['lock'] = ' '; 
-$lang['unlock'] = ' '; 
-$lang['maps'] = ' '; 
-$lang['time'] = ' '; 
-$lang['hi'] = ' '; 
-$lang['yes'] = ' '; 
-$lang['no'] = ' '; 
-$lang['all'] = ' ';  
-$lang['actions'] = ' ';  
-$lang['username'] = ' '; 
-$lang['password'] = ' '; 
-$lang['business'] = ' '; 
-$lang['geocodes'] = ' '; 
-$lang['address'] = ' '; 
-$lang['detail'] = ' '; 
-$lang['name'] = ' '; 
-$lang['description'] = ' '; 
-$lang['add'] = ' '; 
-$lang['edit'] = ' '; 
-$lang['delete'] = ' '; 
-$lang['records'] = ' '; 
-$lang['source'] = ' '; 
-$lang['ok'] = ' '; 
-$lang['url'] = ' '; 
-$lang['save'] = ' '; 
-$lang['cancel'] = ' '; 
-$lang['lat'] = ' '; 
-$lang['lng'] = ' '; 
-$lang['current_v'] = ' '; 
+$lang['home'] = 'Casa';
+$lang['calendar'] = 'Calendario';
+$lang['events'] = 'eventos';
+$lang['dashboard'] = 'Salpicadero';
+$lang['tables'] = 'Tablas';
+$lang['share'] = 'Cuota'; 
+$lang['users'] = 'Usuarios'; 
+$lang['user'] = 'Usuario'; 
+$lang['admin'] = 'Administración'; 
+$lang['lock'] = 'Bloquear'; 
+$lang['unlock'] = 'Descubrir'; 
+$lang['maps'] = 'Mapas'; 
+$lang['time'] = 'Tiempo'; 
+$lang['by'] = 'Por'; 
+$lang['hi'] = 'Hola'; 
+$lang['yes'] = 'Sí'; 
+$lang['no'] = 'no'; 
+$lang['all'] = 'Todos';  
+$lang['actions'] = 'Acciones';  
+$lang['username'] = 'Nombre de Usuario'; 
+$lang['password'] = 'Contraseña'; 
+$lang['business'] = 'Negocios'; 
+$lang['geocodes'] = 'Geocodifica'; 
+$lang['address'] = 'Dirección'; 
+$lang['detail'] = 'Detalle'; 
+$lang['name'] = 'Nombre'; 
+$lang['description'] = 'Descripción'; 
+$lang['add'] = 'Añadir'; 
+$lang['edit'] = 'Editar'; 
+$lang['delete'] = 'Borrar'; 
+$lang['records'] = 'Archivos'; 
+$lang['source'] = 'Fuente'; 
+$lang['ok'] = 'Okay'; 
+$lang['url'] = 'URL'; 
+$lang['save'] = 'Guardar'; 
+$lang['cancel'] = 'Cancelar'; 
+$lang['lat'] = 'Lat'; 
+$lang['lng'] = 'Lng'; 
+$lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v'; 
 
 //Admin
 //
-$lang['admin_dashboard'] = ' ';
-$lang['admin_page_title'] = ' ';
-$lang['admin_form_contact'] = ' ';
-$lang['admin_info_title'] = ' ';
-$lang['admin_configuration'] = ' ';
+$lang['admin_dashboard'] = 'Administrar';
+$lang['admin_page_title'] = 'Calendario';
+$lang['admin_form_contact'] = 'Mi Información de Contacto';
+$lang['admin_info_title'] = 'Información básica';
+$lang['admin_configuration'] = 'Configure';
 
-//Tables
+//Tablas
 //
-$lang['admin_level_2'] = ' ';
-$lang['admin_level_1'] = ' ';
-$lang['admin_status_1'] = ' ';
-$lang['admin_status_0'] = ' ';
+$lang['admin_level_2'] = 'Privilegios de administrador';
+$lang['admin_level_1'] = 'Privilegios de usuario';
+$lang['admin_status_1'] = 'Bloqueado';
+$lang['admin_status_0'] = 'Desbloqueado';
 
 //Modal 
-//user
-$lang['admin_modal_edit_user'] = ' ';
-$lang['admin_modal_delete_user'] = ' ';
-$lang['admin_modal_add_user'] = ' ';
-//calendar
-$lang['admin_modal_delete_calendar'] = ' ';
-//Maps
-$lang['admin_modal_maps_calendar'] = ' ';
+//Usuario
+$lang['admin_modal_edit_user'] = 'Editar usuario';
+$lang['admin_modal_delete_user'] = 'Eliminar Información del usuario';
+$lang['admin_modal_add_user'] = 'Agregar información de usuario';
+//Calendario
+$lang['admin_modal_delete_calendar'] = 'Eliminar información Calendario';
+//Mapas
+$lang['admin_modal_maps_calendar'] = 'Eliminar Mapas Información';
+
+$lang['admin_modal_member_since'] = 'Usuario desde';
+$lang['admin_modal_member_last_log'] = 'Último ingreso';
+$lang['admin_modal_ip'] = 'Dirección IP';
 
 
-$lang['admin_modal_member_since'] = ' ';
-$lang['admin_modal_member_last_log'] = ' ';
-$lang['admin_modal_ip'] = ' ';
+// Columnas
+$lang['admin_table_username'] = 'Nombre de Usuario';
+$lang['admin_table_fname'] = 'Nombre De Pila';
+$lang['admin_table_lname'] = 'Apellido';
+$lang['admin_table_address'] = 'Dirección';
+$lang['admin_table_phone'] = 'Teléfono';
+$lang['admin_table_email'] = 'Correo electrónico';
+$lang['admin_table_password'] = 'Contraseña';
+$lang['admin_table_level'] = 'Privilegios';
+$lang['admin_table_status'] = 'Estado';
+$lang['admin_table_edit'] = 'Editar';
 
-//Columns
-$lang['admin_table_username'] = ' ';
-$lang['admin_table_fname'] = ' ';
-$lang['admin_table_lname'] = ' ';
-$lang['admin_table_address'] = ' ';
-$lang['admin_table_phone'] = ' ';
-$lang['admin_table_email'] = ' ';
-$lang['admin_table_password'] = ' ';
-$lang['admin_table_level'] = ' ';
-$lang['admin_table_status'] = ' ';
-$lang['admin_table_edit'] = ' ';
+$lang['admin_table_event_title'] = 'Título';
+$lang['admin_table_event_description'] = 'Descripción';
+$lang['admin_table_event_start'] = 'Fecha de empiezo';
+$lang['admin_table_event_end'] = 'Fecha de fin';
+$lang['admin_table_event_allday'] = 'Todo el día';
+$lang['admin_table_event_type'] = 'Público / Privado';
+$lang['admin_table_event_noshow'] = 'Privado';
+$lang['admin_table_event_show'] = 'Público';
 
-$lang['admin_table_event_title'] = ' ';
-$lang['admin_table_event_description'] = ' ';
-$lang['admin_table_event_start'] = ' ';
-$lang['admin_table_event_end'] = ' ';
-$lang['admin_table_event_allday'] = ' ';
-$lang['admin_table_event_type'] = ' ';
-$lang['admin_table_event_noshow'] = ' ';
-$lang['admin_table_event_show'] = ' ';
-
-$lang['admin_table_markers_various_date'] = ' ';
-$lang['admin_table_markers_info'] = ' ';
-$lang['admin_table_markers_name'] = ' ';
-$lang['admin_table_markers_address'] = ' ';
-$lang['admin_table_markers_category'] = ' ';
-$lang['admin_table_markers_description'] = ' ';
-$lang['admin_table_markers_url'] = ' ';
+$lang['admin_table_markers_various_date'] = 'Varias fechas';
+$lang['admin_table_markers_info'] = 'Info';
+$lang['admin_table_markers_name'] = 'Título';
+$lang['admin_table_markers_address'] = 'Dirección';
+$lang['admin_table_markers_category'] = 'Categoría';
+$lang['admin_table_markers_description'] = 'Descripción';
+$lang['admin_table_markers_url'] = 'URL';
 
  
-//Profile
+//Perfil
 //
-$lang['profile_dashboard'] = ' ';
-$lang['profile_page_title'] = ' ';
-$lang['profile_form_contact'] = ' ';
-$lang['profile_info_title'] = ' ';
-$lang['profile_configuration'] = ' ';
+$lang['profile_dashboard'] = 'Mi Casa';
+$lang['profile_page_title'] = 'Calendario';
+$lang['profile_form_contact'] = 'Mi Información de Contacto';
+$lang['profile_info_title'] = 'Información básica';
+$lang['profile_configuration'] = 'Configure';
   
-//Profile page
-$lang['profile_page'] = ' ';
-$lang['profile_welcome'] = ' ';
+//Página Perfil
+$lang['profile_page'] = 'Perfil';
+$lang['profile_welcome'] = 'Bienvenida';
  
-//Login
-$lang['profile_login'] = ' ';
-$lang['profile_signin'] = ' ';
-$lang['profile_noaccount'] = ' ';
-$lang['profile_login_username'] = ' ';
-$lang['profile_login_password'] = ' ';
+//Iniciar Sesión
+$lang['profile_login'] = 'Iniciar Sesión';
+$lang['profile_signin'] = 'registrarse';
+$lang['profile_noaccount'] = 'No tiene una cuenta?';
+$lang['profile_login_username'] = 'Nombre de usuario';
+$lang['profile_login_password'] = 'Contraseña';
 
-$lang['profile_logged_in'] = ' ';
-$lang['profile_log_out'] = ' ';
+$lang['profile_logged_in'] = 'Autenticarse como';
+$lang['profile_log_out'] = 'Finalizar la sesión';
 
-$lang['profile_login_fail'] = ' ';
-$lang['profile_login_auth_fail'] = ' '; 
+$lang['profile_login_fail'] = 'Lo sentimos, usuario información no existe';
+$lang['profile_login_auth_fail'] = 'Lo sentimos, pero falla la autenticación'; 
  
-$lang['profile_signup_date'] = ' ';
-$lang['profile_signin_date'] = ' ';
+$lang['profile_signup_date'] = 'Usuario desde';
+$lang['profile_signin_date'] = 'Regístrese Desde';
 
-$lang['profile_signin_error'] = ' ';
-$lang['profile_login_noemail'] = ' ';
-$lang['profile_email_exists'] = ' ';
-$lang['profile_captcha'] = ' ';
+$lang['profile_signin_error'] = 'Lo sentimos contraseña es incorrecta';
+$lang['profile_login_noemail'] = 'Lo sentimos, dirección de correo electrónico no existen';
+$lang['profile_email_exists'] = 'Lo sentimos, dirección de correo electrónico ya existe';
+$lang['profile_captcha'] = 'Lo sentimos, pero el código captcha incorrecta. Por favor, inténtalo de nuevo';
 
-//Logout
-$lang['profile_logout'] = ' ';
+//Cerrar sesión
+$lang['profile_logout'] = 'Cerrar sesión';
 
-//Forgot Password
-$lang['profile_forgot_password'] = ' ';
+//Has Olvidado Tu Contraseña
+$lang['profile_forgot_password'] = 'Has Olvidado Tu Contraseña';
 
-//Register
-$lang['register'] = ' ';
-$lang['profile_signup'] = ' ';
-$lang['profile_register'] = ' ';
-$lang['profile_register_uname'] = ' ';
-$lang['profile_register_password'] = ' ';
-$lang['profile_register_email'] = ' ';  
-$lang['profile_register_success'] = ' ';
-$lang['profile_register_button'] = ' ';
-$lang['profile_register_captcha'] = ' ';
-$lang['profile_register_fail'] = ' ';
+//Registro
+$lang['register'] = 'Registrarse';
+$lang['profile_signup'] = 'Contratar';
+$lang['profile_register'] = 'Registro de Nuevo Miembro';
+$lang['profile_register_uname'] = 'Nombre de usuario';
+$lang['profile_register_password'] = 'Contraseña';
+$lang['profile_register_email'] = 'Correo electrónico';  
+$lang['profile_register_success'] = 'Gracias por registrarse, usted es capaz de acceder al sistema';
+$lang['profile_register_button'] = 'Registrarse';
+$lang['profile_register_captcha'] = 'Captcha';
+$lang['profile_register_fail'] = 'Los cambios no se presentaron, ver los siguientes mensajes';
 
-$lang['register_email_message_subject'] = ' ';
-$lang['register_email_message1'] = ' ';
-$lang['register_email_message2'] = ' ';
-$lang['register_email_message3'] = ' ';
-
-
-//Change Password
-$lang['profile_change_password'] = ' ';
-$lang['profile_change_warning'] = ' ';
-$lang['profile_change_password_text'] = ' ';
-$lang['profile_change_password_text2'] = ' ';
-
-//Reset Password
-$lang['reset_password'] = ' ';
-$lang['recover_password'] = ' ';
-
-//Forgot Password
-$lang['forgot_login_email'] = ' ';
-$lang['forgot_login_email_submit'] = ' ';
-$lang['forgot_login_email_send'] = ' ';
-$lang['forgot_login_subject'] = ' ';
-$lang['forgot_login_message'] = ' ';
-
-$lang['forgot_login_email_message1'] = ' ';
-$lang['forgot_login_email_message2'] = ' ';
-$lang['forgot_login_email_message3'] = ' ';
+$lang['register_email_message_subject'] = 'Registro de mensajes';
+$lang['register_email_message1'] = 'Bienvenido a';
+$lang['register_email_message2'] = 'El calendario, le permite recuperar todos los eventos de base de datos compatible. Además, hay opciones para agregar, actualizar, eliminar eventos y tienen ellos públicos o privados.';
+$lang['register_email_message3'] = 'Iniciar sesión de información:';
 
 
-//Edit
-$lang['profile_edit_basic_info'] = ' '; 
-$lang['profile_edit_info'] = ' ';
-$lang['profile_edit_goback'] = ' ';
-$lang['profile_edit_success'] = ' ';
-$lang['profile_edit_logo_title'] = ' ';  
-$lang['profile_edit_logo_upload'] = ' ';  
-$lang['profile_edit_logo_preview'] = ' ';  
-$lang['profile_edit_uname'] = ' ';
-$lang['profile_edit_fname'] = ' ';
-$lang['profile_edit_lname'] = ' ';
-$lang['profile_edit_age'] = ' ';
-$lang['profile_edit_address'] = ' ';
-$lang['profile_edit_phone'] = ' ';
-$lang['profile_edit_email'] = ' ';
-$lang['profile_edit_password'] = ' '; 
-$lang['profile_form_upload_error'] = ' ';
-$lang['profile_form_fail_email'] = ' ';
-$lang['profile_form_fail'] = ' ';
-$lang['profile_form_success'] = ' ';
-$lang['profile_form_submit_button'] = ' ';
+// Cambiar La Contraseña
+$lang['profile_change_password'] = 'Cambiar contraseña de usuario';
+$lang['profile_change_warning'] = 'Usted está a punto de cambiar';
+$lang['profile_change_password_text'] = 'Contraseña Anterior';
+$lang['profile_change_password_text2'] = 'Nueva Contraseña';
+
+//Restablecer contraseña
+$lang['reset_password'] = 'Restablecer contraseña';
+$lang['recover_password'] = 'Cambiar La Contraseña';
+
+//Has Olvidado Tu Contraseña
+$lang['forgot_login_email'] = 'Correo electrónico';
+$lang['forgot_login_email_submit'] = 'Recuperar Contraseña';
+$lang['forgot_login_email_send'] = 'Información Password Recovery envió';
+$lang['forgot_login_subject'] = 'Contraseña Recuperado';
+$lang['forgot_login_message'] = 'Una confirmación de la contraseña está en tu correo electrónico';
+
+$lang['forgot_login_email_message1'] = 'Cambio de Contraseña / Recuperación';
+$lang['forgot_login_email_message2'] = 'Ha solicitado un cambio de contraseña. Si no he \ t solicitó este cambio por favor, ignora correo electrónico o póngase en contacto con su administrador.';
+$lang['forgot_login_email_message3'] = 'A continuación se muestra el enlace para hacer clic para confirmar el cambio. Otro correo electrónico seguirá con una contraseña temporal.';
 
 
+// Editar
+$lang['profile_edit_basic_info'] = 'Editar Información Básica'; 
+$lang['profile_edit_info'] = 'Editar Perfil';
+$lang['profile_edit_goback'] = 'Volver al Perfil';
+$lang['profile_edit_success'] = 'Sus cambios se han guardado';
+$lang['profile_edit_logo_title'] = 'Carga nueva foto';  
+$lang['profile_edit_logo_upload'] = 'Suba su foto de perfil';  
+$lang['profile_edit_logo_preview'] = 'Su perfil actual pic';  
+$lang['profile_edit_uname'] = 'Nombre de Usuario';
+$lang['profile_edit_fname'] = 'Nombre De Pila';
+$lang['profile_edit_lname'] = 'Apellido';
+$lang['profile_edit_age'] = 'Edad';
+$lang['profile_edit_address'] = 'Dirección';
+$lang['profile_edit_phone'] = 'Teléfono';
+$lang['profile_edit_email'] = 'Correo electrónico';
+$lang['profile_edit_password'] = 'Contraseña'; 
+$lang['profile_form_upload_error'] = 'Lo sentimos, no puede subir foto de perfil';
+$lang['profile_form_fail_email'] = 'Correo electrónico ya existe para este usuario';
+$lang['profile_form_fail'] = 'Lo sentimos, tu información de perfil no salvó';
+$lang['profile_form_success'] = 'El éxito, la información de su perfil guardado';
+$lang['profile_form_submit_button'] = 'Perfil de actualización';
  
-//Delete
-$lang['profile_delete_profile'] = ' ';
-$lang['profile_delete_warning'] = ' ';
-$lang['profile_delete_uname'] = ' ';
-$lang['profile_delete_confirm'] = ' ';
-$lang['profile_delete_cancel'] = ' ';
+//Eliminar
+$lang['profile_delete_profile'] = 'Perfil';
+$lang['profile_delete_warning'] = 'Estás a punto de eliminar';
+$lang['profile_delete_uname'] = 'Nombre de usuario -';
+$lang['profile_delete_confirm'] = 'Confirmar eliminación';
+$lang['profile_delete_cancel'] = 'Borrar perfil';
  
-//Button sub-menu
+//Button submenú
 //
-$lang['submenu_select_categories'] = ' '; 
-$lang['submenu_select_sources'] = ' '; 
-$lang['submenu_dropdown_all_locations'] = ' '; 
-$lang['submenu_dropdown_all_categories'] = ' '; 
-$lang['submenu_dropdown_all_sources'] = ' '; 
+$lang['submenu_select_categories'] = 'Seleccionar categorías'; 
+$lang['submenu_select_sources'] = 'Seleccionar fuentes'; 
+$lang['submenu_dropdown_all_locations'] = 'Todas las ubicaciones'; 
+$lang['submenu_dropdown_all_categories'] = 'Todas las categorías'; 
+$lang['submenu_dropdown_all_sources'] = 'Todas las fuentes'; 
 
   
-//Calendar Modal
+//Calendario Modal
 //
-$lang['calendar_title'] = ' ';
-$lang['calendar_title_public'] = ' ';
-$lang['calendar_loading_title'] = ' ';
-$lang['calendar_export'] = ' ';
-$lang['calendar_import'] = ' ';
+$lang['calendar_title'] = 'Eventos';
+$lang['calendar_title_public'] = 'Eventos Públicos';
+$lang['calendar_loading_title'] = 'Cargando ... Un momento.';
+$lang['calendar_export'] = 'Exportación';
+$lang['calendar_import'] = 'Importación';
 
-$lang['calendar_modal_create_title'] = ' ';
-$lang['calendar_modal_update_title'] = ' '; 
+$lang['calendar_modal_create_title'] = 'Crear Evento';
+$lang['calendar_modal_update_title'] = 'Actualización Evento'; 
 
-$lang['calendar_modal_tabtitle'] = ' ';
-$lang['calendar_modal_tabtitle2'] = ' ';
-$lang['calendar_modal_tabtitle3'] = ' ';
-$lang['calendar_modal_eventname'] = ' ';
-$lang['calendar_modal_description'] = ' ';
-$lang['calendar_modal_eventbegin'] = ' ';
-$lang['calendar_modal_eventend'] = ' ';
-$lang['calendar_modal_eventurl'] = ' ';
-$lang['calendar_modal_eventallday'] = ' ';
-$lang['calendar_modal_eventshare'] = ' ';
-$lang['calendar_modal_eventprivate'] = ' ';
-$lang['calendar_modal_eventpublic'] = ' '; 
+$lang['calendar_modal_tabtitle'] = 'Info';
+$lang['calendar_modal_tabtitle2'] = 'Categoría';
+$lang['calendar_modal_tabtitle3'] = 'Ubicación';
 
-$lang['calendar_modal_eventrendering'] = ' ';  
-$lang['calendar_modal_eventfgrender'] = ' '; 
-$lang['calendar_modal_eventbgrender'] = ' ';  
-$lang['calendar_modal_eventcategory'] = ' '; 
-$lang['calendar_modal_colorbackground'] = ' '; 
-$lang['calendar_modal_colortext'] = ' '; 
-$lang['calendar_modal_colorborder'] = ' ';
-$lang['calendar_modal_eventrecurring'] = ' ';
-$lang['calendar_modal_eventendrecurring'] = ' ';
-$lang['calendar_modal_eventnonerecurring'] = ' ';
-$lang['calendar_modal_eventdaily'] = ' ';
-$lang['calendar_modal_eventweekly'] = ' ';
-$lang['calendar_modal_event2weeks'] = ' ';
-$lang['calendar_modal_eventmonthly'] = ' ';
-$lang['calendar_modal_eventyearly'] = ' '; 
+$lang['calendar_modal_eventname'] = 'Título';
+$lang['calendar_modal_description'] = 'Descripción';
+$lang['calendar_modal_eventbegin'] = 'Comience Evento';
+$lang['calendar_modal_eventend'] = 'Fin Evento';
+$lang['calendar_modal_eventurl'] = 'Enlace URL';
+$lang['calendar_modal_eventallday'] = 'Todo el día';
+$lang['calendar_modal_eventshare'] = 'Compartir Evento';
+$lang['calendar_modal_eventprivate'] = 'Evento Privado';
+$lang['calendar_modal_eventpublic'] = 'Evento Público'; 
 
-$lang['calendar_modal_upload_eventsource'] = ' '; 
-$lang['calendar_modal_upload_event_message'] = ' '; 
-$lang['calendar_modal_upload_save'] = ' '; 
+$lang['calendar_modal_eventrendering'] = 'Colocación';  
+$lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
+$lang['calendar_modal_eventbgrender'] = 'Fondo';  
+$lang['calendar_modal_eventcategory'] = 'Categoría'; 
+$lang['calendar_modal_colorbackground'] = 'Color de fondo'; 
+$lang['calendar_modal_colortext'] = 'Color del texto'; 
+$lang['calendar_modal_colorborder'] = 'Color del borde';
+
+$lang['calendar_modal_eventrecurring'] = 'Eventos Recurrentes';
+$lang['calendar_modal_eventendrecurring'] = 'Fin';
+$lang['calendar_modal_eventnonerecurring'] = 'No recurrentes';
+$lang['calendar_modal_eventdaily'] = 'Diario';
+$lang['calendar_modal_eventweekly'] = 'Semanal';
+$lang['calendar_modal_event2weeks'] = 'Cada 2 semanas';
+$lang['calendar_modal_eventmonthly'] = 'Mensual';
+$lang['calendar_modal_eventyearly'] = 'Anual'; 
+
+$lang['calendar_modal_upload_eventsource'] = 'Subir Eventos Fuente'; 
+$lang['calendar_modal_upload_event_message'] = 'Seleccionar archivo ical (ics) desde su ordenador'; 
+$lang['calendar_modal_upload_save'] = 'Subir ICal'; 
  
  
 //Gmaps
 //
-$lang['locations_all_heading'] = ' '; 
+$lang['locations_all_heading'] = 'Todas las ubicaciones'; 
 
-//Count
-$lang['locations_all_confirm_locations'] = ' '; 
+//Contador
+$lang['locations_all_confirm_locations'] = 'Todo Confirmar ubicaciones'; 
   
   
-//Categories
+//Categorías
 //
-$lang['categories_all_heading'] = ' ';
-//Add
-$lang['categories_add_new'] = ' ';
-$lang['categories_input_name'] = ' ';
-$lang['categories_input_description'] = ' ';
+$lang['categories_all_heading'] = 'Toda la categoría';
+//Añadir
+$lang['categories_add_new'] = 'Añadir Nueva Categoría';
+$lang['categories_input_name'] = 'Nombre de categoría';
+$lang['categories_input_description'] = 'Categoría Descripción';
 
-//Edit
-$lang['categories_edit_source'] = ' ';
+//Editar
+$lang['categories_edit_source'] = 'Editar esta Categoría';
 
-//Delete
-$lang['categories_delete_category'] = ' ';
-$lang['categories_delete_warning'] = ' ';
-//Message
-$lang['categories_message_title'] = ' ';
-$lang['categories_message_warning'] = ' ';
+//Eliminar
+$lang['categories_delete_category'] = 'Eliminar esta Categoría';
+$lang['categories_delete_warning'] = 'Estás a punto de eliminar';
+//Mensaje
+$lang['categories_message_title'] = 'No hay categorías';
+$lang['categories_message_warning'] = 'No hay categorías disponibles';
 
  
-//Sources
+//Fuentes
 //
-$lang['sources_all_heading'] = ' ';
-//Add
-$lang['sources_add_new'] = ' ';
-$lang['sources_input_name'] = ' ';
-$lang['sources_input_url'] = ' ';
+$lang['sources_all_heading'] = 'Todas las fuentes';
+//Añadir
+$lang['sources_add_new'] = 'Agregar nuevo origen';
+$lang['sources_input_name'] = 'Nombre de la fuente';
+$lang['sources_input_url'] = 'URL de la fuente';
 
-//Edit
-$lang['sources_edit_source'] = ' ';
+//Editar
+$lang['sources_edit_source'] = 'Editar este Fuente';
 
-//Delete
-$lang['sources_del_source'] = ' ';
-$lang['sources_delete_warning'] = ' ';
-//Message
-$lang['sources_message_title'] = ' ';
-$lang['sources_message_warning'] = ' ';
+//Eliminar
+$lang['sources_del_source'] = 'Eliminar esta Fuente';
+$lang['sources_delete_warning'] = 'Estás a punto de eliminar';
+//Mensaje
+$lang['sources_message_title'] = 'No hay fuentes';
+$lang['sources_message_warning'] = 'No hay fuentes disponibles';
  
  
-//Settings
+//Configuración
 //
-$lang['settings_name'] = ' ';
-$lang['settings_basic_name'] = ' ';
-$lang['settings_file_name'] = ' ';
-$lang['settings_pic_name'] = ' ';
-$lang['settings_theme_name'] = ' ';
+$lang['settings_name'] = 'Ajustes';
+$lang['settings_basic_name'] = 'Ajustes básicos';
+$lang['settings_file_name'] = 'Ajustes ICAL';
+$lang['settings_pic_name'] = 'Ajustes Pic';
+$lang['settings_theme_name'] = 'Ajustes de tema';
 
-//Edit
-$lang['settings_form_site_name'] = ' ';
-$lang['settings_form_site_email'] = ' ';
-$lang['settings_form_meta_keywords'] = ' ';
-$lang['settings_form_meta_description'] = ' ';
-$lang['settings_form_timezone'] = ' ';
-$lang['settings_form_captcha'] = ' ';
-$lang['settings_form_debug'] = ' ';
-$lang['settings_form_submit_button'] = ' ';
+//Editar
+$lang['settings_form_site_name'] = 'Nombre del sitio';
+$lang['settings_form_site_email'] = 'Sitio Email';
+$lang['settings_form_meta_keywords'] = 'Palabras clave meta del Sitio';
+$lang['settings_form_meta_description'] = 'Sitio meta descripción';
+$lang['settings_form_timezone'] = 'Zona horaria';
+$lang['settings_form_captcha'] = 'Captcha';
+$lang['settings_form_debug'] = 'Depurar';
+$lang['settings_form_submit_button'] = 'Presentar';
 
-//Theme 
-$lang['theme_name'] = ' ';
+//Tema 
+$lang['theme_name'] = 'Tema';
 
-//Edit
-$lang['profile_picture_title'] = ' ';
-$lang['file_title'] = ' ';
+//Editar
+$lang['profile_picture_title'] = 'Perfil Requisito Imagen';
+$lang['file_title'] = 'Requisito ICS Archivo';
 
-$lang['profile_max_upload_width'] = ' ';
-$lang['profile_max_upload_height'] = ' ';
-$lang['profile_max_upload_filesize'] = ' ';
-$lang['profile_allowed_extensions'] = ' '; 
-$lang['file_max_upload_width'] = ' ';
-$lang['file_max_upload_height'] = ' ';
-$lang['file_max_upload_filesize'] = ' '; 
+$lang['profile_max_upload_width'] = 'Ancho';
+$lang['profile_max_upload_height'] = 'Altura';
+$lang['profile_max_upload_filesize'] = 'Tamaño del archivo';
+$lang['profile_allowed_extensions'] = 'Extensión'; 
+$lang['file_max_upload_width'] = 'Ancho';
+$lang['file_max_upload_height'] = 'Altura';
+$lang['file_max_upload_filesize'] = 'Tamaño del archivo'; 
 
-//Language
+//Idioma
 //
-$lang['theme_language'] = ' ';
-//lang choices
-$lang['lang_english'] = ' ';
-$lang['lang_spanish'] = ' ';
-$lang['lang_french'] = ' ';
+$lang['theme_language'] = 'Idioma';
+//Opciones lang
+$lang['lang_english'] = 'Inglés';
+$lang['lang_spanish'] = 'Español';
+$lang['lang_french'] = 'Francés';
 
  
 //Error
 // 
-$lang['error_not_found'] = ' ';
-$lang['error_page_title'] = ' ';
-$lang['error_not_found_page_title'] = ' ';
-$lang['error_sending_email'] = ' ';
-$lang['error_creating_password'] = ' ';
+$lang['error_not_found'] = 'Lo sentimos .... que don \ t tiene la página que está buscando';
+$lang['error_page_title'] = 'Error';
+$lang['error_not_found_page_title'] = 'Extraviado';
+$lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónico ... en contacto con el administrador del sitio';
+$lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
 
  
