@@ -5,369 +5,369 @@
  * @package		ci_fullcalendar
  * @category    Language
  * @author		sirdre
- * @link		/language/spanish/es_lang
+ * @link		/language/english/en_lang
  */
-  
+ 
 //Common words
 //
-$lang['home'] = 'Casa';
-$lang['calendar'] = 'Calendario';
-$lang['events'] = 'eventos';
-$lang['dashboard'] = 'Salpicadero';
-$lang['tables'] = 'Tablas';
-$lang['share'] = 'Cuota'; 
-$lang['users'] = 'Usuarios'; 
-$lang['user'] = 'Usuario'; 
-$lang['admin'] = 'Administración'; 
-$lang['lock'] = 'Bloquear'; 
-$lang['unlock'] = 'Descubrir'; 
-$lang['maps'] = 'Mapas'; 
-$lang['time'] = 'Tiempo'; 
-$lang['by'] = 'Por'; 
-$lang['hi'] = 'Hola'; 
-$lang['yes'] = 'Sí'; 
+$lang['home'] = 'Home';
+$lang['calendar'] = 'Calendar';
+$lang['events'] = 'events';
+$lang['dashboard'] = 'Dashboard';
+$lang['tables'] = 'Tables';
+$lang['share'] = 'Share'; 
+$lang['users'] = 'Users'; 
+$lang['user'] = 'User'; 
+$lang['admin'] = 'Admin'; 
+$lang['lock'] = 'Lock'; 
+$lang['unlock'] = 'Unlock'; 
+$lang['maps'] = 'Maps'; 
+$lang['time'] = 'Time'; 
+$lang['by'] = 'By'; 
+$lang['hi'] = 'Hi'; 
+$lang['yes'] = 'yes'; 
 $lang['no'] = 'no'; 
-$lang['all'] = 'Todos';  
-$lang['actions'] = 'Acciones';  
-$lang['username'] = 'Nombre de Usuario'; 
-$lang['password'] = 'Contraseña'; 
-$lang['business'] = 'Negocios'; 
-$lang['geocodes'] = 'Geocodifica'; 
-$lang['address'] = 'Dirección'; 
-$lang['detail'] = 'Detalle'; 
-$lang['name'] = 'Nombre'; 
-$lang['description'] = 'Descripción'; 
-$lang['add'] = 'Añadir'; 
-$lang['edit'] = 'Editar'; 
-$lang['delete'] = 'Borrar'; 
-$lang['records'] = 'Archivos'; 
-$lang['source'] = 'Fuente'; 
-$lang['ok'] = 'Okay'; 
+$lang['all'] = 'All';  
+$lang['actions'] = 'Actions';  
+$lang['username'] = 'User Name'; 
+$lang['password'] = 'password'; 
+$lang['business'] = 'Business'; 
+$lang['geocodes'] = 'Geocodes'; 
+$lang['address'] = 'Address'; 
+$lang['detail'] = 'Detail'; 
+$lang['name'] = 'Name'; 
+$lang['description'] = 'Description'; 
+$lang['add'] = 'Add'; 
+$lang['edit'] = 'Edit'; 
+$lang['delete'] = 'Delete'; 
+$lang['records'] = 'records'; 
+$lang['source'] = 'source'; 
+$lang['ok'] = 'Ok'; 
 $lang['url'] = 'URL'; 
-$lang['save'] = 'Guardar'; 
-$lang['cancel'] = 'Cancelar'; 
+$lang['save'] = 'Save'; 
+$lang['cancel'] = 'Cancel'; 
 $lang['lat'] = 'Lat'; 
-$lang['lng'] = 'Lng'; 
-$lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v'; 
+$lang['lng'] = 'lng'; 
+$lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
 //
-$lang['admin_dashboard'] = 'Administrar';
-$lang['admin_page_title'] = 'Calendario';
-$lang['admin_form_contact'] = 'Mi Información de Contacto';
-$lang['admin_info_title'] = 'Información básica';
+$lang['admin_dashboard'] = 'Administrate';
+$lang['admin_page_title'] = 'Calendar';
+$lang['admin_form_contact'] = 'My Contact Information';
+$lang['admin_info_title'] = 'Basic Information';
 $lang['admin_configuration'] = 'Configure';
 
-//Tablas
+//Tables
 //
-$lang['admin_level_2'] = 'Privilegios de administrador';
-$lang['admin_level_1'] = 'Privilegios de usuario';
-$lang['admin_status_1'] = 'Bloqueado';
-$lang['admin_status_0'] = 'Desbloqueado';
+$lang['admin_level_2'] = 'Admin Privileges';
+$lang['admin_level_1'] = 'User Privileges';
+$lang['admin_status_1'] = 'Locked';
+$lang['admin_status_0'] = 'Unlocked';
 
 //Modal 
-//Usuario
-$lang['admin_modal_edit_user'] = 'Editar usuario';
-$lang['admin_modal_delete_user'] = 'Eliminar Información del usuario';
-$lang['admin_modal_add_user'] = 'Agregar información de usuario';
-//Calendario
-$lang['admin_modal_delete_calendar'] = 'Eliminar información Calendario';
-//Mapas
-$lang['admin_modal_maps_calendar'] = 'Eliminar Mapas Información';
-
-$lang['admin_modal_member_since'] = 'Usuario desde';
-$lang['admin_modal_member_last_log'] = 'Último ingreso';
-$lang['admin_modal_ip'] = 'Dirección IP';
+//user
+$lang['admin_modal_edit_user'] = 'Edit user Information';
+$lang['admin_modal_delete_user'] = 'Delete user Information';
+$lang['admin_modal_add_user'] = 'Add user Information';
+//calendar
+$lang['admin_modal_delete_calendar'] = 'Delete Calendar Information';
+//Maps
+$lang['admin_modal_maps_calendar'] = 'Delete Maps Information';
 
 
-// Columnas
-$lang['admin_table_username'] = 'Nombre de Usuario';
-$lang['admin_table_fname'] = 'Nombre De Pila';
-$lang['admin_table_lname'] = 'Apellido';
-$lang['admin_table_address'] = 'Dirección';
-$lang['admin_table_phone'] = 'Teléfono';
-$lang['admin_table_email'] = 'Correo electrónico';
-$lang['admin_table_password'] = 'Contraseña';
-$lang['admin_table_level'] = 'Privilegios';
-$lang['admin_table_status'] = 'Estado';
-$lang['admin_table_edit'] = 'Editar';
+$lang['admin_modal_member_since'] = 'Member Since';
+$lang['admin_modal_member_last_log'] = 'Last Login';
+$lang['admin_modal_ip'] = 'IP Address';
 
-$lang['admin_table_event_title'] = 'Título';
-$lang['admin_table_event_description'] = 'Descripción';
-$lang['admin_table_event_start'] = 'Fecha de empiezo';
-$lang['admin_table_event_end'] = 'Fecha de fin';
-$lang['admin_table_event_allday'] = 'Todo el día';
-$lang['admin_table_event_type'] = 'Público / Privado';
-$lang['admin_table_event_noshow'] = 'Privado';
-$lang['admin_table_event_show'] = 'Público';
+//Columns
+$lang['admin_table_username'] = 'User Name';
+$lang['admin_table_fname'] = 'First Name';
+$lang['admin_table_lname'] = 'Last Name';
+$lang['admin_table_address'] = 'Address';
+$lang['admin_table_phone'] = 'Phone';
+$lang['admin_table_email'] = 'Email';
+$lang['admin_table_password'] = 'Password';
+$lang['admin_table_level'] = 'Privileges';
+$lang['admin_table_status'] = 'Status';
+$lang['admin_table_edit'] = 'Edit';
 
-$lang['admin_table_markers_various_date'] = 'Varias fechas';
+$lang['admin_table_event_title'] = 'Title';
+$lang['admin_table_event_description'] = 'Description';
+$lang['admin_table_event_start'] = 'Start Date';
+$lang['admin_table_event_end'] = 'End Date';
+$lang['admin_table_event_allday'] = 'All Day';
+$lang['admin_table_event_type'] = 'Public/Private';
+$lang['admin_table_event_noshow'] = 'Private';
+$lang['admin_table_event_show'] = 'Public';
+
+$lang['admin_table_markers_various_date'] = 'Various dates';
 $lang['admin_table_markers_info'] = 'Info';
-$lang['admin_table_markers_name'] = 'Título';
-$lang['admin_table_markers_address'] = 'Dirección';
-$lang['admin_table_markers_category'] = 'Categoría';
-$lang['admin_table_markers_description'] = 'Descripción';
+$lang['admin_table_markers_name'] = 'Title';
+$lang['admin_table_markers_address'] = 'Address';
+$lang['admin_table_markers_category'] = 'Category';
+$lang['admin_table_markers_description'] = 'Description';
 $lang['admin_table_markers_url'] = 'URL';
 
  
-//Perfil
+//Profile
 //
-$lang['profile_dashboard'] = 'Mi Casa';
-$lang['profile_page_title'] = 'Calendario';
-$lang['profile_form_contact'] = 'Mi Información de Contacto';
-$lang['profile_info_title'] = 'Información básica';
+$lang['profile_dashboard'] = 'My Home';
+$lang['profile_page_title'] = 'Calendar';
+$lang['profile_form_contact'] = 'My Contact Information';
+$lang['profile_info_title'] = 'Basic Information';
 $lang['profile_configuration'] = 'Configure';
   
-//Página Perfil
-$lang['profile_page'] = 'Perfil';
-$lang['profile_welcome'] = 'Bienvenida';
+//Profile page
+$lang['profile_page'] = 'Profile';
+$lang['profile_welcome'] = 'Welcome ';
  
-//Iniciar Sesión
-$lang['profile_login'] = 'Iniciar Sesión';
-$lang['profile_signin'] = 'registrarse';
-$lang['profile_noaccount'] = 'No tiene una cuenta?';
-$lang['profile_login_username'] = 'Nombre de usuario';
-$lang['profile_login_password'] = 'Contraseña';
+//Login
+$lang['profile_login'] = 'Login';
+$lang['profile_signin'] = 'sign-in';
+$lang['profile_noaccount'] = 'Don\'t have an account yet?';
+$lang['profile_login_username'] = 'Username';
+$lang['profile_login_password'] = 'Password';
 
-$lang['profile_logged_in'] = 'Autenticarse como';
-$lang['profile_log_out'] = 'Finalizar la sesión';
+$lang['profile_logged_in'] = 'Login in as';
+$lang['profile_log_out'] = 'Log out';
 
-$lang['profile_login_fail'] = 'Lo sentimos, usuario información no existe';
-$lang['profile_login_auth_fail'] = 'Lo sentimos, pero falla la autenticación'; 
+$lang['profile_login_fail'] = 'Sorry, user login info do not exist';
+$lang['profile_login_auth_fail'] = 'Sorry, authentication failed'; 
  
-$lang['profile_signup_date'] = 'Usuario desde';
-$lang['profile_signin_date'] = 'Regístrese Desde';
+$lang['profile_signup_date'] = 'Member Since';
+$lang['profile_signin_date'] = 'Sign-in Since';
 
-$lang['profile_signin_error'] = 'Lo sentimos contraseña es incorrecta';
-$lang['profile_login_noemail'] = 'Lo sentimos, dirección de correo electrónico no existen';
-$lang['profile_email_exists'] = 'Lo sentimos, dirección de correo electrónico ya existe';
-$lang['profile_captcha'] = 'Lo sentimos, pero el código captcha incorrecta. Por favor, inténtalo de nuevo';
+$lang['profile_signin_error'] = 'Sorry Password is incorrect';
+$lang['profile_login_noemail'] = 'Sorry, email do not exist';
+$lang['profile_email_exists'] = 'Sorry, email already exist';
+$lang['profile_captcha'] = 'Sorry, the captcha code incorrect. Please try again';
 
-//Cerrar sesión
-$lang['profile_logout'] = 'Cerrar sesión';
+//Logout
+$lang['profile_logout'] = 'Logout';
 
-//Has Olvidado Tu Contraseña
-$lang['profile_forgot_password'] = 'Has Olvidado Tu Contraseña';
+//Forgot Password
+$lang['profile_forgot_password'] = 'Forgot Password';
 
-//Registro
-$lang['register'] = 'Registrarse';
-$lang['profile_signup'] = 'Contratar';
-$lang['profile_register'] = 'Registro de Nuevo Miembro';
-$lang['profile_register_uname'] = 'Nombre de usuario';
-$lang['profile_register_password'] = 'Contraseña';
-$lang['profile_register_email'] = 'Correo electrónico';  
-$lang['profile_register_success'] = 'Gracias por registrarse, usted es capaz de acceder al sistema';
-$lang['profile_register_button'] = 'Registrarse';
+//Register
+$lang['register'] = 'Register';
+$lang['profile_signup'] = 'sign-up';
+$lang['profile_register'] = 'New Member Registration';
+$lang['profile_register_uname'] = 'User name';
+$lang['profile_register_password'] = 'Password';
+$lang['profile_register_email'] = 'Email';  
+$lang['profile_register_success'] = 'Thank you for registering, you are able to log-in';
+$lang['profile_register_button'] = 'Register';
 $lang['profile_register_captcha'] = 'Captcha';
-$lang['profile_register_fail'] = 'Los cambios no se presentaron, ver los siguientes mensajes';
+$lang['profile_register_fail'] = 'Your changes were NOT submitted, see the messages below';
 
-$lang['register_email_message_subject'] = 'Registro de mensajes';
-$lang['register_email_message1'] = 'Bienvenido a';
-$lang['register_email_message2'] = 'El calendario, le permite recuperar todos los eventos de base de datos compatible. Además, hay opciones para agregar, actualizar, eliminar eventos y tienen ellos públicos o privados.';
-$lang['register_email_message3'] = 'Iniciar sesión de información:';
-
-
-// Cambiar La Contraseña
-$lang['profile_change_password'] = 'Cambiar contraseña de usuario';
-$lang['profile_change_warning'] = 'Usted está a punto de cambiar';
-$lang['profile_change_password_text'] = 'Contraseña Anterior';
-$lang['profile_change_password_text2'] = 'Nueva Contraseña';
-
-//Restablecer contraseña
-$lang['reset_password'] = 'Restablecer contraseña';
-$lang['recover_password'] = 'Cambiar La Contraseña';
-
-//Has Olvidado Tu Contraseña
-$lang['forgot_login_email'] = 'Correo electrónico';
-$lang['forgot_login_email_submit'] = 'Recuperar Contraseña';
-$lang['forgot_login_email_send'] = 'Información Password Recovery envió';
-$lang['forgot_login_subject'] = 'Contraseña Recuperado';
-$lang['forgot_login_message'] = 'Una confirmación de la contraseña está en tu correo electrónico';
-
-$lang['forgot_login_email_message1'] = 'Cambio de Contraseña / Recuperación';
-$lang['forgot_login_email_message2'] = 'Ha solicitado un cambio de contraseña. Si no he \ t solicitó este cambio por favor, ignora correo electrónico o póngase en contacto con su administrador.';
-$lang['forgot_login_email_message3'] = 'A continuación se muestra el enlace para hacer clic para confirmar el cambio. Otro correo electrónico seguirá con una contraseña temporal.';
+$lang['register_email_message_subject'] = 'Registration Message';
+$lang['register_email_message1'] = 'Welcome to ';
+$lang['register_email_message2'] = 'The calendar, allows you to retrieve all events from supported database. Also, there are options to add, update, delete events and have them public or private.';
+$lang['register_email_message3'] = 'Sign-in Information:';
 
 
-// Editar
-$lang['profile_edit_basic_info'] = 'Editar Información Básica'; 
-$lang['profile_edit_info'] = 'Editar Perfil';
-$lang['profile_edit_goback'] = 'Volver al Perfil';
-$lang['profile_edit_success'] = 'Sus cambios se han guardado';
-$lang['profile_edit_logo_title'] = 'Carga nueva foto';  
-$lang['profile_edit_logo_upload'] = 'Suba su foto de perfil';  
-$lang['profile_edit_logo_preview'] = 'Su perfil actual pic';  
-$lang['profile_edit_uname'] = 'Nombre de Usuario';
-$lang['profile_edit_fname'] = 'Nombre De Pila';
-$lang['profile_edit_lname'] = 'Apellido';
-$lang['profile_edit_age'] = 'Edad';
-$lang['profile_edit_address'] = 'Dirección';
-$lang['profile_edit_phone'] = 'Teléfono';
-$lang['profile_edit_email'] = 'Correo electrónico';
-$lang['profile_edit_password'] = 'Contraseña'; 
-$lang['profile_form_upload_error'] = 'Lo sentimos, no puede subir foto de perfil';
-$lang['profile_form_fail_email'] = 'Correo electrónico ya existe para este usuario';
-$lang['profile_form_fail'] = 'Lo sentimos, tu información de perfil no salvó';
-$lang['profile_form_success'] = 'El éxito, la información de su perfil guardado';
-$lang['profile_form_submit_button'] = 'Perfil de actualización';
+//Change Password
+$lang['profile_change_password'] = 'Change user password';
+$lang['profile_change_warning'] = 'You are about to change';
+$lang['profile_change_password_text'] = 'Old Password';
+$lang['profile_change_password_text2'] = 'New Password';
+
+//Reset Password
+$lang['reset_password'] = 'Reset Password';
+$lang['recover_password'] = 'Change Password';
+
+//Forgot Password
+$lang['forgot_login_email'] = 'Email';
+$lang['forgot_login_email_submit'] = 'Recover Password';
+$lang['forgot_login_email_send'] = 'Password Recovery Information sent';
+$lang['forgot_login_subject'] = 'Password Recovered';
+$lang['forgot_login_message'] = 'A password confirmation is in your email';
+
+$lang['forgot_login_email_message1'] = 'Password Change/Recovery';
+$lang['forgot_login_email_message2'] = 'You have requested a password change. If I haven\'t requested this change please ignore email or contact your administrator.';
+$lang['forgot_login_email_message3'] = 'Below is the link to click to confirm change. Another email will follow with a temporary password.';
+
+
+//Edit
+$lang['profile_edit_basic_info'] = 'Edit Basic Info'; 
+$lang['profile_edit_info'] = 'Edit Profile';
+$lang['profile_edit_goback'] = 'Go back to Profile';
+$lang['profile_edit_success'] = 'Your changes have been saved';
+$lang['profile_edit_logo_title'] = 'Upload new profile pic';  
+$lang['profile_edit_logo_upload'] = 'Upload your profile pic';  
+$lang['profile_edit_logo_preview'] = 'Your current profile pic';  
+$lang['profile_edit_uname'] = 'User Name';
+$lang['profile_edit_fname'] = 'First Name';
+$lang['profile_edit_lname'] = 'Last Name';
+$lang['profile_edit_age'] = 'Age';
+$lang['profile_edit_address'] = 'Address';
+$lang['profile_edit_phone'] = 'Phone';
+$lang['profile_edit_email'] = 'Email';
+$lang['profile_edit_password'] = 'Password'; 
+$lang['profile_form_upload_error'] = 'Sorry, unable to upload profile picture';
+$lang['profile_form_fail_email'] = 'Email already exist for this user';
+$lang['profile_form_fail'] = 'Sorry, your profile information did not save';
+$lang['profile_form_success'] = 'Success, your profile information saved';
+$lang['profile_form_submit_button'] = 'Update Profile';
+
+
  
-//Eliminar
-$lang['profile_delete_profile'] = 'Perfil';
-$lang['profile_delete_warning'] = 'Estás a punto de eliminar';
-$lang['profile_delete_uname'] = 'Nombre de usuario -';
-$lang['profile_delete_confirm'] = 'Confirmar eliminación';
-$lang['profile_delete_cancel'] = 'Borrar perfil';
+//Delete
+$lang['profile_delete_profile'] = 'profile';
+$lang['profile_delete_warning'] = 'You are about to delete';
+$lang['profile_delete_uname'] = 'Username - ';
+$lang['profile_delete_confirm'] = 'Confirm Deletion';
+$lang['profile_delete_cancel'] = 'Delete Profile';
  
-//Button submenú
+//Button sub-menu
 //
-$lang['submenu_select_categories'] = 'Seleccionar categorías'; 
-$lang['submenu_select_sources'] = 'Seleccionar fuentes'; 
-$lang['submenu_dropdown_all_locations'] = 'Todas las ubicaciones'; 
-$lang['submenu_dropdown_all_categories'] = 'Todas las categorías'; 
-$lang['submenu_dropdown_all_sources'] = 'Todas las fuentes'; 
+$lang['submenu_select_categories'] = 'Select Categories'; 
+$lang['submenu_select_sources'] = 'Select Sources'; 
+$lang['submenu_dropdown_all_locations'] = 'All Locations'; 
+$lang['submenu_dropdown_all_categories'] = 'All Categories'; 
+$lang['submenu_dropdown_all_sources'] = 'All Sources'; 
 
   
-//Calendario Modal
+//Calendar Modal
 //
-$lang['calendar_title'] = 'Eventos';
-$lang['calendar_title_public'] = 'Eventos Públicos';
-$lang['calendar_loading_title'] = 'Cargando ... Un momento.';
-$lang['calendar_export'] = 'Exportación';
-$lang['calendar_import'] = 'Importación';
+$lang['calendar_title'] = 'Events';
+$lang['calendar_title_public'] = 'Public Events';
+$lang['calendar_loading_title'] = ' loading...	Please Wait.  ';
+$lang['calendar_export'] = 'Export';
+$lang['calendar_import'] = 'Import';
 
-$lang['calendar_modal_create_title'] = 'Crear Evento';
-$lang['calendar_modal_update_title'] = 'Actualización Evento'; 
+$lang['calendar_modal_create_title'] = 'Create Event';
+$lang['calendar_modal_update_title'] = 'Update Event'; 
 
 $lang['calendar_modal_tabtitle'] = 'Info';
-$lang['calendar_modal_tabtitle2'] = 'Categoría';
-$lang['calendar_modal_tabtitle3'] = 'Ubicación';
+$lang['calendar_modal_tabtitle2'] = 'Category';
+$lang['calendar_modal_tabtitle3'] = 'Location';
+$lang['calendar_modal_eventname'] = 'Title';
+$lang['calendar_modal_description'] = 'Description';
+$lang['calendar_modal_eventbegin'] = 'Begin Event';
+$lang['calendar_modal_eventend'] = 'End Event';
+$lang['calendar_modal_eventurl'] = 'URL Link';
+$lang['calendar_modal_eventallday'] = 'All Day';
+$lang['calendar_modal_eventshare'] = 'Share Event';
+$lang['calendar_modal_eventprivate'] = 'Private Event';
+$lang['calendar_modal_eventpublic'] = 'Public Event'; 
 
-$lang['calendar_modal_eventname'] = 'Título';
-$lang['calendar_modal_description'] = 'Descripción';
-$lang['calendar_modal_eventbegin'] = 'Comience Evento';
-$lang['calendar_modal_eventend'] = 'Fin Evento';
-$lang['calendar_modal_eventurl'] = 'Enlace URL';
-$lang['calendar_modal_eventallday'] = 'Todo el día';
-$lang['calendar_modal_eventshare'] = 'Compartir Evento';
-$lang['calendar_modal_eventprivate'] = 'Evento Privado';
-$lang['calendar_modal_eventpublic'] = 'Evento Público'; 
+$lang['calendar_modal_eventrendering'] = 'Placement';  
+$lang['calendar_modal_eventfgrender'] = 'Foreground'; 
+$lang['calendar_modal_eventbgrender'] = 'Background';  
+$lang['calendar_modal_eventcategory'] = 'Category'; 
+$lang['calendar_modal_colorbackground'] = 'Background Color'; 
+$lang['calendar_modal_colortext'] = 'Text Color'; 
+$lang['calendar_modal_colorborder'] = 'Border Color';
+$lang['calendar_modal_eventrecurring'] = 'Recurring Events';
+$lang['calendar_modal_eventendrecurring'] = 'End';
+$lang['calendar_modal_eventnonerecurring'] = 'Non-recurring';
+$lang['calendar_modal_eventdaily'] = 'Daily';
+$lang['calendar_modal_eventweekly'] = 'Weekly';
+$lang['calendar_modal_event2weeks'] = 'Every 2 Weeks';
+$lang['calendar_modal_eventmonthly'] = 'Monthly';
+$lang['calendar_modal_eventyearly'] = 'Yearly'; 
 
-$lang['calendar_modal_eventrendering'] = 'Colocación';  
-$lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
-$lang['calendar_modal_eventbgrender'] = 'Fondo';  
-$lang['calendar_modal_eventcategory'] = 'Categoría'; 
-$lang['calendar_modal_colorbackground'] = 'Color de fondo'; 
-$lang['calendar_modal_colortext'] = 'Color del texto'; 
-$lang['calendar_modal_colorborder'] = 'Color del borde';
-
-$lang['calendar_modal_eventrecurring'] = 'Eventos Recurrentes';
-$lang['calendar_modal_eventendrecurring'] = 'Fin';
-$lang['calendar_modal_eventnonerecurring'] = 'No recurrentes';
-$lang['calendar_modal_eventdaily'] = 'Diario';
-$lang['calendar_modal_eventweekly'] = 'Semanal';
-$lang['calendar_modal_event2weeks'] = 'Cada 2 semanas';
-$lang['calendar_modal_eventmonthly'] = 'Mensual';
-$lang['calendar_modal_eventyearly'] = 'Anual'; 
-
-$lang['calendar_modal_upload_eventsource'] = 'Subir Eventos Fuente'; 
-$lang['calendar_modal_upload_event_message'] = 'Seleccionar archivo ical (ics) desde su ordenador'; 
-$lang['calendar_modal_upload_save'] = 'Subir ICal'; 
+$lang['calendar_modal_upload_eventsource'] = 'Upload Events Source'; 
+$lang['calendar_modal_upload_event_message'] = 'Select ical file(ics) from your computer'; 
+$lang['calendar_modal_upload_save'] = 'Upload ICal'; 
  
  
 //Gmaps
 //
-$lang['locations_all_heading'] = 'Todas las ubicaciones'; 
+$lang['locations_all_heading'] = 'All Locations'; 
 
-//Contador
-$lang['locations_all_confirm_locations'] = 'Todo Confirmar ubicaciones'; 
+//Count
+$lang['locations_all_confirm_locations'] = 'All Confirm locations'; 
   
   
-//Categorías
+//Categories
 //
-$lang['categories_all_heading'] = 'Toda la categoría';
-//Añadir
-$lang['categories_add_new'] = 'Añadir Nueva Categoría';
-$lang['categories_input_name'] = 'Nombre de categoría';
-$lang['categories_input_description'] = 'Categoría Descripción';
+$lang['categories_all_heading'] = 'All Category';
+//Add
+$lang['categories_add_new'] = 'Add New Category';
+$lang['categories_input_name'] = 'Category Name';
+$lang['categories_input_description'] = 'Category Description';
 
-//Editar
-$lang['categories_edit_source'] = 'Editar esta Categoría';
+//Edit
+$lang['categories_edit_source'] = 'Edit this Category';
 
-//Eliminar
-$lang['categories_delete_category'] = 'Eliminar esta Categoría';
-$lang['categories_delete_warning'] = 'Estás a punto de eliminar';
-//Mensaje
-$lang['categories_message_title'] = 'No hay categorías';
-$lang['categories_message_warning'] = 'No hay categorías disponibles';
+//Delete
+$lang['categories_delete_category'] = 'Delete this Category';
+$lang['categories_delete_warning'] = 'You are about to delete';
+//Message
+$lang['categories_message_title'] = 'No Categories';
+$lang['categories_message_warning'] = 'No Categories available';
 
  
-//Fuentes
+//Sources
 //
-$lang['sources_all_heading'] = 'Todas las fuentes';
-//Añadir
-$lang['sources_add_new'] = 'Agregar nuevo origen';
-$lang['sources_input_name'] = 'Nombre de la fuente';
-$lang['sources_input_url'] = 'URL de la fuente';
+$lang['sources_all_heading'] = 'All Sources';
+//Add
+$lang['sources_add_new'] = 'Add New Source';
+$lang['sources_input_name'] = 'Source Name';
+$lang['sources_input_url'] = 'Source URL';
 
-//Editar
-$lang['sources_edit_source'] = 'Editar este Fuente';
+//Edit
+$lang['sources_edit_source'] = 'Edit this Source';
 
-//Eliminar
-$lang['sources_del_source'] = 'Eliminar esta Fuente';
-$lang['sources_delete_warning'] = 'Estás a punto de eliminar';
-//Mensaje
-$lang['sources_message_title'] = 'No hay fuentes';
-$lang['sources_message_warning'] = 'No hay fuentes disponibles';
+//Delete
+$lang['sources_del_source'] = 'Delete this Source';
+$lang['sources_delete_warning'] = 'You are about to delete';
+//Message
+$lang['sources_message_title'] = 'No Sources';
+$lang['sources_message_warning'] = 'No Sources available';
  
  
-//Configuración
+//Settings
 //
-$lang['settings_name'] = 'Ajustes';
-$lang['settings_basic_name'] = 'Ajustes básicos';
-$lang['settings_file_name'] = 'Ajustes ICAL';
-$lang['settings_pic_name'] = 'Ajustes Pic';
-$lang['settings_theme_name'] = 'Ajustes de tema';
+$lang['settings_name'] = 'Settings';
+$lang['settings_basic_name'] = 'Basic Settings';
+$lang['settings_file_name'] = 'ICal Settings';
+$lang['settings_pic_name'] = 'Pic Settings';
+$lang['settings_theme_name'] = 'Theme Settings';
 
-//Editar
-$lang['settings_form_site_name'] = 'Nombre del sitio';
-$lang['settings_form_site_email'] = 'Sitio Email';
-$lang['settings_form_meta_keywords'] = 'Palabras clave meta del Sitio';
-$lang['settings_form_meta_description'] = 'Sitio meta descripción';
-$lang['settings_form_timezone'] = 'Zona horaria';
+//Edit
+$lang['settings_form_site_name'] = 'Site Name';
+$lang['settings_form_site_email'] = 'Site Email';
+$lang['settings_form_meta_keywords'] = 'Site meta keywords';
+$lang['settings_form_meta_description'] = 'Site meta description';
+$lang['settings_form_timezone'] = 'Timezone';
 $lang['settings_form_captcha'] = 'Captcha';
-$lang['settings_form_debug'] = 'Depurar';
-$lang['settings_form_submit_button'] = 'Presentar';
+$lang['settings_form_debug'] = 'Debug';
+$lang['settings_form_submit_button'] = 'Submit';
 
-//Tema 
-$lang['theme_name'] = 'Tema';
+//Theme 
+$lang['theme_name'] = 'Theme';
 
-//Editar
-$lang['profile_picture_title'] = 'Perfil Requisito Imagen';
-$lang['file_title'] = 'Requisito ICS Archivo';
+//Edit
+$lang['profile_picture_title'] = 'Profile Picture Requirement';
+$lang['file_title'] = 'ICS File Requirement';
 
-$lang['profile_max_upload_width'] = 'Ancho';
-$lang['profile_max_upload_height'] = 'Altura';
-$lang['profile_max_upload_filesize'] = 'Tamaño del archivo';
-$lang['profile_allowed_extensions'] = 'Extensión'; 
-$lang['file_max_upload_width'] = 'Ancho';
-$lang['file_max_upload_height'] = 'Altura';
-$lang['file_max_upload_filesize'] = 'Tamaño del archivo'; 
+$lang['profile_max_upload_width'] = 'Width';
+$lang['profile_max_upload_height'] = 'Height';
+$lang['profile_max_upload_filesize'] = 'Filesize';
+$lang['profile_allowed_extensions'] = 'Extension'; 
+$lang['file_max_upload_width'] = 'Width';
+$lang['file_max_upload_height'] = 'Height';
+$lang['file_max_upload_filesize'] = 'Filesize'; 
 
-//Idioma
+//Language
 //
-$lang['theme_language'] = 'Idioma';
-//Opciones lang
-$lang['lang_english'] = 'Inglés';
-$lang['lang_spanish'] = 'Español';
-$lang['lang_french'] = 'Francés';
+$lang['theme_language'] = 'Language';
+//lang choices
+$lang['lang_english'] = 'English';
+$lang['lang_spanish'] = 'Spanish';
+$lang['lang_french'] = 'French';
 
  
 //Error
 // 
-$lang['error_not_found'] = 'Lo sentimos .... que don \ t tiene la página que está buscando';
+$lang['error_not_found'] = 'Sorry.... we don\'t have the page you are looking for';
 $lang['error_page_title'] = 'Error';
-$lang['error_not_found_page_title'] = 'Extraviado';
-$lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónico ... en contacto con el administrador del sitio';
-$lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
+$lang['error_not_found_page_title'] = 'Not Found';
+$lang['error_sending_email'] = 'There was a problem sending an email... contact the site administrator';
+$lang['error_creating_password'] = 'There was a problem creating a new password... contact the site administrator';
 
  
