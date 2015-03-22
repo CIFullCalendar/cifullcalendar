@@ -23,6 +23,7 @@ $lang['lock'] = 'Lock';
 $lang['unlock'] = 'Déverrouiller';
 $lang['maps'] = 'cartes';
 $lang['time'] = 'Time';
+$lang['by'] = 'Par'; 
 $lang['hi'] = 'Salut';
 $lang['yes'] = 'Oui';
 $lang['no'] = 'Non';
@@ -41,6 +42,7 @@ $lang['edit'] = 'Modifier';
 $lang['delete'] = 'Supprimer';
 $lang['records'] = 'dossiers';
 $lang['source'] = 'Source';
+$lang['attach'] = 'Joindre';
 $lang['ok'] = 'DAccord';
 $lang['url'] = "URL";
 $lang['save'] = 'Enregistrer';
@@ -251,13 +253,6 @@ $lang['calendar_modal_eventshare'] = 'Partager l\'événement';
 $lang['calendar_modal_eventprivate'] = 'Événement privé';
 $lang['calendar_modal_eventpublic'] = 'Événement public';
 
-$lang['calendar_modal_eventrendering'] = 'Placement';
-$lang['calendar_modal_eventfgrender'] = 'Connaissances nouvelles';
-$lang['calendar_modal_eventbgrender'] = 'Contexte';
-$lang['calendar_modal_eventcategory'] = 'Catégorie';
-$lang['calendar_modal_colorbackground'] = 'Couleur de fond';
-$lang['calendar_modal_colortext'] = 'Couleur du texte';
-$lang['calendar_modal_colorborder'] = 'Couleur de la bordure';
 $lang['calendar_modal_eventrecurring'] = 'Événements récurrents';
 $lang['calendar_modal_eventendrecurring'] = 'Fin';
 $lang['calendar_modal_eventnonerecurring'] = 'Non récurrent';
@@ -266,6 +261,16 @@ $lang['calendar_modal_eventweekly'] = 'Hebdomadaire';
 $lang['calendar_modal_event2week'] = 'toutes les 2 semaines';
 $lang['calendar_modal_eventmonthly'] = 'Mensuelle';
 $lang['calendar_modal_eventyearly'] = 'Annuel';
+
+$lang['calendar_modal_eventrendering'] = 'Placement';
+$lang['calendar_modal_eventfgrender'] = 'Connaissances nouvelles';
+$lang['calendar_modal_eventbgrender'] = 'Contexte';
+$lang['calendar_modal_eventcategory'] = 'Catégorie';
+$lang['calendar_modal_colorbackground'] = 'Couleur de fond';
+$lang['calendar_modal_colortext'] = 'Couleur du texte';
+$lang['calendar_modal_colorborder'] = 'Couleur de la bordure';
+
+$lang['calendar_modal_attachment'] = 'Joindre un fichier'; 
 
 $lang['calendar_modal_upload_eventsource'] = 'Télécharger des événements Source';
 $lang['calendar_modal_upload_event_message'] = 'Sélectionnez le fichier iCal (ICS) de votre ordinateur';
@@ -327,6 +332,7 @@ $lang['settings_name'] = 'Paramètres';
 $lang['settings_basic_name'] = 'Réglages de base';
 $lang['settings_file_name'] = 'Réglages de ICal';
 $lang['settings_pic_name'] = 'Réglages de Pic';
+$lang['settings_attach_name'] = 'Fixez Paramètres';
 $lang['settings_theme_name'] = 'Réglages de thème';
 
 //Edit
@@ -345,14 +351,19 @@ $lang['theme_name'] = 'Thème';
 //Edit
 $lang['profile_picture_title'] = 'Profil Exigence de l\'image';
 $lang['file_title'] = 'Exigence du fichier ICS';
+$lang['attach_title'] = 'Exigence File Attachment';
 
 $lang['profile_max_upload_width'] = 'largeur';
 $lang['profile_max_upload_height'] = 'Hauteur';
-$lang['profile_max_upload_filesize'] = 'Taille du fichier';
+$lang['profile_max_upload_filesize'] = 'Taille du fichier (KB)';
 $lang['profile_allowed_extensions'] = 'Extension'; 
-$lang['file_max_upload_width'] = 'largeur';
-$lang['file_max_upload_height'] = 'Hauteur';
-$lang['file_max_upload_filesize'] = 'Taille du fichier'; 
+
+$lang['sync_path_location'] = 'ICS Emplacement du fichier';
+$lang['sync_allowed_extension'] = 'Extension autorisés';
+$lang['sync_max_size'] = 'Taille du fichier (KB)'; 
+
+$lang['attach_allowed_extension'] = 'Extension autorisés';
+$lang['attach_max_size'] = 'Taille du fichier (KB)'; 
 
 //Language
 //
