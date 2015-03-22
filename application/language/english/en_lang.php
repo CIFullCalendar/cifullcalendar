@@ -42,12 +42,13 @@ $lang['edit'] = 'Edit';
 $lang['delete'] = 'Delete'; 
 $lang['records'] = 'records'; 
 $lang['source'] = 'source'; 
+$lang['attach'] = 'Attach'; 
 $lang['ok'] = 'Ok'; 
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Save'; 
 $lang['cancel'] = 'Cancel'; 
 $lang['lat'] = 'Lat'; 
-$lang['lng'] = 'lng'; 
+$lang['lng'] = 'Lng'; 
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
@@ -243,6 +244,8 @@ $lang['calendar_modal_update_title'] = 'Update Event';
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Category';
 $lang['calendar_modal_tabtitle3'] = 'Location';
+$lang['calendar_modal_tabtitle4'] = 'Attach';
+
 $lang['calendar_modal_eventname'] = 'Title';
 $lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Begin Event';
@@ -253,13 +256,6 @@ $lang['calendar_modal_eventshare'] = 'Share Event';
 $lang['calendar_modal_eventprivate'] = 'Private Event';
 $lang['calendar_modal_eventpublic'] = 'Public Event'; 
 
-$lang['calendar_modal_eventrendering'] = 'Placement';  
-$lang['calendar_modal_eventfgrender'] = 'Foreground'; 
-$lang['calendar_modal_eventbgrender'] = 'Background';  
-$lang['calendar_modal_eventcategory'] = 'Category'; 
-$lang['calendar_modal_colorbackground'] = 'Background Color'; 
-$lang['calendar_modal_colortext'] = 'Text Color'; 
-$lang['calendar_modal_colorborder'] = 'Border Color';
 $lang['calendar_modal_eventrecurring'] = 'Recurring Events';
 $lang['calendar_modal_eventendrecurring'] = 'End';
 $lang['calendar_modal_eventnonerecurring'] = 'Non-recurring';
@@ -268,6 +264,17 @@ $lang['calendar_modal_eventweekly'] = 'Weekly';
 $lang['calendar_modal_event2weeks'] = 'Every 2 Weeks';
 $lang['calendar_modal_eventmonthly'] = 'Monthly';
 $lang['calendar_modal_eventyearly'] = 'Yearly'; 
+
+$lang['calendar_modal_eventrendering'] = 'Placement';  
+$lang['calendar_modal_eventfgrender'] = 'Foreground'; 
+$lang['calendar_modal_eventbgrender'] = 'Background';  
+$lang['calendar_modal_eventcategory'] = 'Category'; 
+$lang['calendar_modal_colorbackground'] = 'Background Color'; 
+$lang['calendar_modal_colortext'] = 'Text Color'; 
+$lang['calendar_modal_colorborder'] = 'Border Color';
+
+$lang['calendar_modal_attachment'] = 'Attach File'; 
+
 
 $lang['calendar_modal_upload_eventsource'] = 'Upload Events Source'; 
 $lang['calendar_modal_upload_event_message'] = 'Select ical file(ics) from your computer'; 
@@ -326,6 +333,7 @@ $lang['settings_name'] = 'Settings';
 $lang['settings_basic_name'] = 'Basic Settings';
 $lang['settings_file_name'] = 'ICal Settings';
 $lang['settings_pic_name'] = 'Pic Settings';
+$lang['settings_attach_name'] = 'Attach Settings';
 $lang['settings_theme_name'] = 'Theme Settings';
 
 //Edit
@@ -344,14 +352,19 @@ $lang['theme_name'] = 'Theme';
 //Edit
 $lang['profile_picture_title'] = 'Profile Picture Requirement';
 $lang['file_title'] = 'ICS File Requirement';
+$lang['attach_title'] = 'Attachment File Requirement';
 
 $lang['profile_max_upload_width'] = 'Width';
 $lang['profile_max_upload_height'] = 'Height';
-$lang['profile_max_upload_filesize'] = 'Filesize';
-$lang['profile_allowed_extensions'] = 'Extension'; 
-$lang['file_max_upload_width'] = 'Width';
-$lang['file_max_upload_height'] = 'Height';
-$lang['file_max_upload_filesize'] = 'Filesize'; 
+$lang['profile_max_upload_filesize'] = 'Filesize  (KB)';
+$lang['profile_allowed_extensions'] = 'Allowed Extension'; 
+
+$lang['sync_path_location'] = 'ICS File Location';
+$lang['sync_allowed_extension'] = 'Allowed Extension';
+$lang['sync_max_size'] = 'Filesize (KB)'; 
+
+$lang['attach_allowed_extension'] = 'Allowed Extension';
+$lang['attach_max_size'] = 'Filesize (KB)'; 
 
 //Language
 //
