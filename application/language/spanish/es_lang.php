@@ -42,6 +42,7 @@ $lang['edit'] = 'Editar';
 $lang['delete'] = 'Borrar'; 
 $lang['records'] = 'Archivos'; 
 $lang['source'] = 'Fuente'; 
+$lang['attach'] = 'adjuntar'; 
 $lang['ok'] = 'Okay'; 
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Guardar'; 
@@ -252,14 +253,6 @@ $lang['calendar_modal_eventshare'] = 'Compartir Evento';
 $lang['calendar_modal_eventprivate'] = 'Evento Privado';
 $lang['calendar_modal_eventpublic'] = 'Evento Público'; 
 
-$lang['calendar_modal_eventrendering'] = 'Colocación';  
-$lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
-$lang['calendar_modal_eventbgrender'] = 'Fondo';  
-$lang['calendar_modal_eventcategory'] = 'Categoría'; 
-$lang['calendar_modal_colorbackground'] = 'Color de fondo'; 
-$lang['calendar_modal_colortext'] = 'Color del texto'; 
-$lang['calendar_modal_colorborder'] = 'Color del borde';
-
 $lang['calendar_modal_eventrecurring'] = 'Eventos Recurrentes';
 $lang['calendar_modal_eventendrecurring'] = 'Fin';
 $lang['calendar_modal_eventnonerecurring'] = 'No recurrentes';
@@ -268,6 +261,16 @@ $lang['calendar_modal_eventweekly'] = 'Semanal';
 $lang['calendar_modal_event2weeks'] = 'Cada 2 semanas';
 $lang['calendar_modal_eventmonthly'] = 'Mensual';
 $lang['calendar_modal_eventyearly'] = 'Anual'; 
+
+$lang['calendar_modal_eventrendering'] = 'Colocación';  
+$lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
+$lang['calendar_modal_eventbgrender'] = 'Fondo';  
+$lang['calendar_modal_eventcategory'] = 'Categoría'; 
+$lang['calendar_modal_colorbackground'] = 'Color de fondo'; 
+$lang['calendar_modal_colortext'] = 'Color del texto'; 
+$lang['calendar_modal_colorborder'] = 'Color del borde';
+
+$lang['calendar_modal_attachment'] = 'Adjuntar archivo'; 
 
 $lang['calendar_modal_upload_eventsource'] = 'Subir Eventos Fuente'; 
 $lang['calendar_modal_upload_event_message'] = 'Seleccionar archivo ical (ics) desde su ordenador'; 
@@ -279,7 +282,7 @@ $lang['calendar_modal_upload_save'] = 'Subir ICal';
 $lang['locations_all_heading'] = 'Todas las ubicaciones'; 
 
 //Contador
-$lang['locations_all_confirm_locations'] = 'Todo Confirmar ubicaciones'; 
+$lang['locations_all_confirm_locations'] = 'Confirmar ubicaciones'; 
   
   
 //Categorías
@@ -326,6 +329,7 @@ $lang['settings_name'] = 'Ajustes';
 $lang['settings_basic_name'] = 'Ajustes básicos';
 $lang['settings_file_name'] = 'Ajustes ICAL';
 $lang['settings_pic_name'] = 'Ajustes Pic';
+$lang['settings_attach_name'] = 'Adjuntar Ajustes';
 $lang['settings_theme_name'] = 'Ajustes de tema';
 
 //Editar
@@ -344,14 +348,19 @@ $lang['theme_name'] = 'Tema';
 //Editar
 $lang['profile_picture_title'] = 'Perfil Requisito Imagen';
 $lang['file_title'] = 'Requisito ICS Archivo';
+$lang['attach_title'] = 'Requisito Archivo adjunto';
 
 $lang['profile_max_upload_width'] = 'Ancho';
 $lang['profile_max_upload_height'] = 'Altura';
-$lang['profile_max_upload_filesize'] = 'Tamaño del archivo';
+$lang['profile_max_upload_filesize'] = 'Tamaño del archivo (KB)';
 $lang['profile_allowed_extensions'] = 'Extensión'; 
-$lang['file_max_upload_width'] = 'Ancho';
-$lang['file_max_upload_height'] = 'Altura';
-$lang['file_max_upload_filesize'] = 'Tamaño del archivo'; 
+
+$lang['sync_path_location'] = 'ICS Ubicación del archivo';
+$lang['sync_allowed_extension'] = 'Mascotas Extensión';
+$lang['sync_max_size'] = 'Tamaño del archivo (KB)'; 
+
+$lang['attach_allowed_extension'] = 'Mascotas Extensión';
+$lang['attach_max_size'] = 'Tamaño del archivo (KB)'; 
 
 //Idioma
 //
