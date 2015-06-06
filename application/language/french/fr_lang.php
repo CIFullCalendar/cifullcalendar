@@ -39,6 +39,7 @@ $lang['business'] = 'Business';
 $lang['geocodes'] = 'Géocodes ';
 $lang['address'] = 'Adresse';
 $lang['timezone'] = 'Fuseau-horaire'; 
+$lang['pubdate'] = 'date de publication'; 
 $lang['detail'] = 'Détail';
 $lang['name'] = 'Nom';
 $lang['description'] = 'Description';
@@ -78,8 +79,10 @@ $lang['page_table_edit'] = 'éditer';
 //Edit
 $lang['pages_meta_keywords'] = 'Meta keywords';
 $lang['pages_meta_description'] = 'Meta description';
-$lang['pages_header'] = 'Header';
-$lang['pages_footer'] = 'Footer';
+$lang['pages_access'] = 'View Access'; 
+$lang['pages_access_visitors'] = 'Public'; 
+$lang['pages_access_members'] = 'Members'; 
+$lang['pages_access_admins'] = 'Administrators'; 
 
 // tableaux
 //  
@@ -381,6 +384,7 @@ $lang['cal_header_left'] = 'Bouton de tête/Titre Gauche';
 $lang['cal_header_center'] = 'Bouton de tête/Titre Centre';
 $lang['cal_header_right'] = 'Bouton de tête / Titre Droite';
 
+$lang['cal_language'] = 'Langue';
 $lang['cal_hiddendays'] = 'Masquer les Jours(0=Dim,1=Lun,2=Mar,3=Mer,4=Jeu,5=Ven,6=Sam)';
 $lang['cal_editable'] = 'Modifiable (Pour le calendrier des membres seulement)';
 $lang['cal_weeknumbers'] = 'Numéros de la Semaine';
@@ -414,10 +418,55 @@ $lang['attach_max_size'] = 'Taille du fichier (KB)';
 $lang['theme_language'] = 'Langue';
 //lang choices
 $lang['lang_english'] = 'Anglais';
-$lang['lang_spanish'] = 'Espagnol';
-$lang['lang_french'] = 'Français';
-$lang['lang_portuguese'] = 'Português';
-
+$lang['lang_arabic_ma'] = 'Arabic MA'; 
+$lang['lang_arabic_sa'] = 'Arabic SA';  
+$lang['lang_arabic_tn'] = 'Arabic TN';  
+$lang['lang_arabic'] = 'Arabic';    
+$lang['lang_bulgarian'] = 'Bulgarian';  
+$lang['lang_catalan'] = 'Catalan';  
+$lang['lang_czech'] = 'Czech';  
+$lang['lang_danish'] = 'Danish';  
+$lang['lang_german_at'] = 'German AT';  
+$lang['lang_german'] = 'German';  
+$lang['lang_greek'] = 'Greek';   
+$lang['lang_english_au'] = 'English AU';  
+$lang['lang_english_ca'] = 'English CA';  
+$lang['lang_english_gb'] = 'English GB';  
+$lang['lang_spanish'] = 'Espagnol';  
+$lang['lang_farsi'] = 'Farsi';   
+$lang['lang_finnish'] = 'Finnish';    
+$lang['lang_french_ca'] = 'French CA'; 
+$lang['lang_french'] = 'Français';  
+$lang['lang_hebrew'] = 'Hebrew'; 
+$lang['lang_hindi'] = 'Hindi';  
+$lang['lang_croatian'] = 'Croatian'; 
+$lang['lang_hungarian'] = 'Hungarian';  
+$lang['lang_indonesian'] = 'Indonesian'; 
+$lang['lang_icelandic'] = 'Icelandic'; 
+$lang['lang_italian'] = 'Italian';  
+$lang['lang_japanese'] = 'Japanese';
+$lang['lang_korean'] = 'Korean';  
+$lang['lang_lithuanian'] = 'Lithuanian';  
+$lang['lang_latvian'] = 'Latvian';  
+$lang['lang_norwegian'] = 'Norwegian';  
+$lang['lang_dutch'] = 'Dutch';  
+$lang['lang_polish'] = 'Polish';  
+$lang['lang_portuguese_br'] = 'Portuguese BR';  
+$lang['lang_portuguese'] = 'Português';  
+$lang['lang_romanian'] = 'Romanian';   
+$lang['lang_russian'] = 'Russian';  
+$lang['lang_slovak'] = 'Slovak';  
+$lang['lang_slovenian'] = 'Slovenian';  
+$lang['lang_serbian_cyrl'] = 'Serbian CYRL';  
+$lang['lang_serbian'] = 'Serbian';  
+$lang['lang_swedish'] = 'Swedish';   
+$lang['lang_thai'] = 'Thai';  
+$lang['lang_turkish'] = 'Turkish';  
+$lang['lang_ukrainian'] = 'Ukrainian';  
+$lang['lang_vietnamese'] = 'Vietnamese';  
+$lang['lang_chinese'] = 'Chinese';  
+$lang['lang_chinese_tw'] = 'Chinese TW';
+  
  
 //Error
 // 
