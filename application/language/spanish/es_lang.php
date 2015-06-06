@@ -38,7 +38,8 @@ $lang['password'] = 'Contraseña';
 $lang['business'] = 'Negocios'; 
 $lang['geocodes'] = 'Geocodifica'; 
 $lang['address'] = 'Dirección';
-$lang['timezone'] = 'Zona horaria'; 
+$lang['timezone'] = 'Zona horaria';
+$lang['pubdate'] = 'Fecha de publicación'; 
 $lang['detail'] = 'Detalle'; 
 $lang['name'] = 'Nombre'; 
 $lang['description'] = 'Descripción'; 
@@ -76,8 +77,10 @@ $lang['page_table_edit'] = 'Editar';
 //Edit
 $lang['pages_meta_keywords'] = 'Meta keywords';
 $lang['pages_meta_description'] = 'Meta description';
-$lang['pages_header'] = 'Header';
-$lang['pages_footer'] = 'Footer';
+$lang['pages_access'] = 'View Access'; 
+$lang['pages_access_visitors'] = 'Public'; 
+$lang['pages_access_members'] = 'Members'; 
+$lang['pages_access_admins'] = 'Administrators'; 
 
 //Tablas
 //
@@ -378,6 +381,7 @@ $lang['cal_header_left'] = 'Botón Encabezado/Título Izquierda';
 $lang['cal_header_center'] = 'Botón Encabezado/Título Centro';
 $lang['cal_header_right'] = 'Botón Encabezado/Título Derecho';
 
+$lang['cal_language'] = 'idioma';
 $lang['cal_hiddendays'] = 'Ocultar Días (0=Dom,1=Lun,2=Mar,3=Mie,4=Jue,5=Vie,6=Sab)';
 $lang['cal_editable'] = 'Editable (Para los miembros solamente calendario)';
 $lang['cal_weeknumbers'] = 'Números de la semana';
@@ -411,9 +415,56 @@ $lang['attach_max_size'] = 'Tamaño del archivo (KB)';
 $lang['theme_language'] = 'Idioma';
 //Opciones lang
 $lang['lang_english'] = 'Inglés';
-$lang['lang_spanish'] = 'Español';
-$lang['lang_french'] = 'Francés';
-$lang['lang_portuguese'] = 'Português';
+$lang['lang_arabic_ma'] = 'Arabic MA'; 
+$lang['lang_arabic_sa'] = 'Arabic SA';  
+$lang['lang_arabic_tn'] = 'Arabic TN';  
+$lang['lang_arabic'] = 'Arabic';    
+$lang['lang_bulgarian'] = 'Bulgarian';  
+$lang['lang_catalan'] = 'Catalan';  
+$lang['lang_czech'] = 'Czech';  
+$lang['lang_danish'] = 'Danish';  
+$lang['lang_german_at'] = 'German AT';  
+$lang['lang_german'] = 'German';  
+$lang['lang_greek'] = 'Greek';   
+$lang['lang_english_au'] = 'English AU';  
+$lang['lang_english_ca'] = 'English CA';  
+$lang['lang_english_gb'] = 'English GB';  
+$lang['lang_spanish'] = 'Español';  
+$lang['lang_farsi'] = 'Farsi';   
+$lang['lang_finnish'] = 'Finnish';    
+$lang['lang_french_ca'] = 'French CA'; 
+$lang['lang_french'] = 'Francés';  
+$lang['lang_hebrew'] = 'Hebrew'; 
+$lang['lang_hindi'] = 'Hindi';  
+$lang['lang_croatian'] = 'Croatian'; 
+$lang['lang_hungarian'] = 'Hungarian';  
+$lang['lang_indonesian'] = 'Indonesian'; 
+$lang['lang_icelandic'] = 'Icelandic'; 
+$lang['lang_italian'] = 'Italian';  
+$lang['lang_japanese'] = 'Japanese';
+$lang['lang_korean'] = 'Korean';  
+$lang['lang_lithuanian'] = 'Lithuanian';  
+$lang['lang_latvian'] = 'Latvian';  
+$lang['lang_norwegian'] = 'Norwegian';  
+$lang['lang_dutch'] = 'Dutch';  
+$lang['lang_polish'] = 'Polish';  
+$lang['lang_portuguese_br'] = 'Portuguese BR';  
+$lang['lang_portuguese'] = 'Português';  
+$lang['lang_romanian'] = 'Romanian';   
+$lang['lang_russian'] = 'Russian';  
+$lang['lang_slovak'] = 'Slovak';  
+$lang['lang_slovenian'] = 'Slovenian';  
+$lang['lang_serbian_cyrl'] = 'Serbian CYRL';  
+$lang['lang_serbian'] = 'Serbian';  
+$lang['lang_swedish'] = 'Swedish';   
+$lang['lang_thai'] = 'Thai';  
+$lang['lang_turkish'] = 'Turkish';  
+$lang['lang_ukrainian'] = 'Ukrainian';  
+$lang['lang_vietnamese'] = 'Vietnamese';  
+$lang['lang_chinese'] = 'Chinese';  
+$lang['lang_chinese_tw'] = 'Chinese TW'; 
+ 
+ 
  
 //Error
 // 
@@ -422,3 +473,5 @@ $lang['error_page_title'] = 'Error';
 $lang['error_not_found_page_title'] = 'Extraviado';
 $lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónico ... en contacto con el administrador del sitio';
 $lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
+
+ 
