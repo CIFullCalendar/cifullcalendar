@@ -297,11 +297,13 @@ $lang['calendar_modal_colorborder'] = 'Cor da margem';
 
 $lang['calendar_modal_attachment'] = 'Anexar Arquivo';
 
-
 $lang['calendar_modal_upload_eventsource'] = 'Upload de Eventos Fonte';
 $lang['calendar_modal_upload_event_message'] = 'Selecione o arquivo iCal (ICS) do seu computador';
 $lang['calendar_modal_upload_save'] = 'Carregar ICal/ICS';
- 
+
+//Notify
+//
+$lang['notify_email_message'] = 'Novo evento público disponível'; 
  
 //Gmaps
 //
