@@ -298,6 +298,10 @@ $lang['calendar_modal_upload_eventsource'] = 'Upload Events Source';
 $lang['calendar_modal_upload_event_message'] = 'Select ical file(ics) from your computer'; 
 $lang['calendar_modal_upload_save'] = 'Upload ICal'; 
  
+//Notify
+//
+$lang['notify_email_message'] = 'New public event available'; 
+
  
 //Gmaps
 //
