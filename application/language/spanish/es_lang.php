@@ -299,7 +299,11 @@ $lang['calendar_modal_attachment'] = 'Adjuntar archivo';
 $lang['calendar_modal_upload_eventsource'] = 'Subir Eventos Fuente'; 
 $lang['calendar_modal_upload_event_message'] = 'Seleccionar archivo ical (ics) desde su ordenador'; 
 $lang['calendar_modal_upload_save'] = 'Subir ICal'; 
- 
+
+//Notify
+//
+$lang['notify_email_message'] = 'Nuevo evento público disponible'; 
+
  
 //Gmaps
 //
