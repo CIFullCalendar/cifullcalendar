@@ -300,7 +300,10 @@ $lang['calendar_modal_upload_eventsource'] = 'Télécharger des événements Sou
 $lang['calendar_modal_upload_event_message'] = 'Sélectionnez le fichier iCal (ICS) de votre ordinateur';
 $lang['calendar_modal_upload_save'] = 'Upload ICal';
  
- 
+//Notify
+//
+$lang['notify_email_message'] = 'Nouveau événement public disponible'; 
+
 //Gmaps
 //
 $lang['locations_all_heading'] = 'Tous les lieux';
