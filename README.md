@@ -1,3 +1,3 @@
 # cifullcalendar
-Not ready
+Dutch translation not ready!
 
