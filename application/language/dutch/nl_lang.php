@@ -10,19 +10,19 @@
  
 //Common words
 //
-$lang['home'] = 'Home';
+$lang['home'] = 'Startpagina';
 $lang['calendar'] = 'Kalendar';
 $lang['events'] = 'Evenement';
 $lang['dashboard'] = 'Dashboard';
-$lang['tables'] = 'Events Tables';
+$lang['tables'] = 'Evenementen tabellen';
 $lang['page'] = 'Pagina';
 $lang['pages'] = 'Pages';
 $lang['share'] = 'Delen'; 
 $lang['users'] = 'Gebruikers'; 
 $lang['user'] = 'Gebruiker'; 
 $lang['admin'] = 'Admin'; 
-$lang['lock'] = 'Lock'; 
-$lang['unlock'] = 'Unlock'; 
+$lang['lock'] = 'Op slot'; 
+$lang['unlock'] = 'Openen'; 
 $lang['maps'] = 'Maps'; 
 $lang['time'] = 'Tijd'; 
 $lang['by'] = 'door'; 
@@ -67,8 +67,8 @@ $lang['admin_configuration'] = 'Configureren';
 //
 $lang['page_header'] = 'Pagina\'s';
 $lang['page_title'] = 'Paginatitel';
-$lang['page_content'] = 'Page Contents';
-$lang['page_meta_keywords'] = 'Page Contents';
+$lang['page_content'] = 'Pagina Inhoud';
+$lang['page_meta_keywords'] = 'Pagina Inhoud';
 $lang['page_meta_description'] = 'Meta beschrijving'; 
 $lang['page_username'] = 'Gebruikersnaam';
 $lang['page_table_edit'] = 'Aanpassen';
@@ -78,17 +78,17 @@ $lang['pages_meta_description'] = 'Meta beschrijvingen';
 $lang['pages_access'] = 'Toegang'; 
 $lang['pages_access_visitors'] = 'Publiek'; 
 $lang['pages_access_members'] = 'Leden'; 
-$lang['pages_access_admins'] = 'Administraters'; 
+$lang['pages_access_admins'] = 'Beheerders'; 
 //Tables
 //
-$lang['admin_level_2'] = 'Admin Rechten';
+$lang['admin_level_2'] = 'BeheerdersRechten';
 $lang['admin_level_1'] = 'Gebruikers Rechten';
-$lang['admin_status_1'] = 'Locked';
-$lang['admin_status_0'] = 'Unlocked';
+$lang['admin_status_1'] = 'Op slot';
+$lang['admin_status_0'] = 'Open';
 //user
 $lang['admin_modal_edit_user'] = 'Gebruikersinformatie aanpassen';
 $lang['admin_modal_delete_user'] = 'Verwijder gebruikersinformatie';
-$lang['admin_modal_add_user'] = 'Add user Information';
+$lang['admin_modal_add_user'] = 'Gebruikersinfo toevoegen';
 //calendar
 $lang['admin_modal_delete_calendar'] = 'Delete Calendar Information';
 //Maps
@@ -97,20 +97,20 @@ $lang['admin_modal_member_since'] = 'Lid sinds';
 $lang['admin_modal_member_last_log'] = 'Laatste aanmelding';
 $lang['admin_modal_ip'] = 'IP-adres';
 //Columns
-$lang['admin_table_username'] = 'User Name';
+$lang['admin_table_username'] = 'Gebruikersnaam';
 $lang['admin_table_fname'] = 'Voornaam';
 $lang['admin_table_lname'] = 'Familienaam';
 $lang['admin_table_address'] = 'Adres';
 $lang['admin_table_phone'] = 'Phone';
 $lang['admin_table_email'] = 'Email';
-$lang['admin_table_password'] = 'Password';
+$lang['admin_table_password'] = 'Wachtwoord';
 $lang['admin_table_level'] = 'Rechten';
 $lang['admin_table_status'] = 'Status';
 $lang['admin_table_edit'] = 'Aanpassen';
 $lang['admin_table_event_title'] = 'Titel';
-$lang['admin_table_event_description'] = 'Description';
-$lang['admin_table_event_start'] = 'Start Date';
-$lang['admin_table_event_end'] = 'End Date';
+$lang['admin_table_event_description'] = 'Beschrijving';
+$lang['admin_table_event_start'] = 'Begindatum';
+$lang['admin_table_event_end'] = 'Einddatum';
 $lang['admin_table_event_allday'] = 'Volledige dag';
 $lang['admin_table_event_type'] = 'Publiek/privé';
 $lang['admin_table_event_noshow'] = 'privé';
@@ -125,10 +125,10 @@ $lang['admin_table_markers_url'] = 'URL';
  
 //Profile
 //
-$lang['profile_dashboard'] = 'My Home';
+$lang['profile_dashboard'] = 'Mijn startpagina';
 $lang['profile_page_title'] = 'Kalendar';
 $lang['profile_form_contact'] = 'Mijn contactinformatie';
-$lang['profile_info_title'] = 'Basis Informatie';
+$lang['profile_info_title'] = 'Basis informatie';
 $lang['profile_configuration'] = 'Configureren';
   
 //Profile page
@@ -137,51 +137,51 @@ $lang['profile_welcome'] = 'Welkom ';
  
 //Login
 $lang['profile_login'] = 'Aanmelden';
-$lang['profile_signin'] = 'sign-in';
+$lang['profile_signin'] = 'Aanmelden';
 $lang['profile_noaccount'] = 'Heeft u nog geen account?';
 $lang['profile_login_username'] = 'Gebruikersnaam';
-$lang['profile_login_password'] = 'Password';
+$lang['profile_login_password'] = 'Wachtwoord';
 $lang['profile_logged_in'] = 'Aanmelden als';
 $lang['profile_log_out'] = 'Afmelden';
-$lang['profile_login_fail'] = 'Sorry, user login info do not exist';
-$lang['profile_login_auth_fail'] = 'Sorry, authentication failed'; 
+$lang['profile_login_fail'] = 'Het spijt ons, de aanmeldgegevens zijn fout';
+$lang['profile_login_auth_fail'] = 'Het spijt ons, de authenticatie is mislukt'; 
  
 $lang['profile_signup_date'] = 'Lid sinds';
-$lang['profile_signin_date'] = 'Sign-in Since';
-$lang['profile_signin_error'] = 'Sorry Password is incorrect';
-$lang['profile_login_noemail'] = 'Sorry, email do not exist';
-$lang['profile_email_exists'] = 'Sorry, email already exist';
-$lang['profile_captcha'] = 'Sorry, the captcha code incorrect. Please try again';
+$lang['profile_signin_date'] = 'Aangemeld sinds';
+$lang['profile_signin_error'] = 'Het spijt ons, het wachtwoord is niet correct.';
+$lang['profile_login_noemail'] = 'Het spijt ons, het emailadres is niet geregistreerd';
+$lang['profile_email_exists'] = 'Het spijt ons, het emailadres is al geregistreerd';
+$lang['profile_captcha'] = 'Het spijt ons, de captcha code is fout. Probeer opnieuw';
 //Logout
 $lang['profile_logout'] = 'Afmelden';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Wachtwoord vergeten';
 //Register
 $lang['register'] = 'Registreren';
-$lang['profile_signup'] = 'sign-up';
+$lang['profile_signup'] = 'Aanmelden';
 $lang['profile_register'] = 'New Member Registration';
-$lang['profile_register_uname'] = 'User name';
-$lang['profile_register_password'] = 'Password';
+$lang['profile_register_uname'] = 'Gebruikersnaam';
+$lang['profile_register_password'] = 'Wachtwoord';
 $lang['profile_register_email'] = 'Email';  
-$lang['profile_register_success'] = 'Thank you for registering, you are able to log-in';
-$lang['profile_register_button'] = 'Register';
+$lang['profile_register_success'] = 'Thank you for registering, U kan zich nu aanmelden';
+$lang['profile_register_button'] = 'Registreren';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Your changes were NOT submitted, see the messages below';
-$lang['register_email_message_subject'] = 'Registration Message';
-$lang['register_email_message1'] = 'Welcome to ';
+$lang['register_email_message_subject'] = 'Registratiebericht';
+$lang['register_email_message1'] = 'Welkom bij ';
 $lang['register_email_message2'] = 'The calendar, allows you to retrieve all events from supported database. Also, there are options to add, update, delete events and have them public or private.';
-$lang['register_email_message3'] = 'Sign-in Information:';
+$lang['register_email_message3'] = 'Aanmeldingsinformatie:';
 //Change Password
-$lang['profile_change_password'] = 'Change user password';
+$lang['profile_change_password'] = 'Verander gebruikerswachtwoord';
 $lang['profile_change_warning'] = 'You are about to change';
-$lang['profile_change_password_text'] = 'Old Password';
-$lang['profile_change_password_text2'] = 'New Password';
+$lang['profile_change_password_text'] = 'Oud wachtwoord';
+$lang['profile_change_password_text2'] = 'Nieuw wachtwoord';
 //Reset Password
-$lang['reset_password'] = 'Reset Password';
-$lang['recover_password'] = 'Change Password';
+$lang['reset_password'] = 'Reset wachtwoord';
+$lang['recover_password'] = 'Wachtwoord aanpassen';
 //Forgot Password
 $lang['forgot_login_email'] = 'Email';
-$lang['forgot_login_email_submit'] = 'Recover Password';
+$lang['forgot_login_email_submit'] = 'Wachtwoord achterhalen';
 $lang['forgot_login_email_send'] = 'Password Recovery Information sent';
 $lang['forgot_login_subject'] = 'Password Recovered';
 $lang['forgot_login_message'] = 'A password confirmation is in your email';
@@ -196,19 +196,19 @@ $lang['profile_edit_success'] = 'Your changes have been saved';
 $lang['profile_edit_logo_title'] = 'Upload new profile pic';  
 $lang['profile_edit_logo_upload'] = 'Upload your profile pic';  
 $lang['profile_edit_logo_preview'] = 'Your current profile pic';  
-$lang['profile_edit_uname'] = 'User Name';
-$lang['profile_edit_fname'] = 'First Name';
-$lang['profile_edit_lname'] = 'Last Name';
-$lang['profile_edit_age'] = 'Age';
+$lang['profile_edit_uname'] = 'Gebruikersnaam';
+$lang['profile_edit_fname'] = 'Voornaam';
+$lang['profile_edit_lname'] = 'Familienaam';
+$lang['profile_edit_age'] = 'Leeftijd';
 $lang['profile_edit_address'] = 'Address';
-$lang['profile_edit_phone'] = 'Phone';
+$lang['profile_edit_phone'] = 'Telefoonnummer';
 $lang['profile_edit_email'] = 'Email';
-$lang['profile_edit_password'] = 'Password'; 
+$lang['profile_edit_password'] = 'Wachtwoord'; 
 $lang['profile_form_upload_error'] = 'Sorry, unable to upload profile picture';
 $lang['profile_form_fail_email'] = 'Email already exist for this user';
 $lang['profile_form_fail'] = 'Sorry, your profile information did not save';
 $lang['profile_form_success'] = 'Success, your profile information saved';
-$lang['profile_form_submit_button'] = 'Update Profile';
+$lang['profile_form_submit_button'] = 'Profiel aanpassen';
  
 //Delete
 $lang['profile_delete_profile'] = 'Profiel';
@@ -229,16 +229,16 @@ $lang['submenu_dropdown_all_sources'] = 'All Sources';
 //
 $lang['calendar_title'] = 'Events';
 $lang['calendar_title_public'] = 'Public Events';
-$lang['calendar_loading_title'] = ' loading...	Please Wait.  ';
-$lang['calendar_export'] = 'Export';
-$lang['calendar_import'] = 'Import';
-$lang['calendar_modal_create_title'] = 'Create Event';
-$lang['calendar_modal_update_title'] = 'Update Event'; 
+$lang['calendar_loading_title'] = ' Laden...	Even geduld.  ';
+$lang['calendar_export'] = 'Exporteren';
+$lang['calendar_import'] = 'Importeren';
+$lang['calendar_modal_create_title'] = 'Evenement aanmaken';
+$lang['calendar_modal_update_title'] = 'Evenement aanpassen'; 
 $lang['calendar_modal_tabtitle'] = 'Info';
-$lang['calendar_modal_tabtitle2'] = 'Category';
-$lang['calendar_modal_tabtitle3'] = 'Location';
+$lang['calendar_modal_tabtitle2'] = 'Categorie';
+$lang['calendar_modal_tabtitle3'] = 'Locatie';
 $lang['calendar_modal_tabtitle4'] = 'Attach';
-$lang['calendar_modal_eventname'] = 'Title';
+$lang['calendar_modal_eventname'] = 'Titel';
 $lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Begin Event';
 $lang['calendar_modal_eventend'] = 'End Event';
@@ -296,7 +296,7 @@ $lang['categories_message_warning'] = 'No Categories available';
  
 //Sources
 //
-$lang['sources_all_heading'] = 'All Sources';
+$lang['sources_all_heading'] = 'Alle bronnen';
 //Add
 $lang['sources_add_new'] = 'Add New Source';
 $lang['sources_input_name'] = 'Source Name';
@@ -307,13 +307,13 @@ $lang['sources_edit_source'] = 'Edit this Source';
 $lang['sources_del_source'] = 'Delete this Source';
 $lang['sources_delete_warning'] = 'You are about to delete';
 //Message
-$lang['sources_message_title'] = 'No Sources';
-$lang['sources_message_warning'] = 'No Sources available';
+$lang['sources_message_title'] = 'Geen bron';
+$lang['sources_message_warning'] = 'Geen bron beschikbaar';
  
  
 //Settings
 //
-$lang['settings_name'] = 'Settings';
+$lang['settings_name'] = 'Instellingen';
 $lang['settings_basic_name'] = 'Basic Settings';
 $lang['settings_cal_name'] = 'Calendar Settings';
 $lang['settings_file_name'] = 'ICal Settings';
@@ -325,13 +325,13 @@ $lang['settings_form_site_name'] = 'Site Name';
 $lang['settings_form_site_email'] = 'Site Email';
 $lang['settings_form_meta_keywords'] = 'Site meta keywords';
 $lang['settings_form_meta_description'] = 'Site meta description';
-$lang['settings_form_timezone'] = 'Timezone';
+$lang['settings_form_timezone'] = 'Tijdszone';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';
-$lang['settings_form_submit_button'] = 'Submit';
+$lang['settings_form_submit_button'] = 'Toevoegen';
 //fullcalendar
 $lang['cal_defaultview'] = 'Default View';
-$lang['cal_defaultview_month'] = 'Month';
+$lang['cal_defaultview_month'] = 'Maand';
 $lang['cal_defaultview_basicweek'] = 'BasicWeek';
 $lang['cal_defaultview_basicday'] = 'BasicDay';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
@@ -366,7 +366,7 @@ $lang['attach_allowed_extension'] = 'Allowed Extension';
 $lang['attach_max_size'] = 'Filesize (KB)'; 
 //Language
 //
-$lang['theme_language'] = 'Language';
+$lang['theme_language'] = 'Talen';
 //lang choices
 $lang['lang_english'] = 'English';
 $lang['lang_arabic_ma'] = 'Arabic MA'; 
