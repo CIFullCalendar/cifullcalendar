@@ -1,3 +1,3 @@
 # cifullcalendar
-Dutch translation not ready!
 
+Language files for cifullcalendar
