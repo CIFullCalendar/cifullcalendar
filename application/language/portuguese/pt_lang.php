@@ -187,7 +187,7 @@ $lang['profile_register_fail'] = 'Suas alterações não foram submetidos, ver a
 
 $lang['register_email_message_subject'] = 'Registro de mensagens';
 $lang['register_email_message1'] = 'Bem-vindo ao';
-$lang['register_email_message2'] = 'O calendário, permite que você recupere todos os eventos de banco de dados suportado. Além disso, existem opções para adicionar, atualizar, excluir eventos e tê-los pública ou privada.';
+$lang['register_email_message2'] = 'O calendário tem o poder de organizar, controlar e compartilhar seus eventos. Acessar facilmente e usar os recursos maravilhosos, basta adicionar ou atualizar eventos arrastando, redimensionamento, clicando e comovente. Além disso, suportado na maioria dos dispositivos móveis.';
 $lang['register_email_message3'] = 'Informações de login:';
 
 
@@ -380,6 +380,10 @@ $lang['cal_defaultview_basicday'] = 'Dia básico';
 $lang['cal_defaultview_agendaweek'] = 'Agenda Semana';
 $lang['cal_defaultview_agendaday'] = 'Dia Agenda';
 $lang['cal_defaultview_agendalist'] = 'Lista Agenda';
+$lang['cal_defaultview_timelineDay'] = 'Linha de tempo do dia';
+$lang['cal_defaultview_timelineWeek'] = 'Tempo linha Semana';
+$lang['cal_defaultview_timelineMonth'] = 'Tempo mês linha';
+$lang['cal_defaultview_timelineYear'] = 'Tempo linha Ano';
  
 $lang['cal_header_left'] = 'Botão cabeçalho/Título Esquerda';
 $lang['cal_header_center'] = 'Botão cabeçalho/Título Centro';
@@ -432,6 +436,7 @@ $lang['lang_greek'] = 'Greek';
 $lang['lang_english_au'] = 'English AU';  
 $lang['lang_english_ca'] = 'English CA';  
 $lang['lang_english_gb'] = 'English GB';  
+$lang['lang_english_jm'] = 'English JM';  
 $lang['lang_spanish'] = 'Espanhol';  
 $lang['lang_farsi'] = 'Farsi';   
 $lang['lang_finnish'] = 'Finnish';    
