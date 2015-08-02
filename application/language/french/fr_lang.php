@@ -189,7 +189,7 @@ $lang['profile_register_fail'] = 'Vos changements ne étaient pas soumis, voir l
 
 $lang['register_email_message_subject'] = 'Enregistrement de message';
 $lang['register_email_message1'] = 'Bienvenue';
-$lang['register_email_message2'] = 'Le calendrier, vous permet de récupérer tous les événements de base de données pris en charge. Aussi, il ya des options pour ajouter, mettre à jour, supprimer des événements et ont leur public ou privé.';
+$lang['register_email_message2'] = 'Le calendrier a le pouvoir d\'organisation, le contrôle et le partage de vos événements. Facilement se connecter et utiliser les fonctionnalités merveilleuses simplement ajouter ou mettre à jour des événements en faisant glisser, le redimensionnement, en cliquant et touchante. Aussi, soutenue sur la plupart des appareils mobiles.';
 $lang['register_email_message3'] = 'Informations de connexion:';
 
 
@@ -382,6 +382,10 @@ $lang['cal_defaultview_basicday'] = 'Jour de Base';
 $lang['cal_defaultview_agendaweek'] = 'Agenda Semaine';
 $lang['cal_defaultview_agendaday'] = 'Jour Agenda';
 $lang['cal_defaultview_agendalist'] = 'Liste Agenda';
+$lang['cal_defaultview_timelineDay'] = 'Temps ligne Jour';
+$lang['cal_defaultview_timelineWeek'] = 'Temps ligne Semaine';
+$lang['cal_defaultview_timelineMonth'] = 'Temps ligne Mois';
+$lang['cal_defaultview_timelineYear'] = 'Année de ligne de temps';
  
 $lang['cal_header_left'] = 'Bouton de tête/Titre Gauche';
 $lang['cal_header_center'] = 'Bouton de tête/Titre Centre';
@@ -435,6 +439,7 @@ $lang['lang_greek'] = 'Greek';
 $lang['lang_english_au'] = 'English AU';  
 $lang['lang_english_ca'] = 'English CA';  
 $lang['lang_english_gb'] = 'English GB';  
+$lang['lang_english_jm'] = 'English JM';  
 $lang['lang_spanish'] = 'Espagnol';  
 $lang['lang_farsi'] = 'Farsi';   
 $lang['lang_finnish'] = 'Finnish';    
