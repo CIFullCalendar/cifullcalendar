@@ -53,8 +53,8 @@ $lang['ok'] = 'Ok';
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Save'; 
 $lang['cancel'] = 'Cancel'; 
-$lang['lat'] = 'Lat'; 
-$lang['lng'] = 'Lng'; 
+$lang['lat'] = 'Latitude'; 
+$lang['lng'] = 'Longitude'; 
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
@@ -184,7 +184,7 @@ $lang['profile_register_fail'] = 'Your changes were NOT submitted, see the messa
 
 $lang['register_email_message_subject'] = 'Registration Message';
 $lang['register_email_message1'] = 'Welcome to ';
-$lang['register_email_message2'] = 'The calendar, allows you to retrieve all events from supported database. Also, there are options to add, update, delete events and have them public or private.';
+$lang['register_email_message2'] = 'The calendar has the power of organizing, controlling and sharing your events. Easily login and use the wonderful features by simply add or update events by dragging, resizing, clicking and touching. Also, supported on most mobile devices.';
 $lang['register_email_message3'] = 'Sign-in Information:';
 
 
@@ -379,6 +379,10 @@ $lang['cal_defaultview_basicday'] = 'BasicDay';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDay';
 $lang['cal_defaultview_agendalist'] = 'AgendaList';
+$lang['cal_defaultview_timelineDay'] = 'Timeline Day';
+$lang['cal_defaultview_timelineWeek'] = 'Timeline Week';
+$lang['cal_defaultview_timelineMonth'] = 'Timeline Month';
+$lang['cal_defaultview_timelineYear'] = 'Timeline Year';
  
 $lang['cal_header_left'] = 'Header Button/Title Left';
 $lang['cal_header_center'] = 'Header Button/Title Center';
@@ -431,6 +435,7 @@ $lang['lang_greek'] = 'Greek';
 $lang['lang_english_au'] = 'English AU';  
 $lang['lang_english_ca'] = 'English CA';  
 $lang['lang_english_gb'] = 'English GB';  
+$lang['lang_english_jm'] = 'English JM';  
 $lang['lang_spanish'] = 'Spanish';  
 $lang['lang_farsi'] = 'Farsi';   
 $lang['lang_finnish'] = 'Finnish';    
