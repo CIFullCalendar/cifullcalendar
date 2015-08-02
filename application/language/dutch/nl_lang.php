@@ -337,6 +337,10 @@ $lang['cal_defaultview_basicday'] = 'BasisDag';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDag';
 $lang['cal_defaultview_agendalist'] = 'AgendaLijst';
+$lang['cal_defaultview_timelineDay'] = 'Tijd lijn Day';
+$lang['cal_defaultview_timelineWeek'] = 'Tijd lijn Week';
+$lang['cal_defaultview_timelineMonth'] = 'Tijd lijn Maand';
+$lang['cal_defaultview_timelineYear'] = 'Tijd lijn Jaar';
  
 $lang['cal_header_left'] = 'Hoofding knop/titel links';
 $lang['cal_header_center'] = 'Hoofding knop/titel centreren';
