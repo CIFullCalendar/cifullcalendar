@@ -79,6 +79,12 @@ $lang['pages_access'] = 'Toegang';
 $lang['pages_access_visitors'] = 'Publiek'; 
 $lang['pages_access_members'] = 'Leden'; 
 $lang['pages_access_admins'] = 'Beheerders'; 
+//Delete
+$lang['pages_delete_page'] = 'Verwijder deze pagina';
+$lang['pages_delete_warning'] = 'U bent over om te verwijderen';
+//Message
+$lang['pages_message_title'] = 'geen Pages';
+$lang['pages_message_warning'] = 'Geen Pages beschikbaar';
 //Tables
 //
 $lang['admin_level_2'] = 'BeheerdersRechten';
