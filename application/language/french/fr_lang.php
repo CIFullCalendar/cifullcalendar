@@ -75,14 +75,19 @@ $lang['page_meta_keywords'] = 'Contenu de la page';
 $lang['page_meta_description'] = 'Meta Description'; 
 $lang['page_username'] = 'Nom d\'utilisateur';
 $lang['page_table_edit'] = 'éditer';
-
 //Edit
 $lang['pages_meta_keywords'] = 'Meta keywords';
-$lang['pages_meta_description'] = 'Meta description';
-$lang['pages_access'] = 'View Access'; 
+$lang['pages_meta_description'] = 'Meta Description';
+$lang['pages_access'] = 'Voir Accès'; 
 $lang['pages_access_visitors'] = 'Public'; 
-$lang['pages_access_members'] = 'Members'; 
-$lang['pages_access_admins'] = 'Administrators'; 
+$lang['pages_access_members'] = 'Membres'; 
+$lang['pages_access_admins'] = 'Administrateurs';
+//Delete
+$lang['pages_delete_page'] = 'Supprimer cette page';
+$lang['pages_delete_warning'] = 'Vous êtes sur le point de supprimer';
+//Message
+$lang['pages_message_title'] = 'Pas de Pages';
+$lang['pages_message_warning'] = 'Aucun Pages disponibles';
 
 // tableaux
 //  
