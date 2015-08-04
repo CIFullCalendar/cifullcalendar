@@ -70,7 +70,7 @@ $lang['admin_configuration'] = 'Configure';
 $lang['page_header'] = 'Pages';
 $lang['page_title'] = 'Page Title';
 $lang['page_content'] = 'Page Contents';
-$lang['page_meta_keywords'] = 'Page Contents';
+$lang['page_meta_keywords'] = 'Page Keywords';
 $lang['page_meta_description'] = 'Meta Description'; 
 $lang['page_username'] = 'Username';
 $lang['page_table_edit'] = 'Edit';
@@ -81,6 +81,12 @@ $lang['pages_access'] = 'View Access';
 $lang['pages_access_visitors'] = 'Public'; 
 $lang['pages_access_members'] = 'Members'; 
 $lang['pages_access_admins'] = 'Administrators'; 
+//Delete
+$lang['pages_delete_page'] = 'Delete this page';
+$lang['pages_delete_warning'] = 'You are about to delete';
+//Message
+$lang['pages_message_title'] = 'No Pages';
+$lang['pages_message_warning'] = 'No Pages available';
 
 //Tables
 //
