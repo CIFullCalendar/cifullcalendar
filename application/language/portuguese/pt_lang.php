@@ -75,13 +75,18 @@ $lang['page_meta_description'] = 'Meta Descrição';
 $lang['page_username'] = 'Nome de Usuário';
 $lang['page_table_edit'] = 'Editar';
 //Edit
-$lang['pages_meta_keywords'] = 'Meta keywords';
-$lang['pages_meta_description'] = 'Meta description';
-$lang['pages_access'] = 'View Access'; 
-$lang['pages_access_visitors'] = 'Public'; 
-$lang['pages_access_members'] = 'Members'; 
-$lang['pages_access_admins'] = 'Administrators'; 
-
+$lang['pages_meta_keywords'] = 'Meta Palavras-chave';
+$lang['pages_meta_description'] = 'Meta Descrição';
+$lang['pages_access'] = 'Ver Acesso'; 
+$lang['pages_access_visitors'] = 'Público'; 
+$lang['pages_access_members'] = 'Membros'; 
+$lang['pages_access_admins'] = 'Administradores'; 
+//Delete
+$lang['pages_delete_page'] = 'Apagar esta página';
+$lang['pages_delete_warning'] = 'Você está prestes a excluir';
+//Message
+$lang['pages_message_title'] = 'Nenhum Páginas';
+$lang['pages_message_warning'] = 'Nenhum Páginas disponíveis';
 
 // Tabelas
 //
@@ -422,11 +427,11 @@ $lang['attach_max_size'] = 'Tamanho (KB)';
 $lang['theme_language'] = 'Língua';
 //lang choices
 $lang['lang_english'] = 'Inglês';
-$lang['lang_arabic_ma'] = 'Arabic MA'; 
-$lang['lang_arabic_sa'] = 'Arabic SA';  
-$lang['lang_arabic_tn'] = 'Arabic TN';  
-$lang['lang_arabic'] = 'Arabic';    
-$lang['lang_bulgarian'] = 'Bulgarian';  
+$lang['lang_arabic_ma'] = 'Árabe MA'; 
+$lang['lang_arabic_sa'] = 'Árabe SA';  
+$lang['lang_arabic_tn'] = 'Árabe TN';  
+$lang['lang_arabic'] = 'Árabe';    
+$lang['lang_bulgarian'] = 'Búlgaro';  
 $lang['lang_catalan'] = 'Catalan';  
 $lang['lang_czech'] = 'Czech';  
 $lang['lang_danish'] = 'Danish';  
@@ -440,7 +445,7 @@ $lang['lang_english_jm'] = 'English JM';
 $lang['lang_spanish'] = 'Espanhol';  
 $lang['lang_farsi'] = 'Farsi';   
 $lang['lang_finnish'] = 'Finnish';    
-$lang['lang_french_ca'] = 'French CA'; 
+$lang['lang_french_ca'] = 'Francês CA'; 
 $lang['lang_french'] = 'Francês';  
 $lang['lang_hebrew'] = 'Hebrew'; 
 $lang['lang_hindi'] = 'Hindi';  
@@ -449,14 +454,14 @@ $lang['lang_hungarian'] = 'Hungarian';
 $lang['lang_indonesian'] = 'Indonesian'; 
 $lang['lang_icelandic'] = 'Icelandic'; 
 $lang['lang_italian'] = 'Italian';  
-$lang['lang_japanese'] = 'Japanese';
+$lang['lang_japanese'] = 'Japonês';
 $lang['lang_korean'] = 'Korean';  
 $lang['lang_lithuanian'] = 'Lithuanian';  
 $lang['lang_latvian'] = 'Latvian';  
-$lang['lang_norwegian'] = 'Norwegian';  
-$lang['lang_dutch'] = 'Dutch';  
+$lang['lang_norwegian'] = 'Norueguês';  
+$lang['lang_dutch'] = 'Holandês';  
 $lang['lang_polish'] = 'Polish';  
-$lang['lang_portuguese_br'] = 'Portuguese BR';  
+$lang['lang_portuguese_br'] = 'Português BR';  
 $lang['lang_portuguese'] = 'Português';  
 $lang['lang_romanian'] = 'Romanian';   
 $lang['lang_russian'] = 'Russian';  
@@ -479,5 +484,3 @@ $lang['error_page_title'] = 'Erro';
 $lang['error_not_found_page_title'] = 'Não Encontrado';
 $lang['error_sending_email'] = 'Houve um problema no envio de um e-mail ... entre em contato com o administrador do site';
 $lang['error_creating_password'] = 'Houve um problema ao criar uma nova senha ... entre em contato com o administrador do site';
-
- 
