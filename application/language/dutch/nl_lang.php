@@ -296,9 +296,13 @@ $lang['categories_edit_source'] = 'Deze categorie aanpassen';
 //Delete
 $lang['categories_delete_category'] = 'Categorie verwijderen';
 $lang['categories_delete_warning'] = 'U zal het volgende verwijderen';
+//Drag
+$lang['categories_draggable_title'] = 'Draggable Events';
+$lang['categories_draggable_removable'] = 'Drag and Remove event';
 //Message
 $lang['categories_message_title'] = 'Geen categoriën';
 $lang['categories_message_warning'] = 'Geen Categoriën beschikbaar';
+$lang['categories_message_success'] = 'Updated Successfully';
  
 //Sources
 //
@@ -315,6 +319,7 @@ $lang['sources_delete_warning'] = 'U zal het volgende verwijderen';
 //Message
 $lang['sources_message_title'] = 'Geen bron';
 $lang['sources_message_warning'] = 'Geen bron beschikbaar';
+$lang['sources_message_success'] = 'Updated Successfully';
  
  
 //Settings
@@ -351,12 +356,15 @@ $lang['cal_defaultview_timelineYear'] = 'Tijd lijn Jaar';
 $lang['cal_header_left'] = 'Hoofding knop/titel links';
 $lang['cal_header_center'] = 'Hoofding knop/titel centreren';
 $lang['cal_header_right'] = 'Hoofding knop/titel rechts';
+
 $lang['cal_language'] = 'Taal';
+$lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Dagen verbergen (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6=Zat)';
 $lang['cal_editable'] = 'Aanpasbaar (Alleen voor leden kalender)';
 $lang['cal_weeknumbers'] = 'Week nummer';
 $lang['cal_eventlimit'] = 'Evenementenlimiet';
 $lang['cal_alldayslot'] = 'Volledige dag';
+$lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';
  
 //Theme 
@@ -435,4 +443,5 @@ $lang['error_page_title'] = 'Fout';
 $lang['error_not_found_page_title'] = 'Niet gevonden';
 $lang['error_sending_email'] = 'Er was een probleem tijdens het sturen van een e-mail... contacteer de beheerder';
 $lang['error_creating_password'] = 'Er was een probleem tijdens het genereren van een nieuw wachtwoord... contacteer de beheerder';
- 
+$lang['error_creating_member'] = 'Er was een probleem bij het aanmaken van een nieuwe gebruiker ... contact op met de beheerder van deze site';
+$lang['error_captcha'] = 'Verificatiecode onjuiste';
