@@ -332,10 +332,15 @@ $lang['categories_edit_source'] = 'Editar este Categoria';
 //Delete
 $lang['categories_delete_category'] = 'Apagar esta Categoria';
 $lang['categories_delete_warning'] = 'Você está prestes a excluir';
+
+//Drag
+$lang['categories_draggable_title'] = 'Draggable Events';
+$lang['categories_draggable_removable'] = 'Drag and Remove event';
+
 //Mensagem
 $lang['categories_message_title'] = 'Nenhuma Categoria';
 $lang['categories_message_warning'] = 'Sem categorias disponíveis';
-
+$lang['categories_message_success'] = 'Updated Successfully';
  
 // Fontes
 //
@@ -351,10 +356,12 @@ $lang['sources_edit_source'] = 'Editar este Fonte';
 //Delete
 $lang['sources_del_source'] = 'Apagar esta Fonte';
 $lang['sources_delete_warning'] = 'Você está prestes a excluir';
+
 //Message
 $lang['sources_message_title'] = 'Nenhuma fonte';
 $lang['sources_message_warning'] = 'Não há fontes disponíveis';
- 
+$lang['sources_message_success'] = 'Updated Successfully';
+
  
 // Configurações
 //
@@ -395,11 +402,13 @@ $lang['cal_header_center'] = 'Botão cabeçalho/Título Centro';
 $lang['cal_header_right'] = 'Botão cabeçalho/Título Direito';
 
 $lang['cal_language'] = 'Língua';
+$lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Ocultar Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)';
 $lang['cal_editable'] = 'Editável (Por apenas membros calendário)';
 $lang['cal_weeknumbers'] = 'Números da Semana';
 $lang['cal_eventlimit'] = 'Limite de evento';
 $lang['cal_alldayslot'] = 'Todos slot Dia';
+$lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_isrtl'] = 'Vista da direita para esquerda';
 
 // Tema
@@ -484,3 +493,5 @@ $lang['error_page_title'] = 'Erro';
 $lang['error_not_found_page_title'] = 'Não Encontrado';
 $lang['error_sending_email'] = 'Houve um problema no envio de um e-mail ... entre em contato com o administrador do site';
 $lang['error_creating_password'] = 'Houve um problema ao criar uma nova senha ... entre em contato com o administrador do site';
+$lang['error_creating_member'] = 'Houve um problema criando um novo usuário ... entre em contato com o administrador do site';
+$lang['error_captcha'] = 'Código de verificação incorreto';
