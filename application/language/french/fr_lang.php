@@ -331,10 +331,14 @@ $lang['categories_edit_source'] = 'Éditer cette catégorie';
 //Delete
 $lang['categories_delete_category'] = 'Supprimer cette catégorie';
 $lang['categories_delete_warning'] = 'Vous êtes sur le point de supprimer';
+//Drag
+$lang['categories_draggable_title'] = 'Draggable Events';
+$lang['categories_draggable_removable'] = 'Drag and Remove event';
 
 //Message
 $lang['categories_message_title'] = 'Aucune Catégories';
 $lang['categories_message_warning'] = 'Aucune catégorie disponible';
+$lang['categories_message_success'] = 'Updated Successfully';
 
  
 //Sources
@@ -356,6 +360,7 @@ $lang['sources_delete_warning'] = 'Vous êtes sur le point de supprimer';
 //Message
 $lang['sources_message_title'] = 'Aucune Sources';
 $lang['sources_message_warning'] = 'Non Sources disponibles';
+$lang['sources_message_success'] = 'Updated Successfully';
  
  
 //Settings
@@ -397,11 +402,13 @@ $lang['cal_header_center'] = 'Bouton de tête/Titre Centre';
 $lang['cal_header_right'] = 'Bouton de tête / Titre Droite';
 
 $lang['cal_language'] = 'Langue';
+$lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Masquer les Jours(0=Dim,1=Lun,2=Mar,3=Mer,4=Jeu,5=Ven,6=Sam)';
 $lang['cal_editable'] = 'Modifiable (Pour le calendrier des membres seulement)';
 $lang['cal_weeknumbers'] = 'Numéros de la Semaine';
 $lang['cal_eventlimit'] = 'Limite de l\'événement';
 $lang['cal_alldayslot'] = 'Tous Slot Jour';
+$lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_isrtl'] = 'Vue de droite à gauche';
 
 
@@ -488,5 +495,5 @@ $lang['error_page_title'] = 'Erreur';
 $lang['error_not_found_page_title'] = 'Pas Trouvé';
 $lang['error_sending_email'] = 'Il y avait un problème en envoyant un e-mail ... contacter l\'administrateur du site';
 $lang['error_creating_password'] = 'Il y avait un problème de créer un nouveau mot de passe ... contacter l\'administrateur du site';
-
- 
+$lang['error_creating_member'] = 'Il y avait un problème de créer un nouvel utilisateur ... contacter l\'administrateur du site';
+$lang['error_captcha'] = 'Le code de vérification incorrecte';
