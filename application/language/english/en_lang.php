@@ -192,7 +192,7 @@ $lang['register_email_message_subject'] = 'Registration Message';
 $lang['register_email_message1'] = 'Welcome to ';
 $lang['register_email_message2'] = 'The calendar has the power of organizing, controlling and sharing your events. Easily login and use the wonderful features by simply add or update events by dragging, resizing, clicking and touching. Also, supported on most mobile devices.';
 $lang['register_email_message3'] = 'Sign-in Information:';
-
+ 
 
 //Change Password
 $lang['profile_change_password'] = 'Change user password';
@@ -331,9 +331,15 @@ $lang['categories_edit_source'] = 'Edit this Category';
 //Delete
 $lang['categories_delete_category'] = 'Delete this Category';
 $lang['categories_delete_warning'] = 'You are about to delete';
+
+//Drag
+$lang['categories_draggable_title'] = 'Draggable Events';
+$lang['categories_draggable_removable'] = 'Remove event after drop';
+
 //Message
 $lang['categories_message_title'] = 'No Categories';
 $lang['categories_message_warning'] = 'No Categories available';
+$lang['categories_message_success'] = 'Updated Successfully';
 
  
 //Sources
@@ -350,10 +356,12 @@ $lang['sources_edit_source'] = 'Edit this Source';
 //Delete
 $lang['sources_del_source'] = 'Delete this Source';
 $lang['sources_delete_warning'] = 'You are about to delete';
+
 //Message
 $lang['sources_message_title'] = 'No Sources';
-$lang['sources_message_warning'] = 'No Sources available';
- 
+$lang['sources_message_warning'] = 'No Sources available'; 
+$lang['sources_message_success'] = 'Updated Successfully';
+
  
 //Settings
 //
@@ -395,11 +403,13 @@ $lang['cal_header_center'] = 'Header Button/Title Center';
 $lang['cal_header_right'] = 'Header Button/Title Right';
 
 $lang['cal_language'] = 'Language';
-$lang['cal_hiddendays'] = 'HideDays (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
+$lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_hiddendays'] = 'Hide Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_editable'] = 'Editable (For members calendar only)';
 $lang['cal_weeknumbers'] = 'Week Numbers';
 $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
+$lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_isrtl'] = 'View from Right To Left';
  
 //Theme 
@@ -484,5 +494,5 @@ $lang['error_page_title'] = 'Error';
 $lang['error_not_found_page_title'] = 'Not Found';
 $lang['error_sending_email'] = 'There was a problem sending an email... contact the site administrator';
 $lang['error_creating_password'] = 'There was a problem creating a new password... contact the site administrator';
-
- 
+$lang['error_creating_member'] = 'There was a problem creating a new user... contact the site administrator';
+$lang['error_captcha'] = 'Verification code incorrect';
