@@ -330,12 +330,18 @@ $lang['categories_input_description'] = 'Categoría Descripción';
 //Editar
 $lang['categories_edit_source'] = 'Editar esta Categoría';
 
+//Drag
+$lang['categories_draggable_title'] = 'Draggable Events';
+$lang['categories_draggable_removable'] = 'Drag and Remove event';
+
 //Eliminar
 $lang['categories_delete_category'] = 'Eliminar esta Categoría';
 $lang['categories_delete_warning'] = 'Estás a punto de eliminar';
+
 //Mensaje
 $lang['categories_message_title'] = 'No hay categorías';
 $lang['categories_message_warning'] = 'No hay categorías disponibles';
+$lang['categories_message_success'] = 'Updated Successfully';
 
  
 //Fuentes
@@ -352,9 +358,11 @@ $lang['sources_edit_source'] = 'Editar este Fuente';
 //Eliminar
 $lang['sources_del_source'] = 'Eliminar esta Fuente';
 $lang['sources_delete_warning'] = 'Estás a punto de eliminar';
+
 //Mensaje
 $lang['sources_message_title'] = 'No hay fuentes';
 $lang['sources_message_warning'] = 'No hay fuentes disponibles';
+$lang['sources_message_success'] = 'Updated Successfully';
  
  
 //Configuración
@@ -396,11 +404,13 @@ $lang['cal_header_center'] = 'Botón Encabezado/Título Centro';
 $lang['cal_header_right'] = 'Botón Encabezado/Título Derecho';
 
 $lang['cal_language'] = 'idioma';
+$lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Ocultar Días (0=Dom,1=Lun,2=Mar,3=Mie,4=Jue,5=Vie,6=Sab)';
 $lang['cal_editable'] = 'Editable (Para los miembros solamente calendario)';
 $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
 $lang['cal_alldayslot'] = 'Todo ranura Día';
+$lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_isrtl'] = 'Vista desde derecha a izquierda';
 
 
@@ -477,9 +487,7 @@ $lang['lang_turkish'] = 'Turkish';
 $lang['lang_ukrainian'] = 'Ukrainian';  
 $lang['lang_vietnamese'] = 'Vietnamita';  
 $lang['lang_chinese'] = 'Chino';  
-$lang['lang_chinese_tw'] = 'Chino TW'; 
- 
- 
+$lang['lang_chinese_tw'] = 'Chino TW';  
  
 //Error
 // 
@@ -488,3 +496,6 @@ $lang['error_page_title'] = 'Error';
 $lang['error_not_found_page_title'] = 'Extraviado';
 $lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónico ... en contacto con el administrador del sitio';
 $lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
+$lang['error_creating_member'] = 'Hubo un problema al crear un nuevo usuario ... en contacto con el administrador del sitio';
+$lang['error_captcha'] = 'Código de verificación incorrecto';
+ 
