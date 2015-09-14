@@ -62,6 +62,10 @@ $lang['saturday'] = 'Saturday';
 $lang['sunday'] = 'Sunday';
 $lang['lat'] = 'Lat';
 $lang['lng'] = 'Lng';
+$lang['approve'] = 'Approuver';
+$lang['decline'] = 'Déclin';
+$lang['queue'] = 'Queue'; 
+$lang['queues'] = 'Queues'; 
 $lang['current_v'] = 'CIFullCalendar + par Sir.Dre © 2015 v';
 
   
@@ -103,16 +107,12 @@ $lang['admin_level_1'] = 'privilèges de l utilisateur';
 $lang['admin_status_1'] = 'Verrouillé';
 $lang['admin_status_0'] = 'Unlocked';
 
-//Modal 
-//user
+//Modal  
 $lang['admin_modal_edit_user'] = 'Modifier les informations de l utilisateur ';
 $lang['admin_modal_delete_user'] = 'Supprimer l information de l utilisateur ';
-$lang['admin_modal_add_user'] = 'Ajoutez des informations utilisateur ';  
-//calendar
-$lang['admin_modal_delete_calendar'] = 'Supprimer Calendrier information ';
-//Maps
-$lang['admin_modal_maps_calendar'] = 'Supprimer Cartes Informations générales ';
- 
+$lang['admin_modal_add_user'] = 'Ajoutez des informations utilisateur ';   
+$lang['admin_modal_delete_calendar'] = 'Supprimer Calendrier information '; 
+$lang['admin_modal_maps_calendar'] = 'Supprimer Cartes Informations générales '; 
 $lang['admin_modal_member_since'] = 'Membre depuis';
 $lang['admin_modal_member_last_log'] = 'Dernière Connexion';
 $lang['admin_modal_ip'] = 'Adresse IP';
@@ -128,8 +128,7 @@ $lang['admin_table_email'] = 'Email';
 $lang['admin_table_password'] = 'Mot de passe';
 $lang['admin_table_level'] = 'privilèges';
 $lang['admin_table_status'] = "État";
-$lang['admin_table_edit'] = 'Modifier';  
-
+$lang['admin_table_edit'] = 'Modifier';   
 $lang['admin_table_event_title'] = 'Titre';
 $lang['admin_table_event_description'] = 'Description';
 $lang['admin_table_event_start'] = 'Date De Début';
@@ -137,8 +136,7 @@ $lang['admin_table_event_end'] = 'Date de fin';
 $lang['admin_table_event_allday'] = 'All Day';
 $lang['admin_table_event_type'] = 'Public/Privé ';
 $lang['admin_table_event_noshow'] = 'Privé';
-$lang['admin_table_event_show'] = 'Public';
-
+$lang['admin_table_event_show'] = 'Public'; 
 $lang['admin_table_markers_various_date'] = 'Diverses dates';
 $lang['admin_table_markers_info'] = 'Info';
 $lang['admin_table_markers_name'] = 'Titre';
@@ -146,6 +144,11 @@ $lang['admin_table_markers_address'] = 'Adresse';
 $lang['admin_table_markers_category'] = 'Catégorie';
 $lang['admin_table_markers_description'] = 'Description';
 $lang['admin_table_markers_url'] = "URL"; 
+
+//nav
+//
+$lang['admin_nav_events'] = 'Liste des événements';
+$lang['admin_nav_queue'] = 'Evénements File d\'attente'; 
 
 
 //Profile
@@ -265,22 +268,20 @@ $lang['submenu_dropdown_all_categories'] = 'Toutes les catégories';
 $lang['submenu_dropdown_all_sources'] = 'Toutes les sources';
 
   
-// Calendrier Modal
+// Calendrier
 //
 $lang['calendar_title'] = 'Événements';
 $lang['calendar_title_public'] = 'Événements publics';
 $lang['calendar_loading_title'] = 'Chargement en cours ... Se il vous plaît attendre.';
 $lang['calendar_export'] = 'Export';
 $lang['calendar_import'] = 'Importer';
-
+//Modal
 $lang['calendar_modal_create_title'] = 'Créer un événement';
 $lang['calendar_modal_update_title'] = 'Mise à jour de l\'événement';
-
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Catégorie';
 $lang['calendar_modal_tabtitle3'] = 'Lieu';
 $lang['calendar_modal_tabtitle4'] = 'Joindre';
-
 $lang['calendar_modal_eventname'] = 'Titre';
 $lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Commencer l\'événement';
@@ -290,7 +291,6 @@ $lang['calendar_modal_eventallday'] = 'AllDay';
 $lang['calendar_modal_eventshare'] = 'Partager l\'événement';
 $lang['calendar_modal_eventprivate'] = 'Événement privé';
 $lang['calendar_modal_eventpublic'] = 'Événement public';
-
 $lang['calendar_modal_eventrecurring'] = 'Événements récurrents';
 $lang['calendar_modal_eventendrecurring'] = 'Fin';
 $lang['calendar_modal_eventnonerecurring'] = 'Non récurrent';
@@ -299,7 +299,6 @@ $lang['calendar_modal_eventweekly'] = 'Hebdomadaire';
 $lang['calendar_modal_event2weeks'] = 'toutes les 2 semaines';
 $lang['calendar_modal_eventmonthly'] = 'Mensuelle';
 $lang['calendar_modal_eventyearly'] = 'Annuel';
-
 $lang['calendar_modal_eventrendering'] = 'Placement';
 $lang['calendar_modal_eventfgrender'] = 'Connaissances nouvelles';
 $lang['calendar_modal_eventbgrender'] = 'Contexte';
@@ -307,12 +306,21 @@ $lang['calendar_modal_eventcategory'] = 'Catégorie';
 $lang['calendar_modal_colorbackground'] = 'Couleur de fond';
 $lang['calendar_modal_colortext'] = 'Couleur du texte';
 $lang['calendar_modal_colorborder'] = 'Couleur de la bordure';
-
 $lang['calendar_modal_attachment'] = 'Joindre un fichier'; 
-
 $lang['calendar_modal_upload_eventsource'] = 'Télécharger des événements Source';
 $lang['calendar_modal_upload_event_message'] = 'Sélectionnez le fichier iCal (ICS) de votre ordinateur';
 $lang['calendar_modal_upload_save'] = 'Upload ICal';
+
+//Delete
+$lang['calendar_delete_event'] = 'Supprimer l\'événement';
+$lang['calendar_delete_warning'] = 'Vous êtes sur le point de supprimer';
+
+//Message
+$lang['calendar_message_title'] = 'Aucun événement';
+$lang['calendar_message_warning'] = 'Aucun événement disponible au sein de la file d\'attente';
+$lang['calendar_message_success'] = 'Evénements correctement mis à jour';
+$lang['calendar_message_queue'] = 'Validation en attente';
+
  
 //Notify
 //
