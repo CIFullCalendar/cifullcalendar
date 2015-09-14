@@ -52,9 +52,20 @@ $lang['attach'] = 'Toevoegen';
 $lang['ok'] = 'Ok'; 
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Opslaan'; 
-$lang['cancel'] = 'Annuleren'; 
+$lang['cancel'] = 'Annuleren';
+$lang['monday'] = 'Monday';  
+$lang['tuesday'] = 'Tuesday';
+$lang['wednesday'] = 'Wednesday';
+$lang['thursday'] = 'Thursday';
+$lang['friday'] = 'Friday';
+$lang['saturday'] = 'Saturday';
+$lang['sunday'] = 'Sunday';
 $lang['lat'] = 'Lat'; 
-$lang['lng'] = 'Lng'; 
+$lang['lng'] = 'Lng';
+$lang['approve'] = 'Goedkeuren';
+$lang['decline'] = 'Achteruitgang';
+$lang['queue'] = 'Rij';
+$lang['queues'] = 'Rij';
 $lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
 //Admin
 //
@@ -91,13 +102,11 @@ $lang['admin_level_2'] = 'BeheerdersRechten';
 $lang['admin_level_1'] = 'Gebruikers Rechten';
 $lang['admin_status_1'] = 'Op slot';
 $lang['admin_status_0'] = 'Open';
-//user
+//modals
 $lang['admin_modal_edit_user'] = 'Gebruikersinformatie aanpassen';
 $lang['admin_modal_delete_user'] = 'Verwijder gebruikersinformatie';
-$lang['admin_modal_add_user'] = 'Gebruikersinfo toevoegen';
-//calendar
-$lang['admin_modal_delete_calendar'] = 'Verwijder kalenderinformatie';
-//Maps
+$lang['admin_modal_add_user'] = 'Gebruikersinfo toevoegen'; 
+$lang['admin_modal_delete_calendar'] = 'Verwijder kalenderinformatie'; 
 $lang['admin_modal_maps_calendar'] = 'Verwijder Maps informatie';
 $lang['admin_modal_member_since'] = 'Lid sinds';
 $lang['admin_modal_member_last_log'] = 'Laatste aanmelding';
@@ -128,6 +137,11 @@ $lang['admin_table_markers_address'] = 'Adres';
 $lang['admin_table_markers_category'] = 'Categorie';
 $lang['admin_table_markers_description'] = 'Beschrijving';
 $lang['admin_table_markers_url'] = 'URL';
+
+//nav
+//
+$lang['admin_nav_events'] = 'Events List';
+$lang['admin_nav_queue'] = 'Events Queue'; 
  
 //Profile
 //
@@ -231,13 +245,14 @@ $lang['submenu_dropdown_all_locations'] = 'Alle locaties';
 $lang['submenu_dropdown_all_categories'] = 'Alle categoriën'; 
 $lang['submenu_dropdown_all_sources'] = 'Alle bronnen'; 
   
-//Calendar Modal
+//Calendar
 //
 $lang['calendar_title'] = 'Evenementen';
 $lang['calendar_title_public'] = 'Publieke evenementen';
 $lang['calendar_loading_title'] = ' Laden...	Even geduld.  ';
 $lang['calendar_export'] = 'Exporteren';
 $lang['calendar_import'] = 'Importeren';
+//Modal
 $lang['calendar_modal_create_title'] = 'Evenement aanmaken';
 $lang['calendar_modal_update_title'] = 'Evenement aanpassen'; 
 $lang['calendar_modal_tabtitle'] = 'Info';
@@ -272,6 +287,16 @@ $lang['calendar_modal_attachment'] = 'Bestand toevoegen';
 $lang['calendar_modal_upload_eventsource'] = 'Laad de evement bron op'; 
 $lang['calendar_modal_upload_event_message'] = 'Selecteer ical bestanden(ics) van uw computer'; 
 $lang['calendar_modal_upload_save'] = 'ICal opladen'; 
+
+//Delete
+$lang['calendar_delete_event'] = 'Delete event';
+$lang['calendar_delete_warning'] = 'Je gaat schrappen';
+
+//Message
+$lang['calendar_message_title'] = 'Geen evenementen';
+$lang['calendar_message_warning'] = 'Geen evenementen beschikbaar zijn binnen de wachtrij';
+$lang['calendar_message_success'] = 'Evenementen succesvol bijgewerkt';
+$lang['calendar_message_queue'] = 'Hangende';
  
 //Notify
 //
@@ -361,6 +386,8 @@ $lang['cal_language'] = 'Taal';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Dagen verbergen (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6=Zat)';
 $lang['cal_editable'] = 'Aanpasbaar (Alleen voor leden kalender)';
+$lang['cal_businesshours'] = 'Business Hours (DefaultView should set to Month/list view)';
+$lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Week nummer';
 $lang['cal_eventlimit'] = 'Evenementenlimiet';
 $lang['cal_alldayslot'] = 'Volledige dag';
