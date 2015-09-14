@@ -14,7 +14,7 @@ $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendar';
 $lang['events'] = 'events';
 $lang['dashboard'] = 'Dashboard';
-$lang['tables'] = 'Events Tables';
+$lang['tables'] = 'Tables';
 $lang['page'] = 'Page';
 $lang['pages'] = 'Pages';
 $lang['share'] = 'Share'; 
@@ -53,8 +53,19 @@ $lang['ok'] = 'Ok';
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Save'; 
 $lang['cancel'] = 'Cancel'; 
+$lang['monday'] = 'Monday';  
+$lang['tuesday'] = 'Tuesday';
+$lang['wednesday'] = 'Wednesday';
+$lang['thursday'] = 'Thursday';
+$lang['friday'] = 'Friday';
+$lang['saturday'] = 'Saturday';
+$lang['sunday'] = 'Sunday';
 $lang['lat'] = 'Latitude'; 
 $lang['lng'] = 'Longitude'; 
+$lang['approve'] = 'Approve';
+$lang['decline'] = 'Decline';
+$lang['queue'] = 'Queue';
+$lang['queues'] = 'Queues'; 
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
@@ -94,15 +105,12 @@ $lang['admin_level_2'] = 'Admin Privileges';
 $lang['admin_level_1'] = 'User Privileges';
 $lang['admin_status_1'] = 'Locked';
 $lang['admin_status_0'] = 'Unlocked';
-//user
+//modals
 $lang['admin_modal_edit_user'] = 'Edit user Information';
 $lang['admin_modal_delete_user'] = 'Delete user Information';
 $lang['admin_modal_add_user'] = 'Add user Information';
-//calendar
 $lang['admin_modal_delete_calendar'] = 'Delete Calendar Information';
-//Maps
 $lang['admin_modal_maps_calendar'] = 'Delete Maps Information';
-
 $lang['admin_modal_member_since'] = 'Member Since';
 $lang['admin_modal_member_last_log'] = 'Last Login';
 $lang['admin_modal_ip'] = 'IP Address';
@@ -118,7 +126,6 @@ $lang['admin_table_password'] = 'Password';
 $lang['admin_table_level'] = 'Privileges';
 $lang['admin_table_status'] = 'Status';
 $lang['admin_table_edit'] = 'Edit';
-
 $lang['admin_table_event_title'] = 'Title';
 $lang['admin_table_event_description'] = 'Description';
 $lang['admin_table_event_start'] = 'Start Date';
@@ -127,7 +134,6 @@ $lang['admin_table_event_allday'] = 'All Day';
 $lang['admin_table_event_type'] = 'Public/Private';
 $lang['admin_table_event_noshow'] = 'Private';
 $lang['admin_table_event_show'] = 'Public';
-
 $lang['admin_table_markers_various_date'] = 'Various dates';
 $lang['admin_table_markers_info'] = 'Info';
 $lang['admin_table_markers_name'] = 'Title';
@@ -136,7 +142,11 @@ $lang['admin_table_markers_category'] = 'Category';
 $lang['admin_table_markers_description'] = 'Description';
 $lang['admin_table_markers_url'] = 'URL';
 
- 
+//nav
+//
+$lang['admin_nav_events'] = 'Events List';
+$lang['admin_nav_queue'] = 'Events Queue'; 
+
 //Profile
 //
 $lang['profile_dashboard'] = 'My Home';
@@ -255,7 +265,7 @@ $lang['submenu_dropdown_all_categories'] = 'All Categories';
 $lang['submenu_dropdown_all_sources'] = 'All Sources'; 
 
   
-//Calendar Modal
+//Calendar
 //
 $lang['calendar_title'] = 'Events';
 $lang['calendar_title_public'] = 'Public Events';
@@ -263,14 +273,13 @@ $lang['calendar_loading_title'] = ' loading...	Please Wait.  ';
 $lang['calendar_export'] = 'Export';
 $lang['calendar_import'] = 'Import';
 
+//modal
 $lang['calendar_modal_create_title'] = 'Create Event';
 $lang['calendar_modal_update_title'] = 'Update Event'; 
-
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Category';
 $lang['calendar_modal_tabtitle3'] = 'Location';
 $lang['calendar_modal_tabtitle4'] = 'Attach';
-
 $lang['calendar_modal_eventname'] = 'Title';
 $lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Begin Event';
@@ -280,7 +289,6 @@ $lang['calendar_modal_eventallday'] = 'All Day';
 $lang['calendar_modal_eventshare'] = 'Share Event';
 $lang['calendar_modal_eventprivate'] = 'Private Event';
 $lang['calendar_modal_eventpublic'] = 'Public Event'; 
-
 $lang['calendar_modal_eventrecurring'] = 'Recurring Events';
 $lang['calendar_modal_eventendrecurring'] = 'End';
 $lang['calendar_modal_eventnonerecurring'] = 'Non-recurring';
@@ -289,7 +297,6 @@ $lang['calendar_modal_eventweekly'] = 'Weekly';
 $lang['calendar_modal_event2weeks'] = 'Every 2 Weeks';
 $lang['calendar_modal_eventmonthly'] = 'Monthly';
 $lang['calendar_modal_eventyearly'] = 'Yearly'; 
-
 $lang['calendar_modal_eventrendering'] = 'Placement';  
 $lang['calendar_modal_eventfgrender'] = 'Foreground'; 
 $lang['calendar_modal_eventbgrender'] = 'Background';  
@@ -297,12 +304,21 @@ $lang['calendar_modal_eventcategory'] = 'Category';
 $lang['calendar_modal_colorbackground'] = 'Background Color'; 
 $lang['calendar_modal_colortext'] = 'Text Color'; 
 $lang['calendar_modal_colorborder'] = 'Border Color';
-
 $lang['calendar_modal_attachment'] = 'Attach File'; 
-
 $lang['calendar_modal_upload_eventsource'] = 'Upload Events Source'; 
 $lang['calendar_modal_upload_event_message'] = 'Select ical file(ics) from your computer'; 
 $lang['calendar_modal_upload_save'] = 'Upload ICal'; 
+
+//Delete
+$lang['calendar_delete_event'] = 'Delete event';
+$lang['calendar_delete_warning'] = 'You are about to delete';
+
+//Message
+$lang['calendar_message_title'] = 'No Events';
+$lang['calendar_message_warning'] = 'No events available within the queue';
+$lang['calendar_message_success'] = 'Events updated Successfully';
+$lang['calendar_message_queue'] = 'Pending approval';
+
  
 //Notify
 //
@@ -403,9 +419,12 @@ $lang['cal_header_center'] = 'Header Button/Title Center';
 $lang['cal_header_right'] = 'Header Button/Title Right';
 
 $lang['cal_language'] = 'Language';
+$lang['cal_timezone'] = 'TimeZone';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Hide Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_editable'] = 'Editable (For members calendar only)';
+$lang['cal_businesshours'] = 'Business Hours (DefaultView should set to Month/list view)';
+$lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Week Numbers';
 $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
