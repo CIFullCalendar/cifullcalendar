@@ -53,8 +53,19 @@ $lang['ok'] = 'Ok';
 $lang['url'] = 'URL';
 $lang['save'] = 'Salvar';
 $lang['cancel'] = 'Cancelar';
+$lang['monday'] = 'Monday';  
+$lang['tuesday'] = 'Tuesday';
+$lang['wednesday'] = 'Wednesday';
+$lang['thursday'] = 'Thursday';
+$lang['friday'] = 'Friday';
+$lang['saturday'] = 'Saturday';
+$lang['sunday'] = 'Sunday';
 $lang['lat'] = 'Lat';
 $lang['lng'] = 'Lng';
+$lang['approve'] = 'Aprovar';
+$lang['decline'] = 'Declínio';
+$lang['queue'] = 'Fila'; 
+$lang['queues'] = 'Filas'; 
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v';
 
 //Admin
@@ -98,13 +109,9 @@ $lang['admin_status_0'] = 'Desbloqueado';
 // Usuário
 $lang['admin_modal_edit_user'] = 'Editar informações do usuário';
 $lang['admin_modal_delete_user'] = 'Eliminar Informações do usuário';
-$lang['admin_modal_add_user'] = 'Adicionar informações do usuário';
-// Calendário
-$lang['admin_modal_delete_calendar'] = 'Excluir informações de calendário';
-// Mapas
-$lang['admin_modal_maps_calendar'] = 'Excluir Mapas Informações';
-
-
+$lang['admin_modal_add_user'] = 'Adicionar informações do usuário'; 
+$lang['admin_modal_delete_calendar'] = 'Excluir informações de calendário'; 
+$lang['admin_modal_maps_calendar'] = 'Excluir Mapas Informações'; 
 $lang['admin_modal_member_since'] = 'Membro Desde';
 $lang['admin_modal_member_last_log'] = 'Último Login';
 $lang['admin_modal_ip'] = 'Endereço de IP';
@@ -119,8 +126,7 @@ $lang['admin_table_email'] = 'Email';
 $lang['admin_table_password'] = 'Senha';
 $lang['admin_table_level'] = 'Privilégios';
 $lang['admin_table_status'] = 'Estado';
-$lang['admin_table_edit'] = 'Editar';
-
+$lang['admin_table_edit'] = 'Editar'; 
 $lang['admin_table_event_title'] = 'Título';
 $lang['admin_table_event_description'] = 'Descrição';
 $lang['admin_table_event_start'] = 'Data Inicial';
@@ -128,8 +134,7 @@ $lang['admin_table_event_end'] = 'Data Final';
 $lang['admin_table_event_allday'] = 'Dia Inteiro';
 $lang['admin_table_event_type'] = 'Público/Privado';
 $lang['admin_table_event_noshow'] = 'Privado';
-$lang['admin_table_event_show'] = 'Público';
-
+$lang['admin_table_event_show'] = 'Público'; 
 $lang['admin_table_markers_various_date'] = 'Várias datas';
 $lang['admin_table_markers_info'] = 'Informações';
 $lang['admin_table_markers_name'] = 'Título';
@@ -138,7 +143,11 @@ $lang['admin_table_markers_category'] = 'Categoria';
 $lang['admin_table_markers_description'] = 'Descrição';
 $lang['admin_table_markers_url'] = 'URL';
 
- 
+//nav
+//
+$lang['admin_nav_events'] = 'Lista de Eventos';
+$lang['admin_nav_queue'] = 'Eventos Fila'; 
+
 // Perfil
 //
 $lang['profile_dashboard'] = 'Minha Casa';
@@ -257,22 +266,20 @@ $lang['submenu_dropdown_all_categories'] = 'Todas As Categorias';
 $lang['submenu_dropdown_all_sources'] = 'Todas as Fontes';
 
   
-// Calendário Modal
+// Calendário
 //
 $lang['calendar_title'] = 'Eventos';
 $lang['calendar_title_public'] = 'Eventos Públicos';
 $lang['calendar_loading_title'] = 'Carregando por favor aguarde';
 $lang['calendar_export'] = 'Exportação';
 $lang['calendar_import'] = 'Importação';
-
+//Modal
 $lang['calendar_modal_create_title'] = 'Criar Evento';
 $lang['calendar_modal_update_title'] = 'Atualização de Evento';
-
 $lang['calendar_modal_tabtitle'] = 'Informações';
 $lang['calendar_modal_tabtitle2'] = 'Categoria';
 $lang['calendar_modal_tabtitle3'] = 'Localização';
 $lang['calendar_modal_tabtitle4'] = 'Anexar';
-
 $lang['calendar_modal_eventname'] = 'Título';
 $lang['calendar_modal_description'] = 'Descrição';
 $lang['calendar_modal_eventbegin'] = 'Comece Evento';
@@ -282,7 +289,6 @@ $lang['calendar_modal_eventallday'] = 'Dia Inteiro';
 $lang['calendar_modal_eventshare'] = 'Compartilhar Evento';
 $lang['calendar_modal_eventprivate'] = 'Evento Privado';
 $lang['calendar_modal_eventpublic'] = 'Evento Público';
-
 $lang['calendar_modal_eventrecurring'] = 'Eventos não recorrentes';
 $lang['calendar_modal_eventendrecurring'] = 'Fim';
 $lang['calendar_modal_eventnonerecurring'] = 'Não recorrente';
@@ -291,7 +297,6 @@ $lang['calendar_modal_eventweekly'] = 'Semanal';
 $lang['calendar_modal_event2weeks'] = 'A cada 2 semanas';
 $lang['calendar_modal_eventmonthly'] = 'Mensal';
 $lang['calendar_modal_eventyearly'] = 'Anual';
-
 $lang['calendar_modal_eventrendering'] = 'Localização';
 $lang['calendar_modal_eventfgrender'] = 'Primeiro plano';
 $lang['calendar_modal_eventbgrender'] = 'Fundo';
@@ -299,12 +304,21 @@ $lang['calendar_modal_eventcategory'] = 'Categoria';
 $lang['calendar_modal_colorbackground'] = 'Cor De Fundo';
 $lang['calendar_modal_colortext'] = 'Cor do Texto';
 $lang['calendar_modal_colorborder'] = 'Cor da margem';
-
 $lang['calendar_modal_attachment'] = 'Anexar Arquivo';
-
 $lang['calendar_modal_upload_eventsource'] = 'Upload de Eventos Fonte';
 $lang['calendar_modal_upload_event_message'] = 'Selecione o arquivo iCal (ICS) do seu computador';
 $lang['calendar_modal_upload_save'] = 'Carregar ICal/ICS';
+
+//Delete
+$lang['calendar_delete_event'] = 'Excluir evento';
+$lang['calendar_delete_warning'] = 'Você está prestes a excluir';
+
+//Message
+$lang['calendar_message_title'] = 'Não há Eventos';
+$lang['calendar_message_warning'] = 'Não há eventos disponíveis dentro da fila';
+$lang['calendar_message_success'] = 'Eventos atualizada com sucesso';
+$lang['calendar_message_queue'] = 'Aprovação pendente';
+
 
 //Notify
 //
@@ -405,6 +419,8 @@ $lang['cal_language'] = 'Língua';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Ocultar Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)';
 $lang['cal_editable'] = 'Editável (Por apenas membros calendário)';
+$lang['cal_businesshours'] = 'Business Hours (DefaultView should set to Month/list view)';
+$lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Números da Semana';
 $lang['cal_eventlimit'] = 'Limite de evento';
 $lang['cal_alldayslot'] = 'Todos slot Dia';
@@ -447,10 +463,10 @@ $lang['lang_danish'] = 'Danish';
 $lang['lang_german_at'] = 'German AT';  
 $lang['lang_german'] = 'German';  
 $lang['lang_greek'] = 'Greek';   
-$lang['lang_english_au'] = 'English AU';  
-$lang['lang_english_ca'] = 'English CA';  
-$lang['lang_english_gb'] = 'English GB';  
-$lang['lang_english_jm'] = 'English JM';  
+$lang['lang_english_au'] = 'Inglês AU';  
+$lang['lang_english_ca'] = 'Inglês CA';  
+$lang['lang_english_gb'] = 'Inglês GB';  
+$lang['lang_english_jm'] = 'Inglês JM';  
 $lang['lang_spanish'] = 'Espanhol';  
 $lang['lang_farsi'] = 'Farsi';   
 $lang['lang_finnish'] = 'Finnish';    
@@ -464,7 +480,7 @@ $lang['lang_indonesian'] = 'Indonesian';
 $lang['lang_icelandic'] = 'Icelandic'; 
 $lang['lang_italian'] = 'Italian';  
 $lang['lang_japanese'] = 'Japonês';
-$lang['lang_korean'] = 'Korean';  
+$lang['lang_korean'] = 'Coreano';  
 $lang['lang_lithuanian'] = 'Lithuanian';  
 $lang['lang_latvian'] = 'Latvian';  
 $lang['lang_norwegian'] = 'Norueguês';  
@@ -473,7 +489,7 @@ $lang['lang_polish'] = 'Polish';
 $lang['lang_portuguese_br'] = 'Português BR';  
 $lang['lang_portuguese'] = 'Português';  
 $lang['lang_romanian'] = 'Romanian';   
-$lang['lang_russian'] = 'Russian';  
+$lang['lang_russian'] = 'Russo';  
 $lang['lang_slovak'] = 'Slovak';  
 $lang['lang_slovenian'] = 'Slovenian';  
 $lang['lang_serbian_cyrl'] = 'Serbian CYRL';  
@@ -483,8 +499,8 @@ $lang['lang_thai'] = 'Thai';
 $lang['lang_turkish'] = 'Turkish';  
 $lang['lang_ukrainian'] = 'Ukrainian';  
 $lang['lang_vietnamese'] = 'Vietnamese';  
-$lang['lang_chinese'] = 'Chinese';  
-$lang['lang_chinese_tw'] = 'Chinese TW';
+$lang['lang_chinese'] = 'Chinês';  
+$lang['lang_chinese_tw'] = 'Chinês TW';
 
 //Error
 // 
