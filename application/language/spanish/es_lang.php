@@ -52,9 +52,20 @@ $lang['attach'] = 'adjuntar';
 $lang['ok'] = 'Okay'; 
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Guardar'; 
-$lang['cancel'] = 'Cancelar'; 
+$lang['cancel'] = 'Cancelar';
+$lang['monday'] = 'Monday';  
+$lang['tuesday'] = 'Tuesday';
+$lang['wednesday'] = 'Wednesday';
+$lang['thursday'] = 'Thursday';
+$lang['friday'] = 'Friday';
+$lang['saturday'] = 'Saturday';
+$lang['sunday'] = 'Sunday';
 $lang['lat'] = 'Lat'; 
 $lang['lng'] = 'Lng'; 
+$lang['approve'] = 'Aprobar';
+$lang['decline'] = 'Decadencia';
+$lang['queue'] = 'Cola'; 
+$lang['queues'] = 'Colas'; 
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v'; 
 
 //Admin
@@ -99,16 +110,12 @@ $lang['admin_status_0'] = 'Desbloqueado';
 //Usuario
 $lang['admin_modal_edit_user'] = 'Editar usuario';
 $lang['admin_modal_delete_user'] = 'Eliminar Información del usuario';
-$lang['admin_modal_add_user'] = 'Agregar información de usuario';
-//Calendario
-$lang['admin_modal_delete_calendar'] = 'Eliminar información Calendario';
-//Mapas
-$lang['admin_modal_maps_calendar'] = 'Eliminar Mapas Información';
-
+$lang['admin_modal_add_user'] = 'Agregar información de usuario'; 
+$lang['admin_modal_delete_calendar'] = 'Eliminar información Calendario'; 
+$lang['admin_modal_maps_calendar'] = 'Eliminar Mapas Información'; 
 $lang['admin_modal_member_since'] = 'Usuario desde';
 $lang['admin_modal_member_last_log'] = 'Último ingreso';
-$lang['admin_modal_ip'] = 'Dirección IP';
-
+$lang['admin_modal_ip'] = 'Dirección IP'; 
 
 // Columnas
 $lang['admin_table_username'] = 'Nombre de Usuario';
@@ -120,8 +127,7 @@ $lang['admin_table_email'] = 'Correo electrónico';
 $lang['admin_table_password'] = 'Contraseña';
 $lang['admin_table_level'] = 'Privilegios';
 $lang['admin_table_status'] = 'Estado';
-$lang['admin_table_edit'] = 'Editar';
-
+$lang['admin_table_edit'] = 'Editar'; 
 $lang['admin_table_event_title'] = 'Título';
 $lang['admin_table_event_description'] = 'Descripción';
 $lang['admin_table_event_start'] = 'Fecha de empiezo';
@@ -129,8 +135,7 @@ $lang['admin_table_event_end'] = 'Fecha de fin';
 $lang['admin_table_event_allday'] = 'Todo el día';
 $lang['admin_table_event_type'] = 'Público / Privado';
 $lang['admin_table_event_noshow'] = 'Privado';
-$lang['admin_table_event_show'] = 'Público';
-
+$lang['admin_table_event_show'] = 'Público'; 
 $lang['admin_table_markers_various_date'] = 'Varias fechas';
 $lang['admin_table_markers_info'] = 'Info';
 $lang['admin_table_markers_name'] = 'Título';
@@ -139,6 +144,10 @@ $lang['admin_table_markers_category'] = 'Categoría';
 $lang['admin_table_markers_description'] = 'Descripción';
 $lang['admin_table_markers_url'] = 'URL';
 
+//nav
+//
+$lang['admin_nav_events'] = 'Lista de Eventos';
+$lang['admin_nav_queue'] = 'Eventos Cola'; 
  
 //Perfil
 //
@@ -264,15 +273,13 @@ $lang['calendar_title_public'] = 'Eventos Públicos';
 $lang['calendar_loading_title'] = 'Cargando ... Un momento.';
 $lang['calendar_export'] = 'Exportación';
 $lang['calendar_import'] = 'Importación';
-
+//Modal
 $lang['calendar_modal_create_title'] = 'Crear Evento';
 $lang['calendar_modal_update_title'] = 'Actualización Evento'; 
-
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Categoría';
 $lang['calendar_modal_tabtitle3'] = 'Ubicación';
 $lang['calendar_modal_tabtitle4'] = 'Adjuntar';
-
 $lang['calendar_modal_eventname'] = 'Título';
 $lang['calendar_modal_description'] = 'Descripción';
 $lang['calendar_modal_eventbegin'] = 'Comience Evento';
@@ -282,7 +289,6 @@ $lang['calendar_modal_eventallday'] = 'Todo el día';
 $lang['calendar_modal_eventshare'] = 'Compartir Evento';
 $lang['calendar_modal_eventprivate'] = 'Evento Privado';
 $lang['calendar_modal_eventpublic'] = 'Evento Público'; 
-
 $lang['calendar_modal_eventrecurring'] = 'Eventos Recurrentes';
 $lang['calendar_modal_eventendrecurring'] = 'Fin';
 $lang['calendar_modal_eventnonerecurring'] = 'No recurrentes';
@@ -291,7 +297,6 @@ $lang['calendar_modal_eventweekly'] = 'Semanal';
 $lang['calendar_modal_event2weeks'] = 'Cada 2 semanas';
 $lang['calendar_modal_eventmonthly'] = 'Mensual';
 $lang['calendar_modal_eventyearly'] = 'Anual'; 
-
 $lang['calendar_modal_eventrendering'] = 'Colocación';  
 $lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
 $lang['calendar_modal_eventbgrender'] = 'Fondo';  
@@ -299,12 +304,20 @@ $lang['calendar_modal_eventcategory'] = 'Categoría';
 $lang['calendar_modal_colorbackground'] = 'Color de fondo'; 
 $lang['calendar_modal_colortext'] = 'Color del texto'; 
 $lang['calendar_modal_colorborder'] = 'Color del borde';
-
 $lang['calendar_modal_attachment'] = 'Adjuntar archivo'; 
-
 $lang['calendar_modal_upload_eventsource'] = 'Subir Eventos Fuente'; 
 $lang['calendar_modal_upload_event_message'] = 'Seleccionar archivo ical (ics) desde su ordenador'; 
 $lang['calendar_modal_upload_save'] = 'Subir ICal'; 
+
+//Delete
+$lang['calendar_delete_event'] = 'Eliminar Evento';
+$lang['calendar_delete_warning'] = 'Estás a punto de eliminar';
+
+//Message
+$lang['calendar_message_title'] = 'No hay Eventos';
+$lang['calendar_message_warning'] = 'No hay eventos disponibles dentro de la cola';
+$lang['calendar_message_success'] = 'Eventos actualizados con éxito';
+$lang['calendar_message_queue'] = 'Pendiente de aprobacion';
 
 //Notify
 //
@@ -407,6 +420,8 @@ $lang['cal_language'] = 'idioma';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Ocultar Días (0=Dom,1=Lun,2=Mar,3=Mie,4=Jue,5=Vie,6=Sab)';
 $lang['cal_editable'] = 'Editable (Para los miembros solamente calendario)';
+$lang['cal_businesshours'] = 'Business Hours (DefaultView should set to Month/list view)';
+$lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
 $lang['cal_alldayslot'] = 'Todo ranura Día';
@@ -498,4 +513,3 @@ $lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónic
 $lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
 $lang['error_creating_member'] = 'Hubo un problema al crear un nuevo usuario ... en contacto con el administrador del sitio';
 $lang['error_captcha'] = 'Código de verificación incorrecto';
- 
