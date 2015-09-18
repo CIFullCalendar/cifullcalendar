@@ -423,7 +423,10 @@ $lang['cal_timezone'] = 'TimeZone';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Hide Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_editable'] = 'Editable (For members calendar only)';
-$lang['cal_businesshours'] = 'Business Hours (DefaultView should set to Month/list view)';
+$lang['cal_businesshours'] = 'Business Hours';
+$lang['cal_businesshours_start'] = 'Business Start Hours';
+$lang['cal_businesshours_end'] = 'Business End Hours';
+$lang['cal_businesshours_opendays'] = 'Business Open Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Week Numbers';
 $lang['cal_eventlimit'] = 'Event Limit';
@@ -515,3 +518,5 @@ $lang['error_sending_email'] = 'There was a problem sending an email... contact 
 $lang['error_creating_password'] = 'There was a problem creating a new password... contact the site administrator';
 $lang['error_creating_member'] = 'There was a problem creating a new user... contact the site administrator';
 $lang['error_captcha'] = 'Verification code incorrect';
+
+ 

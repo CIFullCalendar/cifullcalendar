@@ -420,7 +420,10 @@ $lang['cal_language'] = 'idioma';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
 $lang['cal_hiddendays'] = 'Ocultar Días (0=Dom,1=Lun,2=Mar,3=Mie,4=Jue,5=Vie,6=Sab)';
 $lang['cal_editable'] = 'Editable (Para los miembros solamente calendario)';
-$lang['cal_businesshours'] = 'Business Hours (DefaultView should set to Month/list view)';
+$lang['cal_businesshours'] = 'Negocios Hours';
+$lang['cal_businesshours_start'] = 'Negocios Start Hours';
+$lang['cal_businesshours_end'] = 'Negocios End Hours';
+$lang['cal_businesshours_opendays'] = 'Negocios Open Days (0=Dom,1=Lun,2=Mar,3=Mie,4=Jue,5=Vie,6=Sab)';
 $lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
@@ -513,3 +516,4 @@ $lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónic
 $lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
 $lang['error_creating_member'] = 'Hubo un problema al crear un nuevo usuario ... en contacto con el administrador del sitio';
 $lang['error_captcha'] = 'Código de verificación incorrecto';
+ 
