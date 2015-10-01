@@ -1,21 +1,11 @@
 
-	<div id="page-wrapper">
-		
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header"><?php echo lang('sources_all_heading'); ?> </h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
- 
-			
+	<div id="page-wrapper"> 
 			
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-link fa-fw"></i> 
+                            <i class="fa fa-link fa-fw"></i> <?php echo lang('sources_all_heading'); ?> 
                             <div class="pull-right"> 
 								<div class="btn-group ">
 									<button class="btn btn-primary btn-md" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" ><i class="fa fa-pencil-square-o"></i> <?php echo lang('sources_add_new'); ?></button>
@@ -25,7 +15,7 @@
                         <!-- /.panel-heading -->
                         <div class="panel-body"> 
 							<!-- table --> 
-							<table id="table-pagination" class="sources_dataTable" >
+							<table id="table-pagination" class="sources_dataTable" data-locale="<?php echo $lang ?>" >
 								<thead>
 									<tr> 
 										<th data-field="source_name" data-align="right" data-sortable="true"><?php echo lang('name'); ?></th>

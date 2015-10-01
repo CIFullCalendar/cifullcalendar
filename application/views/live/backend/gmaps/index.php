@@ -1,20 +1,11 @@
-	
-	
-	<div id="page-wrapper">
-		
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header"><?php echo lang('locations_all_heading'); ?> </h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row --> 
+	 
+	<div id="page-wrapper"> 
 			
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                           <i class="fa fa-location-arrow fa-fw"></i> 
+                           <i class="fa fa-location-arrow fa-fw"></i> <?php echo lang('locations_all_heading'); ?> 
                             <div class="pull-right">
 							
 								<div class="btn-group "> 
@@ -35,5 +26,7 @@
                 </div> 
 				<!-- /.col-md-12 .col-lg-12 -->
 			</div>
-            <!-- /.row -->
+            <!-- /.row -->			
+	</div>
+    <!-- /.page-wrapper -->
  

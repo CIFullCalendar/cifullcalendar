@@ -11,7 +11,7 @@
 	<!-- font-awesome CSS -->
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/font-awesome/css/font-awesome.min.css" type="text/css" />
 	<!-- bootstrap CSS --> 
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap-datetimepicker.min.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table.css" type="text/css" />   
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.css" type="text/css" />  
 	<!-- minicolors CSS -->

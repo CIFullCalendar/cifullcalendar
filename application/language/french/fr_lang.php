@@ -299,6 +299,7 @@ $lang['calendar_modal_eventweekly'] = 'Hebdomadaire';
 $lang['calendar_modal_event2weeks'] = 'toutes les 2 semaines';
 $lang['calendar_modal_eventmonthly'] = 'Mensuelle';
 $lang['calendar_modal_eventyearly'] = 'Annuel';
+$lang['calendar_modal_category'] = 'Category'; 
 $lang['calendar_modal_eventrendering'] = 'Placement';
 $lang['calendar_modal_eventfgrender'] = 'Connaissances nouvelles';
 $lang['calendar_modal_eventbgrender'] = 'Contexte';

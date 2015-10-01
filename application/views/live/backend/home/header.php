@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/font-awesome/css/font-awesome.min.css" type="text/css" /> 
 	<!-- bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css" /> 
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap-datetimepicker.min.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" type="text/css" />
 	<!-- minicolors CSS -->
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/jquery.minicolors.css" type="text/css" /> 		
 	<!-- CIFullCalendar CSS -->
@@ -32,3 +32,5 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	
+	<div id="alertShow" class="alert alert-info" data-alert="alert"></div>	

@@ -276,6 +276,7 @@ $lang['calendar_modal_eventweekly'] = 'Weekly';
 $lang['calendar_modal_event2weeks'] = 'Om de 2 weken';
 $lang['calendar_modal_eventmonthly'] = 'Maandelijks';
 $lang['calendar_modal_eventyearly'] = 'Jaarlijks'; 
+$lang['calendar_modal_category'] = 'Category'; 
 $lang['calendar_modal_eventrendering'] = 'Placement';  
 $lang['calendar_modal_eventfgrender'] = 'Voorgrond'; 
 $lang['calendar_modal_eventbgrender'] = 'Achtergrond';  

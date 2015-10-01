@@ -25,7 +25,7 @@
 									<button class="btn btn-success" id="approve-data" data-method="remove" ><i class="fa fa-check"></i> <?php echo lang('approve'); ?></button>   
 									<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>   
 								</div>							
-								<table id="queues_dataTable" class="table" data-toolbar="#toolbar" data-show-export="true" >
+								<table id="queues_dataTable" class="table" data-toolbar="#toolbar" data-show-export="true" data-locale="<?php echo $lang ?>" >
 									<thead>
 										<tr> 
 											<th data-field="chk" data-checkbox="true"></th>

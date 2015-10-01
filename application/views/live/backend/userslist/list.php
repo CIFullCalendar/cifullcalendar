@@ -28,7 +28,7 @@
 								<div id="toolbar"> 
 									<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>   
 								</div>							
-								<table id="allusers_dataTable" class="table" data-toolbar="#toolbar" data-show-export="true" >
+								<table id="allusers_dataTable" class="table" data-toolbar="#toolbar" data-show-export="true" data-locale="<?php echo $lang ?>" >
 									<thead>
 										<tr> 
 											<th data-field="chk" data-checkbox="true"></th>

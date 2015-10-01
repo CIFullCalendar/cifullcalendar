@@ -58,12 +58,6 @@
 											<input class="form-control" type="text" name="cal_header_right" id="cal_header_right" value="<?php echo set_value('cal_header_right', $header_right); ?>"/>
 											<p class="help-block"><?php echo form_error('cal_header_right'); ?></p>
 										</div> 
-
-										<div class="form-group">
-											<label><?php echo lang('cal_hiddendays') ?></label>
-											<input class="form-control" type="text" name="cal_hiddendays" id="cal_hiddendays" value="<?php echo set_value('cal_hiddendays', $hiddendays); ?>"/>
-											<p class="help-block"><?php echo form_error('cal_hiddendays'); ?></p>
-										</div> 											
 										
 										<div class="form-group">
 											<label><?php echo lang('cal_firstday') ?></label>
@@ -78,6 +72,31 @@
 											</select>
 											<p class="help-block"><?php echo form_error('cal_firstday') ?></p>
 										</div>
+
+										<div class="form-group">
+											<label><?php echo lang('cal_aspectratio') ?></label>
+											<input class="form-control" type="text" name="cal_aspectratio" id="cal_aspectratio" value="<?php echo set_value('cal_aspectratio', $aspectratio); ?>"/>
+											<p class="help-block"><?php echo form_error('cal_aspectratio'); ?></p>
+										</div> 											
+										
+										<div class="form-group">
+											<label><?php echo lang('cal_hiddendays') ?></label>
+											<input class="form-control" type="text" name="cal_hiddendays" id="cal_hiddendays" value="<?php echo set_value('cal_hiddendays', $hiddendays); ?>"/>
+											<p class="help-block"><?php echo form_error('cal_hiddendays'); ?></p>
+										</div> 											
+										
+										<div class="form-group">
+											<label><?php echo lang('cal_businesshours') ?></label>
+											<div class="form-group" style="margin:0px 20px">
+												<label><?php echo lang('cal_businesshours_opendays') ?></label>
+												<input class="form-control" type="text" name="cal_businessdays" id="cal_businessdays" value="<?php echo set_value('cal_businessdays', $businessdays); ?>"/> 
+												<label><?php echo lang('cal_businesshours_start') ?></label>
+												<input class="form-control" type="time" name="cal_businessstart" id="cal_businessstart" value="<?php echo set_value('cal_businessstart', $businessstart); ?>"/>	 
+												<label><?php echo lang('cal_businesshours_end') ?></label>									
+												<input class="form-control" type="time" name="cal_businessend" id="cal_businessend" value="<?php echo set_value('cal_businessend', $businessend); ?>"/> 
+											</div>	
+											<p class="help-block"><?php echo form_error('cal_businesshours') ?></p>
+										</div>											
 								
 										<div class="form-group">
 											<label><?php echo lang('cal_editable') ?></label>

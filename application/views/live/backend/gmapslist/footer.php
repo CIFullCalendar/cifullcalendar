@@ -8,6 +8,7 @@
 	<script src="<?php echo base_url();?>assets/plugins/jquery/jquery.minicolors.min.js" ></script>			
 	<!-- bootstrap JS -->
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table-locale-all.min.js"></script>
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/extensions/export/bootstrap-table-export.table.min.js"></script> 
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/extensions/export/bootstrap-table-export.min.js"></script> 
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table-custom.gmaps.min.js"></script> 

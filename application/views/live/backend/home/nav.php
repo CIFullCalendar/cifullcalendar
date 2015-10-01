@@ -16,13 +16,7 @@
             <!-- /.navbar-header -->
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				<?php if($pagename): ?>
-					<ul class="nav navbar-nav">     
-					<li>
-                        <a href="<?php echo base_url("/docs") ?>">Docs</a>
-                    </li>
-                    <li>
-                        <a href="http://themeforest.net/user/sirdre">Contact</a>
-                    </li> 				
+					<ul class="nav navbar-nav"> 
 					<?php foreach ($pagename as $result): ?>	
 						<li>
 							<a href="<?php echo site_url('/'.$result->seo); ?>"><?php echo substr($result->title, 0, 12); ?></a>
@@ -105,18 +99,9 @@
                             </div>
                             <!-- /input-group -->
                         </li>					
-                        <li class="active" >
-							<a href="<?php echo site_url('profile');?>" id="side-menu" ><i class="fa fa-calendar fa-fw"></i> <?php echo lang('calendar') ?></a> 
+                        <li>
+							<a class="active" href="<?php echo site_url('profile');?>" id="side-menu" ><i class="fa fa-calendar fa-fw"></i> <?php echo lang('calendar') ?></a> 
                         </li>
-						<li>
-							<a href="<?php echo site_url('profile/gmaps');?>" id="side-menu"><i class="fa fa-location-arrow fa-fw"></i> <?php echo lang('submenu_dropdown_all_locations'); ?></a>
-						</li> 
-						<li>
-							<a href="<?php echo site_url('profile/categories');?>" id="side-menu"><i class="fa fa-list fa-fw"></i> <?php echo lang('submenu_dropdown_all_categories'); ?></a>
-						</li> 						
-						<li> 
-							<a href="<?php echo site_url('profile/sources');?>" id="side-menu"><i class="fa fa-link fa-fw"></i> <?php echo lang('submenu_dropdown_all_sources'); ?></a>
-						</li> 
 						<li>
 							<a id="side-menu"><i class="fa fa-arrows-alt fa-fw"></i> <?php echo lang('categories_draggable_title'); ?>
 							<div class="fc-view-container" id='external-events'>  						
@@ -126,7 +111,17 @@
 								<label for='drop-remove'><?php echo lang('categories_draggable_removable'); ?></label>
 							</p>
 							</a>
-						</li>
+						</li>						
+						<li>
+							<a href="<?php echo site_url('profile/gmaps');?>" id="side-menu"><i class="fa fa-location-arrow fa-fw"></i> <?php echo lang('submenu_dropdown_all_locations'); ?></a>
+						</li> 
+						<li>
+							<a href="<?php echo site_url('profile/categories');?>" id="side-menu"><i class="fa fa-list fa-fw"></i> <?php echo lang('submenu_dropdown_all_categories'); ?></a>
+						</li> 						
+						<li> 
+							<a href="<?php echo site_url('profile/sources');?>" id="side-menu"><i class="fa fa-link fa-fw"></i> <?php echo lang('submenu_dropdown_all_sources'); ?></a>
+						</li> 
+
 					</ul> 
                 
 				</div>

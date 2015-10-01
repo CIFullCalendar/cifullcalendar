@@ -1,18 +1,11 @@
  
 	<div id="page-wrapper">
-		
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header"><?php echo lang('categories_all_heading') ?></h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->			
+		 			
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-list fa-fw"></i>  
+                            <i class="fa fa-list fa-fw"></i> <?php echo lang('categories_all_heading') ?>  
                             <div class="pull-right">
 								 <div class="btn-group ">
 									<button class="btn btn-primary btn-md" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" ><i class="fa fa-pencil-square-o"></i> <?php echo lang('categories_add_new'); ?></button>
@@ -26,7 +19,7 @@
 								<div id="toolbar"> 
 									<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>   
 								</div>	
-								<table id="categories_dataTable" class="table" data-toolbar="#toolbar" >
+								<table id="categories_dataTable" class="table" data-toolbar="#toolbar" data-locale="<?php echo $lang ?>" >
 									<thead>
 										<tr> 
 											<th data-field="chk" data-checkbox="true"></th>

@@ -4,12 +4,14 @@
 	<script src="<?php echo base_url();?>assets/js/admin.js" type="text/javascript" ></script> 
 	<script src="<?php echo base_url();?>assets/plugins/metisMenu/metisMenu.js" type="text/javascript" ></script>  	
 	<!-- jquery JS -->
-	<script src="<?php echo base_url();?>assets/plugins/moment/moment.min.js" ></script> 
+	<script src="<?php echo base_url();?>assets/plugins/moment/moment.min.js" ></script> 	
+	<script src="<?php echo base_url();?>assets/plugins/moment/moment-timezone.min.js" ></script> 
 	<script src="<?php echo base_url();?>assets/plugins/jquery/jquery.minicolors.min.js" ></script>			
 	<!-- bootstrap JS -->
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table-locale-all.min.js"></script>
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/extensions/export/bootstrap-table-export.table.min.js"></script> 
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/extensions/export/bootstrap-table-export.min.js"></script> 
 	<script src="<?php echo base_url();?>assets/plugins/bootstrap-table/bootstrap-table-custom.queues.min.js"></script> 
-	<script src="<?php echo base_url();?>assets/plugins/bootstrap/js/bootstrap-datetimepicker.min.js" type="text/javascript" ></script>	
-	<script src="<?php echo base_url();?>assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript" ></script>  
+	<script src="<?php echo base_url();?>assets/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" ></script>
+	<script src="<?php echo base_url();?>assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript" ></script>

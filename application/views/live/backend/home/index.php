@@ -1,14 +1,5 @@
 	
-	<div id="page-wrapper">
-		
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="page-header"><?php echo lang('calendar') ?></h3>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
- 			
+	<div id="page-wrapper">   
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="panel panel-default">
@@ -107,14 +98,13 @@
 									<li><a href="#pane4" data-toggle="tab"><i class="fa fa-file"></i> <?php echo lang('calendar_modal_tabtitle4'); ?></a></li>
 								 </ul>
 								 <div class="tab-content">
-									<div id="pane1" class="tab-pane active">								
-
+									<div id="pane1" class="tab-pane active">								 
+									
 											<!-- Text input-->
 											<div class="form-group"> 
 												<label class="control-label col-md-4 col-xs-4" for="inputEvent"><?php echo lang('calendar_modal_eventname'); ?></label> 
 												<div class="col-md-7 col-xs-7">
-													<input class="form-control" type="text" name="ic_event_title" id="ic_event_title" placeholder="<?php echo lang('calendar_modal_eventname'); ?>" />
-												 
+													<input class="form-control" type="text" name="ic_event_title" id="ic_event_title" placeholder="<?php echo lang('calendar_modal_eventname'); ?>" required/>
 												</div>
 											</div>										
 
@@ -130,8 +120,8 @@
 											<div class="form-group">	
 												<label class="control-label col-md-4 col-xs-4" for="inputBegin"><?php echo lang('calendar_modal_eventbegin'); ?></label>
 												<div class="col-md-7 col-xs-7">
-												    <div class="input-group top" id="createdtp1"> 
-														<input class="form-control" type="text" name="ic_event_starttime" id="ic_event_starttime" value="" placeholder="<?php echo lang('calendar_modal_eventbegin'); ?>" />
+												    <div class="input-group date" id="createdtp1"> 
+														<input class="form-control" type="text" name="ic_event_starttime" id="ic_event_starttime" placeholder="<?php echo lang('calendar_modal_eventbegin'); ?>" required/>
 														<span class="input-group-addon">
 															<span class="glyphicon glyphicon-calendar"></span>
 														</span>
@@ -143,8 +133,8 @@
 											<div class="form-group">
 												<label class="control-label col-md-4 col-xs-4" for="inputEnd"><?php echo lang('calendar_modal_eventend'); ?></label>
 												<div class="col-md-7 col-xs-7">
-													<div class="input-group date2" id="createdtp2"> 
-														<input class="form-control" type="text" name="ic_event_endtime" id="ic_event_endtime" value="" placeholder="<?php echo lang('calendar_modal_eventend'); ?>" />
+													<div class="input-group date" id="createdtp2"> 
+														<input class="form-control" type="text" name="ic_event_endtime" id="ic_event_endtime" placeholder="<?php echo lang('calendar_modal_eventend'); ?>" required/>
 														<span class="input-group-addon">
 															<span class="glyphicon glyphicon-calendar"></span>
 														</span>
@@ -156,8 +146,8 @@
 											<div class="form-group">
 												<label class="control-label col-md-4 col-xs-4" for="inputAllDay"><?php echo lang('calendar_modal_eventallday'); ?></label>
 												<div class="col-md-7 col-xs-7">												
-													 <input type="radio" name="ic_event_allday" id="ic_event_allday" value="true" checked="checked"><?php echo lang('yes'); ?>
-													 <input type="radio" name="ic_event_allday" id="ic_event_allday" value="false"><?php echo lang('no'); ?>
+													 <input type="radio" name="ic_event_allday" id="ic_event_alldayT" value="true" checked="checked"><?php echo lang('yes'); ?>
+													 <input type="radio" name="ic_event_allday" id="ic_event_alldayF" value="false"><?php echo lang('no'); ?>
 												</div>
 											</div>
 											
@@ -310,7 +300,7 @@
 									<div id="panel1" class="tab-pane active">
 									<fieldset> 
 							
-										<input type="hidden" name="apptID" id="apptID" >
+										<input type="hidden" name="apptID" id="apptID" > 
 									
 											<!-- text input-->
 											<div class="form-group">

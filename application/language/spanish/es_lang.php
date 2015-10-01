@@ -297,6 +297,7 @@ $lang['calendar_modal_eventweekly'] = 'Semanal';
 $lang['calendar_modal_event2weeks'] = 'Cada 2 semanas';
 $lang['calendar_modal_eventmonthly'] = 'Mensual';
 $lang['calendar_modal_eventyearly'] = 'Anual'; 
+$lang['calendar_modal_category'] = 'Category'; 
 $lang['calendar_modal_eventrendering'] = 'Colocación';  
 $lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
 $lang['calendar_modal_eventbgrender'] = 'Fondo';  
