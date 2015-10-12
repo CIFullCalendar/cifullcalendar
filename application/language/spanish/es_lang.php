@@ -65,7 +65,8 @@ $lang['lng'] = 'Lng';
 $lang['approve'] = 'Aprobar';
 $lang['decline'] = 'Decadencia';
 $lang['queue'] = 'Cola'; 
-$lang['queues'] = 'Colas'; 
+$lang['queues'] = 'Colas';
+$lang['sessions'] = 'Sessions';
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v'; 
 
 //Admin
@@ -98,6 +99,8 @@ $lang['pages_delete_warning'] = 'Estás a punto de eliminar';
 //Message
 $lang['pages_message_title'] = 'No hay páginas';
 $lang['pages_message_warning'] = 'No hay páginas disponibles';
+$lang['sessions_message_title'] = 'No Sessions';
+$lang['sessions_message_warning'] = 'No Sessions available';
 
 //Tablas
 //
@@ -116,6 +119,9 @@ $lang['admin_modal_maps_calendar'] = 'Eliminar Mapas Información';
 $lang['admin_modal_member_since'] = 'Usuario desde';
 $lang['admin_modal_member_last_log'] = 'Último ingreso';
 $lang['admin_modal_ip'] = 'Dirección IP'; 
+
+//Toolbar
+$lang['admin_remove_session'] = 'Clear Session'; 
 
 // Columnas
 $lang['admin_table_username'] = 'Nombre de Usuario';
@@ -143,11 +149,16 @@ $lang['admin_table_markers_address'] = 'Dirección';
 $lang['admin_table_markers_category'] = 'Categoría';
 $lang['admin_table_markers_description'] = 'Descripción';
 $lang['admin_table_markers_url'] = 'URL';
+$lang['admin_table_timestamp'] = 'Session Time';
+$lang['admin_table_ipaddress'] = 'IP Address';
+$lang['admin_table_uagent'] = 'User Agent';
 
 //nav
 //
 $lang['admin_nav_events'] = 'Lista de Eventos';
-$lang['admin_nav_queue'] = 'Eventos Cola'; 
+$lang['admin_nav_queue'] = 'Eventos Cola';
+$lang['admin_nav_users'] = 'Members'; 
+$lang['admin_nav_sessions'] = 'Sessions';
  
 //Perfil
 //

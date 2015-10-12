@@ -66,6 +66,7 @@ $lang['approve'] = 'Goedkeuren';
 $lang['decline'] = 'Achteruitgang';
 $lang['queue'] = 'Rij';
 $lang['queues'] = 'Rij';
+$lang['sessions'] = 'Sessions';
 $lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
 //Admin
 //
@@ -96,6 +97,8 @@ $lang['pages_delete_warning'] = 'U bent over om te verwijderen';
 //Message
 $lang['pages_message_title'] = 'geen Pages';
 $lang['pages_message_warning'] = 'Geen Pages beschikbaar';
+$lang['sessions_message_title'] = 'No Sessions';
+$lang['sessions_message_warning'] = 'No Sessions available';
 //Tables
 //
 $lang['admin_level_2'] = 'BeheerdersRechten';
@@ -111,6 +114,8 @@ $lang['admin_modal_maps_calendar'] = 'Verwijder Maps informatie';
 $lang['admin_modal_member_since'] = 'Lid sinds';
 $lang['admin_modal_member_last_log'] = 'Laatste aanmelding';
 $lang['admin_modal_ip'] = 'IP-adres';
+//Toolbar
+$lang['admin_remove_session'] = 'Clear Session'; 
 //Columns
 $lang['admin_table_username'] = 'Gebruikersnaam';
 $lang['admin_table_fname'] = 'Voornaam';
@@ -137,12 +142,15 @@ $lang['admin_table_markers_address'] = 'Adres';
 $lang['admin_table_markers_category'] = 'Categorie';
 $lang['admin_table_markers_description'] = 'Beschrijving';
 $lang['admin_table_markers_url'] = 'URL';
-
+$lang['admin_table_timestamp'] = 'Session Time';
+$lang['admin_table_ipaddress'] = 'IP Address';
+$lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Events List';
 $lang['admin_nav_queue'] = 'Events Queue'; 
- 
+$lang['admin_nav_users'] = 'Members'; 
+$lang['admin_nav_sessions'] = 'Sessions'; 
 //Profile
 //
 $lang['profile_dashboard'] = 'Mijn startpagina';
