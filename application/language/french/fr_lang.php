@@ -23,7 +23,7 @@ $lang['user'] = 'User';
 $lang['admin'] = 'Admin';
 $lang['lock'] = 'Lock';
 $lang['unlock'] = 'Déverrouiller';
-$lang['maps'] = 'cartes';
+$lang['maps'] = 'Cartes';
 $lang['time'] = 'Time';
 $lang['by'] = 'Par'; 
 $lang['hi'] = 'Salut';
@@ -65,9 +65,11 @@ $lang['lng'] = 'Lng';
 $lang['approve'] = 'Approuver';
 $lang['decline'] = 'Déclin';
 $lang['queue'] = 'Queue'; 
-$lang['queues'] = 'Queues'; 
+$lang['queues'] = 'Queues';
+$lang['sessions'] = 'Sessions';
+$lang['register'] = 'Se inscrire';
+$lang['notify'] = 'Avertissez';
 $lang['current_v'] = 'CIFullCalendar + par Sir.Dre © 2015 v';
-
   
 //Admin
 //
@@ -76,6 +78,11 @@ $lang['admin_page_title'] = 'Calendrier';
 $lang['admin_form_contact'] = 'Mes coordonnées';
 $lang['admin_info_title'] = 'Données de base';
 $lang['admin_configuration'] = 'Configurer';
+
+//Templates
+// 
+$lang['templates_title'] = 'Title';
+$lang['templates_content'] = 'Body'; 
 
 //Pages
 //
@@ -99,6 +106,8 @@ $lang['pages_delete_warning'] = 'Vous êtes sur le point de supprimer';
 //Message
 $lang['pages_message_title'] = 'Pas de Pages';
 $lang['pages_message_warning'] = 'Aucun Pages disponibles';
+$lang['sessions_message_title'] = 'No Sessions';
+$lang['sessions_message_warning'] = 'No Sessions available';  
 
 // tableaux
 //  
@@ -117,6 +126,8 @@ $lang['admin_modal_member_since'] = 'Membre depuis';
 $lang['admin_modal_member_last_log'] = 'Dernière Connexion';
 $lang['admin_modal_ip'] = 'Adresse IP';
 
+//Toolbar
+$lang['admin_remove_session'] = 'Clear Session'; 
 
 // Colonnes 
 $lang['admin_table_username'] = 'Nom d utilisateur';
@@ -144,12 +155,16 @@ $lang['admin_table_markers_address'] = 'Adresse';
 $lang['admin_table_markers_category'] = 'Catégorie';
 $lang['admin_table_markers_description'] = 'Description';
 $lang['admin_table_markers_url'] = "URL"; 
+$lang['admin_table_timestamp'] = 'Session Time';
+$lang['admin_table_ipaddress'] = 'IP Address';
+$lang['admin_table_uagent'] = 'User Agent';
 
 //nav
 //
 $lang['admin_nav_events'] = 'Liste des événements';
 $lang['admin_nav_queue'] = 'Evénements File d\'attente'; 
-
+$lang['admin_nav_users'] = 'Membres'; 
+$lang['admin_nav_sessions'] = 'Sessions'; 
 
 //Profile
 //
@@ -190,8 +205,7 @@ $lang['profile_logout'] = 'Déconnecter';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Mot De Passe Oublié';
 
-//Register
-$lang['register'] = 'Se inscrire';
+//Register 
 $lang['profile_signup'] = 'Signer';
 $lang['profile_register'] = 'Enregistrement d\'un nouvel membres';
 $lang['profile_register_uname'] = 'Nom d\'utilisateur';
@@ -201,7 +215,8 @@ $lang['profile_register_success'] = 'Merci de votre inscription, vous êtes capa
 $lang['profile_register_button'] = 'Se inscrire';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Vos changements ne étaient pas soumis, voir les messages ci-dessous';
-
+$lang['profile_registeration_fail'] = 'Sorry, member already exist';
+//Message
 $lang['register_email_message_subject'] = 'Enregistrement de message';
 $lang['register_email_message1'] = 'Bienvenue';
 $lang['register_email_message2'] = 'Le calendrier a le pouvoir d\'organisation, le contrôle et le partage de vos événements. Facilement se connecter et utiliser les fonctionnalités merveilleuses simplement ajouter ou mettre à jour des événements en faisant glisser, le redimensionnement, en cliquant et touchante. Aussi, soutenue sur la plupart des appareils mobiles.';
@@ -350,8 +365,8 @@ $lang['categories_edit_source'] = 'Éditer cette catégorie';
 $lang['categories_delete_category'] = 'Supprimer cette catégorie';
 $lang['categories_delete_warning'] = 'Vous êtes sur le point de supprimer';
 //Drag
-$lang['categories_draggable_title'] = 'Draggable Events';
-$lang['categories_draggable_removable'] = 'Drag and Remove event';
+$lang['categories_draggable_title'] = 'Evénements Glissable';
+$lang['categories_draggable_removable'] = 'Faites glisser et supprimer';
 
 //Message
 $lang['categories_message_title'] = 'Aucune Catégories';
@@ -389,6 +404,7 @@ $lang['settings_cal_name'] = 'Paramètres du Calendrier';
 $lang['settings_file_name'] = 'Réglages de ICal';
 $lang['settings_pic_name'] = 'Réglages de Pic';
 $lang['settings_attach_name'] = 'Fixez Paramètres';
+$lang['settings_template_name'] = 'Paramètres du modèle';
 $lang['settings_theme_name'] = 'Réglages de thème';
 
 //Edit
@@ -520,4 +536,3 @@ $lang['error_sending_email'] = 'Il y avait un problème en envoyant un e-mail ..
 $lang['error_creating_password'] = 'Il y avait un problème de créer un nouveau mot de passe ... contacter l\'administrateur du site';
 $lang['error_creating_member'] = 'Il y avait un problème de créer un nouvel utilisateur ... contacter l\'administrateur du site';
 $lang['error_captcha'] = 'Le code de vérification incorrecte';
- 
