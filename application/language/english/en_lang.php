@@ -66,6 +66,9 @@ $lang['approve'] = 'Approve';
 $lang['decline'] = 'Decline';
 $lang['queue'] = 'Queue';
 $lang['queues'] = 'Queues'; 
+$lang['sessions'] = 'Sessions'; 
+$lang['register'] = 'Register';
+$lang['notify'] = 'Notify';
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
@@ -75,6 +78,12 @@ $lang['admin_page_title'] = 'Calendar';
 $lang['admin_form_contact'] = 'My Contact Information';
 $lang['admin_info_title'] = 'Basic Information';
 $lang['admin_configuration'] = 'Configure';
+
+//Templates
+// 
+$lang['templates_title'] = 'Title';
+$lang['templates_title'] = 'Title';
+$lang['templates_content'] = 'Body'; 
 
 //Pages
 //
@@ -98,6 +107,8 @@ $lang['pages_delete_warning'] = 'You are about to delete';
 //Message
 $lang['pages_message_title'] = 'No Pages';
 $lang['pages_message_warning'] = 'No Pages available';
+$lang['sessions_message_title'] = 'No Sessions';
+$lang['sessions_message_warning'] = 'No Sessions available';  
 
 //Tables
 //
@@ -114,6 +125,9 @@ $lang['admin_modal_maps_calendar'] = 'Delete Maps Information';
 $lang['admin_modal_member_since'] = 'Member Since';
 $lang['admin_modal_member_last_log'] = 'Last Login';
 $lang['admin_modal_ip'] = 'IP Address';
+
+//Toolbar
+$lang['admin_remove_session'] = 'Clear Session'; 
 
 //Columns
 $lang['admin_table_username'] = 'User Name';
@@ -141,11 +155,16 @@ $lang['admin_table_markers_address'] = 'Address';
 $lang['admin_table_markers_category'] = 'Category';
 $lang['admin_table_markers_description'] = 'Description';
 $lang['admin_table_markers_url'] = 'URL';
+$lang['admin_table_timestamp'] = 'Session Time';
+$lang['admin_table_ipaddress'] = 'IP Address';
+$lang['admin_table_uagent'] = 'User Agent';
 
 //nav
 //
 $lang['admin_nav_events'] = 'Events List';
 $lang['admin_nav_queue'] = 'Events Queue'; 
+$lang['admin_nav_users'] = 'Members'; 
+$lang['admin_nav_sessions'] = 'Sessions'; 
 
 //Profile
 //
@@ -187,7 +206,7 @@ $lang['profile_logout'] = 'Logout';
 $lang['profile_forgot_password'] = 'Forgot Password';
 
 //Register
-$lang['register'] = 'Register';
+
 $lang['profile_signup'] = 'sign-up';
 $lang['profile_register'] = 'New Member Registration';
 $lang['profile_register_uname'] = 'User name';
@@ -197,7 +216,8 @@ $lang['profile_register_success'] = 'Thank you for registering, you are able to 
 $lang['profile_register_button'] = 'Register';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Your changes were NOT submitted, see the messages below';
-
+$lang['profile_registeration_fail'] = 'Sorry, member login already exist';
+//Message
 $lang['register_email_message_subject'] = 'Registration Message';
 $lang['register_email_message1'] = 'Welcome to ';
 $lang['register_email_message2'] = 'The calendar has the power of organizing, controlling and sharing your events. Easily login and use the wonderful features by simply add or update events by dragging, resizing, clicking and touching. Also, supported on most mobile devices.';
@@ -385,9 +405,10 @@ $lang['sources_message_success'] = 'Updated Successfully';
 $lang['settings_name'] = 'Settings';
 $lang['settings_basic_name'] = 'Basic Settings';
 $lang['settings_cal_name'] = 'Calendar Settings';
-$lang['settings_file_name'] = 'ICal Settings';
-$lang['settings_pic_name'] = 'Pic Settings';
+$lang['settings_file_name'] = 'ICalendar Settings';
+$lang['settings_pic_name'] = 'Picture Settings';
 $lang['settings_attach_name'] = 'Attach Settings';
+$lang['settings_template_name'] = 'Template Settings';
 $lang['settings_theme_name'] = 'Theme Settings';
 
 
@@ -519,5 +540,3 @@ $lang['error_sending_email'] = 'There was a problem sending an email... contact 
 $lang['error_creating_password'] = 'There was a problem creating a new password... contact the site administrator';
 $lang['error_creating_member'] = 'There was a problem creating a new user... contact the site administrator';
 $lang['error_captcha'] = 'Verification code incorrect';
-
- 
