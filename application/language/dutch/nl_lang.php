@@ -66,7 +66,11 @@ $lang['approve'] = 'Goedkeuren';
 $lang['decline'] = 'Achteruitgang';
 $lang['queue'] = 'Rij';
 $lang['queues'] = 'Rij';
+$lang['sessions'] = 'Sessions';
+$lang['register'] = 'Registreren';
+$lang['notify'] = 'Notify';
 $lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
+
 //Admin
 //
 $lang['admin_dashboard'] = 'Beheer';
@@ -74,6 +78,12 @@ $lang['admin_page_title'] = 'Kalendar';
 $lang['admin_form_contact'] = 'Contactinformatie';
 $lang['admin_info_title'] = 'Basis Informatie';
 $lang['admin_configuration'] = 'Configureren';
+
+//Templates
+// 
+$lang['templates_title'] = 'Title';
+$lang['templates_content'] = 'Body'; 
+
 //Pages
 //
 $lang['page_header'] = 'Pagina\'s';
@@ -96,6 +106,8 @@ $lang['pages_delete_warning'] = 'U bent over om te verwijderen';
 //Message
 $lang['pages_message_title'] = 'geen Pages';
 $lang['pages_message_warning'] = 'Geen Pages beschikbaar';
+$lang['sessions_message_title'] = 'No Sessions';
+$lang['sessions_message_warning'] = 'No Sessions available';
 //Tables
 //
 $lang['admin_level_2'] = 'BeheerdersRechten';
@@ -111,6 +123,8 @@ $lang['admin_modal_maps_calendar'] = 'Verwijder Maps informatie';
 $lang['admin_modal_member_since'] = 'Lid sinds';
 $lang['admin_modal_member_last_log'] = 'Laatste aanmelding';
 $lang['admin_modal_ip'] = 'IP-adres';
+//Toolbar
+$lang['admin_remove_session'] = 'Clear Session'; 
 //Columns
 $lang['admin_table_username'] = 'Gebruikersnaam';
 $lang['admin_table_fname'] = 'Voornaam';
@@ -137,12 +151,15 @@ $lang['admin_table_markers_address'] = 'Adres';
 $lang['admin_table_markers_category'] = 'Categorie';
 $lang['admin_table_markers_description'] = 'Beschrijving';
 $lang['admin_table_markers_url'] = 'URL';
-
+$lang['admin_table_timestamp'] = 'Session Time';
+$lang['admin_table_ipaddress'] = 'IP Address';
+$lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
-$lang['admin_nav_events'] = 'Events List';
+$lang['admin_nav_events'] = 'Events Lijst';
 $lang['admin_nav_queue'] = 'Events Queue'; 
- 
+$lang['admin_nav_users'] = 'leden'; 
+$lang['admin_nav_sessions'] = 'Sessie'; 
 //Profile
 //
 $lang['profile_dashboard'] = 'Mijn startpagina';
@@ -176,8 +193,7 @@ $lang['profile_captcha'] = 'Het spijt ons, de captcha code is fout. Probeer opni
 $lang['profile_logout'] = 'Afmelden';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Wachtwoord vergeten';
-//Register
-$lang['register'] = 'Registreren';
+//Register 
 $lang['profile_signup'] = 'Aanmelden';
 $lang['profile_register'] = 'Nieuw gebruiker';
 $lang['profile_register_uname'] = 'Gebruikersnaam';
@@ -187,6 +203,8 @@ $lang['profile_register_success'] = 'Bedankt om u te registreren, U kan zich nu 
 $lang['profile_register_button'] = 'Registreren';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Uw aanpassing zijn niet toegevoegd, bekijk het onderstaande bericht';
+$lang['profile_registeration_fail'] = 'Sorry, member already exist';
+//Message
 $lang['register_email_message_subject'] = 'Registratiebericht';
 $lang['register_email_message1'] = 'Welkom bij ';
 $lang['register_email_message2'] = 'De kalender, laat u toe om alle evenmenten uit de ondersteunde database op te halen. Ook is het mogelijk om evenementen toe te voegen, te bijwerken en te verwijderen en deze openbaar of privé te plaatsen.';
@@ -323,8 +341,8 @@ $lang['categories_edit_source'] = 'Deze categorie aanpassen';
 $lang['categories_delete_category'] = 'Categorie verwijderen';
 $lang['categories_delete_warning'] = 'U zal het volgende verwijderen';
 //Drag
-$lang['categories_draggable_title'] = 'Draggable Events';
-$lang['categories_draggable_removable'] = 'Drag and Remove event';
+$lang['categories_draggable_title'] = 'Externe Events';
+$lang['categories_draggable_removable'] = 'Slepen en verwijderen event';
 //Message
 $lang['categories_message_title'] = 'Geen categoriën';
 $lang['categories_message_warning'] = 'Geen Categoriën beschikbaar';
@@ -356,7 +374,9 @@ $lang['settings_cal_name'] = 'Kalenderinstellingen';
 $lang['settings_file_name'] = 'ICal Instellingen';
 $lang['settings_pic_name'] = 'foto instellingen';
 $lang['settings_attach_name'] = 'Bijlage Instellingen';
+$lang['settings_template_name'] = 'Sjabloon Instellingen';
 $lang['settings_theme_name'] = 'Thema Instellingen';
+
 //Edit
 $lang['settings_form_site_name'] = 'Sitenaam';
 $lang['settings_form_site_email'] = 'Site e-mailadres';
