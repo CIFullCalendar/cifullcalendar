@@ -18,9 +18,12 @@ $lang['tables'] = 'Tables';
 $lang['page'] = 'Page';
 $lang['pages'] = 'Pages';
 $lang['share'] = 'Share'; 
-$lang['users'] = 'Users'; 
 $lang['user'] = 'User'; 
-$lang['admin'] = 'Admin'; 
+$lang['users'] = 'Users'; 
+$lang['member'] = 'Member'; 
+$lang['members'] = 'Members'; 
+$lang['admin'] = 'Admin';
+$lang['admins'] = 'Admins';
 $lang['lock'] = 'Lock'; 
 $lang['unlock'] = 'Unlock'; 
 $lang['maps'] = 'Maps'; 
@@ -80,10 +83,17 @@ $lang['admin_info_title'] = 'Basic Information';
 $lang['admin_configuration'] = 'Configure';
 
 //Templates
-// 
-$lang['templates_title'] = 'Title';
-$lang['templates_title'] = 'Title';
+//  
+$lang['templates_title'] = 'Email Templates'; 
+$lang['templates_name'] = 'Title';
 $lang['templates_content'] = 'Body'; 
+//nav
+$lang['templates_nav_notify'] = 'notify'; 
+$lang['templates_nav_register'] = 'Register'; 
+$lang['templates_nav_forgot_password'] = 'Password Confirm'; 
+$lang['templates_nav_reset_password'] = 'Password Reset'; 
+$lang['templates_nav_change_email'] = 'Email Confirm'; 
+$lang['templates_nav_reset_email'] = 'Email Reset';  
 
 //Pages
 //
@@ -206,7 +216,6 @@ $lang['profile_logout'] = 'Logout';
 $lang['profile_forgot_password'] = 'Forgot Password';
 
 //Register
-
 $lang['profile_signup'] = 'sign-up';
 $lang['profile_register'] = 'New Member Registration';
 $lang['profile_register_uname'] = 'User name';
@@ -222,29 +231,28 @@ $lang['register_email_message_subject'] = 'Registration Message';
 $lang['register_email_message1'] = 'Welcome to ';
 $lang['register_email_message2'] = 'The calendar has the power of organizing, controlling and sharing your events. Easily login and use the wonderful features by simply add or update events by dragging, resizing, clicking and touching. Also, supported on most mobile devices.';
 $lang['register_email_message3'] = 'Sign-in Information:';
- 
-
 //Change Password
 $lang['profile_change_password'] = 'Change user password';
 $lang['profile_change_warning'] = 'You are about to change';
 $lang['profile_change_password_text'] = 'Old Password';
 $lang['profile_change_password_text2'] = 'New Password';
-
 //Reset Password
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Change Password';
-
 //Forgot Password
 $lang['forgot_login_email'] = 'Email';
 $lang['forgot_login_email_submit'] = 'Recover Password';
 $lang['forgot_login_email_send'] = 'Password Recovery Information sent';
 $lang['forgot_login_subject'] = 'Password Recovered';
 $lang['forgot_login_message'] = 'A password confirmation is in your email';
-
+//Message
 $lang['forgot_login_email_message1'] = 'Password Change/Recovery';
 $lang['forgot_login_email_message2'] = 'You have requested a password change. If I haven\'t requested this change please ignore email or contact your administrator.';
 $lang['forgot_login_email_message3'] = 'Below is the link to click to confirm change. Another email will follow with a temporary password.';
-
+//New Email 
+$lang['email_reset_subject'] = 'New Email';
+$lang['email_reset_message'] = 'You have successfully change your email address';
+$lang['email_reset_message_confirmation'] = 'You have successfully send a email confirmation to your email address';
 
 //Edit
 $lang['profile_edit_basic_info'] = 'Edit Basic Info'; 
@@ -343,7 +351,8 @@ $lang['calendar_message_queue'] = 'Pending approval';
  
 //Notify
 //
-$lang['notify_email_message'] = 'New public event available'; 
+$lang['notify_email_public_event'] = 'New public event available'; 
+$lang['notify_email_delete_user'] = 'Your profile and contents is been removed, please contact administrator for more details.'; 
 
  
 //Gmaps
@@ -454,6 +463,9 @@ $lang['cal_weeknumbers'] = 'Week Numbers';
 $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
 $lang['cal_slotduration'] = 'Slot Duration';
+$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'View from Right To Left';
  
 //Theme 
