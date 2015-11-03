@@ -18,9 +18,12 @@ $lang['tables'] = 'Evenementen tabellen';
 $lang['page'] = 'Pagina';
 $lang['pages'] = 'Pages';
 $lang['share'] = 'Delen'; 
-$lang['users'] = 'Gebruikers'; 
 $lang['user'] = 'Gebruiker'; 
-$lang['admin'] = 'Beheerder'; 
+$lang['users'] = 'Gebruikers'; 
+$lang['member'] = 'Member'; 
+$lang['members'] = 'Members'; 
+$lang['admin'] = 'Beheerder';
+$lang['admins'] = 'Beheerders';
 $lang['lock'] = 'Op slot'; 
 $lang['unlock'] = 'Openen'; 
 $lang['maps'] = 'Maps'; 
@@ -81,8 +84,16 @@ $lang['admin_configuration'] = 'Configureren';
 
 //Templates
 // 
-$lang['templates_title'] = 'Title';
+$lang['templates_title'] = 'Email Templates'; 
+$lang['templates_name'] = 'Title';
 $lang['templates_content'] = 'Body'; 
+//nav
+$lang['templates_nav_notify'] = 'notify'; 
+$lang['templates_nav_register'] = 'Register'; 
+$lang['templates_nav_forgot_password'] = 'Password Confirm'; 
+$lang['templates_nav_reset_password'] = 'Password Reset'; 
+$lang['templates_nav_change_email'] = 'Email Confirm'; 
+$lang['templates_nav_reset_email'] = 'Email Reset';  
 
 //Pages
 //
@@ -226,6 +237,11 @@ $lang['forgot_login_message'] = 'Een wachtwoord bevestiging is naar uw e-mailadr
 $lang['forgot_login_email_message1'] = 'Wachtwoord ophalen/Rachterhalen';
 $lang['forgot_login_email_message2'] = 'u heeft een wachtwoord aanpassing aagevraagd. Indien dit niet het geval is kan u deze e-mail negeren of de beheerder contacteren.';
 $lang['forgot_login_email_message3'] = 'Benenden bevindt zich de link om de aanpassing door te voeren. U zal zodadelijk een e-mail ontvangen met een tijdelijk wachtwoord.';
+//New Email 
+$lang['email_reset_subject'] = 'New Email';
+$lang['email_reset_message'] = 'You have successfully change your email address';
+$lang['email_reset_message_confirmation'] = 'You have successfully send a email confirmation to your email address';
+
 //Edit
 $lang['profile_edit_basic_info'] = 'Basisinformatie aanpassen'; 
 $lang['profile_edit_info'] = 'Profiel aanpassen';
@@ -318,8 +334,9 @@ $lang['calendar_message_success'] = 'Evenementen succesvol bijgewerkt';
 $lang['calendar_message_queue'] = 'Hangende';
  
 //Notify
-//
-$lang['notify_email_message'] = 'Nieuw publiek evenement beschikbaar'; 
+// 
+$lang['notify_email_public_event'] = 'Nieuw publiek evenement beschikbaar'; 
+$lang['notify_email_delete_user'] = 'Your profile and contents is been removed, please contact administrator for more details.'; 
  
 //Gmaps
 //
@@ -416,6 +433,9 @@ $lang['cal_weeknumbers'] = 'Week nummer';
 $lang['cal_eventlimit'] = 'Evenementenlimiet';
 $lang['cal_alldayslot'] = 'Volledige dag';
 $lang['cal_slotduration'] = 'Slot Duration';
+$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';
  
 //Theme 
