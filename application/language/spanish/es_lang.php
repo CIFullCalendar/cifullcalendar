@@ -18,9 +18,12 @@ $lang['tables'] = 'Tablas';
 $lang['page'] = 'página';
 $lang['pages'] = 'páginas';
 $lang['share'] = 'Cuota'; 
-$lang['users'] = 'Usuarios'; 
 $lang['user'] = 'Usuario'; 
-$lang['admin'] = 'Administración'; 
+$lang['users'] = 'Usuarios'; 
+$lang['member'] = 'Member'; 
+$lang['members'] = 'Members'; 
+$lang['admin'] = 'Administración';
+$lang['admins'] = 'Administracións';
 $lang['lock'] = 'Bloquear'; 
 $lang['unlock'] = 'Descubrir'; 
 $lang['maps'] = 'Mapas'; 
@@ -81,8 +84,16 @@ $lang['admin_configuration'] = 'Configure';
 
 //Templates
 // 
-$lang['templates_title'] = 'Title';
+$lang['templates_title'] = 'Email Templates'; 
+$lang['templates_name'] = 'Title';
 $lang['templates_content'] = 'Body'; 
+//nav
+$lang['templates_nav_notify'] = 'Notify'; 
+$lang['templates_nav_register'] = 'Register'; 
+$lang['templates_nav_forgot_password'] = 'Password Confirm'; 
+$lang['templates_nav_reset_password'] = 'Password Reset'; 
+$lang['templates_nav_change_email'] = 'Email Confirm'; 
+$lang['templates_nav_reset_email'] = 'Email Reset';
 
 //Pages
 //
@@ -240,11 +251,13 @@ $lang['forgot_login_email_submit'] = 'Recuperar Contraseña';
 $lang['forgot_login_email_send'] = 'Información Password Recovery envió';
 $lang['forgot_login_subject'] = 'Contraseña Recuperado';
 $lang['forgot_login_message'] = 'Una confirmación de la contraseña está en tu correo electrónico';
-
 $lang['forgot_login_email_message1'] = 'Cambio de Contraseña / Recuperación';
 $lang['forgot_login_email_message2'] = 'Ha solicitado un cambio de contraseña. Si no he \ t solicitó este cambio por favor, ignora correo electrónico o póngase en contacto con su administrador.';
 $lang['forgot_login_email_message3'] = 'A continuación se muestra el enlace para hacer clic para confirmar el cambio. Otro correo electrónico seguirá con una contraseña temporal.';
-
+//New Email 
+$lang['email_reset_subject'] = 'New Email';
+$lang['email_reset_message'] = 'You have successfully change your email address';
+$lang['email_reset_message_confirmation'] = 'You have successfully send a email confirmation to your email address';
 
 // Editar
 $lang['profile_edit_basic_info'] = 'Editar Información Básica'; 
@@ -340,8 +353,8 @@ $lang['calendar_message_queue'] = 'Eventos Cola';
 
 //Notify
 //
-$lang['notify_email_message'] = 'Nuevo evento público disponible'; 
-
+$lang['notify_email_public_event'] = 'Nuevo evento público disponible';
+$lang['notify_email_delete_user'] = 'Your profile and contents is been removed, please contact administrator for more details.';
  
 //Gmaps
 //
@@ -449,6 +462,9 @@ $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
 $lang['cal_alldayslot'] = 'Todo ranura Día';
 $lang['cal_slotduration'] = 'Slot Duration';
+$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Vista desde derecha a izquierda';
 
 
