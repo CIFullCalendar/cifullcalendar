@@ -18,12 +18,15 @@ $lang['tables'] = 'Tableaux';
 $lang['page'] = 'Page';
 $lang['pages'] = 'Pages';
 $lang['share'] = 'Partager';
-$lang['users'] = 'Utilisateurs';
-$lang['user'] = 'User';
+$lang['user'] = 'Utilisateur'; 
+$lang['users'] = 'Utilisateurs'; 
+$lang['member'] = 'Member'; 
+$lang['members'] = 'Members'; 
 $lang['admin'] = 'Admin';
+$lang['admins'] = 'Admins';
 $lang['lock'] = 'Lock';
 $lang['unlock'] = 'Déverrouiller';
-$lang['maps'] = 'cartes';
+$lang['maps'] = 'Cartes';
 $lang['time'] = 'Time';
 $lang['by'] = 'Par'; 
 $lang['hi'] = 'Salut';
@@ -66,7 +69,9 @@ $lang['approve'] = 'Approuver';
 $lang['decline'] = 'Déclin';
 $lang['queue'] = 'Queue'; 
 $lang['queues'] = 'Queues';
-$lang['sessions'] = 'Sessions'; 
+$lang['sessions'] = 'Sessions';
+$lang['register'] = 'Se inscrire';
+$lang['notify'] = 'Avertissez';
 $lang['current_v'] = 'CIFullCalendar + par Sir.Dre © 2015 v';
   
 //Admin
@@ -76,6 +81,19 @@ $lang['admin_page_title'] = 'Calendrier';
 $lang['admin_form_contact'] = 'Mes coordonnées';
 $lang['admin_info_title'] = 'Données de base';
 $lang['admin_configuration'] = 'Configurer';
+
+//Templates
+// 
+$lang['templates_title'] = 'Email Templates'; 
+$lang['templates_name'] = 'Title';
+$lang['templates_content'] = 'Body'; 
+//nav
+$lang['templates_nav_notify'] = 'notify'; 
+$lang['templates_nav_register'] = 'Register'; 
+$lang['templates_nav_forgot_password'] = 'Password Confirm'; 
+$lang['templates_nav_reset_password'] = 'Password Reset'; 
+$lang['templates_nav_change_email'] = 'Email Confirm'; 
+$lang['templates_nav_reset_email'] = 'Email Reset';  
 
 //Pages
 //
@@ -156,7 +174,7 @@ $lang['admin_table_uagent'] = 'User Agent';
 //
 $lang['admin_nav_events'] = 'Liste des événements';
 $lang['admin_nav_queue'] = 'Evénements File d\'attente'; 
-$lang['admin_nav_users'] = 'Members'; 
+$lang['admin_nav_users'] = 'Membres'; 
 $lang['admin_nav_sessions'] = 'Sessions'; 
 
 //Profile
@@ -198,8 +216,7 @@ $lang['profile_logout'] = 'Déconnecter';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Mot De Passe Oublié';
 
-//Register
-$lang['register'] = 'Se inscrire';
+//Register 
 $lang['profile_signup'] = 'Signer';
 $lang['profile_register'] = 'Enregistrement d\'un nouvel membres';
 $lang['profile_register_uname'] = 'Nom d\'utilisateur';
@@ -209,33 +226,34 @@ $lang['profile_register_success'] = 'Merci de votre inscription, vous êtes capa
 $lang['profile_register_button'] = 'Se inscrire';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Vos changements ne étaient pas soumis, voir les messages ci-dessous';
-
+$lang['profile_registeration_fail'] = 'Sorry, member already exist';
+//Message
 $lang['register_email_message_subject'] = 'Enregistrement de message';
 $lang['register_email_message1'] = 'Bienvenue';
 $lang['register_email_message2'] = 'Le calendrier a le pouvoir d\'organisation, le contrôle et le partage de vos événements. Facilement se connecter et utiliser les fonctionnalités merveilleuses simplement ajouter ou mettre à jour des événements en faisant glisser, le redimensionnement, en cliquant et touchante. Aussi, soutenue sur la plupart des appareils mobiles.';
 $lang['register_email_message3'] = 'Informations de connexion:';
-
-
 //Change Password
 $lang['profile_change_password'] = 'Modifier mot de passe de l\'utilisateur';
 $lang['profile_change_warning'] = 'Vous êtes sur le point de changer';
 $lang['profile_change_password_text'] = 'Ancien Mot De Passe';
 $lang['profile_change_password_text2'] = 'Nouveau Mot De Passe';
-
 //Reset Password
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Changer Le Mot De Passe';
-
 // Mot De Passe Oublié
 $lang['forgot_login_email'] = 'Email';
 $lang['forgot_login_email_submit'] = 'Récupérer mot de passe';
 $lang['forgot_login_email_send'] = 'Passe Information Recovery envoyé';
 $lang['forgot_login_subject'] = 'Mot de passe Rétabli';
 $lang['forgot_login_message'] = 'Une confirmation de mot de passe est dans votre courriel';
-
+//Message
 $lang['forgot_login_email_message1'] = 'Password Change / Recovery';
 $lang['forgot_login_email_message2'] = 'Vous avez demandé un changement de mot de passe. Si je n \'a demandé ce changement se il vous plaît ignorer email ou contactez votre administrateur.';
 $lang['forgot_login_email_message3'] = 'Voici le lien à cliquer pour confirmer le changement. Un autre courriel suivra avec un mot de passe temporaire.';
+//New Email 
+$lang['email_reset_subject'] = 'New Email';
+$lang['email_reset_message'] = 'You have successfully change your email address';
+$lang['email_reset_message_confirmation'] = 'You have successfully send a email confirmation to your email address';
 
 // Modifier
 $lang['profile_edit_basic_info'] = 'Modifier les informations de base';
@@ -332,8 +350,10 @@ $lang['calendar_message_queue'] = 'Validation en attente';
 
  
 //Notify
-//
-$lang['notify_email_message'] = 'Nouveau événement public disponible'; 
+// 
+$lang['notify_email_public_event'] = 'Nouveau événement public disponible';
+$lang['notify_email_delete_user'] = 'Your profile and contents is been removed, please contact administrator for more details.'; 
+ 
 
 //Gmaps
 //
@@ -358,8 +378,8 @@ $lang['categories_edit_source'] = 'Éditer cette catégorie';
 $lang['categories_delete_category'] = 'Supprimer cette catégorie';
 $lang['categories_delete_warning'] = 'Vous êtes sur le point de supprimer';
 //Drag
-$lang['categories_draggable_title'] = 'Draggable Events';
-$lang['categories_draggable_removable'] = 'Drag and Remove event';
+$lang['categories_draggable_title'] = 'Evénements Glissable';
+$lang['categories_draggable_removable'] = 'Faites glisser et supprimer';
 
 //Message
 $lang['categories_message_title'] = 'Aucune Catégories';
@@ -397,6 +417,7 @@ $lang['settings_cal_name'] = 'Paramètres du Calendrier';
 $lang['settings_file_name'] = 'Réglages de ICal';
 $lang['settings_pic_name'] = 'Réglages de Pic';
 $lang['settings_attach_name'] = 'Fixez Paramètres';
+$lang['settings_template_name'] = 'Paramètres du modèle';
 $lang['settings_theme_name'] = 'Réglages de thème';
 
 //Edit
@@ -440,6 +461,9 @@ $lang['cal_weeknumbers'] = 'Numéros de la Semaine';
 $lang['cal_eventlimit'] = 'Limite de l\'événement';
 $lang['cal_alldayslot'] = 'Tous Slot Jour';
 $lang['cal_slotduration'] = 'Slot Duration';
+$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Vue de droite à gauche';
 
 

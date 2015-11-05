@@ -18,9 +18,12 @@ $lang['tables'] = 'Tablas';
 $lang['page'] = 'página';
 $lang['pages'] = 'páginas';
 $lang['share'] = 'Cuota'; 
-$lang['users'] = 'Usuarios'; 
 $lang['user'] = 'Usuario'; 
-$lang['admin'] = 'Administración'; 
+$lang['users'] = 'Usuarios'; 
+$lang['member'] = 'Member'; 
+$lang['members'] = 'Members'; 
+$lang['admin'] = 'Administración';
+$lang['admins'] = 'Administracións';
 $lang['lock'] = 'Bloquear'; 
 $lang['unlock'] = 'Descubrir'; 
 $lang['maps'] = 'Mapas'; 
@@ -53,13 +56,13 @@ $lang['ok'] = 'Okay';
 $lang['url'] = 'URL'; 
 $lang['save'] = 'Guardar'; 
 $lang['cancel'] = 'Cancelar';
-$lang['monday'] = 'Monday';  
-$lang['tuesday'] = 'Tuesday';
-$lang['wednesday'] = 'Wednesday';
-$lang['thursday'] = 'Thursday';
-$lang['friday'] = 'Friday';
-$lang['saturday'] = 'Saturday';
-$lang['sunday'] = 'Sunday';
+$lang['monday'] = 'Lunes';  
+$lang['tuesday'] = 'Martes';
+$lang['wednesday'] = 'Miércoles';
+$lang['thursday'] = 'Jueves';
+$lang['friday'] = 'Viernes';
+$lang['saturday'] = 'Sábado';
+$lang['sunday'] = 'Domingo';
 $lang['lat'] = 'Lat'; 
 $lang['lng'] = 'Lng'; 
 $lang['approve'] = 'Aprobar';
@@ -67,6 +70,8 @@ $lang['decline'] = 'Decadencia';
 $lang['queue'] = 'Cola'; 
 $lang['queues'] = 'Colas';
 $lang['sessions'] = 'Sessions';
+$lang['register'] = 'Registrarse';
+$lang['notify'] = 'Notify';
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v'; 
 
 //Admin
@@ -76,6 +81,19 @@ $lang['admin_page_title'] = 'Calendario';
 $lang['admin_form_contact'] = 'Mi Información de Contacto';
 $lang['admin_info_title'] = 'Información básica';
 $lang['admin_configuration'] = 'Configure';
+
+//Templates
+// 
+$lang['templates_title'] = 'Email Templates'; 
+$lang['templates_name'] = 'Title';
+$lang['templates_content'] = 'Body'; 
+//nav
+$lang['templates_nav_notify'] = 'Notify'; 
+$lang['templates_nav_register'] = 'Register'; 
+$lang['templates_nav_forgot_password'] = 'Password Confirm'; 
+$lang['templates_nav_reset_password'] = 'Password Reset'; 
+$lang['templates_nav_change_email'] = 'Email Confirm'; 
+$lang['templates_nav_reset_email'] = 'Email Reset';
 
 //Pages
 //
@@ -99,8 +117,8 @@ $lang['pages_delete_warning'] = 'Estás a punto de eliminar';
 //Message
 $lang['pages_message_title'] = 'No hay páginas';
 $lang['pages_message_warning'] = 'No hay páginas disponibles';
-$lang['sessions_message_title'] = 'No Sessions';
-$lang['sessions_message_warning'] = 'No Sessions available';
+$lang['sessions_message_title'] = 'No hay sesiones';
+$lang['sessions_message_warning'] = 'No hay sesiones disponibles';
 
 //Tablas
 //
@@ -157,8 +175,8 @@ $lang['admin_table_uagent'] = 'User Agent';
 //
 $lang['admin_nav_events'] = 'Lista de Eventos';
 $lang['admin_nav_queue'] = 'Eventos Cola';
-$lang['admin_nav_users'] = 'Members'; 
-$lang['admin_nav_sessions'] = 'Sessions';
+$lang['admin_nav_users'] = 'Miembros'; 
+$lang['admin_nav_sessions'] = 'Sesiones';
  
 //Perfil
 //
@@ -199,8 +217,7 @@ $lang['profile_logout'] = 'Cerrar sesión';
 //Has Olvidado Tu Contraseña
 $lang['profile_forgot_password'] = 'Has Olvidado Tu Contraseña';
 
-//Registro
-$lang['register'] = 'Registrarse';
+//Registro 
 $lang['profile_signup'] = 'Contratar';
 $lang['profile_register'] = 'Registro de Nuevo Miembro';
 $lang['profile_register_uname'] = 'Nombre de usuario';
@@ -210,7 +227,8 @@ $lang['profile_register_success'] = 'Gracias por registrarse, usted es capaz de 
 $lang['profile_register_button'] = 'Registrarse';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Los cambios no se presentaron, ver los siguientes mensajes';
-
+$lang['profile_registeration_fail'] = 'Sorry, member already exist';
+//Message
 $lang['register_email_message_subject'] = 'Registro de mensajes';
 $lang['register_email_message1'] = 'Bienvenido a';
 $lang['register_email_message2'] = 'El calendario tiene el poder de organizar, controlar y compartir sus eventos. Ingresar fácilmente y utilizar las características maravillosas con sólo añadir o actualizar los eventos arrastrando, cambio de tamaño, hacer clic y conmovedor. Además, con el apoyo de la mayoría de los dispositivos móviles.';
@@ -233,11 +251,13 @@ $lang['forgot_login_email_submit'] = 'Recuperar Contraseña';
 $lang['forgot_login_email_send'] = 'Información Password Recovery envió';
 $lang['forgot_login_subject'] = 'Contraseña Recuperado';
 $lang['forgot_login_message'] = 'Una confirmación de la contraseña está en tu correo electrónico';
-
 $lang['forgot_login_email_message1'] = 'Cambio de Contraseña / Recuperación';
 $lang['forgot_login_email_message2'] = 'Ha solicitado un cambio de contraseña. Si no he \ t solicitó este cambio por favor, ignora correo electrónico o póngase en contacto con su administrador.';
 $lang['forgot_login_email_message3'] = 'A continuación se muestra el enlace para hacer clic para confirmar el cambio. Otro correo electrónico seguirá con una contraseña temporal.';
-
+//New Email 
+$lang['email_reset_subject'] = 'New Email';
+$lang['email_reset_message'] = 'You have successfully change your email address';
+$lang['email_reset_message_confirmation'] = 'You have successfully send a email confirmation to your email address';
 
 // Editar
 $lang['profile_edit_basic_info'] = 'Editar Información Básica'; 
@@ -329,12 +349,12 @@ $lang['calendar_delete_warning'] = 'Estás a punto de eliminar';
 $lang['calendar_message_title'] = 'No hay Eventos';
 $lang['calendar_message_warning'] = 'No hay eventos disponibles dentro de la cola';
 $lang['calendar_message_success'] = 'Eventos actualizados con éxito';
-$lang['calendar_message_queue'] = 'Pendiente de aprobacion';
+$lang['calendar_message_queue'] = 'Eventos Cola';
 
 //Notify
 //
-$lang['notify_email_message'] = 'Nuevo evento público disponible'; 
-
+$lang['notify_email_public_event'] = 'Nuevo evento público disponible';
+$lang['notify_email_delete_user'] = 'Your profile and contents is been removed, please contact administrator for more details.';
  
 //Gmaps
 //
@@ -356,8 +376,8 @@ $lang['categories_input_description'] = 'Categoría Descripción';
 $lang['categories_edit_source'] = 'Editar esta Categoría';
 
 //Drag
-$lang['categories_draggable_title'] = 'Draggable Events';
-$lang['categories_draggable_removable'] = 'Drag and Remove event';
+$lang['categories_draggable_title'] = 'Eventos pueden arrastrar';
+$lang['categories_draggable_removable'] = 'Arrastre y eliminar eventos';
 
 //Eliminar
 $lang['categories_delete_category'] = 'Eliminar esta Categoría';
@@ -396,8 +416,9 @@ $lang['settings_name'] = 'Ajustes';
 $lang['settings_basic_name'] = 'Ajustes básicos';
 $lang['settings_cal_name'] = 'Configuración del calendario';
 $lang['settings_file_name'] = 'Ajustes ICAL';
-$lang['settings_pic_name'] = 'Ajustes Pic';
+$lang['settings_pic_name'] = 'Ajustes Cuadro';
 $lang['settings_attach_name'] = 'Adjuntar Ajustes';
+$lang['settings_template_name'] = 'Configuración de plantilla';
 $lang['settings_theme_name'] = 'Ajustes de tema';
 
 //Editar
@@ -441,6 +462,9 @@ $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
 $lang['cal_alldayslot'] = 'Todo ranura Día';
 $lang['cal_slotduration'] = 'Slot Duration';
+$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Vista desde derecha a izquierda';
 
 

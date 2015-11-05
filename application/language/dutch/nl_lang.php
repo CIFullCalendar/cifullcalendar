@@ -18,9 +18,12 @@ $lang['tables'] = 'Evenementen tabellen';
 $lang['page'] = 'Pagina';
 $lang['pages'] = 'Pages';
 $lang['share'] = 'Delen'; 
-$lang['users'] = 'Gebruikers'; 
 $lang['user'] = 'Gebruiker'; 
-$lang['admin'] = 'Beheerder'; 
+$lang['users'] = 'Gebruikers'; 
+$lang['member'] = 'Member'; 
+$lang['members'] = 'Members'; 
+$lang['admin'] = 'Beheerder';
+$lang['admins'] = 'Beheerders';
 $lang['lock'] = 'Op slot'; 
 $lang['unlock'] = 'Openen'; 
 $lang['maps'] = 'Maps'; 
@@ -67,7 +70,10 @@ $lang['decline'] = 'Achteruitgang';
 $lang['queue'] = 'Rij';
 $lang['queues'] = 'Rij';
 $lang['sessions'] = 'Sessions';
+$lang['register'] = 'Registreren';
+$lang['notify'] = 'Notify';
 $lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
+
 //Admin
 //
 $lang['admin_dashboard'] = 'Beheer';
@@ -75,6 +81,20 @@ $lang['admin_page_title'] = 'Kalendar';
 $lang['admin_form_contact'] = 'Contactinformatie';
 $lang['admin_info_title'] = 'Basis Informatie';
 $lang['admin_configuration'] = 'Configureren';
+
+//Templates
+// 
+$lang['templates_title'] = 'Email Templates'; 
+$lang['templates_name'] = 'Title';
+$lang['templates_content'] = 'Body'; 
+//nav
+$lang['templates_nav_notify'] = 'notify'; 
+$lang['templates_nav_register'] = 'Register'; 
+$lang['templates_nav_forgot_password'] = 'Password Confirm'; 
+$lang['templates_nav_reset_password'] = 'Password Reset'; 
+$lang['templates_nav_change_email'] = 'Email Confirm'; 
+$lang['templates_nav_reset_email'] = 'Email Reset';  
+
 //Pages
 //
 $lang['page_header'] = 'Pagina\'s';
@@ -147,10 +167,10 @@ $lang['admin_table_ipaddress'] = 'IP Address';
 $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
-$lang['admin_nav_events'] = 'Events List';
+$lang['admin_nav_events'] = 'Events Lijst';
 $lang['admin_nav_queue'] = 'Events Queue'; 
-$lang['admin_nav_users'] = 'Members'; 
-$lang['admin_nav_sessions'] = 'Sessions'; 
+$lang['admin_nav_users'] = 'leden'; 
+$lang['admin_nav_sessions'] = 'Sessie'; 
 //Profile
 //
 $lang['profile_dashboard'] = 'Mijn startpagina';
@@ -184,8 +204,7 @@ $lang['profile_captcha'] = 'Het spijt ons, de captcha code is fout. Probeer opni
 $lang['profile_logout'] = 'Afmelden';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Wachtwoord vergeten';
-//Register
-$lang['register'] = 'Registreren';
+//Register 
 $lang['profile_signup'] = 'Aanmelden';
 $lang['profile_register'] = 'Nieuw gebruiker';
 $lang['profile_register_uname'] = 'Gebruikersnaam';
@@ -195,6 +214,8 @@ $lang['profile_register_success'] = 'Bedankt om u te registreren, U kan zich nu 
 $lang['profile_register_button'] = 'Registreren';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Uw aanpassing zijn niet toegevoegd, bekijk het onderstaande bericht';
+$lang['profile_registeration_fail'] = 'Sorry, member already exist';
+//Message
 $lang['register_email_message_subject'] = 'Registratiebericht';
 $lang['register_email_message1'] = 'Welkom bij ';
 $lang['register_email_message2'] = 'De kalender, laat u toe om alle evenmenten uit de ondersteunde database op te halen. Ook is het mogelijk om evenementen toe te voegen, te bijwerken en te verwijderen en deze openbaar of privé te plaatsen.';
@@ -216,6 +237,11 @@ $lang['forgot_login_message'] = 'Een wachtwoord bevestiging is naar uw e-mailadr
 $lang['forgot_login_email_message1'] = 'Wachtwoord ophalen/Rachterhalen';
 $lang['forgot_login_email_message2'] = 'u heeft een wachtwoord aanpassing aagevraagd. Indien dit niet het geval is kan u deze e-mail negeren of de beheerder contacteren.';
 $lang['forgot_login_email_message3'] = 'Benenden bevindt zich de link om de aanpassing door te voeren. U zal zodadelijk een e-mail ontvangen met een tijdelijk wachtwoord.';
+//New Email 
+$lang['email_reset_subject'] = 'New Email';
+$lang['email_reset_message'] = 'You have successfully change your email address';
+$lang['email_reset_message_confirmation'] = 'You have successfully send a email confirmation to your email address';
+
 //Edit
 $lang['profile_edit_basic_info'] = 'Basisinformatie aanpassen'; 
 $lang['profile_edit_info'] = 'Profiel aanpassen';
@@ -308,8 +334,9 @@ $lang['calendar_message_success'] = 'Evenementen succesvol bijgewerkt';
 $lang['calendar_message_queue'] = 'Hangende';
  
 //Notify
-//
-$lang['notify_email_message'] = 'Nieuw publiek evenement beschikbaar'; 
+// 
+$lang['notify_email_public_event'] = 'Nieuw publiek evenement beschikbaar'; 
+$lang['notify_email_delete_user'] = 'Your profile and contents is been removed, please contact administrator for more details.'; 
  
 //Gmaps
 //
@@ -331,8 +358,8 @@ $lang['categories_edit_source'] = 'Deze categorie aanpassen';
 $lang['categories_delete_category'] = 'Categorie verwijderen';
 $lang['categories_delete_warning'] = 'U zal het volgende verwijderen';
 //Drag
-$lang['categories_draggable_title'] = 'Draggable Events';
-$lang['categories_draggable_removable'] = 'Drag and Remove event';
+$lang['categories_draggable_title'] = 'Externe Events';
+$lang['categories_draggable_removable'] = 'Slepen en verwijderen event';
 //Message
 $lang['categories_message_title'] = 'Geen categoriën';
 $lang['categories_message_warning'] = 'Geen Categoriën beschikbaar';
@@ -364,7 +391,9 @@ $lang['settings_cal_name'] = 'Kalenderinstellingen';
 $lang['settings_file_name'] = 'ICal Instellingen';
 $lang['settings_pic_name'] = 'foto instellingen';
 $lang['settings_attach_name'] = 'Bijlage Instellingen';
+$lang['settings_template_name'] = 'Sjabloon Instellingen';
 $lang['settings_theme_name'] = 'Thema Instellingen';
+
 //Edit
 $lang['settings_form_site_name'] = 'Sitenaam';
 $lang['settings_form_site_email'] = 'Site e-mailadres';
@@ -404,6 +433,9 @@ $lang['cal_weeknumbers'] = 'Week nummer';
 $lang['cal_eventlimit'] = 'Evenementenlimiet';
 $lang['cal_alldayslot'] = 'Volledige dag';
 $lang['cal_slotduration'] = 'Slot Duration';
+$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';
  
 //Theme 
