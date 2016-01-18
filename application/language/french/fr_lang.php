@@ -72,6 +72,8 @@ $lang['queues'] = 'Queues';
 $lang['sessions'] = 'Sessions';
 $lang['register'] = 'Se inscrire';
 $lang['notify'] = 'Avertissez';
+$lang['identity'] = 'Identidade';
+$lang['search'] = 'Recherche';
 $lang['current_v'] = 'CIFullCalendar + par Sir.Dre © 2015 v';
   
 //Admin

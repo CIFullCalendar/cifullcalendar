@@ -75,6 +75,7 @@ $lang['sessions'] = 'Sessions';
 $lang['register'] = 'Register';
 $lang['notify'] = 'Notify';
 $lang['identity'] = 'Identity';
+$lang['search'] = 'Search';
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin

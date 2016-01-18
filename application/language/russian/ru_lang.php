@@ -75,6 +75,7 @@ $lang['sessions'] = 'Сессии';
 $lang['register'] = 'Регистр';
 $lang['notify'] = 'Поставить в известность'; 
 $lang['identity'] = 'Идентичность';
+$lang['search'] = 'Поиск';
 $lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2015 V ';
     
 // Админ
