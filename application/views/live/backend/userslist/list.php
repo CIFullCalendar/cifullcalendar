@@ -2,60 +2,39 @@
 	<div id="page-wrapper"> 
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header"><?php echo lang('users') ?></h1>
+				<h1 class="page-header"><i class="fa fa-user" ></i> <?php echo lang('users') ?></h1>
 			</div>
 			<!-- /.col-lg-12 -->		
-		
-		<div class="col-md-12 col-lg-12">
-
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="panel panel-primary">
-						<div class="panel-heading">
-							<i class="fa fa-user" ></i> <?php echo lang('users') ?>
-                            <div class="pull-right">
-                                <div class="btn-group">
-									<button class="btn btn-primary btn-xs" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" ><i class="fa fa-pencil-square-o"></i>  <?php echo lang('add') ?></button> 
-                                   
-                                </div>
-                            </div>							
-						</div>
-						<!-- /.panel-heading -->
-						<div class="panel-body">
-						
-							<!-- table -->
-							<div class="table-responsive">
-								<div id="toolbar"> 
-									<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>   
-								</div>							
-								<table id="allusers_dataTable" class="table" data-toolbar="#toolbar" data-show-export="true" data-locale="<?php echo $lang ?>" >
-									<thead>
-										<tr> 
-											<th data-field="chk" data-checkbox="true"></th>
-											<th data-field="uname" data-align="center" data-sortable="true" data-width="15%"><?php echo lang('admin_table_username'); ?></th>
-											<th data-field="fname" data-align="left" data-sortable="true" ><?php echo lang('admin_table_fname'); ?></th> 
-											<th data-field="lname" data-align="left" data-sortable="true" ><?php echo lang('admin_table_lname'); ?></th> 
-											<th data-field="email" data-align="left" data-sortable="true" ><?php echo lang('admin_table_email'); ?></th>   
-											<th data-field="edit" data-sortable="false" data-formatter="editFormatter" data-width="7%"><?php echo lang('admin_table_edit'); ?></th>   
-										</tr>
-									</thead>
-								</table>
-							</div>
-							<!-- /.table --> 
- 
-						</div>
-						<!-- /.panel-body -->
-					</div>
-					<!-- /.panel -->
-				</div>
-				<!-- /.col-lg-12 -->
+		</div>
+		<!-- /.row -->			
+		<div class="row">
+			<div class="col-md-12 col-lg-12"> 
+				<div class="table-responsive">
+					<div id="toolbar"> 
+						<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>   
+						<button class="btn btn-primary" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" ><i class="fa fa-pencil-square-o"></i>  <?php echo lang('add') ?></button> 	
+					</div>							
+					<table id="allusers_dataTable" class="table" data-toolbar="#toolbar" data-show-export="true" data-locale="<?php echo $lang ?>" >
+						<thead>
+							<tr> 
+								<th data-field="chk" data-checkbox="true"></th>
+								<th data-field="username" data-align="center" data-sortable="true" data-width="15%"><?php echo lang('admin_table_username'); ?></th>
+								<th data-field="first_name" data-align="left" data-sortable="true" ><?php echo lang('admin_table_fname'); ?></th> 
+								<th data-field="last_name" data-align="left" data-sortable="true" ><?php echo lang('admin_table_lname'); ?></th> 
+								<th data-field="email" data-align="left" data-sortable="true" ><?php echo lang('admin_table_email'); ?></th>   
+								<th data-field="edit" data-sortable="false" data-formatter="editFormatter" data-width="7%"><?php echo lang('admin_table_edit'); ?></th>   
+							</tr>
+						</thead>
+					</table>
+					<!-- /.table --> 
+ 				</div>
+				<!-- /.table-responsive -->		
 			</div>
-		
+			<!-- /.col-md-12 .col-lg-12 -->				
 		</div>
-		<!-- /.col-md-12 .col-lg-12 -->	  
-		</div>
-		<!-- /.row --> 
-
+		<!-- /.row -->  
+   </div>
+    <!-- /#wrapper --> 
 
  
 	
@@ -74,53 +53,39 @@
 									<div class="row-fluid">
 										<div class="col-md-4" >
 											<img src="<?php echo base_url('assets/img/profile/'.$result->image) ?>" class="img-circle" style="height:150px;" >
-											<div class="control-group"> 													
-											<?php if($result->logged_in == 1): ?>
-												<b><?php echo lang('username'); ?></b>:<br /><strong class="text-success" ><?php echo $result->uname ?></strong>
-											<?php elseif($result->logged_in == 0): ?>
-												<b><?php echo lang('username'); ?></b>:<br /> <em><?php echo $result->uname; ?></em>	
-											<?php endif ?>												
+											<div class="control-group"> 		 
+												<b><?php echo lang('username'); ?></b>:<br /> <em><?php echo $result->username; ?></em>	 
 											</div>												
 											<div class="control-group"> 
-												<b><?php echo lang('admin_modal_member_since'); ?></b>:<br /> <em><?php echo relativeTime($result->signupdate); ?></em>					
+												<b><?php echo lang('admin_modal_member_since'); ?></b>:<br /> <em><?php echo relativeTime($result->created_on); ?></em>					
 											</div>	
 											<div class="control-group"> 
-												<b><?php echo lang('admin_modal_member_last_log'); ?></b>:<br />  <em><?php echo relativeTime($result->signindate); ?></em>
+												<b><?php echo lang('admin_modal_member_last_log'); ?></b>:<br />  <em><?php echo relativeTime($result->last_login); ?></em>
 											</div>	
 											<div class="form-group">
-												<b><?php echo lang('admin_modal_ip'); ?></b>:<br />  <em><?php echo $result->lastip  ?></em>
+												<b><?php echo lang('admin_modal_ip'); ?></b>:<br />  <em><?php echo $result->ip_address ?></em>
 											</div>		 	
 										</div>
 										<div class="col-md-8"> 		 
 											<div class="form-group">
-												<input type="text" class="form-control" name="fname" id="fname" value="<?php echo $result->fname  ?>" placeholder="<?php echo lang('admin_table_fname'); ?>">
+												<input type="text" class="form-control" name="fname" id="fname" value="<?php echo $result->first_name  ?>" placeholder="<?php echo lang('admin_table_fname'); ?>">
 											</div> 								
 											<div class="form-group">
-												<input type="text" class="form-control" name="lname" id="lname" value="<?php echo $result->lname  ?>" placeholder="<?php echo lang('admin_table_lname'); ?>">
-											</div> 								
+												<input type="text" class="form-control" name="lname" id="lname" value="<?php echo $result->last_name  ?>" placeholder="<?php echo lang('admin_table_lname'); ?>">
+											</div> 	  
 											<div class="form-group">
-												<textarea class="form-control" name="address" id="address" placeholder="<?php echo lang('admin_table_address'); ?>" ><?php echo $result->address  ?></textarea>
-											</div>  
+												<input type="text" class="form-control" name="company" id="company" value="<?php echo $result->company  ?>" placeholder="<?php echo lang('admin_table_company'); ?>">
+											</div>											
 											<div class="form-group">
 												<input type="text" class="form-control" name="phone" id="phone" value="<?php echo $result->phone  ?>" placeholder="<?php echo lang('admin_table_phone'); ?>">
 											</div> 								
 											<div class="form-group">
 												<input type="text" class="form-control" name="email" id="email" value="<?php echo $result->email  ?>" placeholder="<?php echo lang('admin_table_email'); ?>">
 											</div> 												
-											<div class="form-group">
-												<select class="form-control" name="level" id="level" >
-												<?php if(($result->level) == 2):  ?>
-													<option value="2" select><?php echo lang('admin_level_2'); ?></option>
-													<option value="1" ><?php echo lang('admin_level_1'); ?></option> 	
-												<?php else: ?>
-													<option value="1" select><?php echo lang('admin_level_1'); ?></option> 	
-													<option value="2" ><?php echo lang('admin_level_2'); ?></option>	
-												<?php endif ?>
-												</select>
-											</div> 											
+										
 											<div class="form-group">
 												<select class="form-control" name="status" id="status" >
-												<?php if(($result->status) == 0):  ?>
+												<?php if(($result->active) == 0):  ?>
 													<option value="0" select><?php echo lang('admin_status_0'); ?></option>
 													<option value="1" ><?php echo lang('admin_status_1'); ?></option> 	
 												<?php else: ?>
@@ -167,10 +132,10 @@
 									<input name="id" id="id" value="<?php echo $result->id  ?>" type="hidden" >	
 									<div class="alert alert-warning">
 										<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_user'); ?>  
-											<?php if(empty($result->fname) && empty($result->lname)) : ?>
-												<b><?php echo $result->uname  ?></b>?
+											<?php if(empty($result->first_name) && empty($result->last_name)) : ?>
+												<b><?php echo $result->username  ?></b>?
 											<?php else : ?>
-												<b><?php echo $result->fname  ?> <?php echo $result->lname  ?></b>?
+												<b><?php echo $result->first_name  ?> <?php echo $result->last_name  ?></b>?
 											<?php endif ?>
 									</div>
 								</div>
@@ -251,7 +216,3 @@
 			  <!-- /.modal-dialog --> 
 		</div>
 		
-		
-		
-   </div>
-    <!-- /#wrapper --> 

@@ -1,46 +1,36 @@
- 
-	<div id="page-wrapper">
-		
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header"><?php echo lang('users'); ?> </h1>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row --> 
+	
+	<div id="page-wrapper"> 
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header"><i class="fa fa-user" ></i> <?php echo lang('users') ?></h1>
+			</div>
+			<!-- /.col-lg-12 -->		
+		</div>
+		<!-- /.row -->			
+		<div class="row">
+			<div class="col-md-12 col-lg-12">  
 			
-            <div class="row">
-                <div class="col-md-12 col-lg-12">
-                    <div class="panel panel-default">
-						<div class="panel-heading">
-							<i class="fa fa-user" ></i> <?php echo lang('users') ?>
-                            <div class="pull-right">
-                                <div class="btn-group">
-									<button class="btn btn-primary btn-xs" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" ><i class="fa fa-pencil-square-o"></i>  <?php echo lang('add') ?></button> 
-                                   
-                                </div>
-                            </div>							
-						</div>
-						 
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
- 
-								<div class="alert alert-warning">
-									<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
-										×</button>
-									<span class="glyphicon glyphicon-record"></span> <strong><?php echo lang('sources_message_title'); ?></strong>
-									<hr class="message-inner-separator">
-									<p>
-										<?php echo lang('sources_message_warning'); ?> </p>
-								</div>
- 
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-           
-                </div>
-                <!-- /.col-lg-8 -->
-			</div> 
+				<div class="pull-right">
+					<div class="btn-group">
+						<button class="btn btn-primary btn-xs" data-title="Add" data-toggle="modal" data-target="#add" data-placement="top" ><i class="fa fa-pencil-square-o"></i>  <?php echo lang('add') ?></button> 
+					   
+					</div>
+				</div>		
+				<div class="alert alert-warning">
+					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+						×</button>
+					<span class="glyphicon glyphicon-record"></span> <strong><?php echo lang('sources_message_title'); ?></strong>
+					<hr class="message-inner-separator">
+					<p>
+						<?php echo lang('sources_message_warning'); ?> </p>
+				</div>
+				
+			</div>
+			<!-- /.col-md-12 .col-lg-12 -->				
+		</div>
+		<!-- /.row -->  
+    </div>
+    <!-- /#wrapper -->  
  
 			<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="add" aria-hidden="true">
 			  <div class="modal-dialog">

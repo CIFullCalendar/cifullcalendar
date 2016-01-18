@@ -121,11 +121,9 @@ $lang['sessions_message_title'] = 'No Sessions';
 $lang['sessions_message_warning'] = 'No Sessions available';  
 
 // tableaux
-//  
-$lang['admin_level_2'] = 'des privilèges d administrateur';
-$lang['admin_level_1'] = 'privilèges de l utilisateur';
-$lang['admin_status_1'] = 'Verrouillé';
-$lang['admin_status_0'] = 'Unlocked';
+//   
+$lang['admin_status_1'] = 'Unlocked';
+$lang['admin_status_0'] = 'Verrouillé';
 
 //Modal  
 $lang['admin_modal_edit_user'] = 'Modifier les informations de l utilisateur ';
@@ -145,6 +143,7 @@ $lang['admin_table_username'] = 'Nom d utilisateur';
 $lang['admin_table_fname'] = 'Prénom';
 $lang['admin_table_lname'] = 'Nom De Famille';
 $lang['admin_table_address'] = 'Adresse';
+$lang['admin_table_company'] = 'Company';
 $lang['admin_table_phone'] = 'Téléphone';
 $lang['admin_table_email'] = 'Email';
 $lang['admin_table_password'] = 'Mot de passe';
@@ -176,6 +175,7 @@ $lang['admin_nav_events'] = 'Liste des événements';
 $lang['admin_nav_queue'] = 'Evénements File d\'attente'; 
 $lang['admin_nav_users'] = 'Membres'; 
 $lang['admin_nav_sessions'] = 'Sessions'; 
+$lang['admin_nav_group'] = 'Group'; 
 
 //Profile
 //
@@ -195,24 +195,19 @@ $lang['profile_signin'] = 'Se connecter';
 $lang['profile_noaccount'] = 'Don\'t encore de compte?';
 $lang['profile_login_username'] = 'Nom d\'utilisateur';
 $lang['profile_login_password'] = 'Mot de passe';
-
-$lang['profile_logged_in'] = 'Ouvrez une session comme';
-$lang['profile_log_out'] = 'Déconnexion';
-
+$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_logged_in'] = 'Ouvrez une session comme'; 
 $lang['profile_login_fail'] = 'Désolé, connexion de l\'utilisateur d\'info ne existe pas ';
-$lang['profile_login_auth_fail'] = 'Désolé, l\'authentification a échoué';
- 
+$lang['profile_login_auth_fail'] = 'Désolé, l\'authentification a échoué'; 
 $lang['profile_signup_date'] = 'Membre depuis';
-$lang['profile_signin_date'] = 'Connexion Depuis';
-
+$lang['profile_signin_date'] = 'Connexion Depuis'; 
 $lang['profile_signin_error'] = 'Désolé de passe est incorrect';
 $lang['profile_login_noemail'] = 'Désolé, email ne existe pas';
 $lang['profile_email_exists'] = 'Désolé, email existe déjà';
-$lang['profile_captcha'] = 'Désolé, le code captcha incorrect. Se il vous plaît essayer de nouveau';
-
+$lang['profile_captcha'] = 'Désolé, le code captcha incorrect. Se il vous plaît essayer de nouveau'; 
 //Logout
-$lang['profile_logout'] = 'Déconnecter';
-
+$lang['profile_logout'] = 'Déconnecter'; 
+$lang['profile_log_out'] = 'Déconnexion';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Mot De Passe Oublié';
 
@@ -306,8 +301,9 @@ $lang['calendar_modal_create_title'] = 'Créer un événement';
 $lang['calendar_modal_update_title'] = 'Mise à jour de l\'événement';
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Catégorie';
-$lang['calendar_modal_tabtitle3'] = 'Lieu';
-$lang['calendar_modal_tabtitle4'] = 'Joindre';
+$lang['calendar_modal_tabtitle3'] = 'Récurrents';
+$lang['calendar_modal_tabtitle4'] = 'Lieu';
+$lang['calendar_modal_tabtitle5'] = 'Joindre';
 $lang['calendar_modal_eventname'] = 'Titre';
 $lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Commencer l\'événement';
@@ -327,6 +323,7 @@ $lang['calendar_modal_eventmonthly'] = 'Mensuelle';
 $lang['calendar_modal_eventyearly'] = 'Annuel';
 $lang['calendar_modal_category'] = 'Category'; 
 $lang['calendar_modal_eventrendering'] = 'Placement';
+$lang['calendar_modal_eventoverlap'] = 'Overlapping';
 $lang['calendar_modal_eventfgrender'] = 'Connaissances nouvelles';
 $lang['calendar_modal_eventbgrender'] = 'Contexte';
 $lang['calendar_modal_eventcategory'] = 'Catégorie';

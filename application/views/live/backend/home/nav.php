@@ -15,6 +15,7 @@
             </div>
             <!-- /.navbar-header -->
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
+				
 				<?php if($pagename): ?>
 					<ul class="nav navbar-nav"> 
 					<?php foreach ($pagename as $result): ?>	
@@ -26,11 +27,29 @@
 				<?php else: ?> 
 				<?php endif ?> 		
 
-				<?php if ($this->secure->isMemberLoggedIn($this->session) || $this->secure->isManagerLoggedIn($this->session)): ?>		
+				<?php if ($this->ion_auth->logged_in() || $this->ion_auth->is_admin()) : ?>		
 			    <ul class="nav navbar-nav navbar-right">
-			 	    <?php if ( $this->secure->isManagerLoggedIn($this->session)): ?>
+			 	    <?php if (  $this->ion_auth->is_admin()): ?>
 						<li ><?php echo anchor('/admin', lang('admin_dashboard') ) ?></li> 	
-					<?php endif ?>
+					<?php endif ?> 
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-bell-o"></i><span class="caret"></span></a>
+						<ul class="dropdown-menu dropdown-alert" role="menu">
+							<h4 class="text-center" ><?php echo lang('notify'); ?></h4>
+							<li>
+								<span class="item"> 
+									<span class="item-info">  
+									 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the industry's standard dummy text ever since the 1500s.<strong> strong
+									message</strong>. <a href="http://www.jquery2dotnet.com/2013/07/cool-notification-css-style.html">
+									Cool Notification Css Style</a> 
+									</span> 
+								</span>
+							</li> 
+							<li class="divider"></li>
+							<li><a class="text-center" href="">View More</a></li>
+						</ul>
+					</li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 						   <img src="<?php echo $current_logo ?>" alt="" class="fa-fw" style="height:20px;" /> <i class="fa fa-caret-down"></i>
@@ -45,7 +64,7 @@
 											<p class="text-center small"> 
 										</div>
 										<div class="col-md-7">
-											<span>Hi <?php echo $userinfo->uname  ?></span>
+											<span>Hi <?php echo $userinfo->username  ?></span>
 											<p class="text-muted small">
 												<?php echo $userinfo->email ?></p>
 											<div class="divider"></div>
@@ -55,7 +74,7 @@
 											<a href="<?php echo site_url('profile/gmaps');?>" class="btn" ><i class="fa fa-location-arrow"></i></a>
 											<a href="<?php echo site_url('profile/categories');?>" class="btn" ><i class="fa fa-list"></i></a>
 											<a href="<?php echo site_url('profile/sources');?>" class="btn" ><i class="fa fa-link"></i></a>
-											<?php if ( $this->secure->isManagerLoggedIn($this->session)): ?>		
+											<?php if ($this->ion_auth->is_admin()): ?>		
 												<a href="<?php echo site_url('admin');?>" class="btn" ><i class="fa fa-users"></i></a>
 											<?php endif ?>
 										</div>
@@ -68,7 +87,7 @@
 												<?php echo anchor('/profile/logout', lang('profile_log_out'), array('class' => 'btn btn-default btn-sm pull-right') ) ?> 
 											</div>
 											<div class="col-md-6 pull-right"> 
-												<?php echo anchor('/profile/forgot_login', lang('recover_password'), array('class' => 'btn btn-default btn-sm pull-right') ) ?>  
+												<button data-title="Change" data-toggle="modal" data-target="#change" data-placement="top" type="button" class="btn btn-default btn-sm pull-right"><i class="fa fa-key"></i> <?php echo lang('recover_password'); ?></button>   
 											</div>
 										</div>
 									</div>
@@ -104,7 +123,8 @@
                         </li>
 						<li>
 							<a id="side-menu"><i class="fa fa-arrows-alt fa-fw"></i> <?php echo lang('categories_draggable_title'); ?>
-							<div class="fc-view-container" id='external-events'>  						
+							<div class="overflow" id="helper">
+								<div class="fc-view-container" id='external-events'></div> 
 							</div>
 							<p>
 								<input type='checkbox' id='drop-remove' />

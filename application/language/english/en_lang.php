@@ -24,6 +24,8 @@ $lang['member'] = 'Member';
 $lang['members'] = 'Members'; 
 $lang['admin'] = 'Admin';
 $lang['admins'] = 'Admins';
+$lang['group'] = 'Group';
+$lang['groups'] = 'Groups';
 $lang['lock'] = 'Lock'; 
 $lang['unlock'] = 'Unlock'; 
 $lang['maps'] = 'Maps'; 
@@ -72,6 +74,7 @@ $lang['queues'] = 'Queues';
 $lang['sessions'] = 'Sessions'; 
 $lang['register'] = 'Register';
 $lang['notify'] = 'Notify';
+$lang['identity'] = 'Identity';
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
 
 //Admin
@@ -121,11 +124,9 @@ $lang['sessions_message_title'] = 'No Sessions';
 $lang['sessions_message_warning'] = 'No Sessions available';  
 
 //Tables
-//
-$lang['admin_level_2'] = 'Admin Privileges';
-$lang['admin_level_1'] = 'User Privileges';
-$lang['admin_status_1'] = 'Locked';
-$lang['admin_status_0'] = 'Unlocked';
+// 
+$lang['admin_status_1'] = 'Active';
+$lang['admin_status_0'] = 'Inactive';
 //modals
 $lang['admin_modal_edit_user'] = 'Edit user Information';
 $lang['admin_modal_delete_user'] = 'Delete user Information';
@@ -144,6 +145,7 @@ $lang['admin_table_username'] = 'User Name';
 $lang['admin_table_fname'] = 'First Name';
 $lang['admin_table_lname'] = 'Last Name';
 $lang['admin_table_address'] = 'Address';
+$lang['admin_table_company'] = 'Company';
 $lang['admin_table_phone'] = 'Phone';
 $lang['admin_table_email'] = 'Email';
 $lang['admin_table_password'] = 'Password';
@@ -175,6 +177,7 @@ $lang['admin_nav_events'] = 'Events List';
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'Members'; 
 $lang['admin_nav_sessions'] = 'Sessions'; 
+$lang['admin_nav_group'] = 'Group'; 
 
 //Profile
 //
@@ -186,41 +189,36 @@ $lang['profile_configuration'] = 'Configure';
   
 //Profile page
 $lang['profile_page'] = 'Profile';
-$lang['profile_welcome'] = 'Welcome ';
- 
+$lang['profile_welcome'] = 'Welcome '; 
 //Login
 $lang['profile_login'] = 'Login';
 $lang['profile_signin'] = 'sign-in';
 $lang['profile_noaccount'] = 'Don\'t have an account yet?';
 $lang['profile_login_username'] = 'Username';
 $lang['profile_login_password'] = 'Password';
-
-$lang['profile_logged_in'] = 'Login in as';
-$lang['profile_log_out'] = 'Log out';
-
+$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_logged_in'] = 'Login in as'; 
 $lang['profile_login_fail'] = 'Sorry, user login info do not exist';
-$lang['profile_login_auth_fail'] = 'Sorry, authentication failed'; 
- 
+$lang['profile_login_auth_fail'] = 'Sorry, authentication failed';  
 $lang['profile_signup_date'] = 'Member Since';
-$lang['profile_signin_date'] = 'Sign-in Since';
-
+$lang['profile_signin_date'] = 'Sign-in Since'; 
 $lang['profile_signin_error'] = 'Sorry Password is incorrect';
 $lang['profile_login_noemail'] = 'Sorry, email do not exist';
 $lang['profile_email_exists'] = 'Sorry, email already exist';
-$lang['profile_captcha'] = 'Sorry, the captcha code incorrect. Please try again';
-
+$lang['profile_captcha'] = 'Sorry, the captcha code incorrect. Please try again'; 
 //Logout
-$lang['profile_logout'] = 'Logout';
-
+$lang['profile_logout'] = 'Logout'; 
+$lang['profile_log_out'] = 'Log out'; 
 //Forgot Password
-$lang['profile_forgot_password'] = 'Forgot Password';
-
+$lang['profile_forgot_password'] = 'Forgot Password'; 
 //Register
 $lang['profile_signup'] = 'sign-up';
 $lang['profile_register'] = 'New Member Registration';
 $lang['profile_register_uname'] = 'User name';
 $lang['profile_register_password'] = 'Password';
+$lang['profile_register_password_confirm'] = 'Password Confirm';
 $lang['profile_register_email'] = 'Email';  
+$lang['profile_register_phone'] = 'Phone';  
 $lang['profile_register_success'] = 'Thank you for registering, you are able to log-in';
 $lang['profile_register_button'] = 'Register';
 $lang['profile_register_captcha'] = 'Captcha';
@@ -234,8 +232,9 @@ $lang['register_email_message3'] = 'Sign-in Information:';
 //Change Password
 $lang['profile_change_password'] = 'Change user password';
 $lang['profile_change_warning'] = 'You are about to change';
-$lang['profile_change_password_text'] = 'Old Password';
-$lang['profile_change_password_text2'] = 'New Password';
+$lang['profile_change_old_password'] = 'Old Password';
+$lang['profile_change_new_password'] = 'New Password';
+$lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 //Reset Password
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Change Password';
@@ -267,6 +266,7 @@ $lang['profile_edit_fname'] = 'First Name';
 $lang['profile_edit_lname'] = 'Last Name';
 $lang['profile_edit_age'] = 'Age';
 $lang['profile_edit_address'] = 'Address';
+$lang['profile_edit_company'] = 'Company';
 $lang['profile_edit_phone'] = 'Phone';
 $lang['profile_edit_email'] = 'Email';
 $lang['profile_edit_password'] = 'Password'; 
@@ -306,8 +306,9 @@ $lang['calendar_modal_create_title'] = 'Create Event';
 $lang['calendar_modal_update_title'] = 'Update Event'; 
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Category';
-$lang['calendar_modal_tabtitle3'] = 'Location';
-$lang['calendar_modal_tabtitle4'] = 'Attach';
+$lang['calendar_modal_tabtitle3'] = 'Recurring';
+$lang['calendar_modal_tabtitle4'] = 'Location';
+$lang['calendar_modal_tabtitle5'] = 'Attach';
 $lang['calendar_modal_eventname'] = 'Title';
 $lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Begin Event';
@@ -318,7 +319,7 @@ $lang['calendar_modal_eventshare'] = 'Share Event';
 $lang['calendar_modal_eventprivate'] = 'Private Event';
 $lang['calendar_modal_eventpublic'] = 'Public Event'; 
 $lang['calendar_modal_eventrecurring'] = 'Recurring Events';
-$lang['calendar_modal_eventendrecurring'] = 'End';
+$lang['calendar_modal_eventendrecurring'] = 'End Date';
 $lang['calendar_modal_eventnonerecurring'] = 'Non-recurring';
 $lang['calendar_modal_eventdaily'] = 'Daily';
 $lang['calendar_modal_eventweekly'] = 'Weekly';
@@ -329,6 +330,7 @@ $lang['calendar_modal_category'] = 'Category';
 $lang['calendar_modal_eventrendering'] = 'Placement';  
 $lang['calendar_modal_eventfgrender'] = 'Foreground'; 
 $lang['calendar_modal_eventbgrender'] = 'Background';  
+$lang['calendar_modal_eventoverlap'] = 'Overlap';  
 $lang['calendar_modal_eventcategory'] = 'Category'; 
 $lang['calendar_modal_colorbackground'] = 'Background Color'; 
 $lang['calendar_modal_colortext'] = 'Text Color'; 

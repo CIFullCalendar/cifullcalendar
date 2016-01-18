@@ -121,11 +121,9 @@ $lang['sessions_message_title'] = 'No hay sesiones';
 $lang['sessions_message_warning'] = 'No hay sesiones disponibles';
 
 //Tablas
-//
-$lang['admin_level_2'] = 'Privilegios de administrador';
-$lang['admin_level_1'] = 'Privilegios de usuario';
-$lang['admin_status_1'] = 'Bloqueado';
-$lang['admin_status_0'] = 'Desbloqueado';
+// 
+$lang['admin_status_1'] = 'Desbloqueado';
+$lang['admin_status_0'] = 'Bloqueado';
 
 //Modal 
 //Usuario
@@ -146,6 +144,7 @@ $lang['admin_table_username'] = 'Nombre de Usuario';
 $lang['admin_table_fname'] = 'Nombre De Pila';
 $lang['admin_table_lname'] = 'Apellido';
 $lang['admin_table_address'] = 'Dirección';
+$lang['admin_table_company'] = 'Company';
 $lang['admin_table_phone'] = 'Teléfono';
 $lang['admin_table_email'] = 'Correo electrónico';
 $lang['admin_table_password'] = 'Contraseña';
@@ -177,6 +176,7 @@ $lang['admin_nav_events'] = 'Lista de Eventos';
 $lang['admin_nav_queue'] = 'Eventos Cola';
 $lang['admin_nav_users'] = 'Miembros'; 
 $lang['admin_nav_sessions'] = 'Sesiones';
+$lang['admin_nav_group'] = 'Group'; 
  
 //Perfil
 //
@@ -196,16 +196,12 @@ $lang['profile_signin'] = 'registrarse';
 $lang['profile_noaccount'] = 'No tiene una cuenta?';
 $lang['profile_login_username'] = 'Nombre de usuario';
 $lang['profile_login_password'] = 'Contraseña';
-
-$lang['profile_logged_in'] = 'Autenticarse como';
-$lang['profile_log_out'] = 'Finalizar la sesión';
-
+$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_logged_in'] = 'Autenticarse como'; 
 $lang['profile_login_fail'] = 'Lo sentimos, usuario información no existe';
-$lang['profile_login_auth_fail'] = 'Lo sentimos, pero falla la autenticación'; 
- 
+$lang['profile_login_auth_fail'] = 'Lo sentimos, pero falla la autenticación';  
 $lang['profile_signup_date'] = 'Usuario desde';
-$lang['profile_signin_date'] = 'Regístrese Desde';
-
+$lang['profile_signin_date'] = 'Regístrese Desde'; 
 $lang['profile_signin_error'] = 'Lo sentimos contraseña es incorrecta';
 $lang['profile_login_noemail'] = 'Lo sentimos, dirección de correo electrónico no existen';
 $lang['profile_email_exists'] = 'Lo sentimos, dirección de correo electrónico ya existe';
@@ -213,7 +209,7 @@ $lang['profile_captcha'] = 'Lo sentimos, pero el código captcha incorrecta. Por
 
 //Cerrar sesión
 $lang['profile_logout'] = 'Cerrar sesión';
-
+$lang['profile_log_out'] = 'Finalizar la sesión';
 //Has Olvidado Tu Contraseña
 $lang['profile_forgot_password'] = 'Has Olvidado Tu Contraseña';
 
@@ -309,8 +305,9 @@ $lang['calendar_modal_create_title'] = 'Crear Evento';
 $lang['calendar_modal_update_title'] = 'Actualización Evento'; 
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Categoría';
-$lang['calendar_modal_tabtitle3'] = 'Ubicación';
-$lang['calendar_modal_tabtitle4'] = 'Adjuntar';
+$lang['calendar_modal_tabtitle3'] = 'Recurrentes';
+$lang['calendar_modal_tabtitle4'] = 'Ubicación';
+$lang['calendar_modal_tabtitle5'] = 'Adjuntar';
 $lang['calendar_modal_eventname'] = 'Título';
 $lang['calendar_modal_description'] = 'Descripción';
 $lang['calendar_modal_eventbegin'] = 'Comience Evento';
@@ -329,7 +326,8 @@ $lang['calendar_modal_event2weeks'] = 'Cada 2 semanas';
 $lang['calendar_modal_eventmonthly'] = 'Mensual';
 $lang['calendar_modal_eventyearly'] = 'Anual'; 
 $lang['calendar_modal_category'] = 'Category'; 
-$lang['calendar_modal_eventrendering'] = 'Colocación';  
+$lang['calendar_modal_eventrendering'] = 'Colocación';
+$lang['calendar_modal_eventoverlap'] = 'Overlapping';
 $lang['calendar_modal_eventfgrender'] = 'Primer plano'; 
 $lang['calendar_modal_eventbgrender'] = 'Fondo';  
 $lang['calendar_modal_eventcategory'] = 'Categoría'; 

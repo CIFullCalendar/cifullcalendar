@@ -15,7 +15,7 @@
 							<i class="fa fa-calendar" ></i> <?php echo lang('calendar') ?>
                             <div class="pull-right">
 								<div class="btn-group">
-									<button class="btn btn-danger btn-md" data-title="Delete" data-toggle="modal" data-target="#del_<?php echo $events->id  ?>" data-placement="top" ><i class="fa fa-times"></i> <?php echo lang('decline'); ?></button>
+									<button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#del_<?php echo $events->id  ?>" data-placement="top" ><i class="fa fa-times"></i> <?php echo lang('decline'); ?></button>
 								</div>	
                             </div>							
 						</div>

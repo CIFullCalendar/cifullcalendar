@@ -22,7 +22,7 @@
 						<!-- /.panel-heading -->
 						<div class="panel-body"> 
 							 
-							<form class="form-horizontal" name="form" id="form" method="post" action="<?php echo site_url('admin/calendarlist/edit') . '/';?><?php echo $events->id  ?>" >	
+							<form class="form-horizontal" name="form" id="form" method="post" action="<?php echo site_url('admin/calendarlist/edit') . '/';?><?php echo $events->eid  ?>" >	
 								 
 							<ul class="nav nav-tabs">
 								<li class="active"><a href="#panel1_<?php echo $events->id  ?>" data-toggle="tab"><i class="fa fa-info-circle"></i> <?php echo lang('calendar_modal_tabtitle'); ?></a></li>
@@ -44,28 +44,34 @@
 											<label class="control-label col-md-4 col-xs-4" for="inputEvent"><?php echo lang('calendar_modal_eventname'); ?></label>
 											<div class="col-md-7 col-xs-7">	
 												<input class="form-control" type="text" name="ic_event_title" id="ic_event_title" value="<?php echo $events->title  ?>" placeholder="Event Title" />
+												<?php echo form_error('ic_event_title') ?>	
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="control-label col-md-4 col-xs-4" for="inputDescr"><?php echo lang('calendar_modal_description'); ?></label>
 											<div class="col-md-7 col-xs-7">	
 												<textarea class="form-control" name="ic_event_desc" id="ic_event_desc" placeholder="Event Description" ><?php echo $events->description ?></textarea>
+												<?php echo form_error('ic_event_desc') ?>
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="control-label col-md-4 col-xs-4" for="inputBegin"><?php echo lang('calendar_modal_eventbegin'); ?></label>
 											<div class="col-md-7 col-xs-7">	 
-												<div class="input-group date3" id="updatedtp1<?php echo $events->id  ?>"> 
-													<input class="form-control" type="text" name="ic_event_starttime" id="ic_event_starttime" value="<?php echo $events->start ?>" placeholder="<?php echo lang('calendar_modal_eventbegin'); ?>" />
+												<div class="input-group date3" id="updatedtp1"> 
+													<input class="form-control" type="text" name="ic_event_starttime" id="ic_event_starttime" value="<?php echo set_value('start',$events->start) ?>" placeholder="<?php echo lang('calendar_modal_eventbegin'); ?>" />
 													<span class="input-group-addon">
 														<span class="glyphicon glyphicon-calendar"></span>
 													</span>
-												</div> 													
+												</div> 
+												<?php echo form_error('ic_event_starttime') ?>
 											</div>
 										<script type="text/javascript">
 											$(function () {
-												$('#updatedtp1<?php echo $events->id  ?>').datetimepicker({
-													format: "YYYY-MM-DD HH:mm:ss"
+												$('#updatedtp1').datetimepicker({
+													timeZone: "<?php echo $timezone ?>", 
+													format: "YYYY-MM-DD HH:mm:ss",
+													toolbarPlacement: 'top',							
+													widgetPositioning: {horizontal: 'auto', vertical: 'top'}
 												});  
 											});
 										</script>	
@@ -73,27 +79,26 @@
 										<div class="form-group">
 											<label class="control-label col-md-4 col-xs-4" for="inputEnd"><?php echo lang('calendar_modal_eventend'); ?></label>
 											<div class="col-md-7 col-xs-7">	 
-												<div class="input-group date4" id="updatedtp2<?php echo $events->id  ?>"> 
-													<input class="form-control" type="text" name="ic_event_endtime" id="ic_event_endtime" value="<?php echo $events->end ?>"  placeholder="<?php echo lang('calendar_modal_eventend'); ?>" />
+												<div class="input-group date4" id="updatedtp2"> 
+													<input class="form-control" type="text" name="ic_event_endtime" id="ic_event_endtime" value="<?php echo set_value('end',$events->end) ?>"  placeholder="<?php echo lang('calendar_modal_eventend'); ?>" />
 													<span class="input-group-addon">
 														<span class="glyphicon glyphicon-calendar"></span>
 													</span>
-												</div> 		 
+												</div> 
+												<?php echo form_error('ic_event_endtime') ?>
 											</div>
 										<script type="text/javascript">
 											$(function () {
-												$('#updatedtp2<?php echo $events->id  ?>').datetimepicker({
-													format: "YYYY-MM-DD HH:mm:ss"
+												$('#updatedtp2').datetimepicker({
+													timeZone: "<?php echo $timezone ?>", 
+													format: "YYYY-MM-DD HH:mm:ss",
+													toolbarPlacement: 'top',							
+													widgetPositioning: {horizontal: 'auto', vertical: 'top'}
 												});  
 											});
 										</script>	
-										</div>		
-										<div class="form-group">
-											<label class="control-label col-md-4 col-xs-4" for="inputURL"><?php echo lang('calendar_modal_eventurl'); ?></label>
-											<div class="col-md-7 col-xs-7">	
-												<input class="form-control" type="text" name="ic_event_urllink" id="ic_event_urllink" value="<?php echo $events->url ?>" placeholder="http://" />
-											</div>
-										</div>
+										</div>	
+
 										<div class="form-group">
 											<label class="control-label col-md-4 col-xs-4" for="inputAllDay"><?php echo lang('calendar_modal_eventallday'); ?></label>
 											<div class="col-md-7 col-xs-7">	
@@ -106,6 +111,14 @@
 												<?php endif ?>	 
 											</div>												
 										</div>	
+										
+										<div class="form-group">
+											<label class="control-label col-md-4 col-xs-4" for="inputURL"><?php echo lang('calendar_modal_eventurl'); ?></label>
+											<div class="col-md-7 col-xs-7">	
+												<input class="form-control" type="text" name="ic_event_urllink" id="ic_event_urllink" value="<?php echo $events->url ?>" placeholder="http://" />
+											</div>
+										</div>
+
 										<div class="form-group">	
 											<label class="control-label col-md-4 col-xs-4" for="inputShareit"><?php echo lang('calendar_modal_eventshare'); ?></label>
 											<div class="col-md-7 col-xs-7">	

@@ -129,14 +129,10 @@
 							</div>
                             <div class="list-group panel-user">
 								<?php foreach ($users_list as $result): ?>	
-									<a href="<?php echo site_url($result->uname); ?>" class="list-group-item"> 
+									<a href="<?php echo site_url($result->username); ?>" class="list-group-item"> 
 										<img src="<?php echo base_url();?>assets/img/profile/<?php echo $result->image ?>" class="pull-left fa-fw" >
-										<?php if($result->logged_in == 1): ?>
-											<h5 class="list-group-item-heading"> <strong class="text-success" ><?php echo $result->uname ?></strong></h5>
-										<?php elseif($result->logged_in == 0): ?>
-											<h5 class="list-group-item-heading"> <?php echo $result->uname ?></h5>
-										<?php endif ?>
-										<p class="list-group-item-text text-muted small"><em class="pull-right"><?php echo relativeTime($result->signupdate); ?></em></p>
+										<h5 class="list-group-item-heading"> <?php echo $result->username ?></h5> 
+										<p class="list-group-item-text text-muted small"><em class="pull-right"><?php echo relativeTime($result->created_on); ?></em></p>
 									</a> 
 								<?php endforeach ?>	 
                             </div>
@@ -200,7 +196,7 @@
 							  <i><div id="ic_event_urllink"></div></i>
 							  <address><div id="ic_event_location"></div></address>	
 							  <i><div id="filename"></div></i>
-							  <small><?php echo lang('by') ?> <div id="user"></div></small>
+							  <small><?php echo lang('by') ?> <div id="ic_event_author"></div></small>
 							</div>
 						  </div>
 						

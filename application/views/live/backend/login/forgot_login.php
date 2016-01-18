@@ -9,8 +9,8 @@
 
 				<div class="form-group">
 					<div class="input-group">
-						<span class="input-group-addon"><span class="fa fa-envelope"></span></span>
-						<input class="form-control" type="text" name="login_email" id="login_email" placeholder="<?php echo lang('forgot_login_email') ?>" value="<?php echo set_value('login_email') ?>"/>
+						<span class="input-group-addon"><span class="fa fa-user"></span></span>
+						<input class="form-control" type="text" name="identity" id="identity" placeholder="<?php echo lang('forgot_password_identity_label') ?>" />
 					</div>
 				</div>
 				<div class="control-group"> 
@@ -19,9 +19,8 @@
 					</div>
 				</div> 
 			</form>
-		
-			<?php echo form_error('login_email') ?>
-			<?php if ($message != ''): echo $message; endif ?>
+		 
+			<?php if (!empty($message)) : echo $message; endif ?>
 		</div>
 	</div>
 </div>

@@ -121,11 +121,9 @@ $lang['sessions_message_title'] = 'No Sessions';
 $lang['sessions_message_warning'] = 'No Sessions available';
 
 // Tabelas
-//
-$lang['admin_level_2'] = 'Privilégios de administrador';
-$lang['admin_level_1'] = 'Privilégios de usuário';
-$lang['admin_status_1'] = 'Trancado';
-$lang['admin_status_0'] = 'Desbloqueado';
+// 
+$lang['admin_status_1'] = 'Desbloqueado';
+$lang['admin_status_0'] = 'Trancado';
 
 // Usuário
 $lang['admin_modal_edit_user'] = 'Editar informações do usuário';
@@ -145,6 +143,7 @@ $lang['admin_table_username'] = 'Nome de Usuário';
 $lang['admin_table_fname'] = 'Primeiro Nome';
 $lang['admin_table_lname'] = 'Sobrenome';
 $lang['admin_table_address'] = 'Endereço';
+$lang['admin_table_company'] = 'Company';
 $lang['admin_table_phone'] = 'Telefone';
 $lang['admin_table_email'] = 'Email';
 $lang['admin_table_password'] = 'Senha';
@@ -176,6 +175,7 @@ $lang['admin_nav_events'] = 'Lista de Eventos';
 $lang['admin_nav_queue'] = 'Eventos Fila'; 
 $lang['admin_nav_users'] = 'Membros'; 
 $lang['admin_nav_sessions'] = 'Sessões'; 
+$lang['admin_nav_group'] = 'Group'; 
 
 // Perfil
 //
@@ -195,23 +195,20 @@ $lang['profile_signin'] = 'assinar em';
 $lang['profile_noaccount'] = 'Don\'t tem uma conta?';
 $lang['profile_login_username'] = 'Nome de Usuário';
 $lang['profile_login_password'] = 'Senha';
-
-$lang['profile_logged_in'] = 'Entre em quanto';
-$lang['profile_log_out'] = 'Sair';
-
+$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_logged_in'] = 'Entre em quanto'; 
 $lang['profile_login_fail'] = 'Desculpe, informações de login do usuário não existem';
-$lang['profile_login_auth_fail'] = 'Desculpe, a autenticação falhou';
- 
+$lang['profile_login_auth_fail'] = 'Desculpe, a autenticação falhou'; 
 $lang['profile_signup_date'] = 'Membro Desde';
-$lang['profile_signin_date'] = 'Registe-in Desde';
-
+$lang['profile_signin_date'] = 'Registe-in Desde'; 
 $lang['profile_signin_error'] = 'Desculpe senha está incorreta';
 $lang['profile_login_noemail'] = 'Desculpe, email não existem';
 $lang['profile_email_exists'] = 'Desculpe, email já existe';
-$lang['profile_captcha'] = 'Desculpe, o código captcha incorreta. Por favor, tente novamente';
-
+$lang['profile_captcha'] = 'Desculpe, o código captcha incorreta. Por favor, tente novamente'; 
 // Sair
 $lang['profile_logout'] = 'Sair'; 
+$lang['profile_log_out'] = 'Sair';
+
 // Esqueceu Sua Senha
 $lang['profile_forgot_password'] = 'Esqueceu Sua Senha'; 
 //Register 
@@ -303,8 +300,9 @@ $lang['calendar_modal_create_title'] = 'Criar Evento';
 $lang['calendar_modal_update_title'] = 'Atualização de Evento';
 $lang['calendar_modal_tabtitle'] = 'Informações';
 $lang['calendar_modal_tabtitle2'] = 'Categoria';
-$lang['calendar_modal_tabtitle3'] = 'Localização';
-$lang['calendar_modal_tabtitle4'] = 'Anexar';
+$lang['calendar_modal_tabtitle3'] = 'Recorrentes';
+$lang['calendar_modal_tabtitle4'] = 'Localização';
+$lang['calendar_modal_tabtitle5'] = 'Anexar';
 $lang['calendar_modal_eventname'] = 'Título';
 $lang['calendar_modal_description'] = 'Descrição';
 $lang['calendar_modal_eventbegin'] = 'Comece Evento';
@@ -324,6 +322,7 @@ $lang['calendar_modal_eventmonthly'] = 'Mensal';
 $lang['calendar_modal_eventyearly'] = 'Anual';
 $lang['calendar_modal_category'] = 'Category'; 
 $lang['calendar_modal_eventrendering'] = 'Localização';
+$lang['calendar_modal_eventoverlap'] = 'Overlapping';
 $lang['calendar_modal_eventfgrender'] = 'Primeiro plano';
 $lang['calendar_modal_eventbgrender'] = 'Fundo';
 $lang['calendar_modal_eventcategory'] = 'Categoria';

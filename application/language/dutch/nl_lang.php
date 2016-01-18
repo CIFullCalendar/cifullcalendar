@@ -72,6 +72,7 @@ $lang['queues'] = 'Rij';
 $lang['sessions'] = 'Sessions';
 $lang['register'] = 'Registreren';
 $lang['notify'] = 'Notify';
+$lang['identity'] = 'Identity';
 $lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
 
 //Admin
@@ -121,10 +122,8 @@ $lang['sessions_message_title'] = 'No Sessions';
 $lang['sessions_message_warning'] = 'No Sessions available';
 //Tables
 //
-$lang['admin_level_2'] = 'BeheerdersRechten';
-$lang['admin_level_1'] = 'Gebruikers Rechten';
-$lang['admin_status_1'] = 'Op slot';
-$lang['admin_status_0'] = 'Open';
+$lang['admin_status_1'] = 'Open';
+$lang['admin_status_0'] = 'Op slot';
 //modals
 $lang['admin_modal_edit_user'] = 'Gebruikersinformatie aanpassen';
 $lang['admin_modal_delete_user'] = 'Verwijder gebruikersinformatie';
@@ -141,6 +140,7 @@ $lang['admin_table_username'] = 'Gebruikersnaam';
 $lang['admin_table_fname'] = 'Voornaam';
 $lang['admin_table_lname'] = 'Familienaam';
 $lang['admin_table_address'] = 'Adres';
+$lang['admin_table_company'] = 'Company';
 $lang['admin_table_phone'] = 'Phone';
 $lang['admin_table_email'] = 'E-mailadres';
 $lang['admin_table_password'] = 'Wachtwoord';
@@ -171,6 +171,8 @@ $lang['admin_nav_events'] = 'Events Lijst';
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'leden'; 
 $lang['admin_nav_sessions'] = 'Sessie'; 
+$lang['admin_nav_group'] = 'Group'; 
+
 //Profile
 //
 $lang['profile_dashboard'] = 'Mijn startpagina';
@@ -189,11 +191,10 @@ $lang['profile_signin'] = 'Aanmelden';
 $lang['profile_noaccount'] = 'Heeft u nog geen account?';
 $lang['profile_login_username'] = 'Gebruikersnaam';
 $lang['profile_login_password'] = 'Wachtwoord';
+$lang['profile_remember_label'] = 'Remember Me'; 
 $lang['profile_logged_in'] = 'Aanmelden als';
-$lang['profile_log_out'] = 'Afmelden';
 $lang['profile_login_fail'] = 'Het spijt ons, de aanmeldgegevens zijn fout';
-$lang['profile_login_auth_fail'] = 'Het spijt ons, de authenticatie is mislukt'; 
- 
+$lang['profile_login_auth_fail'] = 'Het spijt ons, de authenticatie is mislukt';  
 $lang['profile_signup_date'] = 'Lid sinds';
 $lang['profile_signin_date'] = 'Aangemeld sinds';
 $lang['profile_signin_error'] = 'Het spijt ons, het wachtwoord is niet correct.';
@@ -201,7 +202,8 @@ $lang['profile_login_noemail'] = 'Het spijt ons, het emailadres is niet geregist
 $lang['profile_email_exists'] = 'Het spijt ons, het emailadres is al geregistreerd';
 $lang['profile_captcha'] = 'Het spijt ons, de captcha code is fout. Probeer opnieuw';
 //Logout
-$lang['profile_logout'] = 'Afmelden';
+$lang['profile_logout'] = 'Afmelden'; 
+$lang['profile_log_out'] = 'Afmelden';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Wachtwoord vergeten';
 //Register 
@@ -291,8 +293,9 @@ $lang['calendar_modal_create_title'] = 'Evenement aanmaken';
 $lang['calendar_modal_update_title'] = 'Evenement aanpassen'; 
 $lang['calendar_modal_tabtitle'] = 'Info';
 $lang['calendar_modal_tabtitle2'] = 'Categorie';
-$lang['calendar_modal_tabtitle3'] = 'Locatie';
-$lang['calendar_modal_tabtitle4'] = 'Toevoegen';
+$lang['calendar_modal_tabtitle3'] = 'Herhalend';
+$lang['calendar_modal_tabtitle4'] = 'Locatie';
+$lang['calendar_modal_tabtitle5'] = 'Toevoegen';
 $lang['calendar_modal_eventname'] = 'Titel';
 $lang['calendar_modal_description'] = 'Beschrijving';
 $lang['calendar_modal_eventbegin'] = 'Begin evenement';
@@ -311,7 +314,8 @@ $lang['calendar_modal_event2weeks'] = 'Om de 2 weken';
 $lang['calendar_modal_eventmonthly'] = 'Maandelijks';
 $lang['calendar_modal_eventyearly'] = 'Jaarlijks'; 
 $lang['calendar_modal_category'] = 'Category'; 
-$lang['calendar_modal_eventrendering'] = 'Placement';  
+$lang['calendar_modal_eventrendering'] = 'Placement';
+$lang['calendar_modal_eventoverlap'] = 'Overlapping';
 $lang['calendar_modal_eventfgrender'] = 'Voorgrond'; 
 $lang['calendar_modal_eventbgrender'] = 'Achtergrond';  
 $lang['calendar_modal_eventcategory'] = 'Categorie'; 

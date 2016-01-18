@@ -2,58 +2,36 @@
 	<div id="page-wrapper"> 
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header"><?php echo lang('page_header') ?></h1>
+				<h1 class="page-header"><i class="fa fa-file-o" ></i> <?php echo lang('page_header') ?></h1>
 			</div>
 			<!-- /.col-lg-12 -->		
-		
-		<div class="col-md-12 col-lg-12">
-
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<i class="fa fa-file-o" ></i> <?php echo lang('page_header') ?>
-                            <div class="pull-right">
-								<div class="pull-right">
-									<div class="btn-group">
-									 <form name="formadd" method="post" action="<?php echo site_url('admin/pages/add') ?>" >	
-										<button type="submit" class="btn btn-xs" id="button" name="page_add" /><?php echo lang('add') ?> <i class="fa fa-pencil-square-o"></i></button>
-									 </form> 
-									</div>
-								</div>				
-                            </div>							
-						</div>
-						<!-- /.panel-heading -->
-                        <div class="panel-body">  
-							<div class="table-responsive">
-								<div id="toolbar"> 
-									<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>   
-								</div>	
-								<table id="pages_dataTable" class="table" data-toolbar="#toolbar" >
-									<thead>
-										<tr> 
-											<th data-field="chk" data-checkbox="true"></th>
-											<th data-field="uname" data-align="right" data-sortable="true" data-width="15%" ><?php echo lang('page_username'); ?></th>
-											<th data-field="title" data-align="left" data-sortable="true"><?php echo lang('page_title'); ?></th> 
-											<th data-field="seo" data-align="left" data-sortable="true"><?php echo lang('pages_access'); ?></th> 
-											<th data-field="operate" data-sortable="false" data-formatter="operateFormatter" data-width="10%"><?php echo lang('edit'); ?></th>   
-										</tr>
-									</thead>
-								</table>
-								<!-- /.table -->		
-							</div>
-						</div>
-						<!-- /.panel-body --> 
-					</div>
-					<!-- /.panel -->
-				</div>
-				<!-- /.col-lg-12 -->
-			</div>
-		
 		</div>
-		<!-- /.col-md-12 .col-lg-12 -->	  
-	</div>
-	<!-- /.row -->  
+		<!-- /.row -->	
+		<div class="row">
+			<div class="col-md-12 col-lg-12">  
+				<div class="table-responsive">
+					<div id="toolbar"> 
+						<button class="btn btn-danger" id="remove-data" data-method="remove" ><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></button>  
+						<a href="<?php echo site_url('admin/pages/add') ?>" class="btn btn-primary" ><i class="fa fa-pencil-square-o"></i> <?php echo lang('add') ?></a> 								
+					</div>	
+					<table id="pages_dataTable" class="table" data-toolbar="#toolbar" >
+						<thead>
+							<tr> 
+								<th data-field="chk" data-checkbox="true"></th>
+								<th data-field="uname" data-align="right" data-sortable="true" data-width="15%" ><?php echo lang('page_username'); ?></th>
+								<th data-field="title" data-align="left" data-sortable="true"><?php echo lang('page_title'); ?></th> 
+								<th data-field="pubdates" data-align="left" data-sortable="true" data-formatter="timestampFormatter" data-width="20%"><?php echo lang('pubdate'); ?></th> 
+								<th data-field="operate" data-sortable="false" data-formatter="operateFormatter" data-width="10%"><?php echo lang('edit'); ?></th>   
+							</tr>
+						</thead>
+					</table>
+					<!-- /.table -->		
+				</div>
+				<!-- /.table-responsive -->		
+			</div>
+			<!-- /.col-md-12 .col-lg-12 -->				
+		</div>
+		<!-- /.row --> 
    </div>
     <!-- /#wrapper --> 
 	

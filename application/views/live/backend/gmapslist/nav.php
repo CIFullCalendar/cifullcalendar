@@ -31,13 +31,13 @@
 					</li>
 		  
 					<!-- /.dropdown -->
-					<?php if ($this->secure->isManagerLoggedIn($this->session)): ?>	
+					<?php if ($this->ion_auth->is_admin()): ?>	
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 						   <img src="<?php echo $current_logo ?>" alt="" class="fa-fw" style="height:20px;" /> <i class="fa fa-caret-down"></i>
 						</a>
 						<ul class="dropdown-menu dropdown-user"> 
-							<li><a href="<?php echo site_url('profile/user');?>"><i class="fa fa-user fa-fw"></i> <?php echo $userinfo->uname ?></a>
+							<li><a href="<?php echo site_url('profile/user');?>"><i class="fa fa-user fa-fw"></i> <?php echo $userinfo->username ?></a>
 							</li>
 							<li><a href="<?php echo site_url('admin/settings');?>"><i class="fa fa-gear fa-fw"></i> <?php echo lang('settings_name') ?></a>
 							</li>
@@ -79,8 +79,17 @@
                              <a href="<?php echo site_url('admin/queuelist'); ?>"><i class="fa fa-calendar-check-o fa-fw"></i> <?php echo lang('admin_nav_queue') ?></a>
                         </li> 
                         <li>
-                             <a href="<?php echo site_url('admin/userslist'); ?>"><i class="fa fa-users fa-fw"></i> <?php echo lang('users') ?></a>
-                        </li>  			
+                            <a href="#"><i class="fa fa-users fa-fw"></i> <?php echo lang('users') ?><span class="fa arrow"></span></a> 
+							 <ul class="nav nav-second-level">
+								<li>
+									<a href="<?php echo site_url('admin/userslist'); ?>"><i class="fa fa-users fa-fw"></i> <?php echo lang('admin_nav_users') ?></a>
+								</li> 								
+								<li>
+									<a href="<?php echo site_url('admin/sessionlist');?>"><i class="fa fa-exchange fa-fw"></i> <?php echo lang('admin_nav_sessions') ?></a> 
+								</li> 
+							 </ul>
+							 <!-- /.nav-second-level -->
+                        </li>   			
                         <li>
                             <a href="#"><i class="fa fa-file-o fa-fw"></i> <?php echo lang('pages') ?><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
@@ -118,7 +127,10 @@
 								</li> 								
 								<li>
 									<a href="<?php echo site_url('admin/settings/picfile');?>"><i class="fa fa-image fa-fw"></i> <?php echo lang('settings_pic_name') ?></a> 
-								</li>                               
+								</li>
+								<li>
+									<a href="<?php echo site_url('admin/settings/template');?>"><i class="fa fa-pencil-square-o fa-fw"></i> <?php echo lang('settings_template_name') ?></a> 
+								</li>									
 								<li>
 									<a href="<?php echo site_url('admin/settings/theme');?>"><i class="fa fa-paint-brush fa-fw"></i> <?php echo lang('settings_theme_name') ?></a> 
 								</li>   								
