@@ -74,7 +74,7 @@ $lang['register'] = 'Cadastre-se';
 $lang['notify'] = 'Notificar';
 $lang['identity'] = 'Identidade';
 $lang['search'] = 'Pesquisa';
-$lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v';
+$lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2016 v';
 
 //Admin
 //

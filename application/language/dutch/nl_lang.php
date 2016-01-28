@@ -74,7 +74,7 @@ $lang['register'] = 'Registreren';
 $lang['notify'] = 'Notify';
 $lang['identity'] = 'Identity';
 $lang['search'] = 'Zoeken';
-$lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
+$lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2016 v'; 
 
 //Admin
 //
