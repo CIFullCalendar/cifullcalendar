@@ -72,9 +72,13 @@ $lang['queues'] = 'Rij';
 $lang['sessions'] = 'Sessions';
 $lang['register'] = 'Registreren';
 $lang['notify'] = 'Notify';
+<<<<<<< HEAD
 $lang['identity'] = 'Identity';
 $lang['search'] = 'Zoeken';
 $lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2016 v'; 
+=======
+$lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2015 v'; 
+>>>>>>> origin/master
 
 //Admin
 //
@@ -172,8 +176,11 @@ $lang['admin_nav_events'] = 'Events Lijst';
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'leden'; 
 $lang['admin_nav_sessions'] = 'Sessie'; 
+<<<<<<< HEAD
 $lang['admin_nav_group'] = 'Group'; 
 
+=======
+>>>>>>> origin/master
 //Profile
 //
 $lang['profile_dashboard'] = 'Mijn startpagina';

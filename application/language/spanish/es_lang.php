@@ -72,9 +72,13 @@ $lang['queues'] = 'Colas';
 $lang['sessions'] = 'Sessions';
 $lang['register'] = 'Registrarse';
 $lang['notify'] = 'Notify';
+<<<<<<< HEAD
 $lang['identity'] = 'Identidad';
 $lang['search'] = 'Buscar';
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2016 v'; 
+=======
+$lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v'; 
+>>>>>>> origin/master
 
 //Admin
 //
@@ -178,7 +182,10 @@ $lang['admin_nav_events'] = 'Lista de Eventos';
 $lang['admin_nav_queue'] = 'Eventos Cola';
 $lang['admin_nav_users'] = 'Miembros'; 
 $lang['admin_nav_sessions'] = 'Sesiones';
+<<<<<<< HEAD
 $lang['admin_nav_group'] = 'Group'; 
+=======
+>>>>>>> origin/master
  
 //Perfil
 //
@@ -552,4 +559,3 @@ $lang['error_sending_email'] = 'Hubo un problema al enviar un correo electrónic
 $lang['error_creating_password'] = 'Hubo un problema al crear una nueva contraseña ... en contacto con el administrador del sitio';
 $lang['error_creating_member'] = 'Hubo un problema al crear un nuevo usuario ... en contacto con el administrador del sitio';
 $lang['error_captcha'] = 'Código de verificación incorrecto';
- 

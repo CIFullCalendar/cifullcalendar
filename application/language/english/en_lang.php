@@ -24,8 +24,11 @@ $lang['member'] = 'Member';
 $lang['members'] = 'Members'; 
 $lang['admin'] = 'Admin';
 $lang['admins'] = 'Admins';
+<<<<<<< HEAD
 $lang['group'] = 'Group';
 $lang['groups'] = 'Groups';
+=======
+>>>>>>> origin/master
 $lang['lock'] = 'Lock'; 
 $lang['unlock'] = 'Unlock'; 
 $lang['maps'] = 'Maps'; 
@@ -74,9 +77,13 @@ $lang['queues'] = 'Queues';
 $lang['sessions'] = 'Sessions'; 
 $lang['register'] = 'Register';
 $lang['notify'] = 'Notify';
+<<<<<<< HEAD
 $lang['identity'] = 'Identity';
 $lang['search'] = 'Search';
 $lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2016 v'; 
+=======
+$lang['current_v'] = 'CIFullCalendar+ by Sir.Dre © 2015 v'; 
+>>>>>>> origin/master
 
 //Admin
 //
@@ -178,7 +185,10 @@ $lang['admin_nav_events'] = 'Events List';
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'Members'; 
 $lang['admin_nav_sessions'] = 'Sessions'; 
+<<<<<<< HEAD
 $lang['admin_nav_group'] = 'Group'; 
+=======
+>>>>>>> origin/master
 
 //Profile
 //
@@ -233,9 +243,14 @@ $lang['register_email_message3'] = 'Sign-in Information:';
 //Change Password
 $lang['profile_change_password'] = 'Change user password';
 $lang['profile_change_warning'] = 'You are about to change';
+<<<<<<< HEAD
 $lang['profile_change_old_password'] = 'Old Password';
 $lang['profile_change_new_password'] = 'New Password';
 $lang['profile_change_new_password_confirm'] = 'New Password Confirm';
+=======
+$lang['profile_change_password_text'] = 'Old Password';
+$lang['profile_change_password_text2'] = 'New Password';
+>>>>>>> origin/master
 //Reset Password
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Change Password';
@@ -555,5 +570,3 @@ $lang['error_sending_email'] = 'There was a problem sending an email... contact 
 $lang['error_creating_password'] = 'There was a problem creating a new password... contact the site administrator';
 $lang['error_creating_member'] = 'There was a problem creating a new user... contact the site administrator';
 $lang['error_captcha'] = 'Verification code incorrect';
-
- 
