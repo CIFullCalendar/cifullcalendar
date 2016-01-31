@@ -1,3 +1,3 @@
 # cifullcalendar
 
-Language files for cifullcalendar
+Language and theme files for CIFullCalendar
