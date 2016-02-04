@@ -72,13 +72,10 @@ $lang['queues'] = 'Filas';
 $lang['sessions'] = 'Sessions';
 $lang['register'] = 'Cadastre-se';
 $lang['notify'] = 'Notificar';
-<<<<<<< HEAD
 $lang['identity'] = 'Identidade';
 $lang['search'] = 'Pesquisa';
+$lang['options'] = 'Opções';
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2016 v';
-=======
-$lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2015 v';
->>>>>>> origin/master
 
 //Admin
 //
@@ -181,10 +178,7 @@ $lang['admin_nav_events'] = 'Lista de Eventos';
 $lang['admin_nav_queue'] = 'Eventos Fila'; 
 $lang['admin_nav_users'] = 'Membros'; 
 $lang['admin_nav_sessions'] = 'Sessões'; 
-<<<<<<< HEAD
 $lang['admin_nav_group'] = 'Group'; 
-=======
->>>>>>> origin/master
 
 // Perfil
 //
@@ -216,11 +210,8 @@ $lang['profile_email_exists'] = 'Desculpe, email já existe';
 $lang['profile_captcha'] = 'Desculpe, o código captcha incorreta. Por favor, tente novamente'; 
 // Sair
 $lang['profile_logout'] = 'Sair'; 
-<<<<<<< HEAD
 $lang['profile_log_out'] = 'Sair';
 
-=======
->>>>>>> origin/master
 // Esqueceu Sua Senha
 $lang['profile_forgot_password'] = 'Esqueceu Sua Senha'; 
 //Register 
@@ -556,3 +547,4 @@ $lang['error_sending_email'] = 'Houve um problema no envio de um e-mail ... entr
 $lang['error_creating_password'] = 'Houve um problema ao criar uma nova senha ... entre em contato com o administrador do site';
 $lang['error_creating_member'] = 'Houve um problema criando um novo usuário ... entre em contato com o administrador do site';
 $lang['error_captcha'] = 'Código de verificação incorreto';
+ 
