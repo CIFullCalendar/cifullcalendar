@@ -24,6 +24,8 @@ $lang['member'] = 'Member';
 $lang['members'] = 'Members'; 
 $lang['admin'] = 'Beheerder';
 $lang['admins'] = 'Beheerders';
+$lang['group'] = 'Group';
+$lang['groups'] = 'Groups';
 $lang['lock'] = 'Op slot'; 
 $lang['unlock'] = 'Openen'; 
 $lang['maps'] = 'Maps'; 
@@ -75,7 +77,8 @@ $lang['notify'] = 'Notify';
 $lang['identity'] = 'Identity';
 $lang['search'] = 'Zoeken';
 $lang['options'] = 'Opties';
-$lang['current_v'] = 'CIFullCalendar+ door Sir.Dre © 2016 v'; 
+$lang['alert'] = 'Alarm';
+$lang['current_v'] = 'CIFullCalendar door Sir.Dre © 2016 v'; 
 
 //Admin
 //
@@ -193,7 +196,7 @@ $lang['profile_signin'] = 'Aanmelden';
 $lang['profile_noaccount'] = 'Heeft u nog geen account?';
 $lang['profile_login_username'] = 'Gebruikersnaam';
 $lang['profile_login_password'] = 'Wachtwoord';
-$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_remember_label'] = 'Onthoud me'; 
 $lang['profile_logged_in'] = 'Aanmelden als';
 $lang['profile_login_fail'] = 'Het spijt ons, de aanmeldgegevens zijn fout';
 $lang['profile_login_auth_fail'] = 'Het spijt ons, de authenticatie is mislukt';  
@@ -213,7 +216,9 @@ $lang['profile_signup'] = 'Aanmelden';
 $lang['profile_register'] = 'Nieuw gebruiker';
 $lang['profile_register_uname'] = 'Gebruikersnaam';
 $lang['profile_register_password'] = 'Wachtwoord';
+$lang['profile_register_password_confirm'] = 'Wachtwoord Confirm';
 $lang['profile_register_email'] = 'E-mailadres';  
+$lang['profile_register_phone'] = 'Phone';  
 $lang['profile_register_success'] = 'Bedankt om u te registreren, U kan zich nu aanmelden';
 $lang['profile_register_button'] = 'Registreren';
 $lang['profile_register_captcha'] = 'Captcha';
@@ -227,8 +232,9 @@ $lang['register_email_message3'] = 'Aanmeldingsinformatie:';
 //Change Password
 $lang['profile_change_password'] = 'Verander gebruikerswachtwoord';
 $lang['profile_change_warning'] = 'U zal het volgende aanpassen';
-$lang['profile_change_password_text'] = 'Oud wachtwoord';
-$lang['profile_change_password_text2'] = 'Nieuw wachtwoord';
+$lang['profile_change_old_password'] = 'Oud wachtwoord';
+$lang['profile_change_new_password'] = 'Nieuw wachtwoord';
+$lang['profile_change_new_password_confirm'] = 'New Password Confirm'; 
 //Reset Password
 $lang['reset_password'] = 'Reset wachtwoord';
 $lang['recover_password'] = 'Wachtwoord aanpassen';
@@ -277,6 +283,7 @@ $lang['profile_delete_cancel'] = 'Verwijder profiel';
  
 //Button sub-menu
 //
+$lang['submenu_select_groups'] = 'Selecteer Groups'; 
 $lang['submenu_select_categories'] = 'Selecteer categoriën'; 
 $lang['submenu_select_sources'] = 'Selecteer bronnen'; 
 $lang['submenu_dropdown_all_locations'] = 'Alle locaties'; 
@@ -405,6 +412,8 @@ $lang['settings_form_site_name'] = 'Sitenaam';
 $lang['settings_form_site_email'] = 'Site e-mailadres';
 $lang['settings_form_meta_keywords'] = 'Site meta trefwoorden';
 $lang['settings_form_meta_description'] = 'Site meta beschrijving';
+$lang['settings_form_latitude'] = 'Lengte-en';
+$lang['settings_form_longitude'] = 'Breedtegraad';
 $lang['settings_form_timezone'] = 'Tijdszone';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';

@@ -24,6 +24,8 @@ $lang['member'] = 'Member';
 $lang['members'] = 'Members'; 
 $lang['admin'] = 'Administración';
 $lang['admins'] = 'Administracións';
+$lang['group'] = 'Group';
+$lang['groups'] = 'Groups';
 $lang['lock'] = 'Bloquear'; 
 $lang['unlock'] = 'Descubrir'; 
 $lang['maps'] = 'Mapas'; 
@@ -75,6 +77,7 @@ $lang['notify'] = 'Notify';
 $lang['identity'] = 'Identidad';
 $lang['search'] = 'Buscar';
 $lang['options'] = 'Opciones';
+$lang['alert'] = 'Alerta';
 $lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2016 v'; 
 
 //Admin
@@ -199,7 +202,7 @@ $lang['profile_signin'] = 'registrarse';
 $lang['profile_noaccount'] = 'No tiene una cuenta?';
 $lang['profile_login_username'] = 'Nombre de usuario';
 $lang['profile_login_password'] = 'Contraseña';
-$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_remember_label'] = 'Recuérdame'; 
 $lang['profile_logged_in'] = 'Autenticarse como'; 
 $lang['profile_login_fail'] = 'Lo sentimos, usuario información no existe';
 $lang['profile_login_auth_fail'] = 'Lo sentimos, pero falla la autenticación';  
@@ -221,35 +224,35 @@ $lang['profile_signup'] = 'Contratar';
 $lang['profile_register'] = 'Registro de Nuevo Miembro';
 $lang['profile_register_uname'] = 'Nombre de usuario';
 $lang['profile_register_password'] = 'Contraseña';
-$lang['profile_register_email'] = 'Correo electrónico';  
+$lang['profile_register_password_confirm'] = 'Password Confirm';
+$lang['profile_register_email'] = 'Correo electrónico'; 
+$lang['profile_register_phone'] = 'Phone';   
 $lang['profile_register_success'] = 'Gracias por registrarse, usted es capaz de acceder al sistema';
 $lang['profile_register_button'] = 'Registrarse';
 $lang['profile_register_captcha'] = 'Captcha';
 $lang['profile_register_fail'] = 'Los cambios no se presentaron, ver los siguientes mensajes';
-$lang['profile_registeration_fail'] = 'Sorry, member already exist';
+$lang['profile_registeration_fail'] = 'Sorry, member already exist'; 
 //Message
 $lang['register_email_message_subject'] = 'Registro de mensajes';
 $lang['register_email_message1'] = 'Bienvenido a';
 $lang['register_email_message2'] = 'El calendario tiene el poder de organizar, controlar y compartir sus eventos. Ingresar fácilmente y utilizar las características maravillosas con sólo añadir o actualizar los eventos arrastrando, cambio de tamaño, hacer clic y conmovedor. Además, con el apoyo de la mayoría de los dispositivos móviles.';
-$lang['register_email_message3'] = 'Iniciar sesión de información:';
-
-
+$lang['register_email_message3'] = 'Iniciar sesión de información:'; 
 // Cambiar La Contraseña
 $lang['profile_change_password'] = 'Cambiar contraseña de usuario';
-$lang['profile_change_warning'] = 'Usted está a punto de cambiar';
-$lang['profile_change_password_text'] = 'Contraseña Anterior';
-$lang['profile_change_password_text2'] = 'Nueva Contraseña';
-
+$lang['profile_change_warning'] = 'Usted está a punto de cambiar'; 
+$lang['profile_change_old_password'] = 'Contraseña Anterior';
+$lang['profile_change_new_password'] = 'Nueva Contraseña';
+$lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 //Restablecer contraseña
 $lang['reset_password'] = 'Restablecer contraseña';
-$lang['recover_password'] = 'Cambiar La Contraseña';
-
+$lang['recover_password'] = 'Cambiar La Contraseña'; 
 //Has Olvidado Tu Contraseña
 $lang['forgot_login_email'] = 'Correo electrónico';
 $lang['forgot_login_email_submit'] = 'Recuperar Contraseña';
 $lang['forgot_login_email_send'] = 'Información Password Recovery envió';
 $lang['forgot_login_subject'] = 'Contraseña Recuperado';
 $lang['forgot_login_message'] = 'Una confirmación de la contraseña está en tu correo electrónico';
+
 $lang['forgot_login_email_message1'] = 'Cambio de Contraseña / Recuperación';
 $lang['forgot_login_email_message2'] = 'Ha solicitado un cambio de contraseña. Si no he \ t solicitó este cambio por favor, ignora correo electrónico o póngase en contacto con su administrador.';
 $lang['forgot_login_email_message3'] = 'A continuación se muestra el enlace para hacer clic para confirmar el cambio. Otro correo electrónico seguirá con una contraseña temporal.';
@@ -289,6 +292,7 @@ $lang['profile_delete_cancel'] = 'Borrar perfil';
  
 //Button submenú
 //
+$lang['submenu_select_groups'] = 'Seleccionar Group'; 
 $lang['submenu_select_categories'] = 'Seleccionar categorías'; 
 $lang['submenu_select_sources'] = 'Seleccionar fuentes'; 
 $lang['submenu_dropdown_all_locations'] = 'Todas las ubicaciones'; 
@@ -427,6 +431,8 @@ $lang['settings_form_site_name'] = 'Nombre del sitio';
 $lang['settings_form_site_email'] = 'Sitio Email';
 $lang['settings_form_meta_keywords'] = 'Palabras clave meta del Sitio';
 $lang['settings_form_meta_description'] = 'Sitio meta descripción';
+$lang['settings_form_latitude'] = 'Latitud';
+$lang['settings_form_longitude'] = 'longitud';
 $lang['settings_form_timezone'] = 'Zona horaria';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Depurar';

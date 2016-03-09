@@ -77,6 +77,7 @@ $lang['notify'] = 'Notify';
 $lang['identity'] = 'Identity';
 $lang['search'] = 'Search';
 $lang['options'] = 'Options';
+$lang['alert'] = 'Alert';
 $lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v'; 
 
 //Admin
@@ -196,7 +197,7 @@ $lang['profile_welcome'] = 'Welcome ';
 $lang['profile_login'] = 'Login';
 $lang['profile_signin'] = 'sign-in';
 $lang['profile_noaccount'] = 'Don\'t have an account yet?';
-$lang['profile_login_username'] = 'Username';
+$lang['profile_login_username'] = 'Username/Email';
 $lang['profile_login_password'] = 'Password';
 $lang['profile_remember_label'] = 'Remember Me'; 
 $lang['profile_logged_in'] = 'Login in as'; 
@@ -288,6 +289,7 @@ $lang['profile_delete_cancel'] = 'Delete Profile';
  
 //Button sub-menu
 //
+$lang['submenu_select_groups'] = 'Select Shared Events'; 
 $lang['submenu_select_categories'] = 'Select Categories'; 
 $lang['submenu_select_sources'] = 'Select Sources'; 
 $lang['submenu_dropdown_all_locations'] = 'All Locations'; 
@@ -430,6 +432,8 @@ $lang['settings_form_site_name'] = 'Site Name';
 $lang['settings_form_site_email'] = 'Site Email';
 $lang['settings_form_meta_keywords'] = 'Site meta keywords';
 $lang['settings_form_meta_description'] = 'Site meta description';
+$lang['settings_form_latitude'] = 'Latitude';
+$lang['settings_form_longitude'] = 'Longitude';
 $lang['settings_form_timezone'] = 'Timezone';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';

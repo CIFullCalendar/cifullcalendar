@@ -77,6 +77,7 @@ $lang['notify'] = 'Поставить в известность';
 $lang['identity'] = 'Идентичность';
 $lang['search'] = 'Поиск';
 $lang['options'] = 'Опции';
+$lang['alert'] = 'бдительный';
 $lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2016 V ';
     
 // Админ
@@ -230,7 +231,6 @@ $lang['profile_register_button'] = 'Регистр';
 $lang['profile_register_captcha'] = 'Защитный код';
 $lang['profile_register_fail'] = 'Ваши изменения были не представил, см ниже сообщения';
 $lang['profile_registeration_fail'] = 'К сожалению, Вход для зарегистрированных пользователей уже существуют';
-
 //Сообщение
 $lang['register_email_message_subject'] = 'Регистрация Сообщение';
 $lang['register_email_message1'] = 'Добро пожаловать в ';
@@ -294,6 +294,7 @@ $lang['profile_delete_cancel'] = 'Удалить Профиль';
   
 //Кнопка подменю
 //
+$lang['submenu_select_groups'] = 'Выбрать Группа'; 
 $lang['submenu_select_categories'] = 'Выбрать Категории'; 
 $lang['submenu_select_sources'] = 'Выберите источники'; 
 $lang['submenu_dropdown_all_locations'] = 'Все места'; 
@@ -418,6 +419,8 @@ $lang['settings_form_site_name'] = 'Имя сайта';
 $lang['settings_form_site_email'] = 'Сайт E-mail';
 $lang['settings_form_meta_keywords'] = 'Сайт мета ключевые слова';
 $lang['settings_form_meta_description'] = 'Сайт мета-описания';
+$lang['settings_form_latitude'] = 'Широта'; 
+$lang['settings_form_longitude'] = 'Долгота'; 
 $lang['settings_form_timezone'] = 'Часовой пояс';
 $lang['settings_form_captcha'] = 'Защитный код';
 $lang['settings_form_debug'] = 'Отлаживать';

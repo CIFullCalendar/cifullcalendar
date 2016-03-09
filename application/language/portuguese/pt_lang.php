@@ -24,6 +24,8 @@ $lang['member'] = 'Member';
 $lang['members'] = 'Members'; 
 $lang['admin'] = 'Administrador';
 $lang['admins'] = 'Administradors';
+$lang['group'] = 'Group';
+$lang['groups'] = 'Groups';
 $lang['lock'] = 'Trancar';
 $lang['unlock'] = 'Destravar';
 $lang['maps'] = 'Mapas';
@@ -75,6 +77,7 @@ $lang['notify'] = 'Notificar';
 $lang['identity'] = 'Identidade';
 $lang['search'] = 'Pesquisa';
 $lang['options'] = 'Opções';
+$lang['alert'] = 'Alerta';
 $lang['current_v'] = 'CIFullCalendar + por Sir.Dre © 2016 v';
 
 //Admin
@@ -198,7 +201,7 @@ $lang['profile_signin'] = 'assinar em';
 $lang['profile_noaccount'] = 'Don\'t tem uma conta?';
 $lang['profile_login_username'] = 'Nome de Usuário';
 $lang['profile_login_password'] = 'Senha';
-$lang['profile_remember_label'] = 'Remember Me'; 
+$lang['profile_remember_label'] = 'Lembre de mim'; 
 $lang['profile_logged_in'] = 'Entre em quanto'; 
 $lang['profile_login_fail'] = 'Desculpe, informações de login do usuário não existem';
 $lang['profile_login_auth_fail'] = 'Desculpe, a autenticação falhou'; 
@@ -219,7 +222,9 @@ $lang['profile_signup'] = 'inscrever-se';
 $lang['profile_register'] = 'Novo Cadastro de Estados';
 $lang['profile_register_uname'] = 'Nome de usuário';
 $lang['profile_register_password'] = 'Senha';
-$lang['profile_register_email'] = 'O Email';
+$lang['profile_register_password_confirm'] = 'Senha Confirm';
+$lang['profile_register_email'] = 'O Email';  
+$lang['profile_register_phone'] = 'Phone';  
 $lang['profile_register_success'] = 'Obrigado por se registrar, você é capaz de ligar-se';
 $lang['profile_register_button'] = 'Cadastre-se';
 $lang['profile_register_captcha'] = 'Captcha';
@@ -233,8 +238,9 @@ $lang['register_email_message3'] = 'Informações de login:';
 // Alterar A Senha
 $lang['profile_change_password'] = 'Alterar senha do usuário';
 $lang['profile_change_warning'] = 'Você está prestes a mudar';
-$lang['profile_change_password_text'] = 'Senha Antiga';
-$lang['profile_change_password_text2'] = 'Nova Senha'; 
+$lang['profile_change_old_password'] = 'Senha Antiga';
+$lang['profile_change_new_password'] = 'Nova Senha';
+$lang['profile_change_new_password_confirm'] = 'Nova Senha Confirm';   
 //Reset Password
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Alterar A Senha'; 
@@ -284,6 +290,7 @@ $lang['profile_delete_cancel'] = 'Apagar Perfil';
  
 // Botão sub-menu
 //
+$lang['submenu_select_groups'] = 'Escolha Groups'; 
 $lang['submenu_select_categories'] = 'Escolha categorias';
 $lang['submenu_select_sources'] = 'Selecione Fontes';
 $lang['submenu_dropdown_all_locations'] = 'Todos os Locais';
@@ -422,6 +429,8 @@ $lang['settings_form_site_name'] = 'Nome Do Site';
 $lang['settings_form_site_email'] = 'Email do Site';
 $lang['settings_form_meta_keywords'] = 'Meta do site palavras-chave';
 $lang['settings_form_meta_description'] = 'Sítio meta description';
+$lang['settings_form_latitude'] = 'latitude';
+$lang['settings_form_longitude'] = 'Longitude';
 $lang['settings_form_timezone'] = 'Fuso Horário';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Depurar';
