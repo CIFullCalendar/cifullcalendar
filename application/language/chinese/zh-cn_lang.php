@@ -78,7 +78,8 @@ $lang['identity'] = '身份';
 $lang['search'] = '搜索';
 $lang['options'] = '选项';
 $lang['alert'] = '警报';
-$lang['current_v'] = 'CIFullCalendar Sir.Dre © 2016 年v';
+$lang['api'] = 'Google APIKEY';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
 	
 //Admin	//管理员
 //	//

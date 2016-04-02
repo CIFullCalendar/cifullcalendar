@@ -78,7 +78,8 @@ $lang['identity'] = 'Identidade';
 $lang['search'] = 'Recherche';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alerte';
-$lang['current_v'] = 'CIFullCalendar + par Sir.Dre © 2016 v';
+$lang['api'] = 'Google APIKEY';
+$lang['current_v'] = 'CIFullCalendar par Sir.Dre © 2016 v';
   
 //Admin
 //
