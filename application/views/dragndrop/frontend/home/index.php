@@ -57,7 +57,7 @@
 				<div class="modal-content"> 
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="text-danger fa fa-times"></i></button>
-						<h3 id="myModalLabel2"><i class="fa fa-calendar col-md-1"></i><div clss="col-md-11" id="ic_event_title"></div></h3>
+						<h3 id="myModalLabel2"><i class="fa fa-calendar col-md-1"></i><span id="ic_event_title"></span></h3>
 						<div class="control-group"> 
 							<div class="controls controls-row" role="alert" id="when"  >
 							</div>	 
@@ -66,16 +66,14 @@
 					</div>
 					<div class="modal-body"> 
 						<div class="col-md-12 col-sm-12"> 
-							<div class="btn-toggle-info ">	
-								<i class="open_info fa fa-minus-square-o"></i>
-								 <i class="open_info hide fa fa-plus-square-o"></i> <?php echo lang('detail'); ?>
-							</div>				
-							<p class="open_info hide">
-							
-							<h4 id="ic_event_desc"></h4>	
+							<blockquote>
+							  <span class="controls controls-row" role="message" id="ic_event_desc"></span>
+							</blockquote>	
 							
 							<i><div id="ic_event_urllink"></div></i>	
-							<i><div id="ic_event_location"></div></i>	
+							<i><div id="ic_event_location"></div></i>	    
+							<div id="gmapsCanvas" class="map" style="background-color:transparent;" ></div>   
+							<span id="markers_ulat"></span> <span id="markers_ulng"></span> 
 							<i><div id="filename"></div></i>	
 						</div>
 					 <div class="clearfix"></div>
@@ -85,8 +83,9 @@
 							<div class="btn btn-success btn-xs pull-left" id="gexport"></div>
 							<div class="btn btn-success btn-xs pull-left" id="yexport"></div>	
 							<div class="btn btn-success btn-xs pull-left" id="lexport"></div>						  
+							<div class="btn btn-success btn-xs pull-left" id="Iexport"></div>						  
 						</div>
-						<div class="btn-group pull-right">
+						<div class="btn-group pull-right"> 
 							<div class="pull-right" id="ic_event_allday"></div>
 						</div>  
 					</div>

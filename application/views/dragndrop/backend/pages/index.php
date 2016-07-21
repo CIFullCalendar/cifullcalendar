@@ -44,9 +44,9 @@
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 						<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_calendar'); ?></h4>
 					</div>
-					
-					<form name="form_<?php echo $result->id  ?>" id="form_<?php echo $result->id  ?>" method="post" action="<?php echo site_url('admin/pages/del') . '/'. $result->id;?>" >	
-
+					 
+					<?php echo form_open('admin/pages/del/'.$result->id, array('id' => 'form_del'.$result->id, 'name' => 'form_del', 'role' => 'form' )); ?> 
+						
 						<div class="modal-body">
 							<div class="alert alert-warning">
 								<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
@@ -58,10 +58,10 @@
 							<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
 						</div>
 					
-					</form> 
+					<?php echo form_close(); ?>
 				</div>
-		<!-- /.modal-content --> 
+				<!-- /.modal-content --> 
 			</div>
 		  <!-- /.modal-dialog --> 
 		</div>	 
-	<?php endforeach ?>	 
+	<?php endforeach ?>	  

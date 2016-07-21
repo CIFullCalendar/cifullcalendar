@@ -79,7 +79,9 @@ $lang['search'] = 'Поиск';
 $lang['options'] = 'Опции';
 $lang['alert'] = 'бдительный';
 $lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2016 v';
+$lang['color'] = 'Color';
+$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
+$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
     
 // Админ
 //

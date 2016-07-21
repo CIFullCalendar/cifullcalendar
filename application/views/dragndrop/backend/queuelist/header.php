@@ -18,6 +18,6 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/jquery.minicolors.css" type="text/css" />  
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/admin.css" type="text/css" />     
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places" type="text/javascript"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&language=<?php echo $lang ?>&key=<?php echo $key ?>" type="text/javascript"></script>	  	
 	<script src="<?php echo base_url(); ?>assets/plugins/gmaps/gmap.table.min.js"></script>  
 	<script src="<?php echo base_url(); ?>assets/plugins/jquery/jquery.min.js"></script>  

@@ -51,7 +51,7 @@
 											<div class="divider"></div>
  
 											<a href="<?php echo site_url('profile/user');?>" class="btn" > <i class="fa fa-user"></i></a>
-											<a href="<?php echo site_url('profile/user/fullcalendar');?>" class="btn" ><i class="fa fa-calendar"></i></a>
+											<a href="<?php echo site_url('profile/user/calendar_settings');?>" class="btn" ><i class="fa fa-calendar"></i></a>
 											<a href="<?php echo site_url('profile/gmaps');?>" class="btn" ><i class="fa fa-location-arrow"></i></a>
 											<a href="<?php echo site_url('profile/categories');?>" class="btn" ><i class="fa fa-list"></i></a>
 											<a href="<?php echo site_url('profile/sources');?>" class="btn" ><i class="fa fa-link"></i></a>

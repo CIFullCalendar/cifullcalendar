@@ -79,7 +79,9 @@ $lang['search'] = 'Tìm kiếm';
 $lang['options'] = 'Tùy chọn';
 $lang['alert'] = 'Báo động';
 $lang['api'] = 'KEY API Google';
-$lang['current_v'] = 'CIFullCalendar bởi Sir.Dre © 2016 v';
+$lang['color'] = 'Color';
+$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
+$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
 	
 //Quản trị viên
 //

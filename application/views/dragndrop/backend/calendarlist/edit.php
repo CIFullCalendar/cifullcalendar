@@ -10,7 +10,8 @@
 		<!-- /.row -->			
 		<div class="row">
 			<div class="col-md-12 col-lg-12">   
-				<form class="form-horizontal" name="form" id="form" method="post" action="<?php echo site_url('admin/calendarlist/edit') . '/';?><?php echo $events->eid  ?>" >	
+			
+				<?php echo form_open('admin/calendarlist/edit/'.$events->eid, array('class' => 'form-horizontal', 'id' => 'list'.$events->eid)); ?>   
 						 
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#panel1_<?php echo $events->id  ?>" data-toggle="tab"><i class="fa fa-info-circle"></i> <?php echo lang('calendar_modal_tabtitle'); ?></a></li>
@@ -225,8 +226,10 @@
 					<div class="btn-group pull-right">
 						<b><?php echo lang('pubdate'); ?>:</b>
 						<time datetime="<?php echo $events->pubDate; ?>"><?php echo $pubDate; ?></time> 
-					</div>						
-				</form>  		
+					</div>
+
+					
+				<?php echo form_close(); ?>		
 				
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				
@@ -242,9 +245,9 @@
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 					<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_calendar'); ?></h4>
 				</div>
+				 
+				<?php echo form_open('admin/calendarlist/del/'.$events->id, array('id' => 'form_del'.$events->id, 'name' => 'form_del'.$events->id )); ?> 
 				
-				<form name="form_<?php echo $events->id  ?>" id="form_<?php echo $events->id  ?>" method="post" action="<?php echo site_url('admin/calendarlist/del') . '/';?><?php echo $events->id  ?>" >	
-
 					<div class="modal-body">
 						<div class="alert alert-warning">
 							<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
@@ -256,9 +259,9 @@
 						<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
 					</div>
 				
-				</form> 
+				<?php echo form_close(); ?>  
 			</div>
-	<!-- /.modal-content --> 
+			<!-- /.modal-content --> 
 		</div>
 	  <!-- /.modal-dialog --> 
 	</div>		

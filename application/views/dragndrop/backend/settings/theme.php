@@ -11,9 +11,8 @@
 			
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
-											
-				<form id="form_theme" name="form" method="post" enctype="multipart/form-data" action="<?php echo site_url('admin/settings/theme'); ?>">
-			 
+											 
+				<?php echo form_open('admin/settings/theme', array('class' => 'form-horizontal', 'id' => 'form_settings_theme', 'name' => 'form_settings_theme', 'role' => 'form' )); ?> 
 					<!-- Form theme-->
 					<div class="form-group"> 
 						<label for="inputTheme"><?php echo lang('theme_name'); ?></label>  
@@ -26,12 +25,16 @@
 					<div class="form-group"> 
 						<label for="inputLang"><?php echo lang('theme_language'); ?></label>  
 						<select class="form-control" name="language" id="language">
-							<option value="en" <?php if($lang =='en'){ echo "SELECTED";}?> ><?php echo lang('lang_english'); ?></option>
+							<option value="en" <?php if($lang =='en'){ echo "SELECTED";}?> ><?php echo lang('lang_english'); ?></option> 
+							<option value="es" <?php if($lang =='es'){ echo "SELECTED";}?> ><?php echo lang('lang_spanish'); ?></option>
 							<option value="nl" <?php if($lang =='nl'){ echo "SELECTED";}?> ><?php echo lang('lang_dutch'); ?></option>
 							<option value="fr" <?php if($lang =='fr'){ echo "SELECTED";}?> ><?php echo lang('lang_french'); ?></option>
 							<option value="pt" <?php if($lang =='pt'){ echo "SELECTED";}?> ><?php echo lang('lang_portuguese'); ?></option> 
-							<option value="ru" <?php if($lang =='ru'){ echo "SELECTED";}?> ><?php echo lang('lang_russian'); ?></option> 
-							<option value="es" <?php if($lang =='es'){ echo "SELECTED";}?> ><?php echo lang('lang_spanish'); ?></option>							
+							<option value="ru" <?php if($lang =='ru'){ echo "SELECTED";}?> ><?php echo lang('lang_russian'); ?></option>
+							<option value="ja" <?php if($lang =='ja'){ echo "SELECTED";}?> ><?php echo lang('lang_japanese'); ?></option>
+							<option value="ko" <?php if($lang =='ko'){ echo "SELECTED";}?> ><?php echo lang('lang_korean'); ?></option> 
+							<option value="vi" <?php if($lang =='vi'){ echo "SELECTED";}?> ><?php echo lang('lang_vietnamese'); ?></option>
+							<option value="zh-cn" <?php if($lang =='zh-cn'){ echo "SELECTED";}?> ><?php echo lang('lang_chinese'); ?></option>	
 						</select>
 						<?php echo form_error('language') ?> 
 					</div>											
@@ -43,7 +46,7 @@
 						<input type="submit" class="btn" id="button" name="theme_cancel" value="<?php echo lang('cancel') ?>" /> 
 					</div>	
 					
-				</form>
+				<?php echo form_close(); ?>	
 								 
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				

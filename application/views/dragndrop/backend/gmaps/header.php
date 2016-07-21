@@ -16,4 +16,4 @@
 	<!-- CIFullCalendar CSS -->
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/profile.css" type="text/css" />  
 	
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places" type="text/javascript"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&language=<?php echo $lang ?>&key=<?php echo $key ?>" type="text/javascript"></script>	  

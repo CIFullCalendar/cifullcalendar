@@ -11,8 +11,7 @@
 		
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
-			   <form id="form_settings" name="form" method="post" action="<?php echo site_url('admin/settings/attachments'); ?>">
-								
+				<?php echo form_open('admin/settings/attachments', array('class' => 'form-horizontal', 'id' => 'form_settings', 'name' => 'form_settings')); ?>  				
 					<div class="form-group">
 						<label><?php echo lang('attach_allowed_extension') ?></label>
 						<input class="form-control" type="text" name="attach_allowed_extension" id="attach_allowed_extension" value="<?php echo set_value('attach_allowed_extension', $attach_allowed_extension); ?>"/>
@@ -30,10 +29,8 @@
 					</div> 						
 					<div class="btn-group">
 						<input type="submit" class="btn" id="button" name="file_cancel" value="<?php echo lang('cancel') ?>" /> 
-					</div>								 
-					
-				</form>                           
-				 
+					</div>	 
+				<?php echo form_close(); ?>  
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				
 		</div>

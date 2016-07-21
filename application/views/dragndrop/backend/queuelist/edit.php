@@ -9,9 +9,10 @@
 		</div>
 		<!-- /.row -->			
 		<div class="row">
-			<div class="col-md-12 col-lg-12">    
-				<form class="form-horizontal" name="form" id="form" method="post" action="<?php echo site_url('admin/queuelist/edit') . '/';?><?php echo $events->id  ?>" >	
-					 
+			<div class="col-md-12 col-lg-12">   
+			
+				<?php echo form_open('admin/queuelist/edit/'.$events->id, array('class' => 'form-horizontal', 'id' => 'form_edit'.$events->id, 'name' => 'form_edit', 'role' => 'form' )); ?>  
+					
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#panel1_<?php echo $events->id  ?>" data-toggle="tab"><i class="fa fa-info-circle"></i> <?php echo lang('calendar_modal_tabtitle'); ?></a></li>
 						<li><a href="#panel2_<?php echo $events->id  ?>" data-toggle="tab"><i class="fa fa-paint-brush"></i> <?php echo lang('calendar_modal_tabtitle2'); ?></a></li>
@@ -212,8 +213,9 @@
 					<div class="btn-group pull-right">
 						<b><?php echo lang('pubdate'); ?>:</b>
 						<time datetime="<?php echo $events->pubDate; ?>"><?php echo $pubDate; ?></time> 
-					</div>						
-				</form> 
+					</div>	
+					
+				<?php echo form_close(); ?>	
 					
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				
@@ -223,7 +225,6 @@
     <!-- /#wrapper --> 						 
 
 						 
-	
 	<div class="modal fade" id="del_<?php echo $events->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -231,21 +232,21 @@
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 					<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_calendar'); ?></h4>
 				</div>
-				
-				<form name="form_<?php echo $events->id  ?>" id="form_<?php echo $events->id  ?>" method="post" action="<?php echo site_url('admin/calendarlist/del') . '/';?><?php echo $events->id  ?>" >	
+	
+				<?php echo form_open('admin/calendarlist/del/'.$events->id, array('id' => 'form_del'.$events->id, 'name' => 'form_del', 'role' => 'form' )); ?>  
 
-					<div class="modal-body">
-						<div class="alert alert-warning">
-							<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
-							<b><?php echo $events->title  ?></b>? 
-						</div>							
-					</div>
-					<div class="modal-footer ">
-						<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
-						<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
-					</div>
+				<div class="modal-body">
+					<div class="alert alert-warning">
+						<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
+						<b><?php echo $events->title  ?></b>? 
+					</div>							
+				</div>
+				<div class="modal-footer ">
+					<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
+					<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
+				</div>
 				
-				</form> 
+				<?php echo form_close(); ?>
 			</div>
 			<!-- /.modal-content --> 
 		</div>

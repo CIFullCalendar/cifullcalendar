@@ -10,7 +10,7 @@
 		<div class="row">
 			<div class="col-md-12 col-lg-12"> 
 				 
-				<form class="form-horizontal" name="form_edit" id="form_edit" method="post" accept-charset="utf-8" action="<?php echo site_url('admin/group/edit') . '/';?><?php echo $group->id  ?>" >	  
+				<?php echo form_open('admin/group/edit/'.$group->id, array('id' => 'form_edit'.$group->id, 'name' => 'form_edit'.$group->id, 'role' => 'form' )); ?>   
 					<div class="container-fluid">
 						<div class="row-fluid"> 
 							<div class="col-md-12"> 		 
@@ -31,7 +31,7 @@
 							</div> 
 						</div>
 					</div>   
-				</form>  
+				<?php echo form_close(); ?> 
 				
 				<label class="alert"> 
 					 <?php echo $message ?> 

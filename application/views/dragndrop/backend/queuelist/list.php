@@ -35,11 +35,11 @@
 			<!-- /.col-md-12 .col-lg-12 -->				
 		</div>
 		<!-- /.row -->  
-   </div>
+    </div>
     <!-- /#wrapper -->  
 	
 	<?php foreach ($alleventsqueues as $result): ?>		 
-		<div class="modal fade" id="del_<?php echo $result->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
+		<div class="modal fade" id="del_<?php echo $result['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -47,23 +47,23 @@
 						<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('calendar_delete_event'); ?></h4>
 					</div>
 					
-					<form name="form_<?php echo $result->id  ?>" id="form_<?php echo $result->id  ?>" method="post" action="<?php echo site_url('admin/queuelist/del') . '/';?><?php echo $result->id  ?>" >	
+					<?php echo form_open('admin/queuelist/del/'.$result['id'] , array('id' => 'form_del'.$result['id'], 'name' => 'form_del', 'role' => 'form' )); ?>   
 
-						<div class="modal-body">
-							<div class="alert alert-warning">
-								<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('calendar_delete_warning'); ?>  
-								<b><?php echo $result->title  ?></b>? 
-							</div>							
-						</div>
-						<div class="modal-footer ">
-							<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
-							<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
-						</div>
+					<div class="modal-body">
+						<div class="alert alert-warning">
+							<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('calendar_delete_warning'); ?>  
+							<b><?php echo $result['title'] ?></b>? 
+						</div>							
+					</div>
+					<div class="modal-footer ">
+						<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
+						<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
+					</div>
 					
-					</form> 
+					<?php echo form_close(); ?> 
 				</div>
 				<!-- /.modal-content --> 
 			</div>
 		  <!-- /.modal-dialog --> 
 		</div>	 
-	<?php endforeach ?>	 
+	<?php endforeach ?>	  

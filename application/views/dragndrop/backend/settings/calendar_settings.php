@@ -12,8 +12,8 @@
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
 							
-					<form id="form_cal" name="form" method="post" action="<?php echo site_url('admin/settings/fullcalendar'); ?>">
-				 
+					<?php echo form_open('admin/settings/calendar_settings', array('class' => 'form-horizontal', 'id' => 'form_cal', 'name' => 'form_cal'));	?> 
+					
 						<div class="form-group">
 							<label><?php echo lang('cal_defaultview') ?></label>
 							<select class="form-control" name="cal_defaultview" id="cal_defaultview">
@@ -63,13 +63,7 @@
 							<label><?php echo lang('cal_aspectratio') ?></label>
 							<input class="form-control" type="text" name="cal_aspectratio" id="cal_aspectratio" value="<?php echo set_value('cal_aspectratio', $aspectratio); ?>"/>
 							<p class="help-block"><?php echo form_error('cal_aspectratio'); ?></p>
-						</div> 											
-						
-						<div class="form-group">
-							<label><?php echo lang('cal_hiddendays') ?></label>
-							<input class="form-control" type="text" name="cal_hiddendays" id="cal_hiddendays" value="<?php echo set_value('cal_hiddendays', $hiddendays); ?>"/>
-							<p class="help-block"><?php echo form_error('cal_hiddendays'); ?></p>
-						</div> 											
+						</div> 		
 						
 						<div class="form-group">
 							<label><?php echo lang('cal_businesshours') ?></label>
@@ -82,7 +76,26 @@
 								<input class="form-control" type="time" name="cal_businessend" id="cal_businessend" value="<?php echo set_value('cal_businessend', $businessend); ?>"/> 
 							</div>	
 							<p class="help-block"><?php echo form_error('cal_businesshours') ?></p>
-						</div>	
+						</div>													
+						
+						<div class="form-group">
+							<label><?php echo lang('cal_hiddendays') ?></label>
+							<input class="form-control" type="text" name="cal_hiddendays" id="cal_hiddendays" value="<?php echo set_value('cal_hiddendays', $hiddendays); ?>"/>
+							<p class="help-block"><?php echo form_error('cal_hiddendays'); ?></p>
+						</div> 													
+						
+						<div class="form-group">
+							<label><?php echo lang('cal_minmaxtime_range') ?></label>
+							<div class="form-group" style="margin:0px 20px">
+								<label><?php echo lang('cal_mintime') ?></label>
+								<input class="form-control" type="text" name="cal_mintime" id="cal_mintime" value="<?php echo set_value('cal_mintime', $mintime); ?>" />
+								<p class="help-block"><?php echo form_error('cal_mintime') ?></p>
+						 
+								<label><?php echo lang('cal_maxtime') ?></label>
+								<input class="form-control" type="text" name="cal_maxtime" id="cal_maxtime" value="<?php echo set_value('cal_maxtime', $maxtime); ?>" />
+								<p class="help-block"><?php echo form_error('cal_maxtime') ?></p>
+							</div>	
+						</div>													
 						
 						<div class="form-group">
 							<label><?php echo lang('cal_slotduration') ?></label>
@@ -98,7 +111,7 @@
 							</select>
 							<p class="help-block"><?php echo form_error('cal_slotlabeling') ?></p>
 						</div>											
-				
+
 						<div class="form-group">
 							<label><?php echo lang('cal_editable') ?></label>
 							<select class="form-control" name="cal_editable" id="cal_editable">
@@ -107,7 +120,7 @@
 							</select>
 							<p class="help-block"><?php echo form_error('cal_editable') ?></p>
 						</div>								
-		 
+
 						<div class="form-group">
 							<label><?php echo lang('cal_weeknumbers') ?></label>
 							<select class="form-control" name="cal_weeknumbers" id="cal_weeknumbers">
@@ -134,7 +147,7 @@
 							</select>
 							<p class="help-block"><?php echo form_error('cal_alldayslot') ?></p>
 						</div>	
-				
+
 						<div class="form-group">
 							<label><?php echo lang('cal_isrtl') ?></label>
 							<select class="form-control" name="cal_isrtl" id="cal_isrtl">
@@ -151,8 +164,8 @@
 							<input type="submit" class="btn" id="button" name="calendar_cancel" value="<?php echo lang('cancel') ?>" /> 
 						</div>										
 						
-				 
-					</form>
+
+					<?php echo form_close(); ?>		
 				 
 				</div>
 			</div>	 

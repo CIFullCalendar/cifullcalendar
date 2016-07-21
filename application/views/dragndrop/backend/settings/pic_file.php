@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
 			
-			    <form id="form_settings" name="form" method="post" enctype="multipart/form-data" action="<?php echo site_url('admin/settings/picfile'); ?>">
+			   <?php echo form_open('admin/settings/picfile', array('class' => 'form-horizontal', 'id' => 'form_settings_pic', 'name' => 'form_settings_pic', 'role' => 'form' )); ?>
 								
 					<div class="form-group">
 						<label><?php echo lang('profile_max_upload_width') ?></label>
@@ -45,14 +45,11 @@
 						<input type="submit" class="btn" id="button" name="profile_pic_cancel" value="<?php echo lang('cancel') ?>" /> 
 					</div>							
 					
-				</form>                           
+				<?php echo form_close(); ?>	                        
 						   
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				
 		</div>
 		<!-- /.row --> 
     </div>
-    <!-- /#wrapper -->
-	
-	 
- 
+    <!-- /#wrapper --> 

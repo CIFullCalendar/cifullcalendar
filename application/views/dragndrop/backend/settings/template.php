@@ -30,8 +30,7 @@
 				<a class="btn btn-default btn-sm" href="<?php echo site_url('admin/settings/template/reset_email'); ?>" role="button"><?php echo lang('templates_nav_reset_email'); ?></a> 
 			</div> 		
 				
-				<form  class="form-horizontal" id="form_settings" name="form" method="post" action="<?php echo site_url('admin/settings/template') .'/'.$notify_type; ?>">  
-				
+			<?php echo form_open_multipart('admin/settings/template/'.$notify_type, array('class' => 'form-horizontal', 'id' => 'form_settings_tpl', 'name' => 'form_settings_tpl', 'role' => 'form')); ?>
 				<div class="form-group">
 					<label class="col-lg-12"><?=lang('templates_name')?></label>
 					<div class="col-lg-12">
@@ -54,12 +53,11 @@
 					<input type="submit" name="template_cancel" id="template_cancel" class="btn btn-default" value="<?php echo lang('cancel'); ?>" > </input>  
 				</div> 
 				 
-				</form>  
+			<?php echo form_close(); ?>
  
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->	  
 		</div>
 		<!-- /.row --> 		
-   </div>
-    <!-- /#wrapper --> 
- 
+    </div>
+    <!-- /#wrapper -->  

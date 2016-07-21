@@ -19,9 +19,7 @@
 							<i class="fa fa-file-o" ></i> <?php echo lang('page_header') ?>
                             <div class="pull-right"> 
 								<div class="btn-group">
-								 <form name="formadd" method="post" action="<?php echo site_url('admin/pages/add') ?>" >	
-									<button type="submit" class="btn btn-xs" id="button" name="page_add" /><?php echo lang('add') ?> <i class="fa fa-pencil-square-o"></i></button>
-								 </form> 
+								<a href="<?php echo site_url('admin/pages/add') ?>" class="btn btn-xs" id="button" ><?php echo lang('add') ?> <i class="fa fa-pencil-square-o"></i></a> 
 								</div> 			
                             </div>							
 						</div>

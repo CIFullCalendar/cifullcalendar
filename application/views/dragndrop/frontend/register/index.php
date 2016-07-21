@@ -4,7 +4,7 @@
 		 <a href="<?php echo base_url();?>" ><img src="<?php echo base_url();?>assets/img/logo.png" >
 		 <h3><?php echo $site_name ?></h3></a>
 	 
-		<form class="form form-signup" role="form" id="form"  name="form" method="post" action="<?php echo site_url('register') ?>">
+		<?php echo form_open('register', array('class' => 'form form-signup', 'id' => 'form_register', 'name' => 'form_register', 'role' => 'form' )); ?>  
 			
 			<div class="form-group">
 				<div class="input-group">
@@ -63,7 +63,9 @@
 			
 			<input class="btn btn-success full-width" type="submit" name="user_submit" id="button" value="<?php echo lang('profile_register_button') ?>" /> 
 			<label class="checkbox"><?php echo anchor('/profile/login', lang('profile_login')) ?></label>
-		</form>
+		
+		
+		<?php echo form_close(); ?>	
 		
 	
 		<?php if(isset($message)): ?>

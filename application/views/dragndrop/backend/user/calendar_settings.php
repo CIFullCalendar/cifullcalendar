@@ -8,7 +8,8 @@
 		<!-- /.row -->	
 		<div class="row">
 			<div class="col-md-12 col-lg-12">  						
-				<form id="form_cal" class="form-group" name="form" method="post" action="<?php echo site_url('profile/user/fullcalendar'); ?>">
+				<?php echo form_open('profile/user/calendar_settings', array('id' => 'form_cal', 'name' => 'form_cal', 'role' => 'form' )); ?> 
+					
 					<div class="form-group">
 						<!-- Form Language-->
 						<div class="form-group"> 
@@ -26,14 +27,14 @@
 								<option value="sv" <?php if($userinfo->lang =='sv') { echo "SELECTED";}?>><?php echo lang('lang_swedish'); ?></option>
 								<option value="tr" <?php if($userinfo->lang =='tr') { echo "SELECTED";}?>><?php echo lang('lang_turkish'); ?></option>
 								<option value="th" <?php if($userinfo->lang =='th') { echo "SELECTED";}?>><?php echo lang('lang_thai'); ?></option>	
-								<option value="vi" <?php if($userinfo->lang =='vi') { echo "SELECTED";}?>><?php echo lang('lang_vietnamese'); ?></option>				
+								<option value="vi" <?php if($userinfo->lang =='vi') { echo "SELECTED";}?>><?php echo lang('lang_vietnamese'); ?></option>
 								<option value="ko" <?php if($userinfo->lang =='ko') { echo "SELECTED";}?>><?php echo lang('lang_korean'); ?></option>
 								<option value="ja" <?php if($userinfo->lang =='ja') { echo "SELECTED";}?>><?php echo lang('lang_japanese'); ?></option>
 								<option value="zh-cn" <?php if($userinfo->lang =='zh-cn') { echo "SELECTED";}?>><?php echo lang('lang_chinese'); ?></option>
 							</select>
 							<?php echo form_error('language') ?> 
 						</div>									
-					
+
 						<label><?php echo lang('settings_form_timezone') ?></label>  
 						<select class="form-control" name="cal_timezone" id="cal_timezone">											
 							<option value="" <?php if($userinfo->cal_timezone =='') { echo "SELECTED";}?>  >none</option>
@@ -456,8 +457,8 @@
 							<option value="Pacific/Wallis" <?php if($userinfo->cal_timezone =='Pacific/Wallis') { echo "SELECTED";}?>  >Pacific/Wallis</option>
 						</select>
 							<p class="help-block"><?php echo form_error('cal_timezone'); ?></p>
-					</div> 							
-				
+						</div> 								
+
 					<div class="form-group">
 						<label><?php echo lang('cal_defaultview') ?></label>
 						<select class="form-control" name="cal_defaultview" id="cal_defaultview">
@@ -466,35 +467,35 @@
 							<option value="basicDay" <?php if($userinfo->cal_defaultview =='basicDay'){ echo "SELECTED";}?> ><?php echo lang('cal_defaultview_basicday'); ?></option>
 							<option value="agendaWeek" <?php if($userinfo->cal_defaultview =='agendaWeek'){ echo "SELECTED";}?> ><?php echo lang('cal_defaultview_agendaweek'); ?></option>
 							<option value="agendaDay" <?php if($userinfo->cal_defaultview =='agendaDay'){ echo "SELECTED";}?> ><?php echo lang('cal_defaultview_agendaday'); ?></option>
-							<option value="list" <?php if($userinfo->cal_defaultview =='list'){ echo "SELECTED";}?> ><?php echo lang('cal_defaultview_agendalist'); ?></option>
+							<option value="list" <?php if($userinfo->cal_defaultview =='list'){ echo "SELECTED";}?> ><?php echo lang('cal_defaultview_agendalist'); ?></option> 
 						</select>
 						<p class="help-block"><?php echo form_error('cal_defaultview') ?></p>
 					</div>	
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_header_left') ?></label>
 						<input class="form-control" type="text" name="cal_header_left" id="cal_header_left" value="<?php echo set_value('cal_header_left', $userinfo->cal_header_left); ?>"/>
 						<p class="help-block"><?php echo form_error('cal_header_left'); ?></p>
 					</div> 										
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_header_center') ?></label>
 						<input class="form-control" type="text" name="cal_header_center" id="cal_header_center" value="<?php echo set_value('cal_header_center', $userinfo->cal_header_center); ?>"/>
 						<p class="help-block"><?php echo form_error('cal_header_center'); ?></p>
 					</div> 										
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_header_right') ?></label>
 						<input class="form-control" type="text" name="cal_header_right" id="cal_header_right" value="<?php echo set_value('cal_header_right', $userinfo->cal_header_right); ?>"/>
 						<p class="help-block"><?php echo form_error('cal_header_right'); ?></p>
 					</div> 									
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_aspectratio') ?></label>
 						<input class="form-control" type="text" name="cal_aspectratio" id="cal_aspectratio" value="<?php echo set_value('cal_aspectratio', $userinfo->cal_aspectratio); ?>" />
 						<p class="help-block"><?php echo form_error('cal_aspectratio') ?></p>
-					</div>	
-
+					</div>												
+					 
 					<div class="form-group">
 						<label><?php echo lang('cal_firstday') ?></label>
 						<select class="form-control" name="cal_firstday" id="cal_firstday">									
@@ -507,13 +508,7 @@
 							<option value="6" <?php if($userinfo->cal_firstday =='6'){ echo "SELECTED";}?> ><?php echo lang('saturday'); ?></option>
 						</select>
 						<p class="help-block"><?php echo form_error('cal_firstday') ?></p>
-					</div>
-					
-					<div class="form-group">
-						<label><?php echo lang('cal_hiddendays') ?></label>
-						<input class="form-control" type="text" name="cal_hiddendays" id="cal_hiddendays" value="<?php echo set_value('cal_hiddendays', $userinfo->cal_hiddendays); ?>"/>
-						<p class="help-block"><?php echo form_error('cal_hiddendays'); ?></p>
-					</div> 									
+					</div> 
 
 					<div class="form-group">
 						<label><?php echo lang('cal_businesshours') ?></label>
@@ -526,7 +521,27 @@
 							<input class="form-control" type="time" name="cal_businessend" id="cal_businessend" value="<?php echo set_value('cal_businessend', $userinfo->cal_businessend); ?>"/> 
 						</div>	
 						<p class="help-block"><?php echo form_error('cal_businesshours') ?></p>
-					</div>									
+					</div>													
+
+					<div class="form-group">
+						<label><?php echo lang('cal_hiddendays') ?></label>
+						<input class="form-control" type="text" name="cal_hiddendays" id="cal_hiddendays" value="<?php echo set_value('cal_hiddendays', $userinfo->cal_hiddendays); ?>"/>
+						<p class="help-block"><?php echo form_error('cal_hiddendays'); ?></p>
+					</div> 									
+
+					
+					<div class="form-group">
+						<label><?php echo lang('cal_minmaxtime_range') ?></label>
+						<div class="form-group" style="margin:0px 20px">
+							<label><?php echo lang('cal_mintime') ?></label>
+							<input class="form-control" type="text" name="cal_mintime" id="cal_mintime" value="<?php echo set_value('cal_mintime', $userinfo->cal_mintime); ?>" />
+							<p class="help-block"><?php echo form_error('cal_mintime') ?></p>
+					 
+							<label><?php echo lang('cal_maxtime') ?></label>
+							<input class="form-control" type="text" name="cal_maxtime" id="cal_maxtime" value="<?php echo set_value('cal_maxtime', $userinfo->cal_maxtime); ?>" />
+							<p class="help-block"><?php echo form_error('cal_maxtime') ?></p>
+						</div>	
+					</div>												
 							
 					<div class="form-group">
 						<label><?php echo lang('cal_slotlabeling') ?></label>
@@ -536,13 +551,13 @@
 						</select>
 						<p class="help-block"><?php echo form_error('cal_slotlabeling') ?></p>
 					</div>									
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_slotduration') ?></label>
 						<input class="form-control" type="text" name="cal_slotduration" id="cal_slotduration" value="<?php echo set_value('cal_slotduration', $userinfo->cal_slotduration); ?>" />
 						<p class="help-block"><?php echo form_error('cal_slotduration') ?></p>
 					</div>	
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_weeknumbers') ?></label>
 						<select class="form-control" name="cal_weeknumbers" id="cal_weeknumbers">
@@ -551,7 +566,7 @@
 						</select>
 						<p class="help-block"><?php echo form_error('cal_weeknumbers') ?></p>
 					</div>										
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_eventlimit') ?></label>
 						<select class="form-control" name="cal_eventlimit" id="cal_eventlimit">
@@ -569,7 +584,7 @@
 						</select>
 						<p class="help-block"><?php echo form_error('cal_alldayslot') ?></p>
 					</div>								
-					
+
 					<div class="form-group">
 						<label><?php echo lang('cal_isrtl') ?></label>
 						<select class="form-control" name="cal_isrtl" id="cal_isrtl">
@@ -578,16 +593,15 @@
 						</select>
 						<p class="help-block"><?php echo form_error('cal_isrtl') ?></p>
 					</div>	
-			
+
 					<div class="btn-group"> 
 						<input type="submit" class="btn btn-primary" id="button" name="calendar_submit" value="<?php echo lang('save') ?>" />
 					</div> 						
 					<div class="btn-group">
 						<input type="submit" class="btn" id="button" name="calendar_cancel" value="<?php echo lang('cancel') ?>" /> 
 					</div>									
-			 
-				</form>								 
 
+					<?php echo form_close(); ?>	
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				
 		</div>

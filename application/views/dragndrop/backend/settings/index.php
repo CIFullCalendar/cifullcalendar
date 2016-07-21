@@ -11,7 +11,9 @@
             <!-- /.row -->	 
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
-				   <form id="form_settings" name="form" method="post" enctype="multipart/form-data" action="<?php echo site_url('admin/settings'); ?>">
+				
+				   <?php echo form_open('admin/settings', array('class' => 'form-hoziontal', 'id' => 'form_settings', 'name' => 'form_settings', 'role' => 'form' )); ?> 
+				   
 						<div class="form-group">
 							<label><?php echo lang('settings_form_site_name') ?></label>
 							<input class="form-control" type="text" name="site_name" id="site_name" value="<?php echo set_value('site_name', $site_name); ?>"/>
@@ -471,6 +473,12 @@
 							<p class="help-block"><?php echo form_error('site_longitude'); ?></p>
 						</div>
 						
+						<div class="form-group">   
+							<label class="control-label" for="inputAPIKEY"><?php echo lang('api'); ?> <a href="https://developers.google.com/maps/documentation/javascript/get-api-key#key" target="_blank">Reference here</a></label> 
+							<input class="form-control" type="text" name="cal_apikey" id="cal_apikey" value="<?php echo set_value('cal_apikey', $cal_apikey); ?>"/> 
+							<p class="help-block"><?php echo form_error('cal_apikey'); ?></p>
+						</div>
+												
 						<div class="form-group"> 
 							<input class=" " name="captcha" id="captcha" type="checkbox" <?php echo $captcha ?> > 
 							<label for="inputCaptcha"><?php echo lang('settings_form_captcha') ?></label>  
@@ -488,7 +496,7 @@
 							<input type="submit" class="btn" id="button" name="settings_cancel" value="<?php echo lang('cancel') ?>" /> 
 						</div>										 
 										
-					</form>
+					<?php echo form_close(); ?> 
 				</div> 
 			</div> 
               

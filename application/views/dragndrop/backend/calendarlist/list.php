@@ -37,31 +37,28 @@
     <!-- /#wrapper -->  
 	
 	<?php foreach ($allevents as $result): ?>		 
-		<div class="modal fade" id="del_<?php echo $result->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
+		<div class="modal fade" id="del_<?php echo $result['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 						<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_calendar'); ?></h4>
+					</div> 
+					<?php echo form_open('admin/calendarlist/del/'.$result['id'], array('class' => 'form-delete', 'id' => 'form_del'.$result['id'], 'name' => 'form_del'.$result['id'], 'role' => 'form' )); ?>  
+					<div class="modal-body">
+						<div class="alert alert-warning">
+							<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
+							<b><?php echo $result['title'] ?></b>? 
+						</div>							
 					</div>
-					
-					<form name="form_<?php echo $result->id  ?>" id="form_<?php echo $result->id  ?>" method="post" action="<?php echo site_url('admin/calendarlist/del') . '/';?><?php echo $result->id  ?>" >	
-
-						<div class="modal-body">
-							<div class="alert alert-warning">
-								<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
-								<b><?php echo $result->title  ?></b>? 
-							</div>							
-						</div>
-						<div class="modal-footer ">
-							<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
-							<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
-						</div>
-					
-					</form> 
+					<div class="modal-footer ">
+						<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
+						<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
+					</div> 
+					<?php echo form_close();	?>
 				</div>
 				<!-- /.modal-content --> 
 			</div>
 		  <!-- /.modal-dialog --> 
 		</div>	 
-	<?php endforeach ?>	  
+	<?php endforeach ?>	   

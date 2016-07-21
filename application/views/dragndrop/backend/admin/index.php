@@ -127,15 +127,15 @@
 								<div class="pull-left "><?php echo lang('username') ?></div>
 								<div class="pull-right "><?php echo lang('profile_signup_date') ?></div> 
 							</div>
-                            <div class="list-group panel-user">
+							<div class="list-group panel-user">
 								<?php foreach ($users_list as $result): ?>	
-									<a href="<?php echo site_url($result->username); ?>" class="list-group-item"> 
-										<img src="<?php echo base_url();?>assets/img/profile/<?php echo $result->image ?>" class="pull-left fa-fw" >
-										<h5 class="list-group-item-heading"> <?php echo $result->username ?></h5> 
-										<p class="list-group-item-text text-muted small"><em class="pull-right"><?php echo relativeTime($result->created_on); ?></em></p>
+									<a href="<?php echo site_url($result['username']); ?>" class="list-group-item"> 
+										<img src="<?php echo base_url();?>assets/img/profile/<?php echo $result['image'] ?>" class="pull-left fa-fw" >
+										<h5 class="list-group-item-heading"> <?php echo $result['username'] ?></h5> 
+										<p class="list-group-item-text text-muted small"><em class="pull-right"><?php echo relativeTime($result['created_on']); ?></em></p>
 									</a> 
 								<?php endforeach ?>	 
-                            </div>
+							</div>
                             <!-- /.list-group -->
                         </div>
                         <!-- /.panel-body -->

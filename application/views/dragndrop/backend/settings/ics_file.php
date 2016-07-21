@@ -11,8 +11,8 @@
 		
 		<div class="row">
 			<div class="col-md-12 col-lg-12">
-			    <form id="form_settings" name="form" method="post" enctype="multipart/form-data" action="<?php echo site_url('admin/settings/icsfile'); ?>">
-								
+			
+			   <?php echo form_open_multipart('admin/settings/icsfile', array('class' => 'form-horizontal', 'id' => 'form_settings', 'name' => 'form_settings', 'role' => 'form')); ?> 		
 					<div class="form-group">
 						<label><?php echo lang('sync_path_location') ?></label>
 						<input class="form-control" type="text" name="sync_path_location" id="sync_path_location" value="<?php echo set_value('sync_path_location', $sync_path_location); ?>"/>
@@ -38,7 +38,7 @@
 						<input type="submit" class="btn" id="button" name="file_cancel" value="<?php echo lang('cancel') ?>" /> 
 					</div>								 
 					
-				</form>                           
+				<?php echo form_close(); ?>                       
 		 
 			</div>
 			<!-- /.col-md-12 .col-lg-12 -->				
@@ -46,5 +46,3 @@
 		<!-- /.row --> 
     </div>
     <!-- /#wrapper --> 
- 	
- 

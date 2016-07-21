@@ -79,7 +79,9 @@ $lang['search'] = 'Recherche';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alerte';
 $lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar par Sir.Dre © 2016 v';
+$lang['color'] = 'Color';
+$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
+$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
   
 //Admin
 //
@@ -221,6 +223,7 @@ $lang['profile_forgot_password'] = 'Mot De Passe Oublié';
 //Register 
 $lang['profile_signup'] = 'Signer';
 $lang['profile_register'] = 'Enregistrement d\'un nouvel membres';
+$lang['profile_register_title'] = 'Enregistrement d\'un nouvel membres';
 $lang['profile_register_uname'] = 'Nom d\'utilisateur';
 $lang['profile_register_password'] = 'Mot de passe';
 $lang['profile_register_password_confirm'] = 'Mot de passe Confirm';

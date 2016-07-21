@@ -79,7 +79,9 @@ $lang['search'] = '수색';
 $lang['options'] = '옵션';
 $lang['alert'] = '경보';
 $lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
+$lang['color'] = 'Color';
+$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
+$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
 	
 //관리자
 // 
@@ -218,6 +220,7 @@ $lang['profile_forgot_password'] = '비밀번호를 잊으 셨나요';
 //레지스터
 $lang['profile_signup'] = '가입';
 $lang['profile_register'] = '신규 회원 등록';
+$lang['profile_register_title'] = '신규 회원 등록';
 $lang['profile_register_uname'] = '사용자 이름';
 $lang['profile_register_password'] = '암호';
 $lang['profile_register_password_confirm'] = '비밀번호 확인';

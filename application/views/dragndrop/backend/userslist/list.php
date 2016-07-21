@@ -22,6 +22,7 @@
 								<th data-field="first_name" data-align="left" data-sortable="true" ><?php echo lang('admin_table_fname'); ?></th> 
 								<th data-field="last_name" data-align="left" data-sortable="true" ><?php echo lang('admin_table_lname'); ?></th> 
 								<th data-field="email" data-align="left" data-sortable="true" ><?php echo lang('admin_table_email'); ?></th>   
+								<th data-field="groups" data-align="left" data-sortable="true" data-formatter="groupsFormatter" >Groups</th>    
 								<th data-field="edit" data-sortable="false" data-formatter="editFormatter" data-width="7%"><?php echo lang('admin_table_edit'); ?></th>   
 							</tr>
 						</thead>
@@ -36,26 +37,26 @@
    </div>
     <!-- /#wrapper -->  
 	
-	<?php foreach ($allusers as $result): ?> 
-		<div class="modal fade" id="del_<?php echo $result->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
+<?php foreach ($allusers as $result): ?> 
+		<div class="modal fade" id="del_<?php echo $result['id'] ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 						<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_user'); ?></h4>
-					</div>
+					</div> 
 					
-					<form name="form_<?php echo $result->id  ?>" id="form_<?php echo $result->id  ?>" method="post" action="<?php echo site_url('admin/userslist/del') . '/';?><?php echo $result->id  ?>" >	
-
+					<?php echo form_open('admin/userslist/del/'.$result['id'], array('id' => 'form_del'.$result['id'], 'name' => 'form_del'.$result['id'], 'role' => 'form' )); ?>  
+					
 						<div class="modal-body">
-							<input name="id" id="id" value="<?php echo $result->id  ?>" type="hidden" >	
+							<input name="id" id="id" value="<?php echo $result['id']  ?>" type="hidden" >	
 							<div class="alert alert-warning">
-								<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_user'); ?>  
-									<?php if(empty($result->first_name) && empty($result->last_name)) : ?>
-										<b><?php echo $result->username  ?></b>?
-									<?php else : ?>
-										<b><?php echo $result->first_name  ?> <?php echo $result->last_name  ?></b>?
-									<?php endif ?>
+							<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_user'); ?>  
+								<?php if(empty($result['first_name']) && empty($result['last_name'])) : ?>
+									<b><?php echo $result['username'] ?></b>?
+								<?php else : ?>
+									<b><?php echo $result['first_name'] ?> <?php echo $result['last_name'] ?></b>?
+								<?php endif ?>
 							</div>
 						</div>
 						<div class="modal-footer ">
@@ -63,7 +64,7 @@
 							<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
 						</div>
 					
-					</form> 
+					<?php echo form_close(); ?>	
 				</div>
 		<!-- /.modal-content --> 
 			</div>
@@ -77,8 +78,8 @@
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 						<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_add_user'); ?></h4>
-					</div>
-					<form name="form_add" id="form_add" method="post" action="<?php echo site_url('admin/userslist/add');?>" >	 
+					</div> 
+					<?php echo form_open('admin/userslist/add', array('id' => 'form_add', 'name' => 'form_add', 'role' => 'form' )); ?>  					
 						<div class="modal-body">   
 							<div class="container-fluid">
 								<div class="row-fluid">
@@ -133,10 +134,9 @@
 							<button type="submit" name="submitAdd" class="btn btn-success" ><i class="fa fa-pencil-square-o"></i> <?php echo lang('ok'); ?></button> 
 							<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true" > <?php echo lang('cancel'); ?></button>
 						</div> 
-					</form> 
+					<?php echo form_close(); ?>	
 				</div>
 			<!-- /.modal-content --> 
 			</div>
 			  <!-- /.modal-dialog --> 
-		</div>
-		
+		</div> 

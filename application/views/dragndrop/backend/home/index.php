@@ -7,9 +7,9 @@
 								<div class="col-md-12 col-lg-12"> 
 									<div class="pull-left">  
 										<div class="btn-group ">
-											<form id="CalendarSettingForm" method="post" action="<?php echo site_url('profile/user/fullcalendar');?>"  >
+											<?php echo form_open('profile/user/calendar_settings', array('id' => 'form_settings', 'name' => 'form_settings')); ?>  
 												<button id="CalendarSettings" class="btn btn-default btn-sm"><i class="fa fa-calendar"></i> </button> 
-											</form>
+											<?php echo form_close(); ?>	
 										</div>
 										<div class="btn-group ">
 											<form id="loadform1" >
@@ -92,7 +92,7 @@
 							<div class="controls controls-row" id="when" style="margin-top:5px;"></div>	
 						</div>
 					</div>
-					 <form class="form-horizontal" id="form1" method="post" enctype="multipart/form-data"  >	
+					<?php echo form_open_multipart('', array('class' => 'form-horizontal', 'id' => 'form1', 'name' => 'form1', 'role' => 'form')); ?> 
 						<div class="modal-body">	
 													
 								 <ul class="nav nav-tabs">
@@ -289,7 +289,7 @@
 									<button type="submit" class="btn btn-primary" name="addButton" id="addButton" ><i class="fa fa-floppy-o"></i> <?php echo lang('save'); ?></button>		
 								</div> 
 							</div>
-						</form>
+						<?php echo form_close(); ?>	
 					</div>
 				  </div>
 				</div>		
@@ -305,7 +305,7 @@
 								<div class="pull-right" ><b><?php echo lang('by'); ?>: <span id="who" ></span></b></div> 
 							</div>	   
 						</div>
-						<form class="form-horizontal" id="form2" action="<?php site_url('profile/home/attach_file'); ?>" method="post" enctype="multipart/form-data" >
+						<?php echo form_open_multipart('', array('class' => 'form-horizontal', 'id' => 'form2', 'name' => 'form2', 'role' => 'form')); ?>  
 						<div class="modal-body">	 
 					
 								 <ul class="nav nav-tabs">
@@ -520,7 +520,7 @@
 								</div> 						
 							
 							</div>
-						</form> 
+						<?php echo form_close(); ?>	
 						</div>				
 						</div>				
 					</div>				
@@ -528,43 +528,44 @@
 				</div>				
 		
 		
-			<div class="modal fade" id="upload" tabindex="-1" role="dialog" aria-labelledby="upload" aria-hidden="true">
+			<div class="modal fade" id="upload" tabindex="-2" role="dialog" aria-labelledby="upload" aria-hidden="true">
 			  <div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 						<h4 class="modal-title custom_align" id="Heading"><?php echo lang('calendar_modal_upload_eventsource'); ?></h4>
 					</div>
-					 <form id="upload_file" method="post" enctype="multipart/form-data"  >	 
+					
+					<?php echo form_open_multipart('profile/user/change_password', array('id' => 'upload_file', 'role' => 'form', 'name' => 'upload_file' )); ?> 
+											 
 						<div class="modal-body">   
-							<h4><?php echo lang('calendar_modal_upload_event_message'); ?></h4> 
-							<div class="form-inline">
-							  <div class="form-group">  
-								 <input type="file" name="userfile" id="userfile" />
-							  </div> 
-							</div> 
+							<h4><?php echo lang('calendar_modal_upload_event_message'); ?></h4>  
+							<div class="form-group">  
+								<input type="file" name="userfile" id="userfile" />
+							</div>  
 						</div>
 						<div class="modal-footer ">
 							<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true" > <?php echo lang('cancel'); ?></button>
 							<button type="submit" name="submit" id="uploadButton" class="btn btn-success" ><i class="fa fa-cloud-upload"></i> <?php echo lang('calendar_modal_upload_save'); ?></button> 
 						</div> 
-					</form> 
+						
+					<?php echo form_close(); ?>	 
 				</div>
 				<!-- /.modal-content --> 
 			  </div>
 			  <!-- /.modal-dialog --> 
 			</div>				
  
-			<div class="modal fade" id="change" tabindex="-1" role="dialog" aria-labelledby="change" aria-hidden="true">
+			<div class="modal fade" id="change" tabindex="-3" role="dialog" aria-labelledby="change" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 							<h4 class="modal-title custom_align" id="Heading"><?php echo lang('profile_change_password') ?></h4>
 						</div>
+						 
+						<?php echo form_open('profile/user/change_password', array('id' => 'form_pass', 'name' => 'form_pass', 'role' => 'form' )); ?> 
 						
-						<form name="form_pass<?php echo $userinfo->id;  ?>" id="form" method="post" action="<?php echo site_url('profile/user/change_password') .'/';?>" >	
-
 							<div class="modal-body">
 								<input name="user_id" id="user_id" value="<?php echo $userinfo->id; ?>" type="hidden" >	
 								<div class="alert alert-warning">
@@ -579,19 +580,19 @@
 									
 								</div>								 
 								<div class="form-group"> 
-									<div class="input-group col-md-12">
+									<div class="input-group col-sm-12 col-md-12">
 										<input type="password" name="old_password" id="old_password" class="form-control" placeholder="<?php echo lang('profile_change_old_password') ?>"  />
 										 <?php echo form_error('old_password') ?>
 									</div>
 								</div>								
 								<div class="form-group"> 
-									<div class="input-group col-md-12">
+									<div class="input-group col-sm-12 col-md-12">
 										<input type="password" name="new_password" id="new_password" class="form-control" placeholder="<?php echo lang('profile_change_new_password') ?>"  />
 										 <?php echo form_error('new_password') ?>
 									</div>
 								</div>									
 								<div class="form-group"> 
-									<div class="input-group col-md-12">
+									<div class="input-group col-sm-12 col-md-12">
 										<input type="password" name="new_password_confirm" id="new_password_confirm" class="form-control" placeholder="<?php echo lang('profile_change_new_password_confirm') ?>"  />
 										 <?php echo form_error('profile_change_new_password_confirm') ?>
 									</div>
@@ -603,7 +604,7 @@
 								<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no') ?></button>
 							</div>
 						
-						</form> 
+						<?php echo form_close(); ?>	 
 					</div>
 					<!-- /.modal-content --> 
 				</div>

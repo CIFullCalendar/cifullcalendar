@@ -12,7 +12,8 @@
 					
 				<div class="col-lg-12 col-md-12">
 			
-					<form class="form-horizontal" name="form" id="form" method="post" action="<?php echo site_url('admin/pages/edit') . '/';?><?php echo $pageinfo->id  ?>" >
+					<?php echo form_open('admin/pages/edit/'.$pageinfo->id, array('class' => 'form-horizontal', 'id' => 'form_edit'.$pageinfo->id, 'name' => 'form_edit', 'role' => 'form' )); ?> 
+					
 						<div class="form-group">
 							<input class="form-control" type="text" name="title" id="title" value="<?php echo set_value('title',$pageinfo->title); ?>"/>
 							<p class="help-block"><?php echo form_error('title'); ?></p>							
@@ -31,12 +32,15 @@
 							<input class="form-control" type="text" name="meta_description" id="meta_description" value="<?php echo set_value('meta_description', $pageinfo->meta_description); ?>"/>
 							<p class="help-block"><?php echo form_error('meta_description'); ?></p>		
 							
-							<label><?php echo lang('pages_access') ?></label>
-							<select class="form-control" name="access" id="access" >
-								<option value="2" <?php if($pageinfo->access == 2){ echo "SELECTED";}?> ><?php echo lang('pages_access_admins'); ?></option>	
-								<option value="1" <?php if($pageinfo->access == 1){ echo "SELECTED";}?> ><?php echo lang('pages_access_members'); ?></option> 
-								<option value="0" <?php if($pageinfo->access == 0){ echo "SELECTED";}?> ><?php echo lang('pages_access_visitors'); ?></option>			
-							</select>			
+							<label for="inputShareit"><?php echo lang('pages_access'); ?></label> 
+							<select class="form-control" name="access" id="access">	 
+							   <?php $selected = null; if ($pageinfo->access == 0) {$selected = 'selected';} ?>
+								<option id="0" value="0" <?php echo $selected;?>><?php echo lang('pages_access_visitors'); ?></option>  
+								<?php foreach ($groups as $group):?> 
+								<?php $selected3 = null; if ($group['id'] == $pageinfo->access) {$selected3 = 'selected';} ?>
+								<option id="<?php echo $group['id'];?>" value="<?php echo $group['id'];?>" <?php echo $selected3;?>><?php echo htmlspecialchars($group['name'],ENT_QUOTES,'UTF-8');?></option> 
+								<?php endforeach ?> 	  
+							</select> 		
 							<p class="help-block"><?php echo form_error('access'); ?></p>	
 							<label><?php echo lang('pubdate'); ?></label>
 							<time datetime="<?php echo $pageinfo->pubdates; ?>"><?php echo $pubdate; ?></time> 
@@ -52,45 +56,42 @@
 					
 						</div> 
 										
-					</form> 
+					<?php echo form_close(); ?>	
 				</div>
 				<!-- /.col-lg-12 -->
 			</div>
 		
 		</div>
 		<!-- /.col-md-12 .col-lg-12 -->	  
-		</div>
-		<!-- /.row --> 
+	</div>
+	<!-- /.row -->  
+</div>
+<!-- /#wrapper --> 
 	
-				<div class="modal fade" id="del_<?php echo $pageinfo->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-								<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_calendar'); ?></h4>
-							</div>
-							
-							<form name="form_<?php echo $pageinfo->id  ?>" id="form_<?php echo $pageinfo->id  ?>" method="post" action="<?php echo site_url('admin/pages/del') . '/'. $pageinfo->id;?>" >	
-
-								<div class="modal-body">
-									<div class="alert alert-warning">
-										<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
-										<b><?php echo $pageinfo->title  ?></b>? 
-									</div>							
-								</div>
-								<div class="modal-footer ">
-									<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
-									<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
-								</div>
-							
-							</form> 
-						</div>
-				<!-- /.modal-content --> 
-					</div>
-				  <!-- /.modal-dialog --> 
-				</div>	 
+	<div class="modal fade" id="del_<?php echo $pageinfo->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h4 class="modal-title custom_align" id="Heading"> <?php echo lang('admin_modal_delete_calendar'); ?></h4>
+				</div> 	
+				<?php echo form_open('admin/pages/del/'.$pageinfo->id, array('id' => 'form_del'.$pageinfo->id, 'name' => 'form_del', 'role' => 'form' )); ?> 
+						
+				<div class="modal-body">
+					<div class="alert alert-warning">
+						<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_calendar'); ?>  
+						<b><?php echo $pageinfo->title  ?></b>? 
+					</div>							
+				</div>
+				<div class="modal-footer ">
+					<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
+					<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
+				</div>
 				
-   </div>
-    <!-- /#wrapper --> 
-	
+				<?php echo form_close(); ?>	
+			</div>
+		<!-- /.modal-content --> 
+		</div>
+	  <!-- /.modal-dialog --> 
+	</div>
 		

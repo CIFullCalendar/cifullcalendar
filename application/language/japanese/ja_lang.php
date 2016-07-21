@@ -79,7 +79,9 @@ $lang['search'] = 'サーチ';
 $lang['options'] = 'オプション」';
 $lang['alert'] = 'アラート';
 $lang['api'] = 'GoogleのAPIキー';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
+$lang['color'] = 'Color';
+$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
+$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
 	
 //管理
 //
@@ -218,6 +220,7 @@ $lang['profile_forgot_password'] = 'パスワードをお忘れですか';
 //登録
 $lang['profile_signup'] = 'サインアップ';
 $lang['profile_register'] = '新規会員登録 ';
+$lang['profile_register_title'] = '新規会員登録 ';
 $lang['profile_register_uname'] = 'ユーザー名 ';
 $lang['profile_register_password'] = 'パスワード';
 $lang['profile_register_password_confirm'] = 'パスワードの確認 ';

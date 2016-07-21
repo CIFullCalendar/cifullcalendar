@@ -79,7 +79,9 @@ $lang['search'] = '搜索';
 $lang['options'] = '选项';
 $lang['alert'] = '警报';
 $lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
+$lang['color'] = 'Color';
+$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
+$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
 	
 //Admin	//管理员
 //	//
@@ -218,6 +220,7 @@ $lang['profile_forgot_password'] = '忘了密码';
 //Register	//寄存器
 $lang['profile_signup'] = '注册';
 $lang['profile_register'] = '新会员注册';
+$lang['profile_register_title'] = '新会员注册';
 $lang['profile_register_uname'] = '用户名';
 $lang['profile_register_password'] = '密码';
 $lang['profile_register_password_confirm'] = '确认密码';

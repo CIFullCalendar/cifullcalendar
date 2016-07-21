@@ -122,7 +122,7 @@
 									<a <?php echo $nav_class_b ?> href="<?php echo site_url('admin/settings');?>"><i class="fa fa-gear fa-fw"></i> <?php echo lang('settings_basic_name') ?></a> 
 								</li>   
 								<li>
-									<a <?php echo $nav_class_c ?> href="<?php echo site_url('admin/settings/fullcalendar');?>"><i class="fa fa-calendar fa-fw"></i> <?php echo lang('settings_cal_name') ?></a> 
+									<a <?php echo $nav_class_c ?> href="<?php echo site_url('admin/settings/calendar_settings');?>"><i class="fa fa-calendar fa-fw"></i> <?php echo lang('settings_cal_name') ?></a> 
 								</li> 								
 								<li>
 									<a <?php echo $nav_class_a ?> href="<?php echo site_url('admin/settings/attachments');?>"><i class="fa fa-file-archive-o fa-fw"></i> <?php echo lang('settings_attach_name') ?></a> 

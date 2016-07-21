@@ -33,25 +33,19 @@
 
 				<ul class="nav navbar-nav navbar-right">  
         
-					<?php if ($this->ion_auth->is_member()): ?>	
+					<?php if ($this->ion_auth->logged_in()): ?>	
 						<a class="brand pull-left" href="<?php echo site_url("/profile") ?>"> 
 								<img src="<?php echo $current_logo ?>" alt="" class="img-responsive" style="height:50px;" />
 						</a>			
 						<li ><?php echo anchor('/profile', lang('profile_dashboard') ) ?></li>
 						<li ><?php echo anchor('/profile/logout', lang('profile_log_out') ) ?></li> 
 						
-					<?php elseif (!$this->ion_auth->is_member() && !$this->ion_auth->is_admin()): ?>  
+					<?php elseif (!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin()): ?>  
 						<li ><?php echo anchor('/profile/login', lang('profile_login')) ?></li>
-						<li ><?php echo anchor('/register', lang('register')) ?></li>
-					<?php endif ?>	
+						<li ><?php echo anchor('/register', lang('register')) ?></li> 
 					
-					<?php if ($this->ion_auth->is_admin()): ?>	
-						<a class="brand pull-left" href="<?php echo site_url("/profile") ?>"> 
-								<img src="<?php echo $current_logo ?>" alt="" class="img-responsive" style="height:50px;" />
-						</a>			
-						<li ><?php echo anchor('/admin', lang('admin_dashboard') ) ?></li>
-						<li ><?php echo anchor('/admin/logout', lang('profile_log_out') ) ?></li> 
-					<?php endif ?>	
+					<?php endif ?>		
+					
                 </ul>
  
 				

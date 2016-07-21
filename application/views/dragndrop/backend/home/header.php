@@ -14,13 +14,14 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.min.css" type="text/css" /> 
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" type="text/css" />
 	<!-- CIFullCalendar CSS -->
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/fullcalendar-2.6.0/fullcalendar.css" type="text/css" /> 
-	<link rel='stylesheet' href="<?php echo base_url();?>assets/plugins/fullcalendar-2.6.0/fullcalendar.print.css" media='print' />
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/plugins/fullcalendar-2.9.0/fullcalendar.css" type="text/css" /> 
+	<link rel='stylesheet' href="<?php echo base_url();?>assets/plugins/fullcalendar-2.9.0/fullcalendar.print.css" media='print' />
 	<!-- custom CSS -->	
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/calendar.profile.custom.css" type="text/css" /> 
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/jquery.minicolors.css" type="text/css" /> 
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/profile.css" type="text/css" />	
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/dragndrop/css/clock.css" type="text/css" />  
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places" type="text/javascript"></script> 
+	
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&language=<?php echo $lang ?>&key=<?php echo $key ?>" type="text/javascript"></script>	  	
 	
 	<div id="alertShow" class="alert alert-info" data-alert="alert"></div>	

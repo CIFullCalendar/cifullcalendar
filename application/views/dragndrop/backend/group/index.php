@@ -33,6 +33,7 @@
    </div>
     <!-- /#wrapper -->
 	
+	
 	<?php foreach ($allgroups as $result): ?> 
 		<div class="modal fade" id="del_<?php echo $result->id  ?>" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
 			<div class="modal-dialog">
@@ -40,21 +41,20 @@
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 						<h4 class="modal-title custom_align" id="heading"> <?php echo lang('admin_modal_delete_user'); ?></h4>
-					</div>					
-					<form name="form_<?php echo $result->id  ?>" id="form_<?php echo $result->id  ?>" method="post" action="<?php echo site_url('admin/group/del') . '/';?><?php echo $result->id  ?>" >	
-
-						<div class="modal-body">
-							<input name="id" id="id" value="<?php echo $result->id  ?>" type="hidden" >	
-							<div class="alert alert-warning">
-								<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_user'); ?>  
-								<b><?php echo $result->name ?></b>? 
-							</div>
+					</div>			
+					<?php echo form_open('admin/group/del/'.$result->id, array('id' => 'form_del'.$result->id, 'name' => 'form_del'.$result->id, 'role' => 'form' )); ?>   
+					<div class="modal-body">
+						<input name="id" id="id" value="<?php echo $result->id  ?>" type="hidden" >	
+						<div class="alert alert-warning">
+							<i class="fa fa-exclamation-triangle btn-lg"></i> <?php echo lang('admin_modal_delete_user'); ?>  
+							<b><?php echo $result->name ?></b>? 
 						</div>
-						<div class="modal-footer ">
-							<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
-							<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
-						</div>					
-					</form> 
+					</div>
+					<div class="modal-footer ">
+						<button type="submit" name="submitDelete" class="btn btn-danger" ><i class="fa fa-trash"></i> <?php echo lang('yes'); ?></button>
+						<button type="button" class="btn btn-warning" data-dismiss="modal" aria-hidden="true" ><i class="fa fa-remove"></i> <?php echo lang('no'); ?></button>
+					</div>					
+					<?php echo form_close(); ?>
 				</div>
 				<!-- /.modal-content --> 
 			</div>
@@ -63,36 +63,36 @@
 	<?php endforeach ?>	
 	
 	<div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="add" aria-hidden="true">
-		  <div class="modal-dialog">
+		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 					<h4 class="modal-title custom_align" id="heading"> <?php echo lang('create_group_title'); ?></h4>
 				</div>
-				<form name="form_add" id="form_add" method="post" action="<?php echo site_url('admin/group/add');?>" >	 
-					<div class="modal-body">   
-						<div class="container-fluid">
-							<div class="row-fluid"> 
-								<div class="col-md-12"> 	
-									<div class="form-group">
-										<label class="control-label" for="inputName"><?php echo lang('edit_group_name_label'); ?></label>
-										<input type="text" class="form-control" name="group_name" id="group_name" value="" >
-										<?php echo form_error('group_name') ?>
-									</div> 											
-									<div class="form-group">
-										<label class="control-label" for="inputDescription"><?php echo lang('edit_group_desc_label'); ?></label>
-										<textarea class="form-control" name="description" id="description" ></textarea>
-										<?php echo form_error('description') ?>
-									</div>  									
-								</div> 
-							</div>
-						</div>  
-					</div>
-					<div class="modal-footer ">
-						<button type="submit" name="submitAdd" class="btn btn-success" ><i class="fa fa-pencil-square-o"></i> <?php echo lang('ok'); ?></button> 
-						<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true" > <?php echo lang('cancel'); ?></button>
-					</div> 
-				</form> 
+				<?php echo form_open('admin/group/add', array('id' => 'form_add', 'name' => 'form_add', 'role' => 'form' )); ?>  
+				<div class="modal-body">   
+					<div class="container-fluid">
+						<div class="row-fluid"> 
+							<div class="col-md-12"> 	
+								<div class="form-group">
+									<label class="control-label" for="inputName"><?php echo lang('edit_group_name_label'); ?></label>
+									<input type="text" class="form-control" name="group_name" id="group_name" value="" >
+									<?php echo form_error('group_name') ?>
+								</div> 											
+								<div class="form-group">
+									<label class="control-label" for="inputDescription"><?php echo lang('edit_group_desc_label'); ?></label>
+									<textarea class="form-control" name="description" id="description" ></textarea>
+									<?php echo form_error('description') ?>
+								</div>  									
+							</div> 
+						</div>
+					</div>  
+				</div>
+				<div class="modal-footer ">
+					<button type="submit" name="submitAdd" class="btn btn-success" ><i class="fa fa-pencil-square-o"></i> <?php echo lang('ok'); ?></button> 
+					<button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true" > <?php echo lang('cancel'); ?></button>
+				</div> 
+				<?php echo form_close(); ?>
 			</div>
 			<!-- /.modal-content --> 
 		</div>
