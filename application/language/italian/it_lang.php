@@ -473,6 +473,9 @@ $lang['cal_header_right'] = 'Pulsante intestazione/Titolo a Destra';
 $lang['cal_language'] = 'Langua';
 $lang['cal_timezone'] = 'Fuso orario';
 $lang['cal_aspectratio'] = 'Proporzioni';
+$lang['cal_minmaxtime_range'] = 'Tempo Label Durata';
+$lang['cal_mintime'] = 'Tempo minimo';
+$lang['cal_maxtime'] = 'Tempo massimo';
 $lang['cal_hiddendays'] = 'Nascondi Giorni (Es: 0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_editable'] = 'Modificabile (Soltanto per i membri del Calendario)';
 $lang['cal_businesshours'] = 'Ore di lavoro';
@@ -573,5 +576,3 @@ $lang['error_sending_email'] = 'Si è verificato un problema nell’invio dell�
 $lang['error_creating_password'] = 'Si è verificato un problema nel creare una nuova password... contattare l’amministratore del sito';
 $lang['error_creating_member'] = 'Si è verificato un problema nel creare il nuovo utente... contattare l’amministratore del sito';
 $lang['error_captcha'] = 'Codice di verifica errato';
-
- 
