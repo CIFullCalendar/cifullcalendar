@@ -461,6 +461,15 @@ $lang['cal_defaultview_basicday'] = 'Giornaliero';
 $lang['cal_defaultview_agendaweek'] = 'Agenda-Settimanale';
 $lang['cal_defaultview_agendaday'] = 'Agenda-Giornaliero';
 $lang['cal_defaultview_agendalist'] = 'Agenda-Lista';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Cronologia Giornaliera';
 $lang['cal_defaultview_timelineWeek'] = 'Cronologia Settimanale';
 $lang['cal_defaultview_timelineMonth'] = 'Cronologia Mensile';
@@ -576,3 +585,5 @@ $lang['error_sending_email'] = 'Si è verificato un problema nell’invio dell�
 $lang['error_creating_password'] = 'Si è verificato un problema nel creare una nuova password... contattare l’amministratore del sito';
 $lang['error_creating_member'] = 'Si è verificato un problema nel creare il nuovo utente... contattare l’amministratore del sito';
 $lang['error_captcha'] = 'Codice di verifica errato';
+
+ 

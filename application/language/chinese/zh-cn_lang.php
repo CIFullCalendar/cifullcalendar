@@ -12,6 +12,7 @@
 //
 $lang['home'] = '家';
 $lang['calendar'] = '日历';
+$lang['calendars'] = '日历';
 $lang['events'] = '事件';
 $lang['dashboard'] = '仪表板';
 $lang['tables'] = '表';
@@ -79,9 +80,9 @@ $lang['search'] = '搜索';
 $lang['options'] = '选项';
 $lang['alert'] = '警报';
 $lang['api'] = 'Google APIKEY';
-$lang['color'] = 'Color';
-$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
-$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
+$lang['show_calendars_schedules'] = '展覽日程';
+$lang['show_all_calendars_schedules'] = '顯示所有日曆日程';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
 	
 //Admin	//管理员
 //	//
@@ -220,7 +221,6 @@ $lang['profile_forgot_password'] = '忘了密码';
 //Register	//寄存器
 $lang['profile_signup'] = '注册';
 $lang['profile_register'] = '新会员注册';
-$lang['profile_register_title'] = '新会员注册';
 $lang['profile_register_uname'] = '用户名';
 $lang['profile_register_password'] = '密码';
 $lang['profile_register_password_confirm'] = '确认密码';
@@ -464,6 +464,9 @@ $lang['cal_header_right'] = '头按钮/所有权的权利';
 $lang['cal_language'] = '语言';
 $lang['cal_timezone'] = '时区';
 $lang['cal_aspectratio'] = '宽高比';
+$lang['cal_minmaxtime_range'] = '时间标签时间';
+$lang['cal_mintime'] = '最短时间';
+$lang['cal_maxtime'] = '最大时间';
 $lang['cal_hiddendays'] = '周六）';
 $lang['cal_editable'] = '可编辑（对于仅限会员日历）';
 $lang['cal_businesshours'] = '营业时间';

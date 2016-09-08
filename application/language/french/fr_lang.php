@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendrier';
+$lang['calendars'] = 'Calendrier';
 $lang['events'] = 'événements';
 $lang['dashboard'] = 'Tableau de bord';
 $lang['tables'] = 'Tableaux';
@@ -79,9 +80,9 @@ $lang['search'] = 'Recherche';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alerte';
 $lang['api'] = 'Google APIKEY';
-$lang['color'] = 'Color';
-$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
-$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
+$lang['show_calendars_schedules'] = 'Afficher le calendrier Horaires';
+$lang['show_all_calendars_schedules'] = 'Tous les horaires Calendrier';
+$lang['current_v'] = 'CIFullCalendar par Sir.Dre © 2016 v';
   
 //Admin
 //
@@ -223,7 +224,6 @@ $lang['profile_forgot_password'] = 'Mot De Passe Oublié';
 //Register 
 $lang['profile_signup'] = 'Signer';
 $lang['profile_register'] = 'Enregistrement d\'un nouvel membres';
-$lang['profile_register_title'] = 'Enregistrement d\'un nouvel membres';
 $lang['profile_register_uname'] = 'Nom d\'utilisateur';
 $lang['profile_register_password'] = 'Mot de passe';
 $lang['profile_register_password_confirm'] = 'Mot de passe Confirm';
@@ -452,6 +452,15 @@ $lang['cal_defaultview_basicday'] = 'Jour de Base';
 $lang['cal_defaultview_agendaweek'] = 'Agenda Semaine';
 $lang['cal_defaultview_agendaday'] = 'Jour Agenda';
 $lang['cal_defaultview_agendalist'] = 'Liste Agenda';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Temps ligne Jour';
 $lang['cal_defaultview_timelineWeek'] = 'Temps ligne Semaine';
 $lang['cal_defaultview_timelineMonth'] = 'Temps ligne Mois';
@@ -463,6 +472,9 @@ $lang['cal_header_right'] = 'Bouton de tête / Titre Droite';
 
 $lang['cal_language'] = 'Langue';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tijd Label Duur';
+$lang['cal_mintime'] = 'Durée minimum';
+$lang['cal_maxtime'] = 'Temps Maximum';
 $lang['cal_hiddendays'] = 'Masquer les Jours(0=Dim,1=Lun,2=Mar,3=Mer,4=Jeu,5=Ven,6=Sam)';
 $lang['cal_editable'] = 'Modifiable (Pour le calendrier des membres seulement)';
 $lang['cal_businesshours'] = 'Business Hours';

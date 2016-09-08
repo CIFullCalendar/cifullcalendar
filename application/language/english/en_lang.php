@@ -12,7 +12,8 @@
 //
 $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendar';
-$lang['events'] = 'events';
+$lang['calendars'] = 'Schedules';
+$lang['events'] = 'Events';
 $lang['dashboard'] = 'Dashboard';
 $lang['tables'] = 'Tables';
 $lang['page'] = 'Page';
@@ -38,7 +39,7 @@ $lang['true'] = 'True';
 $lang['false'] = 'False'; 
 $lang['all'] = 'All';  
 $lang['actions'] = 'Actions';  
-$lang['username'] = 'Username'; 
+$lang['username'] = 'User Name'; 
 $lang['password'] = 'password'; 
 $lang['business'] = 'Business'; 
 $lang['geocodes'] = 'Geocodes'; 
@@ -79,35 +80,9 @@ $lang['search'] = 'Search';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alert';
 $lang['api'] = 'Google APIKEY';
-$lang['color'] = 'Color';
-$lang['form'] = 'Form';
-$lang['forms'] = 'Forms';
-$lang['invoice'] = 'Invoice';
-$lang['invoices'] = 'Invoices';
-$lang['billing'] = 'Billing';
-$lang['billings'] = 'Billings';
-$lang['copyright'] = '© 2016 <a href="//www.pulse-iq.com">www.pulse-iq.com</a> All rights reserved';
-$lang['current_v'] = '© 2016 CIFullCalendar v'; 
-
-//Billings
-//
-$lang['billing_title'] = 'Billing History'; 
-
-//Invoices
-//
-$lang['invoices_title'] = 'Invoices'; 
-//Add
-$lang['invoices_add'] = 'Add Invoices'; 
-//Edit
-$lang['invoices_edit'] = 'Edit Invoices'; 
-//View
-$lang['invoices_view'] = 'View Invoices'; 
-$lang['invoices_payments'] = 'Payment Invoices'; 
-
-//Activities
-//
-$lang['activities_title'] = 'Activities'; 
-
+$lang['show_calendars_schedules'] = 'Show Calendar Schedules';
+$lang['show_all_calendars_schedules'] = 'Show All Calendar Schedules';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v'; 
 
 //Admin
 //
@@ -124,17 +99,11 @@ $lang['templates_name'] = 'Title';
 $lang['templates_content'] = 'Body'; 
 //nav
 $lang['templates_nav_notify'] = 'notify'; 
-$lang['templates_nav_clients_forms'] = 'Notify Clients'; 
-$lang['templates_nav_multi_factor_auth'] = 'Two Way Auth'; 
-$lang['templates_nav_email_activation'] = 'Activate Account'; 
+$lang['templates_nav_register'] = 'Register'; 
 $lang['templates_nav_forgot_password'] = 'Password Confirm'; 
 $lang['templates_nav_reset_password'] = 'Password Reset'; 
 $lang['templates_nav_change_email'] = 'Email Confirm'; 
 $lang['templates_nav_reset_email'] = 'Email Reset';  
-
-//Form
-//
-$lang['form_header'] = 'Form';
 
 //Pages
 //
@@ -158,7 +127,6 @@ $lang['pages_delete_warning'] = 'You are about to delete';
 //Message
 $lang['pages_message_title'] = 'No Pages';
 $lang['pages_message_warning'] = 'No Pages available';
-//session
 $lang['sessions_message_title'] = 'No Sessions';
 $lang['sessions_message_warning'] = 'No Sessions available';  
 
@@ -180,7 +148,7 @@ $lang['admin_modal_ip'] = 'IP Address';
 $lang['admin_remove_session'] = 'Clear Session'; 
 
 //Columns
-$lang['admin_table_username'] = 'Username';
+$lang['admin_table_username'] = 'User Name';
 $lang['admin_table_fname'] = 'First Name';
 $lang['admin_table_lname'] = 'Last Name';
 $lang['admin_table_address'] = 'Address';
@@ -216,7 +184,6 @@ $lang['admin_nav_events'] = 'Events List';
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'Members'; 
 $lang['admin_nav_sessions'] = 'Sessions'; 
-$lang['admin_nav_logs'] = 'Logs'; 
 $lang['admin_nav_group'] = 'Group'; 
 
 //Profile
@@ -252,16 +219,12 @@ $lang['profile_log_out'] = 'Log out';
 //Forgot Password
 $lang['profile_forgot_password'] = 'Forgot Password'; 
 //Register
-$lang['profile_signup'] = 'sign-up'; 
+$lang['profile_signup'] = 'sign-up';
 $lang['profile_register'] = 'New Member Registration';
-$lang['profile_register_title'] = 'Register New Account';
-$lang['profile_register_fname'] = 'First name';
-$lang['profile_register_lname'] = 'Last name';
-$lang['profile_register_uname'] = 'Username';
+$lang['profile_register_uname'] = 'User name';
 $lang['profile_register_password'] = 'Password';
 $lang['profile_register_password_confirm'] = 'Password Confirm';
 $lang['profile_register_email'] = 'Email';  
-$lang['profile_register_address'] = 'Address';  
 $lang['profile_register_phone'] = 'Phone';  
 $lang['profile_register_success'] = 'Thank you for registering, you are able to log-in';
 $lang['profile_register_button'] = 'Register';
@@ -333,15 +296,10 @@ $lang['profile_delete_cancel'] = 'Delete Profile';
 $lang['submenu_select_groups'] = 'Select Shared Events'; 
 $lang['submenu_select_categories'] = 'Select Categories'; 
 $lang['submenu_select_sources'] = 'Select Sources'; 
-$lang['submenu_select_notes'] = 'Notes'; 
-$lang['submenu_select_messages'] = 'Messages'; 
-$lang['submenu_select_counselor_archive'] = 'Archive'; 
+$lang['submenu_dropdown_all_tasks'] = 'All Tasks';  //new
 $lang['submenu_dropdown_all_locations'] = 'All Locations'; 
 $lang['submenu_dropdown_all_categories'] = 'All Categories'; 
-$lang['submenu_dropdown_all_messages'] = 'Messages'; 
 $lang['submenu_dropdown_all_sources'] = 'All Sources'; 
-$lang['submenu_dropdown_all_billing'] = 'All Billing'; 
-
 
   
 //Calendar
@@ -360,8 +318,8 @@ $lang['calendar_modal_tabtitle2'] = 'Category';
 $lang['calendar_modal_tabtitle3'] = 'Recurring';
 $lang['calendar_modal_tabtitle4'] = 'Location';
 $lang['calendar_modal_tabtitle5'] = 'Attach';
-$lang['calendar_modal_eventname'] = 'Patient';
-$lang['calendar_modal_description'] = 'Note';
+$lang['calendar_modal_eventname'] = 'Title';
+$lang['calendar_modal_description'] = 'Description';
 $lang['calendar_modal_eventbegin'] = 'Begin Event';
 $lang['calendar_modal_eventend'] = 'End Event';
 $lang['calendar_modal_eventurl'] = 'URL Link';
@@ -416,6 +374,26 @@ $lang['locations_all_heading'] = 'All Locations';
 $lang['locations_all_confirm_locations'] = 'All Confirm locations'; 
   
   
+//Tasks
+//
+$lang['tasks_all_heading'] = 'All Tasks';
+//Add
+$lang['tasks_add_new'] = 'Add New Task';
+$lang['tasks_input_name'] = 'Task Name';
+$lang['tasks_input_description'] = 'Task Description';
+
+//Edit
+$lang['tasks_edit_source'] = 'Edit this Task';
+
+//Delete
+$lang['tasks_delete_category'] = 'Delete this Category';
+$lang['tasks_delete_warning'] = 'You are about to delete'; 
+
+//Message
+$lang['tasks_message_title'] = 'No Categories';
+$lang['tasks_message_warning'] = 'No Categories available';
+$lang['tasks_message_success'] = 'Updated Successfully';
+
 //Categories
 //
 $lang['categories_all_heading'] = 'All Category';
@@ -482,7 +460,6 @@ $lang['settings_form_meta_description'] = 'Site meta description';
 $lang['settings_form_latitude'] = 'Latitude';
 $lang['settings_form_longitude'] = 'Longitude';
 $lang['settings_form_timezone'] = 'Timezone';
-$lang['settings_form_apikey'] = 'APIKEY';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';
 $lang['settings_form_submit_button'] = 'Submit';
@@ -496,6 +473,15 @@ $lang['cal_defaultview_basicday'] = 'basicDay';
 $lang['cal_defaultview_agendaweek'] = 'agendaWeek';
 $lang['cal_defaultview_agendaday'] = 'agendaDay';
 $lang['cal_defaultview_agendalist'] = 'agendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'timelineDay';
 $lang['cal_defaultview_timelineWeek'] = 'timelineWeek';
 $lang['cal_defaultview_timelineMonth'] = 'timelineMonth';
@@ -602,31 +588,6 @@ $lang['lang_vietnamese'] = 'Vietnamese';
 $lang['lang_chinese'] = 'Chinese';  
 $lang['lang_chinese_tw'] = 'Chinese TW';
  
-//TimeZone
-// 
-$lang['lang_eastern_daylight_time'] = 'Eastern Daylight Time';
-$lang['lang_central_standard_time'] = 'Central Standard Time';
-$lang['lang_central_daylight_time'] = 'Central Daylight Time';
-$lang['lang_mountain_standard_time'] = 'Mountain Standard Time';
-$lang['lang_mountain_daylight_time'] = 'Mountain Daylight Time';
-$lang['lang_pacific_standard_time'] = 'Pacific Standard Time';
-$lang['lang_pacific_daylight_time'] = 'Pacific Daylight Time'; 
-$lang['lang_us_eastern_time'] = 'US/Eastern';
-$lang['lang_us_central_time'] = 'US/Central';
-$lang['lang_us_mountain_time'] = 'US/Mountain';
-$lang['lang_us_arizona_time'] = 'US/Arizona';
-$lang['lang_us_alaska_time'] = 'US/Alaska'; 
-$lang['lang_us_pacific_time'] = 'US/Pacific';
-$lang['lang_us_hawaii_time'] = 'US/Hawaii';
-
-//Common Message
-//
-$lang['message_activation_check_email'] = 'Please check your email to activate your account if you are logging on for the first time.';
-$lang['message_secure_form_signup_notice'] = 'In order to fill out this secure form you must be registered. If you\'ve registered previously, please login. Otherwise, please click on New Member Registration. Once registered, log in and you will be redirected to the form.';
-$lang['message_register_form_signup_notice'] = 'Once you have registered, click login at the bottom and login with your username and password to be redirected to the form.';
-$lang['message_event_attachments_notice'] = 'Attachments uploaded here will only be saved under this event, and not in Archives.';
-$lang['message_event_recurring_notice'] = 'In order to view your recurring calendar event, please enter an end date.';
-
 //Error
 // 
 $lang['error_not_found'] = 'Sorry.... we don\'t have the page you are looking for';

@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'ホーム」。';
 $lang['calendar'] = 'カレンダー';
+$lang['calendars'] = 'カレンダー';
 $lang['events'] = 'イベント';
 $lang['dashboard'] = 'ダッシュボード」。';
 $lang['tables'] = 'テーブル';
@@ -79,9 +80,9 @@ $lang['search'] = 'サーチ';
 $lang['options'] = 'オプション」';
 $lang['alert'] = 'アラート';
 $lang['api'] = 'GoogleのAPIキー';
-$lang['color'] = 'Color';
-$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
-$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
+$lang['show_calendars_schedules'] = '表示するカレンダースケジュール';
+$lang['show_all_calendars_schedules'] = 'すべてのカレンダースケジュールを表示';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
 	
 //管理
 //
@@ -220,7 +221,6 @@ $lang['profile_forgot_password'] = 'パスワードをお忘れですか';
 //登録
 $lang['profile_signup'] = 'サインアップ';
 $lang['profile_register'] = '新規会員登録 ';
-$lang['profile_register_title'] = '新規会員登録 ';
 $lang['profile_register_uname'] = 'ユーザー名 ';
 $lang['profile_register_password'] = 'パスワード';
 $lang['profile_register_password_confirm'] = 'パスワードの確認 ';
@@ -452,6 +452,15 @@ $lang['cal_defaultview_basicday'] = 'BasicDay ';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek ';
 $lang['cal_defaultview_agendaday'] = 'AgendaDay ';
 $lang['cal_defaultview_agendalist'] = 'AgendaList ';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'タイムラインの日 ';
 $lang['cal_defaultview_timelineWeek'] = 'タイムラインウィーク ';
 $lang['cal_defaultview_timelineMonth'] = 'タイムライン月 ';
@@ -464,6 +473,9 @@ $lang['cal_header_right'] = 'ヘッダーボタン/タイトル右';
 $lang['cal_language'] = '言語';
 $lang['cal_timezone'] = 'タイムゾーン」。';
 $lang['cal_aspectratio'] = 'アスペクト比';
+$lang['cal_minmaxtime_range'] = '時間ラベル時間';
+$lang['cal_mintime'] = '最短時間';
+$lang['cal_maxtime'] = '最大時間';
 $lang['cal_hiddendays'] = '土）';
 $lang['cal_editable'] = '（メンバーのみカレンダー用）編集可能な';
 $lang['cal_businesshours'] = '営業時間';

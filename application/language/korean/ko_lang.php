@@ -12,6 +12,7 @@
 //	//
 $lang['home'] = '집';
 $lang['calendar'] = '달력';
+$lang['calendars'] = '달력';
 $lang['events'] = '이벤트';
 $lang['dashboard'] = '계기반';
 $lang['tables'] = '테이블';
@@ -79,9 +80,9 @@ $lang['search'] = '수색';
 $lang['options'] = '옵션';
 $lang['alert'] = '경보';
 $lang['api'] = 'Google APIKEY';
-$lang['color'] = 'Color';
-$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
-$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
+$lang['show_calendars_schedules'] = '보기 달력 스케줄';
+$lang['show_all_calendars_schedules'] = '모든 캘린더 일정보기';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
 	
 //관리자
 // 
@@ -220,7 +221,6 @@ $lang['profile_forgot_password'] = '비밀번호를 잊으 셨나요';
 //레지스터
 $lang['profile_signup'] = '가입';
 $lang['profile_register'] = '신규 회원 등록';
-$lang['profile_register_title'] = '신규 회원 등록';
 $lang['profile_register_uname'] = '사용자 이름';
 $lang['profile_register_password'] = '암호';
 $lang['profile_register_password_confirm'] = '비밀번호 확인';
@@ -447,11 +447,20 @@ $lang['settings_form_submit_button'] = '제출';
 $lang['cal_defaultview'] = '보기 기본';
 	
 $lang['cal_defaultview_month'] = '달';
-$lang['cal_defaultview_basicweek'] = 'BasicWeek';
-$lang['cal_defaultview_basicday'] = 'BasicDay';
-$lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
-$lang['cal_defaultview_agendaday'] = 'AgendaDay';
-$lang['cal_defaultview_agendalist'] = 'AgendaList';
+$lang['cal_defaultview_basicweek'] = 'basicWeek';
+$lang['cal_defaultview_basicday'] = 'basicDay';
+$lang['cal_defaultview_agendaweek'] = 'agendaWeek';
+$lang['cal_defaultview_agendaday'] = 'agendaDay';
+$lang['cal_defaultview_agendalist'] = 'agendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = '타임 라인의 날';
 $lang['cal_defaultview_timelineWeek'] = '타임 라인 주';
 $lang['cal_defaultview_timelineMonth'] = '타임 라인의 달';
@@ -464,6 +473,9 @@ $lang['cal_header_right'] = '헤더 버튼 / 제목 오른쪽';
 $lang['cal_language'] = '언어';
 $lang['cal_timezone'] = '시간대';
 $lang['cal_aspectratio'] = '종횡비';
+$lang['cal_minmaxtime_range'] = '시간 라벨 기간';
+$lang['cal_mintime'] = '최소 시간';
+$lang['cal_maxtime'] = '최대 시간';
 $lang['cal_hiddendays'] = '토';
 $lang['cal_editable'] = '편집은 (회원에 대해서만 달력)';
 $lang['cal_businesshours'] = '업무 시간';

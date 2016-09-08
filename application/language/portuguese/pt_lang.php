@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Casa';
 $lang['calendar'] = 'Calendário';
+$lang['calendars'] = 'Calendário';
 $lang['events'] = 'eventos';
 $lang['dashboard'] = 'Painel de instrumentos';
 $lang['tables'] = 'Tabelas';
@@ -79,9 +80,9 @@ $lang['search'] = 'Pesquisa';
 $lang['options'] = 'Opções';
 $lang['alert'] = 'Alerta';
 $lang['api'] = 'Google APIKEY';
-$lang['color'] = 'Color';
-$lang['copyright'] = '© 2016; Pulse iQ, Inc.; <a href="//www.pulse-iq.com">www.pulse-iq.com</a>';
-$lang['current_v'] = '© 2016; Pulse iQ, Inc.; Proprietary and Confidential';
+$lang['show_calendars_schedules'] = 'Horários Calendário';
+$lang['show_all_calendars_schedules'] = 'Mostrar Todos os Horários Calendário';
+$lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2016 v';
 
 //Admin
 //
@@ -448,6 +449,15 @@ $lang['cal_defaultview_basicday'] = 'Dia básico';
 $lang['cal_defaultview_agendaweek'] = 'Agenda Semana';
 $lang['cal_defaultview_agendaday'] = 'Dia Agenda';
 $lang['cal_defaultview_agendalist'] = 'Lista Agenda';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Linha de tempo do dia';
 $lang['cal_defaultview_timelineWeek'] = 'Tempo linha Semana';
 $lang['cal_defaultview_timelineMonth'] = 'Tempo mês linha';
@@ -459,6 +469,9 @@ $lang['cal_header_right'] = 'Botão cabeçalho/Título Direito';
 
 $lang['cal_language'] = 'Língua';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tempo Etiqueta Duração';
+$lang['cal_mintime'] = 'Tempo mínimo';
+$lang['cal_maxtime'] = 'Tempo máximo';
 $lang['cal_hiddendays'] = 'Ocultar Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)';
 $lang['cal_editable'] = 'Editável (Por apenas membros calendário)';
 $lang['cal_businesshours'] = 'Business Hours';
