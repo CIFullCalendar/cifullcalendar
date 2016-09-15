@@ -5,9 +5,8 @@ Language and theme files for CIFullCalendar
 CIFullCalendar is a server-side dynamic web application that is responsive to any layout of a viewing screen. The “Super Saiyan Fusion” power of CIFullCalendar allows users to organize, plan and share events to everyone. Simply, install it to your server and become a member then use the wonderful features by easily manipulating your events by dragging, dropping, resizing, clicking, touching, categorizing, grouping, filtering, linking and importing/exporting.
 
 # Cloud Support
-Supports MySQL or any CodeIgniter supported databases. 
-
-Sitemaps – Search Engine Optimization purposes (yoursite.com/sitemap.xml) 
+Supports MySQL or any CodeIgniter supported databases. \n 
+Sitemaps – Search Engine Optimization purposes (yoursite.com/sitemap.xml) \n
 JSON – Share all of your public events by url. (yoursite.com/home/json). 
 RSS Feeds – Share your public events by rss feeds (yoursite.com/feeds). 
 ICAL – Members are able to export a single event to their Google, Yahoo and live calendars or to a ICAL Format (ics/ical).
