@@ -6,6 +6,7 @@ CIFullCalendar is a server-side dynamic web application that is responsive to an
 
 # Cloud Support
 Supports MySQL or any CodeIgniter supported databases. 
+
 Sitemaps – Search Engine Optimization purposes (yoursite.com/sitemap.xml) 
 JSON – Share all of your public events by url. (yoursite.com/home/json). 
 RSS Feeds – Share your public events by rss feeds (yoursite.com/feeds). 
