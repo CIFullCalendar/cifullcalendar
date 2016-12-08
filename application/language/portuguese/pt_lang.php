@@ -79,7 +79,10 @@ $lang['identity'] = 'Identidade';
 $lang['search'] = 'Pesquisa';
 $lang['options'] = 'Opções';
 $lang['alert'] = 'Alerta';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Horários Calendário';
 $lang['show_all_calendars_schedules'] = 'Mostrar Todos os Horários Calendário';
 $lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2016 v';
@@ -379,6 +382,9 @@ $lang['categories_all_heading'] = 'Toda a categoria';
 $lang['categories_add_new'] = 'Adicionar nova categoria';
 $lang['categories_input_name'] = 'Nome da Categoria';
 $lang['categories_input_description'] = 'Categoria Descrição';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 
 // Editar
 $lang['categories_edit_source'] = 'Editar este Categoria';
@@ -395,6 +401,7 @@ $lang['categories_draggable_removable'] = 'Arraste e remover evento';
 $lang['categories_message_title'] = 'Nenhuma Categoria';
 $lang['categories_message_warning'] = 'Sem categorias disponíveis';
 $lang['categories_message_success'] = 'Updated Successfully';
+$lang['categories_message_failed'] = 'Update Failed';
  
 // Fontes
 //
@@ -484,6 +491,7 @@ $lang['cal_eventlimit'] = 'Limite de evento';
 $lang['cal_alldayslot'] = 'Todos slot Dia';
 $lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Vista da direita para esquerda';

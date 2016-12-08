@@ -79,7 +79,10 @@ $lang['identity'] = 'Identidad';
 $lang['search'] = 'Buscar';
 $lang['options'] = 'Opciones';
 $lang['alert'] = 'Alerta';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Horarios Mostrar Calendario';
 $lang['show_all_calendars_schedules'] = 'Mostrar todas las citas de calendario';
 $lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2016 v'; 
@@ -380,6 +383,9 @@ $lang['categories_all_heading'] = 'Toda la categoría';
 $lang['categories_add_new'] = 'Añadir Nueva Categoría';
 $lang['categories_input_name'] = 'Nombre de categoría';
 $lang['categories_input_description'] = 'Categoría Descripción';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 
 //Editar
 $lang['categories_edit_source'] = 'Editar esta Categoría';
@@ -396,7 +402,7 @@ $lang['categories_delete_warning'] = 'Estás a punto de eliminar';
 $lang['categories_message_title'] = 'No hay categorías';
 $lang['categories_message_warning'] = 'No hay categorías disponibles';
 $lang['categories_message_success'] = 'Updated Successfully';
-
+$lang['categories_message_failed'] = 'Update Failed';
  
 //Fuentes
 //
@@ -484,10 +490,11 @@ $lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
 $lang['cal_alldayslot'] = 'Todo ranura Día';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_slotduration'] = 'Duración ranura';
+$lang['cal_slotlabeling'] = 'Etiquetado ranura';
+$lang['cal_slotlabelformat'] = 'El intervalo de tiempo-Formato (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Formato grupo (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'Formato de lista (6:00pm)';
 $lang['cal_isrtl'] = 'Vista desde derecha a izquierda';
 
 

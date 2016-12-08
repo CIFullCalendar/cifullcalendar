@@ -79,7 +79,10 @@ $lang['identity'] = 'Identitas';
 $lang['search'] = 'Pencarian';
 $lang['options'] = 'Pilihan';
 $lang['alert'] = 'Waspada';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Tampilkan Jadwal Calendar';
 $lang['show_all_calendars_schedules'] = 'Semua Jadwal Kalender';
 $lang['current_v'] = 'CIFullCalendar oleh Sir.Dre © 2016 v';
@@ -402,6 +405,9 @@ $lang['categories_all_heading'] = 'Semua Kategori';
 $lang['categories_add_new'] = 'Tambahkan Kategori Baru ';
 $lang['categories_input_name'] = 'Nama kategori';
 $lang['categories_input_description'] = 'Kategori Keterangan';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 // Ubah
 $lang['categories_edit_source'] = 'Mengedit Kategori ini';
@@ -418,7 +424,7 @@ $lang['categories_draggable_removable'] = 'Hapus acara setelah drop';
 $lang['categories_message_title'] = 'Tidak ada Kategori';
 $lang['categories_message_warning'] = 'Tidak ada Kategori yang tersedia';
 $lang['categories_message_success'] = 'Updated Berhasil';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  
 // Sumber
 //
@@ -510,8 +516,9 @@ $lang['cal_eventlimit'] = 'Batas Acara';
 $lang['cal_alldayslot'] = 'AllDay Slot';
 $lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_slotlabeling'] = 'Slot Pelabelan';
-$lang['cal_slotlabel_groupformat'] = 'Grup Format (18:00-06:30)';
-$lang['cal_slotlabel_listformat'] = 'Format Daftar (06:00)';
+$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Grup Format (18:00-18:30)';
+$lang['cal_slotlabel_listformat'] = 'Format Daftar (18:00)';
 $lang['cal_isrtl'] = 'View dari kanan ke kiri';
  
 //Tema

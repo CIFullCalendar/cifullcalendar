@@ -78,8 +78,11 @@ $lang['notify'] = '通知」。';
 $lang['identity'] = '身元';
 $lang['search'] = 'サーチ';
 $lang['options'] = 'オプション」';
-$lang['alert'] = 'アラート';
-$lang['api'] = 'GoogleのAPIキー';
+$lang['alert'] = 'アラート'; 
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'GoogleのAPIキー';
+$lang['api_schedulerkey'] = 'Scheduler のAPIキー';
 $lang['show_calendars_schedules'] = '表示するカレンダースケジュール';
 $lang['show_all_calendars_schedules'] = 'すべてのカレンダースケジュールを表示';
 $lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
@@ -380,6 +383,9 @@ $lang['categories_all_heading'] = 'すべてのカテゴリ ';
 $lang['categories_add_new'] = '新規カテゴリの追加 ';
 $lang['categories_input_name'] = 'カテゴリ名 ';
 $lang['categories_input_description'] = 'カテゴリーの説明';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 //Edit	//編集
 $lang['categories_edit_source'] = 'このカテゴリの編集 ';
@@ -396,7 +402,7 @@ $lang['categories_draggable_removable'] = 'ドロップ後にイベントを削�
 $lang['categories_message_title'] = 'いいえカテゴリはありません ';
 $lang['categories_message_warning'] = 'いいえカテゴリー入手可能 ';
 $lang['categories_message_success'] = '正常に更新されました ';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  	
 //ソース
 //
@@ -488,6 +494,7 @@ $lang['cal_eventlimit'] = 'イベントの制限 ';
 $lang['cal_alldayslot'] = 'alldayがスロット ';
 $lang['cal_slotduration'] = 'スロット持続時間 ';
 $lang['cal_slotlabeling'] = 'スロットのラベル ';
+$lang['cal_slotlabelformat'] = 'スロット時間-フォーマット (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'グループ形式（午前6時pm-6:30pm） ';
 $lang['cal_slotlabel_listformat'] = 'リスト形式（18:00） ';
 $lang['cal_isrtl'] = '左から右への表示 ';

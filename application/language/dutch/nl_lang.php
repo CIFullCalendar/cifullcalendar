@@ -79,7 +79,10 @@ $lang['identity'] = 'Identity';
 $lang['search'] = 'Zoeken';
 $lang['options'] = 'Opties';
 $lang['alert'] = 'Alarm';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Privaat';
+$lang['public'] = 'Openbaar';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Show Calendar Schema\'s';
 $lang['show_all_calendars_schedules'] = 'Toon Alle Kalender schema\'s';
 $lang['current_v'] = 'CIFullCalendar door Sir.Dre © 2016 v'; 
@@ -368,7 +371,10 @@ $lang['categories_all_heading'] = 'Alle Categoriën';
 //Add
 $lang['categories_add_new'] = 'Nieuw categorie toevoegen';
 $lang['categories_input_name'] = 'Categorienaam';
-$lang['categories_input_description'] = 'Categorie beschrijving';
+$lang['categories_input_description'] = 'Categorie beschrijving'; 
+$lang['categories_input_group'] = 'Categorie Group';
+$lang['categories_input_group_public'] = 'Openbaar'; 
+$lang['categories_input_group_private'] = 'Privaat'; 
 //Edit
 $lang['categories_edit_source'] = 'Deze categorie aanpassen';
 //Delete
@@ -381,6 +387,7 @@ $lang['categories_draggable_removable'] = 'Slepen en verwijderen event';
 $lang['categories_message_title'] = 'Geen categoriën';
 $lang['categories_message_warning'] = 'Geen Categoriën beschikbaar';
 $lang['categories_message_success'] = 'Updated Successfully';
+$lang['categories_message_failed'] = 'Update mislukt';
  
 //Sources
 //
@@ -465,6 +472,7 @@ $lang['cal_eventlimit'] = 'Evenementenlimiet';
 $lang['cal_alldayslot'] = 'Volledige dag';
 $lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabelformat'] = 'Slot Time-formaat (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';

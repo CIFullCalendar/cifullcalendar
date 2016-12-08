@@ -78,8 +78,11 @@ $lang['notify'] = 'تبليغ';
 $lang['identity'] = 'الهوية';
 $lang['search'] = 'بحث';
 $lang['options'] = 'خيارات';
+$lang['private'] = 'خاص';
+$lang['public'] = 'عامة';
 $lang['alert'] = 'تنبيه';
-$lang['api'] = 'APIKEY جوجل';
+$lang['api_google'] = 'مفتاح API جوجل';
+$lang['api_schedulerkey'] = 'مفتاح API جدولة';
 $lang['show_calendars_schedules'] = 'عرض التقويم جداول ';
 $lang['show_all_calendars_schedules'] = 'عرض جميع التقويم جداول ';
 $lang['current_v'] = 'CIFullCalendar التي كتبها Sir.Dre © 2016 الخامس';
@@ -181,6 +184,7 @@ $lang['admin_table_uagent'] = 'عميل المستخدم ';
 // الملاحة
 //
 $lang['admin_nav_events'] = 'قائمة الفعاليات »';
+$lang['admin_nav_categories'] = 'الفئات'; 
 $lang['admin_nav_queue'] = 'أحداث قائمة الانتظار ';
 $lang['admin_nav_users'] = 'الأعضاء';
 $lang['admin_nav_sessions'] = 'جلسات';
@@ -396,6 +400,10 @@ $lang['categories_all_heading'] = 'الفئة';
 $lang['categories_add_new'] = 'إضافة فئة جديدة ';
 $lang['categories_input_name'] = 'اسم الفئة';
 $lang['categories_input_description'] = 'الفئة الوصف ';
+$lang['categories_input_group'] = 'فئة المجموعة';
+$lang['categories_input_group_public'] = 'عامة'; 
+$lang['categories_input_group_private'] = 'خاص'; 
+
 	
 // تحرير
 $lang['categories_edit_source'] = 'تحرير هذا التصنيف ';
@@ -502,6 +510,7 @@ $lang['cal_eventlimit'] = 'الحد حدث ';
 $lang['cal_alldayslot'] = 'allday زاره فتحة ';
 $lang['cal_slotduration'] = 'مدة فتحة ';
 $lang['cal_slotlabeling'] = 'صفها فتحة ';
+$lang['cal_slotlabelformat'] = 'فتحة الوقت لتنسيق (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'تنسيق المجموعة (18:00 حتي 18:30) ';
 $lang['cal_slotlabel_listformat'] = 'تنسيق قائمة (06:00) ';
 $lang['cal_isrtl'] = 'عرض من اليمين إلى اليسار ';

@@ -79,7 +79,10 @@ $lang['identity'] = 'Danh tính';
 $lang['search'] = 'Tìm kiếm';
 $lang['options'] = 'Tùy chọn';
 $lang['alert'] = 'Báo động';
-$lang['api'] = 'KEY API Google';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Lịch Show Calendar';
 $lang['show_all_calendars_schedules'] = 'Hiện tất cả Lịch Lịch';
 $lang['current_v'] = 'CIFullCalendar bởi Sir.Dre © 2016 v';
@@ -380,6 +383,9 @@ $lang['categories_all_heading'] = 'Tất cả loại';
 $lang['categories_add_new'] = 'Add New Category';
 $lang['categories_input_name'] = 'Tên danh mục';
 $lang['categories_input_description'] = 'Chuyên mục mô tả';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 //Edit	//Chỉnh sửa
 $lang['categories_edit_source'] = 'Chỉnh sửa loại này';
@@ -396,7 +402,7 @@ $lang['categories_draggable_removable'] = 'Xóa sự kiện sau khi thả';
 $lang['categories_message_title'] = 'Không có danh mục';
 $lang['categories_message_warning'] = 'Không có danh mục có sẵn';
 $lang['categories_message_success'] = 'Cập nhật thành công';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  	
 //Sources	// Nguồn
 //	//
@@ -488,7 +494,8 @@ $lang['cal_eventlimit'] = 'Sự kiện Giới hạn';
 $lang['cal_alldayslot'] = 'AllDay Khe cắm';
 $lang['cal_slotduration'] = 'Khe cắm Thời gian';
 $lang['cal_slotlabeling'] = 'Khe nhãn';
-$lang['cal_slotlabel_groupformat'] = 'Format Group (18:00-18:30)';
+$lang['cal_slotlabelformat'] = 'Khe cắm Time-Format (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Định dạng Nhóm (18:00-18:30)';
 $lang['cal_slotlabel_listformat'] = 'Danh sách Format (06:00)';
 $lang['cal_isrtl'] = 'Xem từ Right Left';
  	

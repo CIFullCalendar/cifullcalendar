@@ -79,7 +79,10 @@ $lang['identity'] = 'Идентичность';
 $lang['search'] = 'Поиск';
 $lang['options'] = 'Опции';
 $lang['alert'] = 'бдительный';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Показать Календарь Расписание';
 $lang['show_all_calendars_schedules'] = 'Показать все Календарь Расписание';
 $lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2016 v';
@@ -378,6 +381,10 @@ $lang['categories_all_heading'] = 'Добавить';
 $lang['categories_add_new'] = 'Добавить новую категорию';
 $lang['categories_input_name'] = 'Название категории';
 $lang['categories_input_description'] = 'Категория Описание';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
+
 //Изменить
 $lang['categories_edit_source'] = 'Редактировать эту категорию';
 //Удалить
@@ -390,6 +397,7 @@ $lang['categories_draggable_removable'] = 'Удалить событие пос�
 $lang['categories_message_title'] = 'Нет Рубрики';
 $lang['categories_message_warning'] = 'Нет доступных категорий';
 $lang['categories_message_success'] = 'Успешно Обновлено';
+$lang['categories_message_failed'] = 'Update Failed';
  
 //Источники
 //
@@ -471,6 +479,7 @@ $lang['cal_eventlimit'] = 'Событие Лимит';
 $lang['cal_alldayslot'] = 'AllDay Слот';
 $lang['cal_slotduration'] = 'Слот Продолжительность';
 $lang['cal_slotlabeling'] = 'Маркировка Слот';
+$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Группа Формат (6:00 pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'Формат Список (6:00 PM)';
 $lang['cal_isrtl'] = 'Вид с право на лево';

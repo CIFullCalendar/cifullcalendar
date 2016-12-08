@@ -79,7 +79,10 @@ $lang['identity'] = '정체';
 $lang['search'] = '수색';
 $lang['options'] = '옵션';
 $lang['alert'] = '경보';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = '보기 달력 스케줄';
 $lang['show_all_calendars_schedules'] = '모든 캘린더 일정보기';
 $lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
@@ -380,6 +383,9 @@ $lang['categories_all_heading'] = '모든 카테고리';
 $lang['categories_add_new'] = '새 카테고리 추가';
 $lang['categories_input_name'] = '카테고리 이름';
 $lang['categories_input_description'] = '범주 설명';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 //Edit	//편집하다
 $lang['categories_edit_source'] = '이 범주 편집';
@@ -396,7 +402,7 @@ $lang['categories_draggable_removable'] = '드롭 후 이벤트를 제거합니�
 $lang['categories_message_title'] = '어떤 카테고리 없음';
 $lang['categories_message_warning'] = '없음 카테고리 가능한';
 $lang['categories_message_success'] = '성공적으로 업데이트';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  	
 //Sources	// 소스
 //	//
@@ -488,6 +494,7 @@ $lang['cal_eventlimit'] = '이벤트 제한';
 $lang['cal_alldayslot'] = 'AllDay 슬롯';
 $lang['cal_slotduration'] = '슬롯 기간';
 $lang['cal_slotlabeling'] = '슬롯 라벨';
+$lang['cal_slotlabelformat'] = '슬롯 시간 형식 (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = '그룹 형식 (오후 6시에서 오후 6시 반 사이)';
 $lang['cal_slotlabel_listformat'] = '목록 형식 (오후 6시)';
 $lang['cal_isrtl'] = '왼쪽에서 오른쪽으로보기';

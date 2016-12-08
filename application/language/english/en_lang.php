@@ -79,7 +79,10 @@ $lang['identity'] = 'Identity';
 $lang['search'] = 'Search';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alert';
-$lang['api'] = 'Google APIKEY';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Show Calendar Schedules';
 $lang['show_all_calendars_schedules'] = 'Show All Calendar Schedules';
 $lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v'; 
@@ -181,10 +184,11 @@ $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Events List';
+$lang['admin_nav_categories'] = 'Categories'; 
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'Members'; 
-$lang['admin_nav_sessions'] = 'Sessions'; 
-$lang['admin_nav_group'] = 'Group'; 
+$lang['admin_nav_sessions'] = 'Sessions';  
+$lang['admin_nav_group'] = 'Groups'; 
 
 //Profile
 //
@@ -401,6 +405,9 @@ $lang['categories_all_heading'] = 'All Category';
 $lang['categories_add_new'] = 'Add New Category';
 $lang['categories_input_name'] = 'Category Name';
 $lang['categories_input_description'] = 'Category Description';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 
 //Edit
 $lang['categories_edit_source'] = 'Edit this Category';
@@ -417,6 +424,7 @@ $lang['categories_draggable_removable'] = 'Remove event after drop';
 $lang['categories_message_title'] = 'No Categories';
 $lang['categories_message_warning'] = 'No Categories available';
 $lang['categories_message_success'] = 'Updated Successfully';
+$lang['categories_message_failed'] = 'Update Failed';
 
  
 //Sources
@@ -462,6 +470,8 @@ $lang['settings_form_longitude'] = 'Longitude';
 $lang['settings_form_timezone'] = 'Timezone';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';
+$lang['settings_form_googlekey'] = 'Google API';
+$lang['settings_form_schedulerkey'] = 'Scheduler API'; 
 $lang['settings_form_submit_button'] = 'Submit';
 
 //fullcalendar
@@ -509,6 +519,7 @@ $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
 $lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)'; 
 $lang['cal_isrtl'] = 'View from Right To Left';
