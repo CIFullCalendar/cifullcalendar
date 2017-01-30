@@ -137,6 +137,7 @@ $lang['sessions_message_warning'] = '없음 세션 가능한';
 // 
 $lang['admin_status_1'] = '유효한';
 $lang['admin_status_0'] = '비활성';
+
 //조동사
 $lang['admin_modal_edit_user'] = '편집 사용자 정보';
 $lang['admin_modal_delete_user'] = '사용자 정보 삭제';
@@ -149,6 +150,7 @@ $lang['admin_modal_ip'] = 'IP 주소';
 	
 //툴바
 $lang['admin_remove_session'] = '지우기 세션';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //열
 $lang['admin_table_username'] = '사용자 이름';
@@ -285,7 +287,8 @@ $lang['profile_form_fail_email'] = '이메일은 이미이 사용자에 대한 �
 $lang['profile_form_fail'] = '죄송합니다, 귀하의 프로필 정보를 저장하지 않은';
 $lang['profile_form_success'] = '성공은, 프로필 정보가 저장';
 $lang['profile_form_submit_button'] = '프로필 업데이트';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //지우다
 $lang['profile_delete_profile'] = '윤곽';

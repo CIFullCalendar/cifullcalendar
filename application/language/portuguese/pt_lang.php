@@ -150,6 +150,7 @@ $lang['admin_modal_ip'] = 'Endereço de IP';
 
 //Toolbar
 $lang['admin_remove_session'] = 'Clear Session'; 
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 
 // Colunas
 $lang['admin_table_username'] = 'Nome de Usuário';
@@ -286,7 +287,8 @@ $lang['profile_form_fail_email'] = 'E-mail já existe para este usuário';
 $lang['profile_form_fail'] = 'Desculpe, suas informações de perfil não salvou';
 $lang['profile_form_success'] = 'Sucesso, suas informações de perfil salvo';
 $lang['profile_form_submit_button'] = 'Atualizar Perfil';
-
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Delete
 $lang['profile_delete_profile'] = 'perfil';

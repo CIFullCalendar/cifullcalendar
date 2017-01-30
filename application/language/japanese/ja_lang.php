@@ -149,6 +149,7 @@ $lang['admin_modal_ip'] = 'IPアドレス';
 	
 //ツールバー
 $lang['admin_remove_session'] = 'クリアセッション ';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //列
 $lang['admin_table_username'] = 'ユーザー名 ';
@@ -285,7 +286,8 @@ $lang['profile_form_fail_email'] = 'メールは既にこのユーザーのた�
 $lang['profile_form_fail'] = '申し訳ありませんが、あなたのプロファイル情報が保存されませんでした ';
 $lang['profile_form_success'] = '成功は、あなたのプロファイル情報が保存されました ';
 $lang['profile_form_submit_button'] = 'プロファイルの更新 ';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //Delete	//削除
 $lang['profile_delete_profile'] = 'プロフィール';

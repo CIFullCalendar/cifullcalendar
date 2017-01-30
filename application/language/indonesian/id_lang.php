@@ -134,10 +134,10 @@ $lang['sessions_message_title'] = 'Tidak ada Sesi';
 $lang['sessions_message_warning'] = 'Tidak ada Sesi tersedia';
 	
 // Tabel
-
 $lang['admin_status_1'] = 'Aktif';
 $lang['admin_status_0'] = 'Tidak aktif';
-//modals	// kata modal
+
+// kata modal
 $lang['admin_modal_edit_user'] = 'Edit Informasi pengguna';
 $lang['admin_modal_delete_user'] = 'Menghapus Informasi pengguna';
 $lang['admin_modal_add_user'] = 'Tambahkan Informasi pengguna';
@@ -149,6 +149,7 @@ $lang['admin_modal_ip'] = 'Alamat IP';
 	
 // Toolbar
 $lang['admin_remove_session'] = 'Clear Sesi';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 // Kolom
 $lang['admin_table_username'] = 'Nama pengguna';
@@ -285,7 +286,8 @@ $lang['profile_form_fail_email'] = 'Email sudah ada untuk pengguna ini';
 $lang['profile_form_fail'] = 'Maaf, informasi profil Anda tidak menyimpan';
 $lang['profile_form_success'] = 'Sukses, informasi profil Anda disimpan';
 $lang['profile_form_submit_button'] = 'Memperbaharui profil';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  
 //Menghapus
 $lang['profile_delete_profile'] = 'Profil';

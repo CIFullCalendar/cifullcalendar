@@ -151,6 +151,7 @@ $lang['admin_modal_ip'] = 'Айпи адрес';
  
 //Панели инструментов
 $lang['admin_remove_session'] = 'Чистая сессия'; 
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 
 //Столбцы
 $lang['admin_table_username'] = 'Имя пользователя';
@@ -291,6 +292,8 @@ $lang['profile_form_fail_email'] = 'E-mail уже существует для э
 $lang['profile_form_fail'] = 'К сожалению, ваш профиль информация не спасти';
 $lang['profile_form_success'] = 'Успех, ваш профиль информация сохраняется';
 $lang['profile_form_submit_button'] = 'Обновить профиль';
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Удалить
 $lang['profile_delete_profile'] = 'профиль';

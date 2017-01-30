@@ -149,6 +149,7 @@ $lang['admin_modal_ip'] = 'عنوان IP';
 	
 // شريط الأدوات
 $lang['admin_remove_session'] = 'الدورة واضح ';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 // أعمدة
 $lang['admin_table_username'] = 'اسم العضو';
@@ -286,6 +287,8 @@ $lang['profile_form_fail_email'] = 'البريد الإلكتروني الموج
 $lang['profile_form_fail'] = 'عذرا، معلومات ملفك الشخصي لم ينقذ ';
 $lang['profile_form_success'] = 'النجاح، المعلومات الشخصية المحفوظة ';
 $lang['profile_form_submit_button'] = 'الملف تحديث';
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
 
 //حذف
 $lang['profile_delete_profile'] = 'الملف الشخصي';

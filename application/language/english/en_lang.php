@@ -85,7 +85,7 @@ $lang['api_google'] = 'Google API key';
 $lang['api_schedulerkey'] = 'Scheduler API key';
 $lang['show_calendars_schedules'] = 'Show Calendar Schedules';
 $lang['show_all_calendars_schedules'] = 'Show All Calendar Schedules';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v'; 
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2017 v'; 
 
 //Admin
 //
@@ -149,6 +149,7 @@ $lang['admin_modal_ip'] = 'IP Address';
 
 //Toolbar
 $lang['admin_remove_session'] = 'Clear Session'; 
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 
 //Columns
 $lang['admin_table_username'] = 'User Name';
@@ -286,7 +287,8 @@ $lang['profile_form_fail_email'] = 'Email already exist for this user';
 $lang['profile_form_fail'] = 'Sorry, your profile information did not save';
 $lang['profile_form_success'] = 'Success, your profile information saved';
 $lang['profile_form_submit_button'] = 'Update Profile';
-
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Delete
 $lang['profile_delete_profile'] = 'profile';

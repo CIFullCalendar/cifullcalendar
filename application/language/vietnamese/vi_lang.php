@@ -137,6 +137,7 @@ $lang['sessions_message_warning'] = 'Không Sessions sẵn';
 //
 $lang['admin_status_1'] = 'Hoạt động';
 $lang['admin_status_0'] = 'Không hoạt động';
+
 //modals
 $lang['admin_modal_edit_user'] = 'Chỉnh sửa thông tin của người sử dụng';
 $lang['admin_modal_delete_user'] = 'Xóa thông tin của người sử dụng';
@@ -149,6 +150,7 @@ $lang['admin_modal_ip'] = 'Địa chỉ IP';
 	
 //Thanh công cụ
 $lang['admin_remove_session'] = 'Clear phiên';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //Cột
 $lang['admin_table_username'] = 'Tên tài khoản';
@@ -285,7 +287,8 @@ $lang['profile_form_fail_email'] = 'Email đã tồn tại cho người dùng n�
 $lang['profile_form_fail'] = 'Xin lỗi, thông tin cá nhân của bạn không lưu';
 $lang['profile_form_success'] = 'Thành công, thông tin cá nhân của bạn được lưu ';
 $lang['profile_form_submit_button'] = 'Cập nhật hồ sơ';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //Delete	//Xóa bỏ
 $lang['profile_delete_profile'] = 'Hồ sơ';

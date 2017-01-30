@@ -149,6 +149,7 @@ $lang['admin_modal_ip'] = 'IP地址';
 	
 //Toolbar	//工具栏
 $lang['admin_remove_session'] = '清除会话';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //Columns	//列
 $lang['admin_table_username'] = '用户名';
@@ -286,7 +287,8 @@ $lang['profile_form_fail_email'] = '电子邮件已经存在该用户';
 $lang['profile_form_fail'] = '对不起，您的个人资料没有保存';
 $lang['profile_form_success'] = '成功，保存您的个人资料信息';
 $lang['profile_form_submit_button'] = '更新个人信息';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //Delete	//删除
 $lang['profile_delete_profile'] = '个人资料';
