@@ -187,6 +187,7 @@ $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Lista de Eventos';
+$lang['admin_nav_categories'] = 'Categorías'; 
 $lang['admin_nav_queue'] = 'Eventos Cola';
 $lang['admin_nav_users'] = 'Miembros'; 
 $lang['admin_nav_sessions'] = 'Sesiones';
@@ -255,15 +256,12 @@ $lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 $lang['reset_password'] = 'Restablecer contraseña';
 $lang['recover_password'] = 'Cambiar La Contraseña'; 
 //Has Olvidado Tu Contraseña
-$lang['forgot_login_email'] = 'Correo electrónico';
+$lang['forgot_login_identity'] = 'identidad';
 $lang['forgot_login_email_submit'] = 'Recuperar Contraseña';
 $lang['forgot_login_email_send'] = 'Información Password Recovery envió';
 $lang['forgot_login_subject'] = 'Contraseña Recuperado';
 $lang['forgot_login_message'] = 'Una confirmación de la contraseña está en tu correo electrónico';
-
-$lang['forgot_login_email_message1'] = 'Cambio de Contraseña / Recuperación';
-$lang['forgot_login_email_message2'] = 'Ha solicitado un cambio de contraseña. Si no he \ t solicitó este cambio por favor, ignora correo electrónico o póngase en contacto con su administrador.';
-$lang['forgot_login_email_message3'] = 'A continuación se muestra el enlace para hacer clic para confirmar el cambio. Otro correo electrónico seguirá con una contraseña temporal.';
+$lang['forgot_login_identity_not_found'] = 'Lo sentimos, la identidad no existe'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';

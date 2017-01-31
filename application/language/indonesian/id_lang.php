@@ -250,15 +250,12 @@ $lang['profile_change_new_password_confirm'] = 'Password Konfirmasi New';
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Ganti kata sandi';
 //Lupa kata sandi
-$lang['forgot_login_email'] = 'E-mail';
+$lang['forgot_login_identity'] = 'identitas';
 $lang['forgot_login_email_submit'] = 'Recover Password';
 $lang['forgot_login_email_send'] = 'Password Informasi Pemulihan mengirim';
 $lang['forgot_login_subject'] = 'Password Pulih';
 $lang['forgot_login_message'] = 'Konfirmasi password di email Anda';
-//Pesan
-$lang['forgot_login_email_message1'] = 'Password Change / Pemulihan';
-$lang['forgot_login_email_message2'] = 'Anda telah meminta perubahan password. Jika saya haven \'t meminta perubahan ini abaikan email atau hubungi administrator Anda.';
-$lang['forgot_login_email_message3'] = 'Di bawah ini adalah link untuk klik untuk mengkonfirmasi perubahan. email lain akan mengikuti dengan sandi sementara. ';
+$lang['forgot_login_identity_not_found'] = 'Maaf, identitas tidak ada';  
 //New Email //Email baru
 $lang['email_reset_subject'] = 'Email baru';
 $lang['email_reset_message'] = 'Anda telah berhasil mengubah alamat email Anda';

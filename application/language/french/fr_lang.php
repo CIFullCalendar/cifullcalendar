@@ -253,15 +253,12 @@ $lang['profile_change_new_password_confirm'] = 'Nouveau Mot De Passe Confirm';
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Changer Le Mot De Passe';
 // Mot De Passe Oublié
-$lang['forgot_login_email'] = 'Email';
+$lang['forgot_login_identity'] = 'identité';
 $lang['forgot_login_email_submit'] = 'Récupérer mot de passe';
 $lang['forgot_login_email_send'] = 'Passe Information Recovery envoyé';
 $lang['forgot_login_subject'] = 'Mot de passe Rétabli';
 $lang['forgot_login_message'] = 'Une confirmation de mot de passe est dans votre courriel';
-//Message
-$lang['forgot_login_email_message1'] = 'Password Change / Recovery';
-$lang['forgot_login_email_message2'] = 'Vous avez demandé un changement de mot de passe. Si je n \'a demandé ce changement se il vous plaît ignorer email ou contactez votre administrateur.';
-$lang['forgot_login_email_message3'] = 'Voici le lien à cliquer pour confirmer le changement. Un autre courriel suivra avec un mot de passe temporaire.';
+$lang['forgot_login_identity_not_found'] = 'Désolé, l\'identité n\'existe pas'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';

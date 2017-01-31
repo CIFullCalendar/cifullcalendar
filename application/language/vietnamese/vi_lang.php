@@ -251,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = 'Mật khẩu Confirm New';
 $lang['reset_password'] = 'Đặt lại mật khẩu';
 $lang['recover_password'] = 'Đổi mật khẩu';
 //Forgot Password	//Quên mật khẩu
-$lang['forgot_login_email'] = 'E-mail';
+$lang['forgot_login_identity'] = 'danh tính';
 $lang['forgot_login_email_submit'] = 'Khôi phục mật khẩu';
 $lang['forgot_login_email_send'] = 'Password Recovery Thông tin gửi';
 $lang['forgot_login_subject'] = 'Mật khẩu phục hồi';
 $lang['forgot_login_message'] = 'Một xác nhận mật khẩu là trong email của bạn';
-//Message	//Thông điệp
-$lang['forgot_login_email_message1'] = 'Thay đổi mật khẩu / Phục hồi';
-$lang['forgot_login_email_message2'] = 'Bạn đã yêu cầu thay đổi mật khẩu. Nếu tôi thiên đườngt yêu cầu thay đổi này xin vui lòng bỏ qua email hoặc liên hệ với quản trị viên của bạn.';
-$lang['forgot_login_email_message3'] = 'Dưới đây là liên kết để bấm vào để xác nhận thay đổi. email khác sẽ làm theo với một mật khẩu tạm thời. ';
+$lang['forgot_login_identity_not_found'] = 'Xin lỗi, danh tính không tồn tại';  
 //New Email 	//Email mới
 $lang['email_reset_subject'] = 'Email mới';
 $lang['email_reset_message'] = 'Bạn đã thay đổi thành công địa chỉ email của bạn';

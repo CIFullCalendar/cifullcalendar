@@ -251,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = '새 암호 확인';
 $lang['reset_password'] = '암호를 재설정';
 $lang['recover_password'] = '비밀번호 변경';
 //비밀번호를 잊으 셨나요
-$lang['forgot_login_email'] = '이메일';
+$lang['forgot_login_identity'] = '정체';
 $lang['forgot_login_email_submit'] = '비밀번호 복구';
 $lang['forgot_login_email_send'] = '비밀번호 복구 정보가 전송';
 $lang['forgot_login_subject'] = '비밀번호 복구';
 $lang['forgot_login_message'] = '비밀번호 확인 귀하의 이메일에';
-//메시지
-$lang['forgot_login_email_message1'] = '암호 변경 복구';
-$lang['forgot_login_email_message2'] = '당신은 암호 변경을 요청했습니다. 나는 천국이 는 t이 변경을 요청 이메일을 무시하거나 관리자에게 문의하시기 바랍니다.';
-$lang['forgot_login_email_message3'] = '아래 링크는 변경 사항을 확인을 클릭합니다. 다른 이메일 임시 비밀번호를 따를 것이다. ';
+$lang['forgot_login_identity_not_found'] = '죄송합니다. 신원이 없습니다.'; 
 //새 이메일
 $lang['email_reset_subject'] = '새 메일';
 $lang['email_reset_message'] = '당신은 성공적으로 당신의 이메일 주소를 변경 한';

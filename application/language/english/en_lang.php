@@ -251,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Change Password';
 //Forgot Password
-$lang['forgot_login_email'] = 'Email';
+$lang['forgot_login_identity'] = 'identity';
 $lang['forgot_login_email_submit'] = 'Recover Password';
 $lang['forgot_login_email_send'] = 'Password Recovery Information sent';
 $lang['forgot_login_subject'] = 'Password Recovered';
 $lang['forgot_login_message'] = 'A password confirmation is in your email';
-//Message
-$lang['forgot_login_email_message1'] = 'Password Change/Recovery';
-$lang['forgot_login_email_message2'] = 'You have requested a password change. If I haven\'t requested this change please ignore email or contact your administrator.';
-$lang['forgot_login_email_message3'] = 'Below is the link to click to confirm change. Another email will follow with a temporary password.';
+$lang['forgot_login_identity_not_found'] = 'Sorry, identity does not exist'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';

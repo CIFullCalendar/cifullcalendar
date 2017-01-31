@@ -254,17 +254,12 @@ $lang['profile_change_new_password_confirm'] = 'Новый пароль Подт
 $lang['reset_password'] = 'Сброс пароля';
 $lang['recover_password'] = 'Изменить пароль'; 
 //Забыли пароль
-$lang['forgot_login_email'] = 'на e-mail';
+$lang['forgot_login_identity'] = 'идентичность';
 $lang['forgot_login_email_submit'] = 'Восстановить пароль';
 $lang['forgot_login_email_send'] = 'Восстановление пароля Информация отправлено';
 $lang['forgot_login_subject'] = 'Восстановление пароля';
 $lang['forgot_login_message'] = 'Подтверждение пароля в вашей электронной почте';
-
-//Message
-$lang['forgot_login_email_message1'] = 'Изменение пароля / Восстановление';
-$lang['forgot_login_email_message2'] = 'Вы запросили изменение пароля. Если я не имею просил это изменение не обращайте внимания электронную почту или обратитесь к администратору.';
-$lang['forgot_login_email_message3'] = 'Ниже ссылка на кнопку, чтобы подтвердить изменения. Другой адрес электронной почты будет следовать с временным паролем.';
-
+$lang['forgot_login_identity_not_found'] = 'К сожалению, идентичность не существует';  
 //New Email 
 $lang['email_reset_subject'] = 'Новая почта';
 $lang['email_reset_message'] = 'Вы успешно изменить свой адрес электронной почты ';

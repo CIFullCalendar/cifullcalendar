@@ -251,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = 'تأكيد كلمة المرور
 $lang['reset_password'] = 'إعادة تعيين كلمة المرور ';
 $lang['recover_password'] = 'تغيير كلمة المرور ';
 //هل نسيت كلمة المرور
-$lang['forgot_login_email'] = 'البريد الإلكتروني';
+$lang['forgot_login_identity'] = 'هوية';
 $lang['forgot_login_email_submit'] = 'استرجاع كلمة المرور ';
 $lang['forgot_login_email_send'] = 'معلومات استعادة كلمة السر أرسلت ';
 $lang['forgot_login_subject'] = 'كلمة السر استرداد ';
 $lang['forgot_login_message'] = 'رسالة تأكيد كلمة المرور في البريد الإلكتروني الخاص بك';
-//الرسالة
-$lang['forgot_login_email_message1'] = 'تغيير كلمة المرور / الاسترداد ';
-$lang['forgot_login_email_message2'] = 'لقد طلبت تغيير كلمة المرور. إذا كنت ملاذ \'ر طلب هذا التغيير الرجاء تجاهل البريد الإلكتروني أو الاتصال بالمسؤول ';
-$lang['forgot_login_email_message3'] = 'وفيما يلي رابط فوق لتأكيد التغيير. وبريد إلكتروني آخر يتبع مع كلمة مرور مؤقتة.';
+$lang['forgot_login_identity_not_found'] = 'عذرا، هوية غير موجود';  
 //بريد إلكتروني جديد
 $lang['email_reset_subject'] = 'البريد الإلكتروني الجديد';
 $lang['email_reset_message'] = 'لقد بنجاح تغيير عنوان البريد الإلكتروني الخاص بك';

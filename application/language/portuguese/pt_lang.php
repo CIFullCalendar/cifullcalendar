@@ -253,14 +253,12 @@ $lang['profile_change_new_password_confirm'] = 'Nova Senha Confirm';
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Alterar A Senha'; 
 // Esqueceu Sua Senha
-$lang['forgot_login_email'] = 'O Email';
+$lang['forgot_login_identity'] = 'identidade';
 $lang['forgot_login_email_submit'] = 'Recuperar palavra-passe';
 $lang['forgot_login_email_send'] = 'Informações da recuperação da senha enviada';
 $lang['forgot_login_subject'] = 'Recuperado senha';
 $lang['forgot_login_message'] = 'A confirmação de senha está em seu e-mail'; 
-$lang['forgot_login_email_message1'] = 'Alteração de Senha / Recovery';
-$lang['forgot_login_email_message2'] = 'Você pediu uma alteração de senha. Se eu haven \'t solicitou esta mudança por favor ignore e-mail ou entre em contato com o administrador.';
-$lang['forgot_login_email_message3'] = 'Abaixo está o link para clicar para confirmar a alteração. Outro e-mail vai seguir com uma senha temporária.';
+$lang['forgot_login_identity_not_found'] = 'Desculpe, a identidade não existe'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';

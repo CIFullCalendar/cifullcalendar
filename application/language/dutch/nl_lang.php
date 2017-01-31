@@ -248,14 +248,12 @@ $lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 $lang['reset_password'] = 'Reset wachtwoord';
 $lang['recover_password'] = 'Wachtwoord aanpassen';
 //Forgot Password
-$lang['forgot_login_email'] = 'E-mailadres';
+$lang['forgot_login_identity'] = 'identiteit';
 $lang['forgot_login_email_submit'] = 'Wachtwoord achterhalen';
 $lang['forgot_login_email_send'] = 'De instructies om u wachtwoord te achterhalen zijn verzonden';
 $lang['forgot_login_subject'] = 'Wachtwoord achterhaald';
-$lang['forgot_login_message'] = 'Een wachtwoord bevestiging is naar uw e-mailadres verzonden';
-$lang['forgot_login_email_message1'] = 'Wachtwoord ophalen/Rachterhalen';
-$lang['forgot_login_email_message2'] = 'u heeft een wachtwoord aanpassing aagevraagd. Indien dit niet het geval is kan u deze e-mail negeren of de beheerder contacteren.';
-$lang['forgot_login_email_message3'] = 'Benenden bevindt zich de link om de aanpassing door te voeren. U zal zodadelijk een e-mail ontvangen met een tijdelijk wachtwoord.';
+$lang['forgot_login_message'] = 'Een wachtwoord bevestiging is naar uw e-mailadres verzonden'; 
+$lang['forgot_login_identity_not_found'] = 'Sorry, identiteit bestaat niet'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';

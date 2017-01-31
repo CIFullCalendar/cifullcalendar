@@ -250,15 +250,12 @@ $lang['profile_change_new_password_confirm'] = '新しいパスワードの確�
 $lang['reset_password'] = 'パスワードを再設定する';
 $lang['recover_password'] = 'パスワードを変更する';
 //パスワードをお忘れですか
-$lang['forgot_login_email'] = 'Eメール';
+$lang['forgot_login_identity'] = '身元';
 $lang['forgot_login_email_submit'] = 'パスワードを回復します ';
 $lang['forgot_login_email_send'] = 'パスワード回復情報が送信されました ';
 $lang['forgot_login_subject'] = 'パスワードは回復します ';
 $lang['forgot_login_message'] = 'パスワードの確認は電子メールです ';
-//Message	//メッセージ
-$lang['forgot_login_email_message1'] = 'パスワード変更/リカバリ ';
-$lang['forgot_login_email_message2'] = 'あなたは、パスワードの変更を要求しました。私は避難所\場合 はこの変更を要求され​​たメールを無視するか、管理者に連絡してください。';
-$lang['forgot_login_email_message3'] = '以下の変更を確認するために、クリックするためのリンクです。別の電子メールは、一時的なパスワードを使用して従います。 ';
+$lang['forgot_login_identity_not_found'] = '申し訳ありませんが、IDは存在しません'; 
 //New Email 	//新しいメール
 $lang['email_reset_subject'] = '新しいメール ';
 $lang['email_reset_message'] = 'あなたは成功したメールアドレスを変更しています';

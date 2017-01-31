@@ -251,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = '新密码确认';
 $lang['reset_password'] = '重设密码';
 $lang['recover_password'] = '更改密码';
 //Forgot Password	//忘了密码
-$lang['forgot_login_email'] = '电子邮件';
+$lang['forgot_login_identity'] = '身分';
 $lang['forgot_login_email_submit'] = '恢复密码';
 $lang['forgot_login_email_send'] = '密码恢复信息发送';
 $lang['forgot_login_subject'] = '密码恢复';
 $lang['forgot_login_message'] = '密码确认是在您的电子邮件';
-//Message	//信息
-$lang['forgot_login_email_message1'] = '密码更改/恢复';
-$lang['forgot_login_email_message2'] = '您已要求更改密码。如果我的天堂\'吨要求这个变化，请忽略电子邮件或与管理员联系。';
-$lang['forgot_login_email_message3'] = '下面是链接到点击确认更改。另一个电子邮件将遵循一个临时密码。';
+ $lang['forgot_login_identity_not_found'] = '對不起，身份不存在'; 
 //New Email 	//新邮件
 $lang['email_reset_subject'] = '新邮件';
 $lang['email_reset_message'] = '您已经成功地改变你的电子邮件地址';
