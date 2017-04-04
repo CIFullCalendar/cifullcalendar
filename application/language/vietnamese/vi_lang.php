@@ -186,6 +186,7 @@ $lang['admin_table_uagent'] = 'Đại lý người dùng';
 //nav
 //
 $lang['admin_nav_events'] = 'Danh sách sự kiện';
+$lang['admin_nav_categories'] = 'Thể loại'; 
 $lang['admin_nav_queue'] = 'Sự kiện Queue';
 $lang['admin_nav_users'] = 'Các thành viên';
 $lang['admin_nav_sessions'] = 'Phiên';

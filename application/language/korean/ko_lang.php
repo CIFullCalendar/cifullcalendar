@@ -186,6 +186,7 @@ $lang['admin_table_uagent'] = '사용자 에이전트';
 //탐색
 // 
 $lang['admin_nav_events'] = '이벤트 목록';
+$lang['admin_nav_categories'] = '카테고리'; 
 $lang['admin_nav_queue'] = '이벤트 큐';
 $lang['admin_nav_users'] = '회원';
 $lang['admin_nav_sessions'] = '세션';

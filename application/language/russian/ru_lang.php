@@ -187,6 +187,7 @@ $lang['admin_table_uagent'] = 'Агент пользователя';
 //навигации
 //
 $lang['admin_nav_events'] = 'Список событий';
+$lang['admin_nav_categories'] = 'Смайлы Вкл';
 $lang['admin_nav_queue'] = 'События Очередь'; 
 $lang['admin_nav_users'] = 'Пользователи'; 
 $lang['admin_nav_sessions'] = 'Сессии'; 

@@ -184,7 +184,8 @@ $lang['admin_table_uagent'] = 'ユーザーエージェント';
 	
 //ナビゲーション
 //
-$lang['admin_nav_events'] = 'イベントリスト ';
+$lang['admin_nav_events'] = 'イベントリスト';
+$lang['admin_nav_categories'] = 'カテゴリー'; 
 $lang['admin_nav_queue'] = 'イベントキュー ';
 $lang['admin_nav_users'] = 'メンバー';
 $lang['admin_nav_sessions'] = 'セッション';

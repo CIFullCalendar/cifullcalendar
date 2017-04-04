@@ -186,6 +186,7 @@ $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Lista de Eventos';
+$lang['admin_nav_categories'] = 'Categorias'; 
 $lang['admin_nav_queue'] = 'Eventos Fila'; 
 $lang['admin_nav_users'] = 'Membros'; 
 $lang['admin_nav_sessions'] = 'Sessões'; 

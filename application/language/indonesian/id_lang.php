@@ -185,6 +185,7 @@ $lang['admin_table_uagent'] = 'Agen pengguna';
 // nav
 //
 $lang['admin_nav_events'] = 'Daftar Acara';
+$lang['admin_nav_categories'] = 'Kategoris';
 $lang['admin_nav_queue'] = 'Acara Antrian';
 $lang['admin_nav_users'] = 'Anggota';
 $lang['admin_nav_sessions'] = 'Sesi';
