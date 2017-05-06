@@ -486,23 +486,26 @@ $lang['cal_hiddendays'] = '周六）';
 $lang['cal_editable'] = '可编辑（对于仅限会员日历）';
 $lang['cal_businesshours'] = '营业时间';
 $lang['cal_businesshours_start'] = '营业时间';
-$lang['cal_businesshours_end'] = '关闭时间';
-$lang['cal_businesshours_opendays'] = '周六）';
+$lang['cal_businesshours_end'] = '关闭时间';  
+$lang['cal_businesshours_opendays'] = '开幕日（0 =太阳，1 =星期一，2 =星期三，3 =星期三，4 =星期四，5 =星期五，6 =星期六）';
 $lang['cal_firstday'] = '第一天';
-$lang['cal_weeknumbers'] = '周数';
+$lang['cal_weeknumbers'] = '显示（开/关）'; 
+$lang['cal_weeknumbers_withindays'] = '天内'; 
+$lang['cal_weeknumbers_settings'] = '周数';
 $lang['cal_eventlimit'] = '事件限制';
-$lang['cal_alldayslot'] = 'AllDay插槽';
-$lang['cal_slotduration'] = '时间槽';
-$lang['cal_slotlabeling'] = '老虎标签';
-$lang['cal_slotlabelformat'] = '时隙时间格式 (HH:mm / hh:mm a)';
-$lang['cal_slotlabel_groupformat'] = '集团格式（06:00 pm-6:30pm）';
-$lang['cal_slotlabel_listformat'] = '列表格式（下午6:00）';
+$lang['cal_alldayslot'] = '全天候广告牌';
+$lang['cal_slotduration'] = '持续时间';
+$lang['cal_slotlabeling'] = '标签';
+$lang['cal_slotlabelformat'] = '时间格式（HH：mm / hh：mm a）';
+$lang['cal_slotlabel_groupformat'] = '团体格式（06:00 pm-6:30pm）';
+$lang['cal_slotlabel_listformat'] = '列表格式（6:00 pm）'; 
+$lang['cal_slotlabel_settings'] = '老虎机';  
 $lang['cal_isrtl'] = '查看从右到左';
  	
-//Theme 	//主题
+//主题
 $lang['theme_name'] = '主题';
 	
-//Edit	//编辑
+//编辑
 $lang['profile_picture_title'] = '头像要求';
 $lang['file_title'] = 'ICS文件要求';
 $lang['attach_title'] = '附件文件要求';

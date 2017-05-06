@@ -471,19 +471,24 @@ $lang['cal_editable'] = 'Редактируемый (Для членов кал�
 $lang['cal_businesshours'] = 'Рабочие часы';
 $lang['cal_businesshours_start'] = 'Часы работы';
 $lang['cal_businesshours_end'] = 'Закрытие Часы';
-$lang['cal_businesshours_opendays'] = 'Дни (0=Воскресенье, 1=Понедельник, 2=Вторник, 3=среда, 4=Четверг, 5=Пятница, 6=Cуббота)';
+$lang['cal_businesshours_opendays'] = 'Дни (0=Воскресенье, 1=Понедельник, 2=Вторник, 3=среда, 4=Четверг, 5=Пятница, 6=Cуббота)'; 
 $lang['cal_firstday'] = 'Первый день';
-$lang['cal_weeknumbers'] = 'Неделя Количество';
-$lang['cal_eventlimit'] = 'Событие Лимит';
-$lang['cal_alldayslot'] = 'AllDay Слот';
-$lang['cal_slotduration'] = 'Слот Продолжительность';
-$lang['cal_slotlabeling'] = 'Маркировка Слот';
-$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
-$lang['cal_slotlabel_groupformat'] = 'Группа Формат (6:00 pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'Формат Список (6:00 PM)';
+$lang['cal_weeknumbers'] = 'Показать (Вкл. / Выкл.)'; 
+$lang['cal_weeknumbers_withindays'] = 'В течение дней'; 
+$lang['cal_weeknumbers_settings'] = 'Неделя';
+$lang['cal_eventlimit'] = 'Лимит события';
+$lang['cal_alldayslot'] = 'Всесезонный слот';
+$lang['cal_slotduration'] = 'Продолжительность';
+$lang['cal_slotlabeling'] = 'Маркировка';
+$lang['cal_slotlabelformat'] = 'Формат времени (ЧЧ: мм / чч: мм)';
+$lang['cal_slotlabel_groupformat'] = 'Формат группы (18:00 - 18:30)';
+$lang['cal_slotlabel_listformat'] = 'Формат списка (18:00)'; 
+$lang['cal_slotlabel_settings'] = 'Слот';  
 $lang['cal_isrtl'] = 'Вид с право на лево';
+
 //Theme 
 $lang['theme_name'] = 'Тема';
+
 //Изменить
 $lang['profile_picture_title'] = 'Профиль Фото Требование';
 $lang['file_title'] = 'ИКС Требования к файлам';

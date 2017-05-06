@@ -485,16 +485,18 @@ $lang['cal_editable'] = 'Editável (Por apenas membros calendário)';
 $lang['cal_businesshours'] = 'Business Hours';
 $lang['cal_businesshours_start'] = 'Business Start Hours';
 $lang['cal_businesshours_end'] = 'Business End Hours';
-$lang['cal_businesshours_opendays'] = 'Business Open Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)';
-$lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Números da Semana';
-$lang['cal_eventlimit'] = 'Limite de evento';
-$lang['cal_alldayslot'] = 'Todos slot Dia';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_businesshours_opendays'] = 'Business Open Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)'; 
+$lang['cal_firstday'] = 'Primeiro dia';
+$lang['cal_weeknumbers'] = 'Mostrar (Ligado / Desligado)'; 
+$lang['cal_weeknumbers_withindays'] = 'Dentro de dias'; 
+$lang['cal_weeknumbers_settings'] = 'Números da semana';
+$lang['cal_eventlimit'] = 'Limite de Evento';
+$lang['cal_alldayslot'] = 'Slot de dia inteiro';
+$lang['cal_slotduration'] = 'Duração';
+$lang['cal_slotlabeling'] = 'Marcação';
+$lang['cal_slotlabelformat'] = 'Formato de Hora (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Formato do Grupo (06:00 pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'Formato da lista (6:00 pm)';  
 $lang['cal_isrtl'] = 'Vista da direita para esquerda';
 
 // Tema

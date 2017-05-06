@@ -488,22 +488,25 @@ $lang['cal_editable'] = '편집은 (회원에 대해서만 달력)';
 $lang['cal_businesshours'] = '업무 시간';
 $lang['cal_businesshours_start'] = '개관 시간';
 $lang['cal_businesshours_end'] = '마감 시간';
-$lang['cal_businesshours_opendays'] = '토';
+$lang['cal_businesshours_opendays'] = '개장 일 (0=일요일, 1=월요일, 2=화요일, 3=수요일, 4=목요일, 5=금, 6=토)';
 $lang['cal_firstday'] = '첫날';
-$lang['cal_weeknumbers'] = '주 번호';
+$lang['cal_weeknumbers'] = '표시 (설정 / 해제)'; 
+$lang['cal_weeknumbers_withindays'] = '일 이내'; 
+$lang['cal_weeknumbers_settings'] = '주 번호';
 $lang['cal_eventlimit'] = '이벤트 제한';
-$lang['cal_alldayslot'] = 'AllDay 슬롯';
-$lang['cal_slotduration'] = '슬롯 기간';
-$lang['cal_slotlabeling'] = '슬롯 라벨';
-$lang['cal_slotlabelformat'] = '슬롯 시간 형식 (HH:mm / hh:mm a)';
-$lang['cal_slotlabel_groupformat'] = '그룹 형식 (오후 6시에서 오후 6시 반 사이)';
-$lang['cal_slotlabel_listformat'] = '목록 형식 (오후 6시)';
+$lang['cal_alldayslot'] = '하루 종일 슬롯';
+$lang['cal_slotduration'] = '지속';
+$lang['cal_slotlabeling'] = '라벨링';
+$lang['cal_slotlabelformat'] = '시간 - 형식 (HH : mm / hh : mm a)';
+$lang['cal_slotlabel_groupformat'] = '그룹 형식 (오후 6시 - 오후 6:30)';
+$lang['cal_slotlabel_listformat'] = '목록 형식 (오후 6시)'; 
+$lang['cal_slotlabel_settings'] = '슬롯';  
 $lang['cal_isrtl'] = '왼쪽에서 오른쪽으로보기';
  	
-//Theme 	//테마
+//테마
 $lang['theme_name'] = '테마';
 	
-//Edit	//편집하다
+//편집하다
 $lang['profile_picture_title'] = '사진 요구 사항을 프로필';
 $lang['file_title'] = 'ICS는 요구 사항 파일';
 $lang['attach_title'] = '첨부 파일 요구 사항';

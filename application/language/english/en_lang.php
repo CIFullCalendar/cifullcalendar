@@ -513,14 +513,17 @@ $lang['cal_businesshours_start'] = 'Opening Hours';
 $lang['cal_businesshours_end'] = 'Closing Hours';
 $lang['cal_businesshours_opendays'] = 'Opening Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Week Numbers';
+$lang['cal_weeknumbers'] = 'Show (On / Off)'; 
+$lang['cal_weeknumbers_withindays'] = 'Within Days'; 
+$lang['cal_weeknumbers_settings'] = 'Week Numbers';
 $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
+$lang['cal_slotduration'] = 'Duration';
+$lang['cal_slotlabeling'] = 'Labeling';
+$lang['cal_slotlabelformat'] = 'Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)'; 
+$lang['cal_slotlabel_settings'] = 'Slot'; 
 $lang['cal_isrtl'] = 'View from Right To Left';
  
 //Theme 

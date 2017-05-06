@@ -467,17 +467,20 @@ $lang['cal_hiddendays'] = 'Dagen verbergen (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6
 $lang['cal_editable'] = 'Aanpasbaar (Alleen voor leden kalender)';
 $lang['cal_businesshours'] = 'Bedrijf Hours';
 $lang['cal_businesshours_start'] = 'Bedrijf Start Hours';
-$lang['cal_businesshours_end'] = 'Bedrijf End Hours';
-$lang['cal_businesshours_opendays'] = 'Bedrijf Open Days (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6=Zat)';
-$lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Week nummer';
-$lang['cal_eventlimit'] = 'Evenementenlimiet';
-$lang['cal_alldayslot'] = 'Volledige dag';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabelformat'] = 'Slot Time-formaat (HH:mm / hh:mm a)';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_businesshours_end'] = 'Bedrijf End Hours'; 
+$lang['cal_businesshours_opendays'] = 'Openings dagen (0 = Zon, 1 = Ma, 2 = Di, 3 = Wo, 4 = Do, 5 = Vr, 6 = Zat)';
+$lang['cal_firstday'] = 'Eerste dag';
+$lang['cal_weeknumbers'] = 'Toon (Aan / Uit)'; 
+$lang['cal_weeknumbers_withindays'] = 'Binnen enkele dagen'; 
+$lang['cal_weeknumbers_settings'] = 'Weeknummers';
+$lang['cal_eventlimit'] = 'Event Limit';
+$lang['cal_alldayslot'] = 'De hele dag Sleuf';
+$lang['cal_slotduration'] = 'Looptijd';
+$lang['cal_slotlabeling'] = 'Etikettering';
+$lang['cal_slotlabelformat'] = 'Tijdformaat (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Groepsformaat (06:00 tot 18:30)';
+$lang['cal_slotlabel_listformat'] = 'Lijstformaat (18:00)'; 
+$lang['cal_slotlabel_settings'] = 'Sleuf';  
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';
  
 //Theme 

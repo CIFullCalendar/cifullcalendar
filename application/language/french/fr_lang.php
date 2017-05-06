@@ -485,19 +485,21 @@ $lang['cal_hiddendays'] = 'Masquer les Jours(0=Dim,1=Lun,2=Mar,3=Mer,4=Jeu,5=Ven
 $lang['cal_editable'] = 'Modifiable (Pour le calendrier des membres seulement)';
 $lang['cal_businesshours'] = 'Business Hours';
 $lang['cal_businesshours_start'] = 'Business Start Hours';
-$lang['cal_businesshours_end'] = 'Business End Hours';
+$lang['cal_businesshours_end'] = 'Business End Hours';  
 $lang['cal_businesshours_opendays'] = 'Business Open Jours (0=Dim,1=Lun,2=Mar,3=Mer,4=Jeu,5=Ven,6=Sam)';
-$lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Numéros de la Semaine';
+$lang['cal_firstday'] = 'Premier jour';
+$lang['cal_weeknumbers'] = 'Afficher (Marche / Arrêt)'; 
+$lang['cal_weeknumbers_withindays'] = 'Sous quelques jours'; 
+$lang['cal_weeknumbers_settings'] = 'Numéros de semaine';
 $lang['cal_eventlimit'] = 'Limite de l\'événement';
-$lang['cal_alldayslot'] = 'Tous Slot Jour';
-$lang['cal_slotduration'] = 'Fente Durée';
-$lang['cal_slotlabeling'] = 'Fente Étiquetage';
-$lang['cal_slotlabelformat'] = 'Fente Time-Format (HH:mm / hh:mm a)';
-$lang['cal_slotlabel_groupformat'] = 'Groupe Format (18:00-18:30)';
-$lang['cal_slotlabel_listformat'] = 'Liste Format (18:00)';
-$lang['cal_isrtl'] = 'Vue de droite à gauche';
-
+$lang['cal_alldayslot'] = 'Slot de jour entier';
+$lang['cal_slotduration'] = 'Durée';
+$lang['cal_slotlabeling'] = 'Étiquetage';
+$lang['cal_slotlabelformat'] = 'Format horaire (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Format de groupe (18h00 à 18h30)';
+$lang['cal_slotlabel_listformat'] = 'Format de liste (18h00)'; 
+$lang['cal_slotlabel_settings'] = 'Fente';  
+$lang['cal_isrtl'] = 'Vue de droite à gauche'; 
 
 //Theme
 $lang['theme_name'] = 'Thème';

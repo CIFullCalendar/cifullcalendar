@@ -488,22 +488,25 @@ $lang['cal_editable'] = 'Editable (Đối với các thành viên chỉ có lị
 $lang['cal_businesshours'] = 'Giờ kinh doanh';
 $lang['cal_businesshours_start'] = 'Giờ mở cửa';
 $lang['cal_businesshours_end'] = 'Giờ đóng cửa';
-$lang['cal_businesshours_opendays'] = 'Ngồi';
+$lang['cal_businesshours_opendays'] = 'Ngày mở cửa (0 = CN, 1 = Thứ Hai, 2 = Tue, 3 = Thứ Tư, 4 = Thu, 5 = Thứ Sáu, 6 = Thứ Bảy)';
 $lang['cal_firstday'] = 'Ngày đầu tiên';
-$lang['cal_weeknumbers'] = 'Số tuần';
-$lang['cal_eventlimit'] = 'Sự kiện Giới hạn';
-$lang['cal_alldayslot'] = 'AllDay Khe cắm';
-$lang['cal_slotduration'] = 'Khe cắm Thời gian';
-$lang['cal_slotlabeling'] = 'Khe nhãn';
-$lang['cal_slotlabelformat'] = 'Khe cắm Time-Format (HH:mm / hh:mm a)';
+$lang['cal_weeknumbers'] = 'Hiển thị (Bật / Tắt)'; 
+$lang['cal_weeknumbers_withindays'] = 'Trong ngày'; 
+$lang['cal_weeknumbers_settings'] = 'Số tuần';
+$lang['cal_eventlimit'] = 'Giới hạn sự kiện';
+$lang['cal_alldayslot'] = 'Tất cả các Ngày Khe';
+$lang['cal_slotduration'] = 'Thời lượng';
+$lang['cal_slotlabeling'] = 'Ghi nhãn';
+$lang['cal_slotlabelformat'] = 'Định dạng Thời gian (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Định dạng Nhóm (18:00-18:30)';
-$lang['cal_slotlabel_listformat'] = 'Danh sách Format (06:00)';
+$lang['cal_slotlabel_listformat'] = 'Định dạng Danh sách (18:00)'; 
+$lang['cal_slotlabel_settings'] = 'Khe';  
 $lang['cal_isrtl'] = 'Xem từ Right Left';
  	
-//Theme 	// Theme
+//Theme  
 $lang['theme_name'] = 'Theme';
 	
-//Edit	//Chỉnh sửa
+//Chỉnh sửa
 $lang['profile_picture_title'] = 'Hồ sơ Hình Yêu cầu';
 $lang['file_title'] = 'ICS tập Yêu cầu';
 $lang['attach_title'] = 'Yêu cầu Tập tin đính kèm';
