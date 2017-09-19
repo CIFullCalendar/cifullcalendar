@@ -3,21 +3,21 @@ CIFullCalendar is a server-side dynamic web application that is responsive to an
 
 # Resources
 
--  `User Guide <https://cifullcalendar.com/v3/docs>`_
--  `Support <https://sirdre.com/>`__
+-  User Guide  <https://cifullcalendar.com/v3/docs>
+-  Support  <https://sirdre.com/>
 
 # Installation
 
-Please see the `installation section <https://cifullcalendar.com/v3/docs/#installation>`_
+Please see the installation section <https://cifullcalendar.com/v3/docs/#installation>
 of the CodeIgniter User Guide.
 
 # License
 
-Please see the `license <https://cifullcalendar.com/v3/docs/license.html>`_.
+Please see the license <https://cifullcalendar.com/v3/docs/license.html>.
 
 # Terms and Conditions
 
-Please see the `Terms and Conditions <https://cifullcalendar.com/v3/docs/terms.html>`_.
+Please see the Terms and Conditions <https://cifullcalendar.com/v3/docs/terms.html>.
 
 # Cloud Support
 Supports MySQL or any CodeIgniter supported databases. 
