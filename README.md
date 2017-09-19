@@ -1,7 +1,23 @@
-# cifullcalendar v3
-
-# About
+# About CIFullCalendar v3
 CIFullCalendar is a server-side dynamic web application that is responsive to any layout of a viewing screen. The “Super Saiyan Fusion” power of CIFullCalendar allows users to organize, plan and share events to everyone. Simply, install it to your server and become a member then use the wonderful features by easily manipulating your events by dragging, dropping, resizing, clicking, touching, categorizing, grouping, filtering, linking and importing/exporting.
+
+# Resources
+
+-  `User Guide <https://cifullcalendar.com/v3/docs>`_
+-  `Support <https://sirdre.com/>`__
+
+# Installation
+
+Please see the `installation section <https://cifullcalendar.com/v3/docs/#installation>`_
+of the CodeIgniter User Guide.
+
+# License
+
+Please see the `license <https://cifullcalendar.com/v3/docs/license.html>`_.
+
+# Terms and Conditions
+
+Please see the `Terms and Conditions <https://cifullcalendar.com/v3/docs/terms.html>`_.
 
 # Cloud Support
 Supports MySQL or any CodeIgniter supported databases. 
