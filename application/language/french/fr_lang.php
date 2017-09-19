@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendrier';
+$lang['calendars'] = 'Calendrier';
 $lang['events'] = 'événements';
 $lang['dashboard'] = 'Tableau de bord';
 $lang['tables'] = 'Tableaux';
@@ -79,6 +80,8 @@ $lang['search'] = 'Recherche';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alerte';
 $lang['api'] = 'Google APIKEY';
+$lang['show_calendars_schedules'] = 'Afficher le calendrier Horaires';
+$lang['show_all_calendars_schedules'] = 'Tous les horaires Calendrier';
 $lang['current_v'] = 'CIFullCalendar par Sir.Dre © 2016 v';
   
 //Admin
@@ -449,6 +452,15 @@ $lang['cal_defaultview_basicday'] = 'Jour de Base';
 $lang['cal_defaultview_agendaweek'] = 'Agenda Semaine';
 $lang['cal_defaultview_agendaday'] = 'Jour Agenda';
 $lang['cal_defaultview_agendalist'] = 'Liste Agenda';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Temps ligne Jour';
 $lang['cal_defaultview_timelineWeek'] = 'Temps ligne Semaine';
 $lang['cal_defaultview_timelineMonth'] = 'Temps ligne Mois';
@@ -460,6 +472,9 @@ $lang['cal_header_right'] = 'Bouton de tête / Titre Droite';
 
 $lang['cal_language'] = 'Langue';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tijd Label Duur';
+$lang['cal_mintime'] = 'Durée minimum';
+$lang['cal_maxtime'] = 'Temps Maximum';
 $lang['cal_hiddendays'] = 'Masquer les Jours(0=Dim,1=Lun,2=Mar,3=Mer,4=Jeu,5=Ven,6=Sam)';
 $lang['cal_editable'] = 'Modifiable (Pour le calendrier des membres seulement)';
 $lang['cal_businesshours'] = 'Business Hours';
@@ -470,10 +485,11 @@ $lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Numéros de la Semaine';
 $lang['cal_eventlimit'] = 'Limite de l\'événement';
 $lang['cal_alldayslot'] = 'Tous Slot Jour';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_slotduration'] = 'Fente Durée';
+$lang['cal_slotlabeling'] = 'Fente Étiquetage';
+$lang['cal_slotlabelformat'] = 'Fente Time-Format (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Groupe Format (18:00-18:30)';
+$lang['cal_slotlabel_listformat'] = 'Liste Format (18:00)';
 $lang['cal_isrtl'] = 'Vue de droite à gauche';
 
 

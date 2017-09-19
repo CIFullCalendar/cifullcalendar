@@ -12,6 +12,7 @@
 // 
 $lang['home'] = 'Главная';
 $lang['calendar'] = 'Календарь';
+$lang['calendars'] = 'Календарь';
 $lang['events'] = 'Мероприятия';
 $lang['dashboard'] = 'Панель приборов';
 $lang['tables'] = 'Таблицы';
@@ -79,6 +80,8 @@ $lang['search'] = 'Поиск';
 $lang['options'] = 'Опции';
 $lang['alert'] = 'бдительный';
 $lang['api'] = 'Google APIKEY';
+$lang['show_calendars_schedules'] = 'Показать Календарь Расписание';
+$lang['show_all_calendars_schedules'] = 'Показать все Календарь Расписание';
 $lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2016 v';
     
 // Админ
@@ -434,6 +437,15 @@ $lang['cal_defaultview_basicday'] = 'Основные день';
 $lang['cal_defaultview_agendaweek'] = 'Повестка дня';
 $lang['cal_defaultview_agendaday'] = 'Повестка дня День';
 $lang['cal_defaultview_agendalist'] = 'Повестка дня Список';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Хронология день';
 $lang['cal_defaultview_timelineWeek'] = 'Сроки неделю';
 $lang['cal_defaultview_timelineMonth'] = 'Хронология месяц';
@@ -444,6 +456,9 @@ $lang['cal_header_right'] = 'Кнопка Заголовок / Название 
 $lang['cal_language'] = 'Язык';
 $lang['cal_timezone'] = 'Часовой пояс';
 $lang['cal_aspectratio'] = 'Соотношение сторон';
+$lang['cal_minmaxtime_range'] = 'Время Метка Продолжительность';
+$lang['cal_mintime'] = 'Минимальное время';
+$lang['cal_maxtime'] = 'Максимальное время';
 $lang['cal_hiddendays'] = 'Скрыть дни (0=Воскресенье, 1=Понедельник, 2=Вторник, 3=среда, 4=Четверг, 5=Пятница, 6=Cуббота)';
 $lang['cal_editable'] = 'Редактируемый (Для членов календарь только)';
 $lang['cal_businesshours'] = 'Рабочие часы';
@@ -456,6 +471,7 @@ $lang['cal_eventlimit'] = 'Событие Лимит';
 $lang['cal_alldayslot'] = 'AllDay Слот';
 $lang['cal_slotduration'] = 'Слот Продолжительность';
 $lang['cal_slotlabeling'] = 'Маркировка Слот';
+$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Группа Формат (6:00 pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'Формат Список (6:00 PM)';
 $lang['cal_isrtl'] = 'Вид с право на лево';

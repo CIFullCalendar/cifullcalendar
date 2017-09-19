@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Nhà';
 $lang['calendar'] = 'Lịch';
+$lang['calendars'] = 'Lịch';
 $lang['events'] = 'sự kiện';
 $lang['dashboard'] = 'Bảng điều khiển';
 $lang['tables'] = 'Bảng';
@@ -79,6 +80,8 @@ $lang['search'] = 'Tìm kiếm';
 $lang['options'] = 'Tùy chọn';
 $lang['alert'] = 'Báo động';
 $lang['api'] = 'KEY API Google';
+$lang['show_calendars_schedules'] = 'Lịch Show Calendar';
+$lang['show_all_calendars_schedules'] = 'Hiện tất cả Lịch Lịch';
 $lang['current_v'] = 'CIFullCalendar bởi Sir.Dre © 2016 v';
 	
 //Quản trị viên
@@ -449,6 +452,15 @@ $lang['cal_defaultview_basicday'] = 'BasicDay';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDay';
 $lang['cal_defaultview_agendalist'] = 'AgendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Timeline ngày';
 $lang['cal_defaultview_timelineWeek'] = 'Thời gian biểu Tuần';
 $lang['cal_defaultview_timelineMonth'] = 'Timeline Tháng';
@@ -461,6 +473,9 @@ $lang['cal_header_right'] = 'Tiêu đề Nút / Tiêu đề phải';
 $lang['cal_language'] = 'Ngôn ngữ';
 $lang['cal_timezone'] = 'Múi giờ';
 $lang['cal_aspectratio'] = 'Tỷ lệ Aspect';
+$lang['cal_minmaxtime_range'] = 'Thời gian Nhãn Thời gian';
+$lang['cal_mintime'] = 'Thời gian tối thiểu';
+$lang['cal_maxtime'] = 'Thời gian tối đa';
 $lang['cal_hiddendays'] = 'Ngồi)';
 $lang['cal_editable'] = 'Editable (Đối với các thành viên chỉ có lịch)';
 $lang['cal_businesshours'] = 'Giờ kinh doanh';
@@ -473,7 +488,8 @@ $lang['cal_eventlimit'] = 'Sự kiện Giới hạn';
 $lang['cal_alldayslot'] = 'AllDay Khe cắm';
 $lang['cal_slotduration'] = 'Khe cắm Thời gian';
 $lang['cal_slotlabeling'] = 'Khe nhãn';
-$lang['cal_slotlabel_groupformat'] = 'Format Group (18:00-18:30)';
+$lang['cal_slotlabelformat'] = 'Khe cắm Time-Format (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Định dạng Nhóm (18:00-18:30)';
 $lang['cal_slotlabel_listformat'] = 'Danh sách Format (06:00)';
 $lang['cal_isrtl'] = 'Xem từ Right Left';
  	

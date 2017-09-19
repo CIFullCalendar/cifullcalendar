@@ -12,6 +12,7 @@
 //
 $lang['home'] = '家';
 $lang['calendar'] = '日历';
+$lang['calendars'] = '日历';
 $lang['events'] = '事件';
 $lang['dashboard'] = '仪表板';
 $lang['tables'] = '表';
@@ -79,6 +80,8 @@ $lang['search'] = '搜索';
 $lang['options'] = '选项';
 $lang['alert'] = '警报';
 $lang['api'] = 'Google APIKEY';
+$lang['show_calendars_schedules'] = '展覽日程';
+$lang['show_all_calendars_schedules'] = '顯示所有日曆日程';
 $lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
 	
 //Admin	//管理员
@@ -461,6 +464,9 @@ $lang['cal_header_right'] = '头按钮/所有权的权利';
 $lang['cal_language'] = '语言';
 $lang['cal_timezone'] = '时区';
 $lang['cal_aspectratio'] = '宽高比';
+$lang['cal_minmaxtime_range'] = '时间标签时间';
+$lang['cal_mintime'] = '最短时间';
+$lang['cal_maxtime'] = '最大时间';
 $lang['cal_hiddendays'] = '周六）';
 $lang['cal_editable'] = '可编辑（对于仅限会员日历）';
 $lang['cal_businesshours'] = '营业时间';
@@ -473,6 +479,7 @@ $lang['cal_eventlimit'] = '事件限制';
 $lang['cal_alldayslot'] = 'AllDay插槽';
 $lang['cal_slotduration'] = '时间槽';
 $lang['cal_slotlabeling'] = '老虎标签';
+$lang['cal_slotlabelformat'] = '时隙时间格式 (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = '集团格式（06:00 pm-6:30pm）';
 $lang['cal_slotlabel_listformat'] = '列表格式（下午6:00）';
 $lang['cal_isrtl'] = '查看从右到左';

@@ -12,7 +12,8 @@
 //
 $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendar';
-$lang['events'] = 'events';
+$lang['calendars'] = 'Schedules';
+$lang['events'] = 'Events';
 $lang['dashboard'] = 'Dashboard';
 $lang['tables'] = 'Tables';
 $lang['page'] = 'Page';
@@ -79,7 +80,9 @@ $lang['search'] = 'Search';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alert';
 $lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v'; 
+$lang['show_calendars_schedules'] = 'Show Calendar Schedules';
+$lang['show_all_calendars_schedules'] = 'Show All Calendar Schedules';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2017 v'; 
 
 //Admin
 //
@@ -293,6 +296,7 @@ $lang['profile_delete_cancel'] = 'Delete Profile';
 $lang['submenu_select_groups'] = 'Select Shared Events'; 
 $lang['submenu_select_categories'] = 'Select Categories'; 
 $lang['submenu_select_sources'] = 'Select Sources'; 
+$lang['submenu_dropdown_all_tasks'] = 'All Tasks';  //new
 $lang['submenu_dropdown_all_locations'] = 'All Locations'; 
 $lang['submenu_dropdown_all_categories'] = 'All Categories'; 
 $lang['submenu_dropdown_all_sources'] = 'All Sources'; 
@@ -370,6 +374,26 @@ $lang['locations_all_heading'] = 'All Locations';
 $lang['locations_all_confirm_locations'] = 'All Confirm locations'; 
   
   
+//Tasks
+//
+$lang['tasks_all_heading'] = 'All Tasks';
+//Add
+$lang['tasks_add_new'] = 'Add New Task';
+$lang['tasks_input_name'] = 'Task Name';
+$lang['tasks_input_description'] = 'Task Description';
+
+//Edit
+$lang['tasks_edit_source'] = 'Edit this Task';
+
+//Delete
+$lang['tasks_delete_category'] = 'Delete this Category';
+$lang['tasks_delete_warning'] = 'You are about to delete'; 
+
+//Message
+$lang['tasks_message_title'] = 'No Categories';
+$lang['tasks_message_warning'] = 'No Categories available';
+$lang['tasks_message_success'] = 'Updated Successfully';
+
 //Categories
 //
 $lang['categories_all_heading'] = 'All Category';
@@ -443,16 +467,25 @@ $lang['settings_form_submit_button'] = 'Submit';
 //fullcalendar
 $lang['cal_defaultview'] = 'Default View';
 
-$lang['cal_defaultview_month'] = 'Month';
-$lang['cal_defaultview_basicweek'] = 'BasicWeek';
-$lang['cal_defaultview_basicday'] = 'BasicDay';
-$lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
-$lang['cal_defaultview_agendaday'] = 'AgendaDay';
-$lang['cal_defaultview_agendalist'] = 'AgendaList';
-$lang['cal_defaultview_timelineDay'] = 'Timeline Day';
-$lang['cal_defaultview_timelineWeek'] = 'Timeline Week';
-$lang['cal_defaultview_timelineMonth'] = 'Timeline Month';
-$lang['cal_defaultview_timelineYear'] = 'Timeline Year';
+$lang['cal_defaultview_month'] = 'month';
+$lang['cal_defaultview_basicweek'] = 'basicWeek';
+$lang['cal_defaultview_basicday'] = 'basicDay';
+$lang['cal_defaultview_agendaweek'] = 'agendaWeek';
+$lang['cal_defaultview_agendaday'] = 'agendaDay';
+$lang['cal_defaultview_agendalist'] = 'agendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
+$lang['cal_defaultview_timelineDay'] = 'timelineDay';
+$lang['cal_defaultview_timelineWeek'] = 'timelineWeek';
+$lang['cal_defaultview_timelineMonth'] = 'timelineMonth';
+$lang['cal_defaultview_timelineYear'] = 'timelineYear';
  
 $lang['cal_header_left'] = 'Header Button/Title Left';
 $lang['cal_header_center'] = 'Header Button/Title Center';
@@ -461,6 +494,9 @@ $lang['cal_header_right'] = 'Header Button/Title Right';
 $lang['cal_language'] = 'Language';
 $lang['cal_timezone'] = 'TimeZone';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Time Label Duration';
+$lang['cal_mintime'] = 'Minimum Time';
+$lang['cal_maxtime'] = 'Maximum Time';
 $lang['cal_hiddendays'] = 'Hide Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_editable'] = 'Editable (For members calendar only)';
 $lang['cal_businesshours'] = 'Business Hours';
@@ -473,8 +509,9 @@ $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
 $lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabelformat'] = 'Slot Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)'; 
 $lang['cal_isrtl'] = 'View from Right To Left';
  
 //Theme 

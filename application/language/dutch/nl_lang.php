@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Startpagina';
 $lang['calendar'] = 'Kalendar';
+$lang['calendars'] = 'Kalendar';
 $lang['events'] = 'Evenement';
 $lang['dashboard'] = 'Dashboard';
 $lang['tables'] = 'Evenementen tabellen';
@@ -79,6 +80,8 @@ $lang['search'] = 'Zoeken';
 $lang['options'] = 'Opties';
 $lang['alert'] = 'Alarm';
 $lang['api'] = 'Google APIKEY';
+$lang['show_calendars_schedules'] = 'Show Calendar Schema\'s';
+$lang['show_all_calendars_schedules'] = 'Toon Alle Kalender schema\'s';
 $lang['current_v'] = 'CIFullCalendar door Sir.Dre © 2016 v'; 
 
 //Admin
@@ -427,6 +430,15 @@ $lang['cal_defaultview_basicday'] = 'BasisDag';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDag';
 $lang['cal_defaultview_agendalist'] = 'AgendaLijst';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Tijd lijn Day';
 $lang['cal_defaultview_timelineWeek'] = 'Tijd lijn Week';
 $lang['cal_defaultview_timelineMonth'] = 'Tijd lijn Maand';
@@ -438,6 +450,9 @@ $lang['cal_header_right'] = 'Hoofding knop/titel rechts';
 
 $lang['cal_language'] = 'Taal';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tijd Label Duur';
+$lang['cal_mintime'] = 'Minimum Time';
+$lang['cal_maxtime'] = 'Maximaal Time';
 $lang['cal_hiddendays'] = 'Dagen verbergen (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6=Zat)';
 $lang['cal_editable'] = 'Aanpasbaar (Alleen voor leden kalender)';
 $lang['cal_businesshours'] = 'Bedrijf Hours';
@@ -450,6 +465,7 @@ $lang['cal_eventlimit'] = 'Evenementenlimiet';
 $lang['cal_alldayslot'] = 'Volledige dag';
 $lang['cal_slotduration'] = 'Slot Duration';
 $lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotlabelformat'] = 'Slot Time-formaat (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
 $lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';

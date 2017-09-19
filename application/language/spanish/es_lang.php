@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Casa';
 $lang['calendar'] = 'Calendario';
+$lang['calendars'] = 'Calendario';
 $lang['events'] = 'eventos';
 $lang['dashboard'] = 'Salpicadero';
 $lang['tables'] = 'Tablas';
@@ -79,6 +80,8 @@ $lang['search'] = 'Buscar';
 $lang['options'] = 'Opciones';
 $lang['alert'] = 'Alerta';
 $lang['api'] = 'Google APIKEY';
+$lang['show_calendars_schedules'] = 'Horarios Mostrar Calendario';
+$lang['show_all_calendars_schedules'] = 'Mostrar todas las citas de calendario';
 $lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2016 v'; 
 
 //Admin
@@ -448,6 +451,15 @@ $lang['cal_defaultview_basicday'] = 'Día Básica';
 $lang['cal_defaultview_agendaweek'] = 'Agenda de la Semana';
 $lang['cal_defaultview_agendaday'] = 'Día Agenda';
 $lang['cal_defaultview_agendalist'] = 'Lista Agenda';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Día de la línea de tiempo';
 $lang['cal_defaultview_timelineWeek'] = 'Cronograma Semana';
 $lang['cal_defaultview_timelineMonth'] = 'Cronología Mes';
@@ -459,6 +471,9 @@ $lang['cal_header_right'] = 'Botón Encabezado/Título Derecho';
 
 $lang['cal_language'] = 'idioma';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tiempo Label Duración';
+$lang['cal_mintime'] = 'Tiempo mínimo';
+$lang['cal_maxtime'] = 'Tiempo máximo';
 $lang['cal_hiddendays'] = 'Ocultar Días (0=Dom,1=Lun,2=Mar,3=Mie,4=Jue,5=Vie,6=Sab)';
 $lang['cal_editable'] = 'Editable (Para los miembros solamente calendario)';
 $lang['cal_businesshours'] = 'Negocios Hours';
@@ -469,10 +484,11 @@ $lang['cal_firstday'] = 'First Day';
 $lang['cal_weeknumbers'] = 'Números de la semana';
 $lang['cal_eventlimit'] = 'Límite de eventos';
 $lang['cal_alldayslot'] = 'Todo ranura Día';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_slotduration'] = 'Duración ranura';
+$lang['cal_slotlabeling'] = 'Etiquetado ranura';
+$lang['cal_slotlabelformat'] = 'El intervalo de tiempo-Formato (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Formato grupo (06:00pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'Formato de lista (6:00pm)';
 $lang['cal_isrtl'] = 'Vista desde derecha a izquierda';
 
 
