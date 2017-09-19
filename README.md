@@ -8,8 +8,7 @@ CIFullCalendar is a server-side dynamic web application that is responsive to an
 
 # Installation
 
-Please see the installation section <https://cifullcalendar.com/v3/docs/#installation>
-of the CodeIgniter User Guide.
+Please see the installation section <https://cifullcalendar.com/v3/docs/#installation>.
 
 # License
 
