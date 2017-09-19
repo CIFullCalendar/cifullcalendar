@@ -3,8 +3,8 @@ CIFullCalendar is a server-side dynamic web application that is responsive to an
 
 # Resources
 
--  User Guide  <https://cifullcalendar.com/v3/docs>
--  Support  <https://sirdre.com/>
+-  User Guide  <https://cifullcalendar.com/v3/docs>.
+-  Support  <https://sirdre.com>.
 
 # Installation
 
