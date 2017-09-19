@@ -1,16 +1,4 @@
-
-	
-	 <footer>
-		<div class="page-footer">
-			<div class="page-footer-inner ">  
-				<p><?php echo lang('current_v') ?><?php echo $current_version ?> - Page rendered in <strong>{elapsed_time}</strong> seconds</p>
-			</div>
-			<div class="scroll-to-top">
-				<i class="fa fa-arrow-circle-o-up"></i>
-			</div>
-		</div>
-	</footer> 
-	
+ 
 	</div>	
   	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="<?php echo base_url();?>assets/plugins/jquery/jquery-2.2.4.min.js" type="text/javascript"></script>  
