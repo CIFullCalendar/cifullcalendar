@@ -30,7 +30,6 @@ RSS Feeds – Share your public events by rss feeds (yoursite.com/feeds).
 ICAL – Members are able to export a single event to their Google, Yahoo and live calendars or to a ICAL Format (ics/ical).
 
 # Tools and Muscle
-Supports FullCalendar Scheduler - Purchase FullCalendar Scheduler add-on license that displays events well and assign them easily to various categories. 
 
 Event Filtering – Easily filter/view your shared events on your calendar. 
 
