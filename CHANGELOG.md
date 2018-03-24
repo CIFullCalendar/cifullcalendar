@@ -3,7 +3,7 @@
  
     - CodeIgniter v3.1.8 framework
     - FullCalendar v3.9.0 with custom timeSlot formatting + button (next/prevWeek, next/prevMonth) addon’s
-	- Language updates for German
+	- Language preference and updates for German
     - Applied Components updates
     - Fixes and Improvements 
  
@@ -17,30 +17,30 @@
  
  3.5.9.3 (Sept. 12, 2017)
  -------------------
-
-   - CodeIgniter v3.1.5 framework 
-   - FullCalendar v3.5.1 with custom agendaList(agendalistDay, agendalistWeek, agendalistMonth, agendalistYear), timeSlot formatting + button (next/prevWeek, next/prevMonth) addon's
-   - Applied Components updates
-   - Fixes and Improvements
+ 
+    - CodeIgniter v3.1.5 framework
+    - FullCalendar v3.5.1 with custom agendaList, agendalistDay, agendalistWeek, agendalistMonth, agendalistYear), timeSlot formatting + button (next/prevWeek, next/prevMonth) addon's
+    - Applied Components updates
+    - Fixes and Improvements
 
  3.5.5.0 (Jun. 20, 2017)
  -------------------
-
-   - CodeIgniter v3.1.5 framework 
-   - FullCalendar v3.4.0 with custom agendaList(agendalistDay, agendalistWeek, agendalistMonth, agendalistYear), timeSlot formatting + button (next/prevWeek, next/prevMonth) addon's
-   - Applied Components updates
-   - Improvements
+ 
+    - CodeIgniter v3.1.5 framework
+    - FullCalendar v3.4.0 with custom agendaList, agendalistDay, agendalistWeek, agendalistMonth, agendalistYear), timeSlot formatting + button (next/prevWeek, next/prevMonth) addon's
+    - Applied Components updates
+    - Improvements
 
  3.4.3.0 (Dec. 11, 2016)
  -------------------
-
-   - CodeIgniter v3.1.2 framework 
-   - FullCalendar v3.0.1 with custom agendaList(agendalistDay, agendalistWeek, agendalistMonth, agendalistYear), timeSlot formatting + button (next/prevWeek, next/prevMonth) addon's 
-   - Language preference for Indonesian
-   - Language preference for Arabic
-   - Category - Administrators now can manage categories
-   - Applied Components updates
-   - Fixes and Improvements
+ 
+    - CodeIgniter v3.1.2 framework
+    - FullCalendar v3.0.1 with custom agendaList, agendalistDay, agendalistWeek, agendalistMonth, agendalistYear), timeSlot formatting + button (next/prevWeek, next/prevMonth) addon's
+    - Language preference for Indonesian
+    - Language preference for Arabic
+    - Category - Administrators now can manage categories
+    - Applied Components updates
+    - Fixes and Improvements
    
  3.3.7.0 (Aug. 24, 2016)
  -------------------
