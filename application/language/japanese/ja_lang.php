@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'ホーム」。';
 $lang['calendar'] = 'カレンダー';
+$lang['calendars'] = 'カレンダー';
 $lang['events'] = 'イベント';
 $lang['dashboard'] = 'ダッシュボード」。';
 $lang['tables'] = 'テーブル';
@@ -77,9 +78,14 @@ $lang['notify'] = '通知」。';
 $lang['identity'] = '身元';
 $lang['search'] = 'サーチ';
 $lang['options'] = 'オプション」';
-$lang['alert'] = 'アラート';
-$lang['api'] = 'GoogleのAPIキー';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
+$lang['alert'] = 'アラート'; 
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'GoogleのAPIキー';
+$lang['api_schedulerkey'] = 'Scheduler のAPIキー';
+$lang['show_calendars_schedules'] = '表示するカレンダースケジュール';
+$lang['show_all_calendars_schedules'] = 'すべてのカレンダースケジュールを表示';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2014-2018 v';
 	
 //管理
 //
@@ -143,6 +149,7 @@ $lang['admin_modal_ip'] = 'IPアドレス';
 	
 //ツールバー
 $lang['admin_remove_session'] = 'クリアセッション ';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //列
 $lang['admin_table_username'] = 'ユーザー名 ';
@@ -177,7 +184,8 @@ $lang['admin_table_uagent'] = 'ユーザーエージェント';
 	
 //ナビゲーション
 //
-$lang['admin_nav_events'] = 'イベントリスト ';
+$lang['admin_nav_events'] = 'イベントリスト';
+$lang['admin_nav_categories'] = 'カテゴリー'; 
 $lang['admin_nav_queue'] = 'イベントキュー ';
 $lang['admin_nav_users'] = 'メンバー';
 $lang['admin_nav_sessions'] = 'セッション';
@@ -243,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = '新しいパスワードの確�
 $lang['reset_password'] = 'パスワードを再設定する';
 $lang['recover_password'] = 'パスワードを変更する';
 //パスワードをお忘れですか
-$lang['forgot_login_email'] = 'Eメール';
+$lang['forgot_login_identity'] = '身元';
 $lang['forgot_login_email_submit'] = 'パスワードを回復します ';
 $lang['forgot_login_email_send'] = 'パスワード回復情報が送信されました ';
 $lang['forgot_login_subject'] = 'パスワードは回復します ';
 $lang['forgot_login_message'] = 'パスワードの確認は電子メールです ';
-//Message	//メッセージ
-$lang['forgot_login_email_message1'] = 'パスワード変更/リカバリ ';
-$lang['forgot_login_email_message2'] = 'あなたは、パスワードの変更を要求しました。私は避難所\場合 はこの変更を要求され​​たメールを無視するか、管理者に連絡してください。';
-$lang['forgot_login_email_message3'] = '以下の変更を確認するために、クリックするためのリンクです。別の電子メールは、一時的なパスワードを使用して従います。 ';
+$lang['forgot_login_identity_not_found'] = '申し訳ありませんが、IDは存在しません'; 
 //New Email 	//新しいメール
 $lang['email_reset_subject'] = '新しいメール ';
 $lang['email_reset_message'] = 'あなたは成功したメールアドレスを変更しています';
@@ -279,7 +284,8 @@ $lang['profile_form_fail_email'] = 'メールは既にこのユーザーのた�
 $lang['profile_form_fail'] = '申し訳ありませんが、あなたのプロファイル情報が保存されませんでした ';
 $lang['profile_form_success'] = '成功は、あなたのプロファイル情報が保存されました ';
 $lang['profile_form_submit_button'] = 'プロファイルの更新 ';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //Delete	//削除
 $lang['profile_delete_profile'] = 'プロフィール';
@@ -377,6 +383,9 @@ $lang['categories_all_heading'] = 'すべてのカテゴリ ';
 $lang['categories_add_new'] = '新規カテゴリの追加 ';
 $lang['categories_input_name'] = 'カテゴリ名 ';
 $lang['categories_input_description'] = 'カテゴリーの説明';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 //Edit	//編集
 $lang['categories_edit_source'] = 'このカテゴリの編集 ';
@@ -393,7 +402,7 @@ $lang['categories_draggable_removable'] = 'ドロップ後にイベントを削�
 $lang['categories_message_title'] = 'いいえカテゴリはありません ';
 $lang['categories_message_warning'] = 'いいえカテゴリー入手可能 ';
 $lang['categories_message_success'] = '正常に更新されました ';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  	
 //ソース
 //
@@ -449,6 +458,15 @@ $lang['cal_defaultview_basicday'] = 'BasicDay ';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek ';
 $lang['cal_defaultview_agendaday'] = 'AgendaDay ';
 $lang['cal_defaultview_agendalist'] = 'AgendaList ';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'タイムラインの日 ';
 $lang['cal_defaultview_timelineWeek'] = 'タイムラインウィーク ';
 $lang['cal_defaultview_timelineMonth'] = 'タイムライン月 ';
@@ -461,20 +479,27 @@ $lang['cal_header_right'] = 'ヘッダーボタン/タイトル右';
 $lang['cal_language'] = '言語';
 $lang['cal_timezone'] = 'タイムゾーン」。';
 $lang['cal_aspectratio'] = 'アスペクト比';
+$lang['cal_minmaxtime_range'] = '時間ラベル時間';
+$lang['cal_mintime'] = '最短時間';
+$lang['cal_maxtime'] = '最大時間';
 $lang['cal_hiddendays'] = '土）';
 $lang['cal_editable'] = '（メンバーのみカレンダー用）編集可能な';
 $lang['cal_businesshours'] = '営業時間';
 $lang['cal_businesshours_start'] = '営業時間';
-$lang['cal_businesshours_end'] = 'クローズ時間 ';
-$lang['cal_businesshours_opendays'] = '土）';
+$lang['cal_businesshours_end'] = 'クローズ時間 '; 
+$lang['cal_businesshours_opendays'] = '開始日 （0=日曜日、1=月曜日、2=火曜日、3=水曜日、4=木曜日、5=金曜日、6=土曜日）';
 $lang['cal_firstday'] = '初日';
-$lang['cal_weeknumbers'] = '週番号 ';
-$lang['cal_eventlimit'] = 'イベントの制限 ';
-$lang['cal_alldayslot'] = 'alldayがスロット ';
-$lang['cal_slotduration'] = 'スロット持続時間 ';
-$lang['cal_slotlabeling'] = 'スロットのラベル ';
-$lang['cal_slotlabel_groupformat'] = 'グループ形式（午前6時pm-6:30pm） ';
-$lang['cal_slotlabel_listformat'] = 'リスト形式（18:00） ';
+$lang['cal_weeknumbers'] = 'ショー（オン/オフ）'; 
+$lang['cal_weeknumbers_withindays'] = '日以内'; 
+$lang['cal_weeknumbers_settings'] = '週番号';
+$lang['cal_eventlimit'] = 'イベント制限';
+$lang['cal_alldayslot'] = '終日のスロット';
+$lang['cal_slotduration'] = '期間';
+$lang['cal_slotlabeling'] = 'ラベリング';
+$lang['cal_slotlabelformat'] = '時間形式 （HH：mm / hh：mm a）';
+$lang['cal_slotlabel_groupformat'] = 'グループ形式（06:00 pm-6:30pm）';
+$lang['cal_slotlabel_listformat'] = 'リスト形式（午後6時）'; 
+$lang['cal_slotlabel_settings'] = 'スロット';  
 $lang['cal_isrtl'] = '左から右への表示 ';
  	
 //テーマ

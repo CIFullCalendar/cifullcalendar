@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Nhà';
 $lang['calendar'] = 'Lịch';
+$lang['calendars'] = 'Lịch';
 $lang['events'] = 'sự kiện';
 $lang['dashboard'] = 'Bảng điều khiển';
 $lang['tables'] = 'Bảng';
@@ -78,8 +79,13 @@ $lang['identity'] = 'Danh tính';
 $lang['search'] = 'Tìm kiếm';
 $lang['options'] = 'Tùy chọn';
 $lang['alert'] = 'Báo động';
-$lang['api'] = 'KEY API Google';
-$lang['current_v'] = 'CIFullCalendar bởi Sir.Dre © 2016 v';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
+$lang['show_calendars_schedules'] = 'Lịch Show Calendar';
+$lang['show_all_calendars_schedules'] = 'Hiện tất cả Lịch Lịch';
+$lang['current_v'] = 'CIFullCalendar bởi Sir.Dre © 2014-2018 v';
 	
 //Quản trị viên
 //
@@ -131,6 +137,7 @@ $lang['sessions_message_warning'] = 'Không Sessions sẵn';
 //
 $lang['admin_status_1'] = 'Hoạt động';
 $lang['admin_status_0'] = 'Không hoạt động';
+
 //modals
 $lang['admin_modal_edit_user'] = 'Chỉnh sửa thông tin của người sử dụng';
 $lang['admin_modal_delete_user'] = 'Xóa thông tin của người sử dụng';
@@ -143,6 +150,7 @@ $lang['admin_modal_ip'] = 'Địa chỉ IP';
 	
 //Thanh công cụ
 $lang['admin_remove_session'] = 'Clear phiên';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //Cột
 $lang['admin_table_username'] = 'Tên tài khoản';
@@ -178,6 +186,7 @@ $lang['admin_table_uagent'] = 'Đại lý người dùng';
 //nav
 //
 $lang['admin_nav_events'] = 'Danh sách sự kiện';
+$lang['admin_nav_categories'] = 'Thể loại'; 
 $lang['admin_nav_queue'] = 'Sự kiện Queue';
 $lang['admin_nav_users'] = 'Các thành viên';
 $lang['admin_nav_sessions'] = 'Phiên';
@@ -243,15 +252,12 @@ $lang['profile_change_new_password_confirm'] = 'Mật khẩu Confirm New';
 $lang['reset_password'] = 'Đặt lại mật khẩu';
 $lang['recover_password'] = 'Đổi mật khẩu';
 //Forgot Password	//Quên mật khẩu
-$lang['forgot_login_email'] = 'E-mail';
+$lang['forgot_login_identity'] = 'danh tính';
 $lang['forgot_login_email_submit'] = 'Khôi phục mật khẩu';
 $lang['forgot_login_email_send'] = 'Password Recovery Thông tin gửi';
 $lang['forgot_login_subject'] = 'Mật khẩu phục hồi';
 $lang['forgot_login_message'] = 'Một xác nhận mật khẩu là trong email của bạn';
-//Message	//Thông điệp
-$lang['forgot_login_email_message1'] = 'Thay đổi mật khẩu / Phục hồi';
-$lang['forgot_login_email_message2'] = 'Bạn đã yêu cầu thay đổi mật khẩu. Nếu tôi thiên đườngt yêu cầu thay đổi này xin vui lòng bỏ qua email hoặc liên hệ với quản trị viên của bạn.';
-$lang['forgot_login_email_message3'] = 'Dưới đây là liên kết để bấm vào để xác nhận thay đổi. email khác sẽ làm theo với một mật khẩu tạm thời. ';
+$lang['forgot_login_identity_not_found'] = 'Xin lỗi, danh tính không tồn tại';  
 //New Email 	//Email mới
 $lang['email_reset_subject'] = 'Email mới';
 $lang['email_reset_message'] = 'Bạn đã thay đổi thành công địa chỉ email của bạn';
@@ -279,7 +285,8 @@ $lang['profile_form_fail_email'] = 'Email đã tồn tại cho người dùng n�
 $lang['profile_form_fail'] = 'Xin lỗi, thông tin cá nhân của bạn không lưu';
 $lang['profile_form_success'] = 'Thành công, thông tin cá nhân của bạn được lưu ';
 $lang['profile_form_submit_button'] = 'Cập nhật hồ sơ';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //Delete	//Xóa bỏ
 $lang['profile_delete_profile'] = 'Hồ sơ';
@@ -377,6 +384,9 @@ $lang['categories_all_heading'] = 'Tất cả loại';
 $lang['categories_add_new'] = 'Add New Category';
 $lang['categories_input_name'] = 'Tên danh mục';
 $lang['categories_input_description'] = 'Chuyên mục mô tả';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 //Edit	//Chỉnh sửa
 $lang['categories_edit_source'] = 'Chỉnh sửa loại này';
@@ -393,7 +403,7 @@ $lang['categories_draggable_removable'] = 'Xóa sự kiện sau khi thả';
 $lang['categories_message_title'] = 'Không có danh mục';
 $lang['categories_message_warning'] = 'Không có danh mục có sẵn';
 $lang['categories_message_success'] = 'Cập nhật thành công';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  	
 //Sources	// Nguồn
 //	//
@@ -449,6 +459,15 @@ $lang['cal_defaultview_basicday'] = 'BasicDay';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDay';
 $lang['cal_defaultview_agendalist'] = 'AgendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Timeline ngày';
 $lang['cal_defaultview_timelineWeek'] = 'Thời gian biểu Tuần';
 $lang['cal_defaultview_timelineMonth'] = 'Timeline Tháng';
@@ -461,26 +480,33 @@ $lang['cal_header_right'] = 'Tiêu đề Nút / Tiêu đề phải';
 $lang['cal_language'] = 'Ngôn ngữ';
 $lang['cal_timezone'] = 'Múi giờ';
 $lang['cal_aspectratio'] = 'Tỷ lệ Aspect';
+$lang['cal_minmaxtime_range'] = 'Thời gian Nhãn Thời gian';
+$lang['cal_mintime'] = 'Thời gian tối thiểu';
+$lang['cal_maxtime'] = 'Thời gian tối đa';
 $lang['cal_hiddendays'] = 'Ngồi)';
 $lang['cal_editable'] = 'Editable (Đối với các thành viên chỉ có lịch)';
 $lang['cal_businesshours'] = 'Giờ kinh doanh';
 $lang['cal_businesshours_start'] = 'Giờ mở cửa';
 $lang['cal_businesshours_end'] = 'Giờ đóng cửa';
-$lang['cal_businesshours_opendays'] = 'Ngồi';
+$lang['cal_businesshours_opendays'] = 'Ngày mở cửa (0 = CN, 1 = Thứ Hai, 2 = Tue, 3 = Thứ Tư, 4 = Thu, 5 = Thứ Sáu, 6 = Thứ Bảy)';
 $lang['cal_firstday'] = 'Ngày đầu tiên';
-$lang['cal_weeknumbers'] = 'Số tuần';
-$lang['cal_eventlimit'] = 'Sự kiện Giới hạn';
-$lang['cal_alldayslot'] = 'AllDay Khe cắm';
-$lang['cal_slotduration'] = 'Khe cắm Thời gian';
-$lang['cal_slotlabeling'] = 'Khe nhãn';
-$lang['cal_slotlabel_groupformat'] = 'Format Group (18:00-18:30)';
-$lang['cal_slotlabel_listformat'] = 'Danh sách Format (06:00)';
+$lang['cal_weeknumbers'] = 'Hiển thị (Bật / Tắt)'; 
+$lang['cal_weeknumbers_withindays'] = 'Trong ngày'; 
+$lang['cal_weeknumbers_settings'] = 'Số tuần';
+$lang['cal_eventlimit'] = 'Giới hạn sự kiện';
+$lang['cal_alldayslot'] = 'Tất cả các Ngày Khe';
+$lang['cal_slotduration'] = 'Thời lượng';
+$lang['cal_slotlabeling'] = 'Ghi nhãn';
+$lang['cal_slotlabelformat'] = 'Định dạng Thời gian (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Định dạng Nhóm (18:00-18:30)';
+$lang['cal_slotlabel_listformat'] = 'Định dạng Danh sách (18:00)'; 
+$lang['cal_slotlabel_settings'] = 'Khe';  
 $lang['cal_isrtl'] = 'Xem từ Right Left';
  	
-//Theme 	// Theme
+//Theme  
 $lang['theme_name'] = 'Theme';
 	
-//Edit	//Chỉnh sửa
+//Chỉnh sửa
 $lang['profile_picture_title'] = 'Hồ sơ Hình Yêu cầu';
 $lang['file_title'] = 'ICS tập Yêu cầu';
 $lang['attach_title'] = 'Yêu cầu Tập tin đính kèm';

@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Casa';
 $lang['calendar'] = 'Calendário';
+$lang['calendars'] = 'Calendário';
 $lang['events'] = 'eventos';
 $lang['dashboard'] = 'Painel de instrumentos';
 $lang['tables'] = 'Tabelas';
@@ -78,8 +79,13 @@ $lang['identity'] = 'Identidade';
 $lang['search'] = 'Pesquisa';
 $lang['options'] = 'Opções';
 $lang['alert'] = 'Alerta';
-$lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2016 v';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
+$lang['show_calendars_schedules'] = 'Horários Calendário';
+$lang['show_all_calendars_schedules'] = 'Mostrar Todos os Horários Calendário';
+$lang['current_v'] = 'CIFullCalendar por Sir.Dre © 2014-2018 v';
 
 //Admin
 //
@@ -144,6 +150,7 @@ $lang['admin_modal_ip'] = 'Endereço de IP';
 
 //Toolbar
 $lang['admin_remove_session'] = 'Clear Session'; 
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 
 // Colunas
 $lang['admin_table_username'] = 'Nome de Usuário';
@@ -179,6 +186,7 @@ $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Lista de Eventos';
+$lang['admin_nav_categories'] = 'Categorias'; 
 $lang['admin_nav_queue'] = 'Eventos Fila'; 
 $lang['admin_nav_users'] = 'Membros'; 
 $lang['admin_nav_sessions'] = 'Sessões'; 
@@ -246,14 +254,12 @@ $lang['profile_change_new_password_confirm'] = 'Nova Senha Confirm';
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Alterar A Senha'; 
 // Esqueceu Sua Senha
-$lang['forgot_login_email'] = 'O Email';
+$lang['forgot_login_identity'] = 'identidade';
 $lang['forgot_login_email_submit'] = 'Recuperar palavra-passe';
 $lang['forgot_login_email_send'] = 'Informações da recuperação da senha enviada';
 $lang['forgot_login_subject'] = 'Recuperado senha';
 $lang['forgot_login_message'] = 'A confirmação de senha está em seu e-mail'; 
-$lang['forgot_login_email_message1'] = 'Alteração de Senha / Recovery';
-$lang['forgot_login_email_message2'] = 'Você pediu uma alteração de senha. Se eu haven \'t solicitou esta mudança por favor ignore e-mail ou entre em contato com o administrador.';
-$lang['forgot_login_email_message3'] = 'Abaixo está o link para clicar para confirmar a alteração. Outro e-mail vai seguir com uma senha temporária.';
+$lang['forgot_login_identity_not_found'] = 'Desculpe, a identidade não existe'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';
@@ -280,7 +286,8 @@ $lang['profile_form_fail_email'] = 'E-mail já existe para este usuário';
 $lang['profile_form_fail'] = 'Desculpe, suas informações de perfil não salvou';
 $lang['profile_form_success'] = 'Sucesso, suas informações de perfil salvo';
 $lang['profile_form_submit_button'] = 'Atualizar Perfil';
-
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Delete
 $lang['profile_delete_profile'] = 'perfil';
@@ -376,6 +383,9 @@ $lang['categories_all_heading'] = 'Toda a categoria';
 $lang['categories_add_new'] = 'Adicionar nova categoria';
 $lang['categories_input_name'] = 'Nome da Categoria';
 $lang['categories_input_description'] = 'Categoria Descrição';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 
 // Editar
 $lang['categories_edit_source'] = 'Editar este Categoria';
@@ -392,6 +402,7 @@ $lang['categories_draggable_removable'] = 'Arraste e remover evento';
 $lang['categories_message_title'] = 'Nenhuma Categoria';
 $lang['categories_message_warning'] = 'Sem categorias disponíveis';
 $lang['categories_message_success'] = 'Updated Successfully';
+$lang['categories_message_failed'] = 'Update Failed';
  
 // Fontes
 //
@@ -446,6 +457,15 @@ $lang['cal_defaultview_basicday'] = 'Dia básico';
 $lang['cal_defaultview_agendaweek'] = 'Agenda Semana';
 $lang['cal_defaultview_agendaday'] = 'Dia Agenda';
 $lang['cal_defaultview_agendalist'] = 'Lista Agenda';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Linha de tempo do dia';
 $lang['cal_defaultview_timelineWeek'] = 'Tempo linha Semana';
 $lang['cal_defaultview_timelineMonth'] = 'Tempo mês linha';
@@ -457,20 +477,26 @@ $lang['cal_header_right'] = 'Botão cabeçalho/Título Direito';
 
 $lang['cal_language'] = 'Língua';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tempo Etiqueta Duração';
+$lang['cal_mintime'] = 'Tempo mínimo';
+$lang['cal_maxtime'] = 'Tempo máximo';
 $lang['cal_hiddendays'] = 'Ocultar Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)';
 $lang['cal_editable'] = 'Editável (Por apenas membros calendário)';
 $lang['cal_businesshours'] = 'Business Hours';
 $lang['cal_businesshours_start'] = 'Business Start Hours';
 $lang['cal_businesshours_end'] = 'Business End Hours';
-$lang['cal_businesshours_opendays'] = 'Business Open Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)';
-$lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Números da Semana';
-$lang['cal_eventlimit'] = 'Limite de evento';
-$lang['cal_alldayslot'] = 'Todos slot Dia';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_businesshours_opendays'] = 'Business Open Dias(0=Dom,1=Seg,2=Ter,3=Qua,4=Qui,5=Sex,6=Sab)'; 
+$lang['cal_firstday'] = 'Primeiro dia';
+$lang['cal_weeknumbers'] = 'Mostrar (Ligado / Desligado)'; 
+$lang['cal_weeknumbers_withindays'] = 'Dentro de dias'; 
+$lang['cal_weeknumbers_settings'] = 'Números da semana';
+$lang['cal_eventlimit'] = 'Limite de Evento';
+$lang['cal_alldayslot'] = 'Slot de dia inteiro';
+$lang['cal_slotduration'] = 'Duração';
+$lang['cal_slotlabeling'] = 'Marcação';
+$lang['cal_slotlabelformat'] = 'Formato de Hora (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Formato do Grupo (06:00 pm-6:30pm)';
+$lang['cal_slotlabel_listformat'] = 'Formato da lista (6:00 pm)';  
 $lang['cal_isrtl'] = 'Vista da direita para esquerda';
 
 // Tema

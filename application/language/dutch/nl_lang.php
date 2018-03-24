@@ -12,6 +12,7 @@
 //
 $lang['home'] = 'Startpagina';
 $lang['calendar'] = 'Kalendar';
+$lang['calendars'] = 'Kalendar';
 $lang['events'] = 'Evenement';
 $lang['dashboard'] = 'Dashboard';
 $lang['tables'] = 'Evenementen tabellen';
@@ -78,8 +79,13 @@ $lang['identity'] = 'Identity';
 $lang['search'] = 'Zoeken';
 $lang['options'] = 'Opties';
 $lang['alert'] = 'Alarm';
-$lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar door Sir.Dre © 2016 v'; 
+$lang['private'] = 'Privaat';
+$lang['public'] = 'Openbaar';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
+$lang['show_calendars_schedules'] = 'Show Calendar Schema\'s';
+$lang['show_all_calendars_schedules'] = 'Toon Alle Kalender schema\'s';
+$lang['current_v'] = 'CIFullCalendar door Sir.Dre © 2014-2018 v'; 
 
 //Admin
 //
@@ -140,7 +146,9 @@ $lang['admin_modal_member_since'] = 'Lid sinds';
 $lang['admin_modal_member_last_log'] = 'Laatste aanmelding';
 $lang['admin_modal_ip'] = 'IP-adres';
 //Toolbar
-$lang['admin_remove_session'] = 'Clear Session'; 
+$lang['admin_remove_session'] = 'Clear Session';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
+ 
 //Columns
 $lang['admin_table_username'] = 'Gebruikersnaam';
 $lang['admin_table_fname'] = 'Voornaam';
@@ -174,6 +182,7 @@ $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Events Lijst';
+$lang['admin_nav_categories'] = 'Categories'; 
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'leden'; 
 $lang['admin_nav_sessions'] = 'Sessie'; 
@@ -240,14 +249,12 @@ $lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 $lang['reset_password'] = 'Reset wachtwoord';
 $lang['recover_password'] = 'Wachtwoord aanpassen';
 //Forgot Password
-$lang['forgot_login_email'] = 'E-mailadres';
+$lang['forgot_login_identity'] = 'identiteit';
 $lang['forgot_login_email_submit'] = 'Wachtwoord achterhalen';
 $lang['forgot_login_email_send'] = 'De instructies om u wachtwoord te achterhalen zijn verzonden';
 $lang['forgot_login_subject'] = 'Wachtwoord achterhaald';
-$lang['forgot_login_message'] = 'Een wachtwoord bevestiging is naar uw e-mailadres verzonden';
-$lang['forgot_login_email_message1'] = 'Wachtwoord ophalen/Rachterhalen';
-$lang['forgot_login_email_message2'] = 'u heeft een wachtwoord aanpassing aagevraagd. Indien dit niet het geval is kan u deze e-mail negeren of de beheerder contacteren.';
-$lang['forgot_login_email_message3'] = 'Benenden bevindt zich de link om de aanpassing door te voeren. U zal zodadelijk een e-mail ontvangen met een tijdelijk wachtwoord.';
+$lang['forgot_login_message'] = 'Een wachtwoord bevestiging is naar uw e-mailadres verzonden'; 
+$lang['forgot_login_identity_not_found'] = 'Sorry, identiteit bestaat niet'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';
@@ -274,6 +281,8 @@ $lang['profile_form_fail_email'] = 'Het e-mailadres bestaat al voor deze gebruik
 $lang['profile_form_fail'] = 'Het spijt ons, uw profielinformatie kon niet worden opgeslaan';
 $lang['profile_form_success'] = 'Uw profielinformatie is succesvol opgeslaan';
 $lang['profile_form_submit_button'] = 'Profiel aanpassen';
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Delete
 $lang['profile_delete_profile'] = 'Profiel';
@@ -365,7 +374,10 @@ $lang['categories_all_heading'] = 'Alle Categoriën';
 //Add
 $lang['categories_add_new'] = 'Nieuw categorie toevoegen';
 $lang['categories_input_name'] = 'Categorienaam';
-$lang['categories_input_description'] = 'Categorie beschrijving';
+$lang['categories_input_description'] = 'Categorie beschrijving'; 
+$lang['categories_input_group'] = 'Categorie Group';
+$lang['categories_input_group_public'] = 'Openbaar'; 
+$lang['categories_input_group_private'] = 'Privaat'; 
 //Edit
 $lang['categories_edit_source'] = 'Deze categorie aanpassen';
 //Delete
@@ -378,6 +390,7 @@ $lang['categories_draggable_removable'] = 'Slepen en verwijderen event';
 $lang['categories_message_title'] = 'Geen categoriën';
 $lang['categories_message_warning'] = 'Geen Categoriën beschikbaar';
 $lang['categories_message_success'] = 'Updated Successfully';
+$lang['categories_message_failed'] = 'Update mislukt';
  
 //Sources
 //
@@ -427,6 +440,15 @@ $lang['cal_defaultview_basicday'] = 'BasisDag';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDag';
 $lang['cal_defaultview_agendalist'] = 'AgendaLijst';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Tijd lijn Day';
 $lang['cal_defaultview_timelineWeek'] = 'Tijd lijn Week';
 $lang['cal_defaultview_timelineMonth'] = 'Tijd lijn Maand';
@@ -438,20 +460,27 @@ $lang['cal_header_right'] = 'Hoofding knop/titel rechts';
 
 $lang['cal_language'] = 'Taal';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Tijd Label Duur';
+$lang['cal_mintime'] = 'Minimum Time';
+$lang['cal_maxtime'] = 'Maximaal Time';
 $lang['cal_hiddendays'] = 'Dagen verbergen (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6=Zat)';
 $lang['cal_editable'] = 'Aanpasbaar (Alleen voor leden kalender)';
 $lang['cal_businesshours'] = 'Bedrijf Hours';
 $lang['cal_businesshours_start'] = 'Bedrijf Start Hours';
-$lang['cal_businesshours_end'] = 'Bedrijf End Hours';
-$lang['cal_businesshours_opendays'] = 'Bedrijf Open Days (0=Zon,1=Ma,2=Di,3=Woe,4=Don,5=Vrij,6=Zat)';
-$lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Week nummer';
-$lang['cal_eventlimit'] = 'Evenementenlimiet';
-$lang['cal_alldayslot'] = 'Volledige dag';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
-$lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_businesshours_end'] = 'Bedrijf End Hours'; 
+$lang['cal_businesshours_opendays'] = 'Openings dagen (0 = Zon, 1 = Ma, 2 = Di, 3 = Wo, 4 = Do, 5 = Vr, 6 = Zat)';
+$lang['cal_firstday'] = 'Eerste dag';
+$lang['cal_weeknumbers'] = 'Toon (Aan / Uit)'; 
+$lang['cal_weeknumbers_withindays'] = 'Binnen enkele dagen'; 
+$lang['cal_weeknumbers_settings'] = 'Weeknummers';
+$lang['cal_eventlimit'] = 'Event Limit';
+$lang['cal_alldayslot'] = 'De hele dag Sleuf';
+$lang['cal_slotduration'] = 'Looptijd';
+$lang['cal_slotlabeling'] = 'Etikettering';
+$lang['cal_slotlabelformat'] = 'Tijdformaat (HH:mm / hh:mm a)';
+$lang['cal_slotlabel_groupformat'] = 'Groepsformaat (06:00 tot 18:30)';
+$lang['cal_slotlabel_listformat'] = 'Lijstformaat (18:00)'; 
+$lang['cal_slotlabel_settings'] = 'Sleuf';  
 $lang['cal_isrtl'] = 'Weergeven van rechts naar links';
  
 //Theme 

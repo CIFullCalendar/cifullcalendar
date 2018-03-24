@@ -1,3 +1,20 @@
+ 3.6.1.8 (Mar. 23, 2018)
+ -------------------
+ 
+    - CodeIgniter v3.1.8 framework
+    - FullCalendar v3.9.0 with custom timeSlot formatting + button (next/prevWeek, next/prevMonth) addon’s
+	- Language updates for German
+    - Applied Components updates
+    - Fixes and Improvements 
+ 
+ 3.6.0.1 (Feb. 08, 2018)
+ -------------------
+ 
+    - CodeIgniter v3.1.7 framework
+    - FullCalendar v3.8.2 with custom timeSlot formatting + button (next/prevWeek, next/prevMonth) addon’s
+    - Applied Components updates
+    - Fixes and Improvements 
+ 
  3.5.9.3 (Sept. 12, 2017)
  -------------------
 

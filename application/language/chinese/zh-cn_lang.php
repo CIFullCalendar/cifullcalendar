@@ -12,6 +12,7 @@
 //
 $lang['home'] = '家';
 $lang['calendar'] = '日历';
+$lang['calendars'] = '日历';
 $lang['events'] = '事件';
 $lang['dashboard'] = '仪表板';
 $lang['tables'] = '表';
@@ -78,8 +79,13 @@ $lang['identity'] = '身份';
 $lang['search'] = '搜索';
 $lang['options'] = '选项';
 $lang['alert'] = '警报';
-$lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
+$lang['private'] = '私人的';
+$lang['public'] = '公共';
+$lang['api_google'] = 'Google API密钥';
+$lang['api_schedulerkey'] = '调度程序API密钥';
+$lang['show_calendars_schedules'] = '展覽日程';
+$lang['show_all_calendars_schedules'] = '顯示所有日曆日程';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2014-2018 v';
 	
 //Admin	//管理员
 //	//
@@ -143,6 +149,7 @@ $lang['admin_modal_ip'] = 'IP地址';
 	
 //Toolbar	//工具栏
 $lang['admin_remove_session'] = '清除会话';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //Columns	//列
 $lang['admin_table_username'] = '用户名';
@@ -178,6 +185,7 @@ $lang['admin_table_uagent'] = '用户代理';
 //nav	//导航
 //	//
 $lang['admin_nav_events'] = '活动列表';
+$lang['admin_nav_categories'] = '分类'; 
 $lang['admin_nav_queue'] = '活动队列';
 $lang['admin_nav_users'] = '会员';
 $lang['admin_nav_sessions'] = '会议';
@@ -243,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = '新密码确认';
 $lang['reset_password'] = '重设密码';
 $lang['recover_password'] = '更改密码';
 //Forgot Password	//忘了密码
-$lang['forgot_login_email'] = '电子邮件';
+$lang['forgot_login_identity'] = '身分';
 $lang['forgot_login_email_submit'] = '恢复密码';
 $lang['forgot_login_email_send'] = '密码恢复信息发送';
 $lang['forgot_login_subject'] = '密码恢复';
 $lang['forgot_login_message'] = '密码确认是在您的电子邮件';
-//Message	//信息
-$lang['forgot_login_email_message1'] = '密码更改/恢复';
-$lang['forgot_login_email_message2'] = '您已要求更改密码。如果我的天堂\'吨要求这个变化，请忽略电子邮件或与管理员联系。';
-$lang['forgot_login_email_message3'] = '下面是链接到点击确认更改。另一个电子邮件将遵循一个临时密码。';
+ $lang['forgot_login_identity_not_found'] = '對不起，身份不存在'; 
 //New Email 	//新邮件
 $lang['email_reset_subject'] = '新邮件';
 $lang['email_reset_message'] = '您已经成功地改变你的电子邮件地址';
@@ -279,7 +284,8 @@ $lang['profile_form_fail_email'] = '电子邮件已经存在该用户';
 $lang['profile_form_fail'] = '对不起，您的个人资料没有保存';
 $lang['profile_form_success'] = '成功，保存您的个人资料信息';
 $lang['profile_form_submit_button'] = '更新个人信息';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //Delete	//删除
 $lang['profile_delete_profile'] = '个人资料';
@@ -377,6 +383,9 @@ $lang['categories_all_heading'] = '所有类别';
 $lang['categories_add_new'] = '添加新类别';
 $lang['categories_input_name'] = '类别名称';
 $lang['categories_input_description'] = '类别说明';
+$lang['categories_input_group'] = '类别组';
+$lang['categories_input_group_public'] = '公共'; 
+$lang['categories_input_group_private'] = '私人的'; 
 	
 //Edit	//编辑
 $lang['categories_edit_source'] = '编辑本类别';
@@ -448,7 +457,16 @@ $lang['cal_defaultview_basicweek'] = 'BasicWeek';
 $lang['cal_defaultview_basicday'] = 'BasicDay';
 $lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
 $lang['cal_defaultview_agendaday'] = 'AgendaDay';
-$lang['cal_defaultview_agendalist'] = 'AgendaList';
+$lang['cal_defaultview_agendalist'] = 'AgendaList'; 
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear'; 
 $lang['cal_defaultview_timelineDay'] = '时间轴日';
 $lang['cal_defaultview_timelineWeek'] = '时间轴周';
 $lang['cal_defaultview_timelineMonth'] = '时间轴月';
@@ -461,26 +479,33 @@ $lang['cal_header_right'] = '头按钮/所有权的权利';
 $lang['cal_language'] = '语言';
 $lang['cal_timezone'] = '时区';
 $lang['cal_aspectratio'] = '宽高比';
+$lang['cal_minmaxtime_range'] = '时间标签时间';
+$lang['cal_mintime'] = '最短时间';
+$lang['cal_maxtime'] = '最大时间';
 $lang['cal_hiddendays'] = '周六）';
 $lang['cal_editable'] = '可编辑（对于仅限会员日历）';
 $lang['cal_businesshours'] = '营业时间';
 $lang['cal_businesshours_start'] = '营业时间';
-$lang['cal_businesshours_end'] = '关闭时间';
-$lang['cal_businesshours_opendays'] = '周六）';
+$lang['cal_businesshours_end'] = '关闭时间';  
+$lang['cal_businesshours_opendays'] = '开幕日（0 =太阳，1 =星期一，2 =星期三，3 =星期三，4 =星期四，5 =星期五，6 =星期六）';
 $lang['cal_firstday'] = '第一天';
-$lang['cal_weeknumbers'] = '周数';
+$lang['cal_weeknumbers'] = '显示（开/关）'; 
+$lang['cal_weeknumbers_withindays'] = '天内'; 
+$lang['cal_weeknumbers_settings'] = '周数';
 $lang['cal_eventlimit'] = '事件限制';
-$lang['cal_alldayslot'] = 'AllDay插槽';
-$lang['cal_slotduration'] = '时间槽';
-$lang['cal_slotlabeling'] = '老虎标签';
-$lang['cal_slotlabel_groupformat'] = '集团格式（06:00 pm-6:30pm）';
-$lang['cal_slotlabel_listformat'] = '列表格式（下午6:00）';
+$lang['cal_alldayslot'] = '全天候广告牌';
+$lang['cal_slotduration'] = '持续时间';
+$lang['cal_slotlabeling'] = '标签';
+$lang['cal_slotlabelformat'] = '时间格式（HH：mm / hh：mm a）';
+$lang['cal_slotlabel_groupformat'] = '团体格式（06:00 pm-6:30pm）';
+$lang['cal_slotlabel_listformat'] = '列表格式（6:00 pm）'; 
+$lang['cal_slotlabel_settings'] = '老虎机';  
 $lang['cal_isrtl'] = '查看从右到左';
  	
-//Theme 	//主题
+//主题
 $lang['theme_name'] = '主题';
 	
-//Edit	//编辑
+//编辑
 $lang['profile_picture_title'] = '头像要求';
 $lang['file_title'] = 'ICS文件要求';
 $lang['attach_title'] = '附件文件要求';

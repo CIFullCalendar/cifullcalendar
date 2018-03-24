@@ -12,7 +12,8 @@
 //
 $lang['home'] = 'Home';
 $lang['calendar'] = 'Calendar';
-$lang['events'] = 'events';
+$lang['calendars'] = 'Schedules';
+$lang['events'] = 'Events';
 $lang['dashboard'] = 'Dashboard';
 $lang['tables'] = 'Tables';
 $lang['page'] = 'Page';
@@ -78,8 +79,13 @@ $lang['identity'] = 'Identity';
 $lang['search'] = 'Search';
 $lang['options'] = 'Options';
 $lang['alert'] = 'Alert';
-$lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v'; 
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
+$lang['show_calendars_schedules'] = 'Show Calendar Schedules';
+$lang['show_all_calendars_schedules'] = 'Show All Calendar Schedules';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2014-2018 v'; 
 
 //Admin
 //
@@ -143,6 +149,7 @@ $lang['admin_modal_ip'] = 'IP Address';
 
 //Toolbar
 $lang['admin_remove_session'] = 'Clear Session'; 
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 
 //Columns
 $lang['admin_table_username'] = 'User Name';
@@ -178,10 +185,11 @@ $lang['admin_table_uagent'] = 'User Agent';
 //nav
 //
 $lang['admin_nav_events'] = 'Events List';
+$lang['admin_nav_categories'] = 'Categories'; 
 $lang['admin_nav_queue'] = 'Events Queue'; 
 $lang['admin_nav_users'] = 'Members'; 
-$lang['admin_nav_sessions'] = 'Sessions'; 
-$lang['admin_nav_group'] = 'Group'; 
+$lang['admin_nav_sessions'] = 'Sessions';  
+$lang['admin_nav_group'] = 'Groups'; 
 
 //Profile
 //
@@ -243,15 +251,12 @@ $lang['profile_change_new_password_confirm'] = 'New Password Confirm';
 $lang['reset_password'] = 'Reset Password';
 $lang['recover_password'] = 'Change Password';
 //Forgot Password
-$lang['forgot_login_email'] = 'Email';
+$lang['forgot_login_identity'] = 'identity';
 $lang['forgot_login_email_submit'] = 'Recover Password';
 $lang['forgot_login_email_send'] = 'Password Recovery Information sent';
 $lang['forgot_login_subject'] = 'Password Recovered';
 $lang['forgot_login_message'] = 'A password confirmation is in your email';
-//Message
-$lang['forgot_login_email_message1'] = 'Password Change/Recovery';
-$lang['forgot_login_email_message2'] = 'You have requested a password change. If I haven\'t requested this change please ignore email or contact your administrator.';
-$lang['forgot_login_email_message3'] = 'Below is the link to click to confirm change. Another email will follow with a temporary password.';
+$lang['forgot_login_identity_not_found'] = 'Sorry, identity does not exist'; 
 //New Email 
 $lang['email_reset_subject'] = 'New Email';
 $lang['email_reset_message'] = 'You have successfully change your email address';
@@ -279,7 +284,8 @@ $lang['profile_form_fail_email'] = 'Email already exist for this user';
 $lang['profile_form_fail'] = 'Sorry, your profile information did not save';
 $lang['profile_form_success'] = 'Success, your profile information saved';
 $lang['profile_form_submit_button'] = 'Update Profile';
-
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Delete
 $lang['profile_delete_profile'] = 'profile';
@@ -293,6 +299,7 @@ $lang['profile_delete_cancel'] = 'Delete Profile';
 $lang['submenu_select_groups'] = 'Select Shared Events'; 
 $lang['submenu_select_categories'] = 'Select Categories'; 
 $lang['submenu_select_sources'] = 'Select Sources'; 
+$lang['submenu_dropdown_all_tasks'] = 'All Tasks';  //new
 $lang['submenu_dropdown_all_locations'] = 'All Locations'; 
 $lang['submenu_dropdown_all_categories'] = 'All Categories'; 
 $lang['submenu_dropdown_all_sources'] = 'All Sources'; 
@@ -370,6 +377,26 @@ $lang['locations_all_heading'] = 'All Locations';
 $lang['locations_all_confirm_locations'] = 'All Confirm locations'; 
   
   
+//Tasks
+//
+$lang['tasks_all_heading'] = 'All Tasks';
+//Add
+$lang['tasks_add_new'] = 'Add New Task';
+$lang['tasks_input_name'] = 'Task Name';
+$lang['tasks_input_description'] = 'Task Description';
+
+//Edit
+$lang['tasks_edit_source'] = 'Edit this Task';
+
+//Delete
+$lang['tasks_delete_category'] = 'Delete this Category';
+$lang['tasks_delete_warning'] = 'You are about to delete'; 
+
+//Message
+$lang['tasks_message_title'] = 'No Categories';
+$lang['tasks_message_warning'] = 'No Categories available';
+$lang['tasks_message_success'] = 'Updated Successfully';
+
 //Categories
 //
 $lang['categories_all_heading'] = 'All Category';
@@ -377,6 +404,9 @@ $lang['categories_all_heading'] = 'All Category';
 $lang['categories_add_new'] = 'Add New Category';
 $lang['categories_input_name'] = 'Category Name';
 $lang['categories_input_description'] = 'Category Description';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 
 //Edit
 $lang['categories_edit_source'] = 'Edit this Category';
@@ -393,6 +423,7 @@ $lang['categories_draggable_removable'] = 'Remove event after drop';
 $lang['categories_message_title'] = 'No Categories';
 $lang['categories_message_warning'] = 'No Categories available';
 $lang['categories_message_success'] = 'Updated Successfully';
+$lang['categories_message_failed'] = 'Update Failed';
 
  
 //Sources
@@ -438,21 +469,32 @@ $lang['settings_form_longitude'] = 'Longitude';
 $lang['settings_form_timezone'] = 'Timezone';
 $lang['settings_form_captcha'] = 'Captcha';
 $lang['settings_form_debug'] = 'Debug';
+$lang['settings_form_googlekey'] = 'Google API';
+$lang['settings_form_schedulerkey'] = 'Scheduler API'; 
 $lang['settings_form_submit_button'] = 'Submit';
 
 //fullcalendar
 $lang['cal_defaultview'] = 'Default View';
 
-$lang['cal_defaultview_month'] = 'Month';
-$lang['cal_defaultview_basicweek'] = 'BasicWeek';
-$lang['cal_defaultview_basicday'] = 'BasicDay';
-$lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
-$lang['cal_defaultview_agendaday'] = 'AgendaDay';
-$lang['cal_defaultview_agendalist'] = 'AgendaList';
-$lang['cal_defaultview_timelineDay'] = 'Timeline Day';
-$lang['cal_defaultview_timelineWeek'] = 'Timeline Week';
-$lang['cal_defaultview_timelineMonth'] = 'Timeline Month';
-$lang['cal_defaultview_timelineYear'] = 'Timeline Year';
+$lang['cal_defaultview_month'] = 'month';
+$lang['cal_defaultview_basicweek'] = 'basicWeek';
+$lang['cal_defaultview_basicday'] = 'basicDay';
+$lang['cal_defaultview_agendaweek'] = 'agendaWeek';
+$lang['cal_defaultview_agendaday'] = 'agendaDay';
+$lang['cal_defaultview_agendalist'] = 'agendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
+$lang['cal_defaultview_timelineDay'] = 'timelineDay';
+$lang['cal_defaultview_timelineWeek'] = 'timelineWeek';
+$lang['cal_defaultview_timelineMonth'] = 'timelineMonth';
+$lang['cal_defaultview_timelineYear'] = 'timelineYear';
  
 $lang['cal_header_left'] = 'Header Button/Title Left';
 $lang['cal_header_center'] = 'Header Button/Title Center';
@@ -461,6 +503,9 @@ $lang['cal_header_right'] = 'Header Button/Title Right';
 $lang['cal_language'] = 'Language';
 $lang['cal_timezone'] = 'TimeZone';
 $lang['cal_aspectratio'] = 'Aspect Ratio';
+$lang['cal_minmaxtime_range'] = 'Time Label Duration';
+$lang['cal_mintime'] = 'Minimum Time';
+$lang['cal_maxtime'] = 'Maximum Time';
 $lang['cal_hiddendays'] = 'Hide Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_editable'] = 'Editable (For members calendar only)';
 $lang['cal_businesshours'] = 'Business Hours';
@@ -468,13 +513,17 @@ $lang['cal_businesshours_start'] = 'Opening Hours';
 $lang['cal_businesshours_end'] = 'Closing Hours';
 $lang['cal_businesshours_opendays'] = 'Opening Days (0=Sun,1=Mon,2=Tue,3=Wed,4=Thu,5=Fri,6=Sat)';
 $lang['cal_firstday'] = 'First Day';
-$lang['cal_weeknumbers'] = 'Week Numbers';
+$lang['cal_weeknumbers'] = 'Show (On / Off)'; 
+$lang['cal_weeknumbers_withindays'] = 'Within Days'; 
+$lang['cal_weeknumbers_settings'] = 'Week Numbers';
 $lang['cal_eventlimit'] = 'Event Limit';
 $lang['cal_alldayslot'] = 'AllDay Slot';
-$lang['cal_slotduration'] = 'Slot Duration';
-$lang['cal_slotlabeling'] = 'Slot Labeling';
+$lang['cal_slotduration'] = 'Duration';
+$lang['cal_slotlabeling'] = 'Labeling';
+$lang['cal_slotlabelformat'] = 'Time-Format (HH:mm / hh:mm a)';
 $lang['cal_slotlabel_groupformat'] = 'Group Format (06:00pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)';
+$lang['cal_slotlabel_listformat'] = 'List Format (6:00pm)'; 
+$lang['cal_slotlabel_settings'] = 'Slot'; 
 $lang['cal_isrtl'] = 'View from Right To Left';
  
 //Theme 

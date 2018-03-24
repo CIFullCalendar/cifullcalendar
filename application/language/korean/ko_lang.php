@@ -12,6 +12,7 @@
 //	//
 $lang['home'] = '집';
 $lang['calendar'] = '달력';
+$lang['calendars'] = '달력';
 $lang['events'] = '이벤트';
 $lang['dashboard'] = '계기반';
 $lang['tables'] = '테이블';
@@ -78,8 +79,13 @@ $lang['identity'] = '정체';
 $lang['search'] = '수색';
 $lang['options'] = '옵션';
 $lang['alert'] = '경보';
-$lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2016 v';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
+$lang['show_calendars_schedules'] = '보기 달력 스케줄';
+$lang['show_all_calendars_schedules'] = '모든 캘린더 일정보기';
+$lang['current_v'] = 'CIFullCalendar by Sir.Dre © 2014-2018 v';
 	
 //관리자
 // 
@@ -131,6 +137,7 @@ $lang['sessions_message_warning'] = '없음 세션 가능한';
 // 
 $lang['admin_status_1'] = '유효한';
 $lang['admin_status_0'] = '비활성';
+
 //조동사
 $lang['admin_modal_edit_user'] = '편집 사용자 정보';
 $lang['admin_modal_delete_user'] = '사용자 정보 삭제';
@@ -143,6 +150,7 @@ $lang['admin_modal_ip'] = 'IP 주소';
 	
 //툴바
 $lang['admin_remove_session'] = '지우기 세션';
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 	
 //열
 $lang['admin_table_username'] = '사용자 이름';
@@ -178,6 +186,7 @@ $lang['admin_table_uagent'] = '사용자 에이전트';
 //탐색
 // 
 $lang['admin_nav_events'] = '이벤트 목록';
+$lang['admin_nav_categories'] = '카테고리'; 
 $lang['admin_nav_queue'] = '이벤트 큐';
 $lang['admin_nav_users'] = '회원';
 $lang['admin_nav_sessions'] = '세션';
@@ -243,15 +252,12 @@ $lang['profile_change_new_password_confirm'] = '새 암호 확인';
 $lang['reset_password'] = '암호를 재설정';
 $lang['recover_password'] = '비밀번호 변경';
 //비밀번호를 잊으 셨나요
-$lang['forgot_login_email'] = '이메일';
+$lang['forgot_login_identity'] = '정체';
 $lang['forgot_login_email_submit'] = '비밀번호 복구';
 $lang['forgot_login_email_send'] = '비밀번호 복구 정보가 전송';
 $lang['forgot_login_subject'] = '비밀번호 복구';
 $lang['forgot_login_message'] = '비밀번호 확인 귀하의 이메일에';
-//메시지
-$lang['forgot_login_email_message1'] = '암호 변경 복구';
-$lang['forgot_login_email_message2'] = '당신은 암호 변경을 요청했습니다. 나는 천국이 는 t이 변경을 요청 이메일을 무시하거나 관리자에게 문의하시기 바랍니다.';
-$lang['forgot_login_email_message3'] = '아래 링크는 변경 사항을 확인을 클릭합니다. 다른 이메일 임시 비밀번호를 따를 것이다. ';
+$lang['forgot_login_identity_not_found'] = '죄송합니다. 신원이 없습니다.'; 
 //새 이메일
 $lang['email_reset_subject'] = '새 메일';
 $lang['email_reset_message'] = '당신은 성공적으로 당신의 이메일 주소를 변경 한';
@@ -279,7 +285,8 @@ $lang['profile_form_fail_email'] = '이메일은 이미이 사용자에 대한 �
 $lang['profile_form_fail'] = '죄송합니다, 귀하의 프로필 정보를 저장하지 않은';
 $lang['profile_form_success'] = '성공은, 프로필 정보가 저장';
 $lang['profile_form_submit_button'] = '프로필 업데이트';
-	
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';	
  	
 //지우다
 $lang['profile_delete_profile'] = '윤곽';
@@ -377,6 +384,9 @@ $lang['categories_all_heading'] = '모든 카테고리';
 $lang['categories_add_new'] = '새 카테고리 추가';
 $lang['categories_input_name'] = '카테고리 이름';
 $lang['categories_input_description'] = '범주 설명';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
 	
 //Edit	//편집하다
 $lang['categories_edit_source'] = '이 범주 편집';
@@ -393,7 +403,7 @@ $lang['categories_draggable_removable'] = '드롭 후 이벤트를 제거합니�
 $lang['categories_message_title'] = '어떤 카테고리 없음';
 $lang['categories_message_warning'] = '없음 카테고리 가능한';
 $lang['categories_message_success'] = '성공적으로 업데이트';
-	
+$lang['categories_message_failed'] = 'Update Failed';	
  	
 //Sources	// 소스
 //	//
@@ -444,11 +454,20 @@ $lang['settings_form_submit_button'] = '제출';
 $lang['cal_defaultview'] = '보기 기본';
 	
 $lang['cal_defaultview_month'] = '달';
-$lang['cal_defaultview_basicweek'] = 'BasicWeek';
-$lang['cal_defaultview_basicday'] = 'BasicDay';
-$lang['cal_defaultview_agendaweek'] = 'AgendaWeek';
-$lang['cal_defaultview_agendaday'] = 'AgendaDay';
-$lang['cal_defaultview_agendalist'] = 'AgendaList';
+$lang['cal_defaultview_basicweek'] = 'basicWeek';
+$lang['cal_defaultview_basicday'] = 'basicDay';
+$lang['cal_defaultview_agendaweek'] = 'agendaWeek';
+$lang['cal_defaultview_agendaday'] = 'agendaDay';
+$lang['cal_defaultview_agendalist'] = 'agendaList';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = '타임 라인의 날';
 $lang['cal_defaultview_timelineWeek'] = '타임 라인 주';
 $lang['cal_defaultview_timelineMonth'] = '타임 라인의 달';
@@ -461,26 +480,33 @@ $lang['cal_header_right'] = '헤더 버튼 / 제목 오른쪽';
 $lang['cal_language'] = '언어';
 $lang['cal_timezone'] = '시간대';
 $lang['cal_aspectratio'] = '종횡비';
+$lang['cal_minmaxtime_range'] = '시간 라벨 기간';
+$lang['cal_mintime'] = '최소 시간';
+$lang['cal_maxtime'] = '최대 시간';
 $lang['cal_hiddendays'] = '토';
 $lang['cal_editable'] = '편집은 (회원에 대해서만 달력)';
 $lang['cal_businesshours'] = '업무 시간';
 $lang['cal_businesshours_start'] = '개관 시간';
 $lang['cal_businesshours_end'] = '마감 시간';
-$lang['cal_businesshours_opendays'] = '토';
+$lang['cal_businesshours_opendays'] = '개장 일 (0=일요일, 1=월요일, 2=화요일, 3=수요일, 4=목요일, 5=금, 6=토)';
 $lang['cal_firstday'] = '첫날';
-$lang['cal_weeknumbers'] = '주 번호';
+$lang['cal_weeknumbers'] = '표시 (설정 / 해제)'; 
+$lang['cal_weeknumbers_withindays'] = '일 이내'; 
+$lang['cal_weeknumbers_settings'] = '주 번호';
 $lang['cal_eventlimit'] = '이벤트 제한';
-$lang['cal_alldayslot'] = 'AllDay 슬롯';
-$lang['cal_slotduration'] = '슬롯 기간';
-$lang['cal_slotlabeling'] = '슬롯 라벨';
-$lang['cal_slotlabel_groupformat'] = '그룹 형식 (오후 6시에서 오후 6시 반 사이)';
-$lang['cal_slotlabel_listformat'] = '목록 형식 (오후 6시)';
+$lang['cal_alldayslot'] = '하루 종일 슬롯';
+$lang['cal_slotduration'] = '지속';
+$lang['cal_slotlabeling'] = '라벨링';
+$lang['cal_slotlabelformat'] = '시간 - 형식 (HH : mm / hh : mm a)';
+$lang['cal_slotlabel_groupformat'] = '그룹 형식 (오후 6시 - 오후 6:30)';
+$lang['cal_slotlabel_listformat'] = '목록 형식 (오후 6시)'; 
+$lang['cal_slotlabel_settings'] = '슬롯';  
 $lang['cal_isrtl'] = '왼쪽에서 오른쪽으로보기';
  	
-//Theme 	//테마
+//테마
 $lang['theme_name'] = '테마';
 	
-//Edit	//편집하다
+//편집하다
 $lang['profile_picture_title'] = '사진 요구 사항을 프로필';
 $lang['file_title'] = 'ICS는 요구 사항 파일';
 $lang['attach_title'] = '첨부 파일 요구 사항';

@@ -12,6 +12,7 @@
 // 
 $lang['home'] = 'Главная';
 $lang['calendar'] = 'Календарь';
+$lang['calendars'] = 'Календарь';
 $lang['events'] = 'Мероприятия';
 $lang['dashboard'] = 'Панель приборов';
 $lang['tables'] = 'Таблицы';
@@ -78,8 +79,13 @@ $lang['identity'] = 'Идентичность';
 $lang['search'] = 'Поиск';
 $lang['options'] = 'Опции';
 $lang['alert'] = 'бдительный';
-$lang['api'] = 'Google APIKEY';
-$lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2016 v';
+$lang['private'] = 'Private';
+$lang['public'] = 'Public';
+$lang['api_google'] = 'Google API key';
+$lang['api_schedulerkey'] = 'Scheduler API key';
+$lang['show_calendars_schedules'] = 'Показать Календарь Расписание';
+$lang['show_all_calendars_schedules'] = 'Показать все Календарь Расписание';
+$lang['current_v'] = 'CIFullCalendar по Sir.Dre © 2014-2018 v';
     
 // Админ
 //
@@ -145,6 +151,7 @@ $lang['admin_modal_ip'] = 'Айпи адрес';
  
 //Панели инструментов
 $lang['admin_remove_session'] = 'Чистая сессия'; 
+$lang['admin_login_attempts'] = 'Sign-in Attempts'; 
 
 //Столбцы
 $lang['admin_table_username'] = 'Имя пользователя';
@@ -180,6 +187,7 @@ $lang['admin_table_uagent'] = 'Агент пользователя';
 //навигации
 //
 $lang['admin_nav_events'] = 'Список событий';
+$lang['admin_nav_categories'] = 'Смайлы Вкл';
 $lang['admin_nav_queue'] = 'События Очередь'; 
 $lang['admin_nav_users'] = 'Пользователи'; 
 $lang['admin_nav_sessions'] = 'Сессии'; 
@@ -247,17 +255,12 @@ $lang['profile_change_new_password_confirm'] = 'Новый пароль Подт
 $lang['reset_password'] = 'Сброс пароля';
 $lang['recover_password'] = 'Изменить пароль'; 
 //Забыли пароль
-$lang['forgot_login_email'] = 'на e-mail';
+$lang['forgot_login_identity'] = 'идентичность';
 $lang['forgot_login_email_submit'] = 'Восстановить пароль';
 $lang['forgot_login_email_send'] = 'Восстановление пароля Информация отправлено';
 $lang['forgot_login_subject'] = 'Восстановление пароля';
 $lang['forgot_login_message'] = 'Подтверждение пароля в вашей электронной почте';
-
-//Message
-$lang['forgot_login_email_message1'] = 'Изменение пароля / Восстановление';
-$lang['forgot_login_email_message2'] = 'Вы запросили изменение пароля. Если я не имею просил это изменение не обращайте внимания электронную почту или обратитесь к администратору.';
-$lang['forgot_login_email_message3'] = 'Ниже ссылка на кнопку, чтобы подтвердить изменения. Другой адрес электронной почты будет следовать с временным паролем.';
-
+$lang['forgot_login_identity_not_found'] = 'К сожалению, идентичность не существует';  
 //New Email 
 $lang['email_reset_subject'] = 'Новая почта';
 $lang['email_reset_message'] = 'Вы успешно изменить свой адрес электронной почты ';
@@ -285,6 +288,8 @@ $lang['profile_form_fail_email'] = 'E-mail уже существует для э
 $lang['profile_form_fail'] = 'К сожалению, ваш профиль информация не спасти';
 $lang['profile_form_success'] = 'Успех, ваш профиль информация сохраняется';
 $lang['profile_form_submit_button'] = 'Обновить профиль';
+$lang['profile_form_change_pass_button'] = 'Change Password';
+$lang['profile_form_delete_button'] = 'Delete Profile';
  
 //Удалить
 $lang['profile_delete_profile'] = 'профиль';
@@ -375,6 +380,10 @@ $lang['categories_all_heading'] = 'Добавить';
 $lang['categories_add_new'] = 'Добавить новую категорию';
 $lang['categories_input_name'] = 'Название категории';
 $lang['categories_input_description'] = 'Категория Описание';
+$lang['categories_input_group'] = 'Category Group';
+$lang['categories_input_group_public'] = 'Public'; 
+$lang['categories_input_group_private'] = 'Private'; 
+
 //Изменить
 $lang['categories_edit_source'] = 'Редактировать эту категорию';
 //Удалить
@@ -387,6 +396,7 @@ $lang['categories_draggable_removable'] = 'Удалить событие пос�
 $lang['categories_message_title'] = 'Нет Рубрики';
 $lang['categories_message_warning'] = 'Нет доступных категорий';
 $lang['categories_message_success'] = 'Успешно Обновлено';
+$lang['categories_message_failed'] = 'Update Failed';
  
 //Источники
 //
@@ -434,6 +444,15 @@ $lang['cal_defaultview_basicday'] = 'Основные день';
 $lang['cal_defaultview_agendaweek'] = 'Повестка дня';
 $lang['cal_defaultview_agendaday'] = 'Повестка дня День';
 $lang['cal_defaultview_agendalist'] = 'Повестка дня Список';
+$lang['cal_defaultview_agendalist_day'] = 'agendalistDay';
+$lang['cal_defaultview_agendalist_week'] = 'agendalistWeek';
+$lang['cal_defaultview_agendalist_month'] = 'agendalistMonth';
+$lang['cal_defaultview_agendalist_year'] = 'agendalistYear';
+$lang['cal_defaultview_list'] = 'list';
+$lang['cal_defaultview_listday'] = 'listDay';
+$lang['cal_defaultview_listweek'] = 'listWeek';
+$lang['cal_defaultview_listmonth'] = 'listMonth';
+$lang['cal_defaultview_listyear'] = 'listYear';
 $lang['cal_defaultview_timelineDay'] = 'Хронология день';
 $lang['cal_defaultview_timelineWeek'] = 'Сроки неделю';
 $lang['cal_defaultview_timelineMonth'] = 'Хронология месяц';
@@ -444,23 +463,32 @@ $lang['cal_header_right'] = 'Кнопка Заголовок / Название 
 $lang['cal_language'] = 'Язык';
 $lang['cal_timezone'] = 'Часовой пояс';
 $lang['cal_aspectratio'] = 'Соотношение сторон';
+$lang['cal_minmaxtime_range'] = 'Время Метка Продолжительность';
+$lang['cal_mintime'] = 'Минимальное время';
+$lang['cal_maxtime'] = 'Максимальное время';
 $lang['cal_hiddendays'] = 'Скрыть дни (0=Воскресенье, 1=Понедельник, 2=Вторник, 3=среда, 4=Четверг, 5=Пятница, 6=Cуббота)';
 $lang['cal_editable'] = 'Редактируемый (Для членов календарь только)';
 $lang['cal_businesshours'] = 'Рабочие часы';
 $lang['cal_businesshours_start'] = 'Часы работы';
 $lang['cal_businesshours_end'] = 'Закрытие Часы';
-$lang['cal_businesshours_opendays'] = 'Дни (0=Воскресенье, 1=Понедельник, 2=Вторник, 3=среда, 4=Четверг, 5=Пятница, 6=Cуббота)';
+$lang['cal_businesshours_opendays'] = 'Дни (0=Воскресенье, 1=Понедельник, 2=Вторник, 3=среда, 4=Четверг, 5=Пятница, 6=Cуббота)'; 
 $lang['cal_firstday'] = 'Первый день';
-$lang['cal_weeknumbers'] = 'Неделя Количество';
-$lang['cal_eventlimit'] = 'Событие Лимит';
-$lang['cal_alldayslot'] = 'AllDay Слот';
-$lang['cal_slotduration'] = 'Слот Продолжительность';
-$lang['cal_slotlabeling'] = 'Маркировка Слот';
-$lang['cal_slotlabel_groupformat'] = 'Группа Формат (6:00 pm-6:30pm)';
-$lang['cal_slotlabel_listformat'] = 'Формат Список (6:00 PM)';
+$lang['cal_weeknumbers'] = 'Показать (Вкл. / Выкл.)'; 
+$lang['cal_weeknumbers_withindays'] = 'В течение дней'; 
+$lang['cal_weeknumbers_settings'] = 'Неделя';
+$lang['cal_eventlimit'] = 'Лимит события';
+$lang['cal_alldayslot'] = 'Всесезонный слот';
+$lang['cal_slotduration'] = 'Продолжительность';
+$lang['cal_slotlabeling'] = 'Маркировка';
+$lang['cal_slotlabelformat'] = 'Формат времени (ЧЧ: мм / чч: мм)';
+$lang['cal_slotlabel_groupformat'] = 'Формат группы (18:00 - 18:30)';
+$lang['cal_slotlabel_listformat'] = 'Формат списка (18:00)'; 
+$lang['cal_slotlabel_settings'] = 'Слот';  
 $lang['cal_isrtl'] = 'Вид с право на лево';
+
 //Theme 
 $lang['theme_name'] = 'Тема';
+
 //Изменить
 $lang['profile_picture_title'] = 'Профиль Фото Требование';
 $lang['file_title'] = 'ИКС Требования к файлам';
