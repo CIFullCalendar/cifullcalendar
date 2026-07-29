@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+
+User-agent: Googlebot 
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+
+User-agent: msnbot
+Crawl-delay: 120
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+
+User-agent: discobot
+Disallow: /
+
+User-agent: Slurp
+Crawl-delay: 4
+
+Sitemap: https://www.cifullcalendar.com/v2/sitemap.xml

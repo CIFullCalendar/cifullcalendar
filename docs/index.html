@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Documentation</title>
+	<meta name="description" content="A server-side dynamic web application that is responsive to any layout of a viewing screen">
+	<meta name="author" content="sirdre">
+	
+	<meta property="og:site_name" content="CIFullCalendar - a calendar web application">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="CIFullCalendar - a calendar web application">
+	<meta property="og:url" content="https://cifullcalendar.com/v2/docs">
+	<meta property="og:image" content="./assets/img/icons/icon_192x192.png">
+	<meta property="og:description" content="A server-side dynamic web application that is responsive to any layout of a viewing screen">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://cifullcalendar.com/v2/docs">
+	<meta name="twitter:title" content="CIFullCalendar - a calendar web application">
+	<meta name="twitter:description" content="A server-side dynamic web application that is responsive to any layout of a viewing screen">
+	<meta name="twitter:image" content="./assets/img/icons/icon_180x180.png">
+	<meta name="twitter:site" content="@SenorDre">
+	<meta name="twitter:domain" content="https://cifullcalendar.com">	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icons/icon_ios_57x57.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icons/icon_ios_76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icons/icon_ios_120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icons/icon_ios_152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/icon_ios_180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./assets/img/icons/android_icon_192x192.png"> 
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="./assets/js/html5shiv.js"></script>
+	<![endif]--> 
+	<link href="./assets/css/bootstrap.css" rel="stylesheet">
+	<link href="./assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="./assets/main.css"  rel="stylesheet" > 
+
+	<link href="./assets/css/codemirror.min.css" rel="stylesheet" type="text/css" >
+	<link href="./assets/css/monokai.min.css" rel="stylesheet" type="text/css" >	
+	 
+  </head>
+  
+  <body class="doc">
+
+  <header class="navbar navbar-default navbar-fixed-top fix-navbar" role="navigation">
+  <div class="page-container header-page-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <a class="navbar-brand fix-header-brand header-bi" href="/"><span class="ir">CIFullCalendar v2</span></a>
+      <a href="https://cifullcalendar.com/v2" id="demo">
+        <span class="fa fa-calendar"></span>
+      </a>	  	  
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">  
+		  <li class="active"><a class="header-page-link" href="#" >Documentation</a></li>  
+		  <li><a class="header-page-link" href="license.html" >License</a></li>   
+		  <li><a class="header-page-link" href="terms.html" >Terms and Conditions</a></li> 
+          <li><a class="header-page-link" href="https://github.com/CIFullCalendar/cifullcalendar/releases">Download</a></li> 
+      </ul> 
+    </div>
+  </div>
+</header>   
+
+<div class="page-container">
+  <div class="row">
+    <div class="col-md-3 doc-nav">
+      <h2>CIFullCalendar v2</h2> 
+	  <p class="muted">This is base on the legacy version of the CodeIgniter framework v2.x</p>
+      <div class="bs-page-sidebar" side-navbar role="complementary">
+        <div id="toc"></div>
+      </div>
+    </div>
+    <div class="col-md-9 doc-content-wrap">
+      <div class="doc-content" role="main">  
+    			
+			<h2 id="introduction" >Introduction</h2>
+			<div id="intro">	
+				<p>CIFullCalendar is a server-side dynamic web application that is responsive to any layout of a viewing screen. The “Super Saiyan Fusion” power of CIFullCalendar allows users to organize, plan and share events to everyone. Simply, install it to your server and become a member then use the wonderful features by easily manipulating your events by dragging, dropping, resizing, clicking, touching, categorizing, grouping, filtering, linking and importing/exporting.</p>
+				
+				<h3 id="how-to-use">How can I use this script on my site?</h3>
+				<p>If you already or considering having a site or a web app built on CodeIgniter framework, styled by bootstrap or other responsive theme and storing the data on MySQL, Sqlsrv, Oracle database etc. supported by CI this calendar script can be very useful. For example, if you wish to create an event site, booking site, appointment site, personal scheduling site, or any other site using CI framework the script can be easily plug-in into it. The idea is to display shared events on a calendar on your frontend (visitors page) of your site and control it at the backend (admin page) similarily like any other cms site that can easily edit contents and have it displayed to the public. Otherwise, if time allows, I am available to give support. <a href="mailto:andre@sirdre.com?subject=CIFullcalendar+Support+Questions">Contact here</a></p>   	 
+			</div><!-- /#intro -->  
+			
+			<h2 id="requirements" >Requirements</h2> 
+			
+			<div id="check-requirements">	
+				<h3>Minimum Requirements</h3>
+				<ul>	 		
+					<li>PHP Scripting 5.1.x</li>
+					<li>DB Driver mysql</li>
+					<li>A Domain and a Server with FTP support</li>
+					<li>MySQL 4.x with MyISAM or any with CodeIgniter supported databases.</li>
+					<li>Microsoft IE or Edge</li> 
+				</ul>
+				
+				<h3><strong>Recommended Requirements</strong></h3>
+				<ul>				
+					<li>PHP Scripting v5.6.x</li>	
+					<li>Apache webserver</li>
+					<li>MySQL 5.6+ with preferably with InnoDB tables or any with CodeIgniter supported databases.</li>
+					<li>phpMyAdmin access to setup the initial database</li>
+					<li>A Domain and a Server with FTP support</li> 
+					<li>An FTP tool to upload the files</li>				  
+					<li>Best experience Chrome, Opera or Firefox</li>
+				</ul>
+
+				<blockquote>All CIFullCalendar components supports popular modern browsers.</blockquote> 
+				
+			</div><!-- /#requirement --> 
+			
+			<h2 id="installation">Installation</h2>
+			
+			<div id="step-1"> 
+				
+				<h3 id="unzip-export">Step 1: Unzip/Export all files</h3>
+				
+				<p>Unzip all files within the <b>&ldquo;upload_source&rdquo;</b> zip to your local machine first. After, upload all files to your server.</p> 
+			
+			</div><!-- /#step-1 -->  
+			
+			<div id="step-2">
+			
+				<h3 id="configurations">Step 2: Configuration</h3>
+				
+				<p>Open your browser and enter your domain URL (The path where the file is located).</p>
+					
+			</div><!-- /#step-2 -->    			
+			
+			<div id="step-3">
+	   
+				<h3 id="installation-wizard-verification">Step 3: Installation Wizard - Verification</h3>
+				
+				<p>Simply, Start the installation as shown below if everything is checked out go ahead to the next. Otherwise, config your php.ini file or ask your host to do so.</p>
+				<figure class="highlight">
+				<img src="assets/img/install/install_verify.png" alt="">
+				</figure>
+		
+			</div><!-- /#step-3 --> 
+			
+			<div id="step-4">
+			
+				<h3 id="installation-wizard-email">Step 4: Installation Wizard - Email</h3>
+				
+				<p>Next, enter your email details as shown below.</p>
+				<figure class="highlight">
+				<img src="assets/img/install/install_email.png" alt="">
+				</figure>  
+				
+			</div><!-- /#step-4 -->
+		
+			<div id="step-5">
+			
+				<h3 id="installation-wizard-config">Step 5: Installation Wizard - Configuration</h3>
+				
+				<p>After, enter your calendar web app configuration details as shown below.</p>
+				<figure class="highlight">
+				<img src="assets/img/install/install_config.png" alt="">
+				</figure>  
+				
+			</div><!-- /#step-5 -->
+			
+			<div id="step-6">
+			
+				<h3 id="installation-wizard-database">Step 6: Installation Wizard - Database</h3>
+				
+				<p>Then, enter your database configuration details as shown below.</p>
+				<figure class="highlight">
+				<img src="assets/img/install/install_database.png" alt="">
+				</figure>  
+				
+			</div><!-- /#step-6 -->
+			
+			<div id="step-7">
+			
+				<h3 id="installation-wizard-admin">Step 7: Installation Wizard - Admin</h3>
+				
+				<p>Finally, enter your administrator details as shown below.</p>
+				<figure class="highlight">
+				<img src="assets/img/install/install_admin.png" alt="">
+				</figure>  
+				
+			</div><!-- /#step-7 --> 
+			
+			<div id="operations-overview">	
+			
+				<h2 id="operations">Operations</h4> 
+			
+				<p>
+					After completing the installation instructions, you're now ready to operate CIFullCalendar for the first time. Navigate your browser to the following details to login:
+				</p>
+				
+				<h3>Log in with the default "admin" and start editing your site settings:</h3>
+				<code>[YOUR DOMAIN NAME]/index.php/admin/login </code>
+				<blockquote>
+					<p>username: <b>admin</b></p>			
+					<p>password: <b>password1</b></p>
+				</blockquote> 
+
+				<h3>Log in with the default "user" and start editing your calendar:</h3>
+				<code>[YOUR DOMAIN NAME]/index.php/profile/login </code>
+				<blockquote>
+					<p>username: <b>user</b></p>			
+					<p>password: <b>password</b></p>
+				</blockquote> 
+
+				<h3>Register a new user/member and start editing your calendar:</h3>	
+				<code>[YOUR DOMAIN NAME]/index.php/register</code>  
+			
+				<p>A successful sign-in will direct you to your calendar for editing and view other fun features.</p>  
+				
+			</div><!-- /#operations-overview -->
+			
+			<h2 id="features" >Features</h2>
+			<p>Currently, CIFullCalendar has evolved to become a modern, secure and efficient tool. Plus more: </p>
+			<div id="datasources"> 
+				<img src="assets/img/features/feature_pic1.png" alt=""> 
+				<ul>
+					<li><strong>DB Driver</strong> – Supports MySQL or any CodeIgniter supported databases.</li>								
+					<li><strong>Sitemaps</strong> – Search Engine Optimization purposes <a href="//www.cifullcalendar.com/v2/sitemap.xml" >(yoursite.com/sitemap.xml)</a></li>
+					<li><strong>JSON</strong> – Share all of your public events by url. <a href="//www.cifullcalendar.com/v2/home/json" >(yoursite.com/home/json)</a>.</li>
+					<li><strong>RSS Feeds</strong> – Share your public events by rss feeds <a href="//www.cifullcalendar.com/v2/feeds" >(yoursite.com/feeds)</a>.</li>
+					<li><strong>ICAL</strong> – Members are able to export a single event to their Google, Yahoo and live calendars or to a ICAL Format (ics/ical).</li>
+				</ul>				
+			</div><!-- /#datasources -->
+			
+			<div id="toolsandmuscle">
+				<img src="assets/img/features/feature_pic2.png" alt="">
+				<ul>
+					<li><strong>Event Filtering</strong> – Easily filter/view your shared events on your calendar</li> 
+					<li><strong>Group Sharing</strong> – Easily share events among members in various groups</li> 
+					<li><strong>Overlap</strong> – Deny or Allow events to overlap other events.</li>
+					<li><strong>Draggable Events</strong> - Allows members to easily drag and drop events by category on the calendar.</li> 
+					<li><strong>Calendar settings</strong> - Allows administrator and members to adjust the FullCalendar settings easily.</li>
+					<li><strong>Attachments</strong> – Add/Update/Delete events with an attachment (txt,docx,zip...).</li>
+					<li><strong>Recurring Events</strong> – Add/Update/Delete events multiple times weekly, monthly etc. by clicking, touching, resizing and dragging.</li>
+					<li><strong>Background Events</strong> – Add events that appear as background highlights.</li> 
+					<li><strong>Touch Support</strong> – Update or create events by touching or dragging events. Supported by many touch devices.</li>	
+					<li><strong>Import/Export</strong> – Allowing members to Import and Export events in bulk using ical format (ics/ical).</li>
+					<li><strong>Google Maps</strong> – Members are able to use the google maps to view all their events location instantly.</li>
+					<li><strong>Search</strong> – Allowing visitors or members to search for public or their own private events.</li>
+					<li><strong>Event Category</strong> – Members are able to filter events by categories.</li>
+					<li><strong>Event Sources</strong> – Members are able to view calendar feeds from other urls on their own calendar.</li>	
+					<li><strong>Notifications</strong> – Email notifications about public events and others.</li>	 				
+				</ul>				 			
+			</div><!-- /#toolsandmuscle -->  
+
+			<div id="members">
+				<img src="assets/img/features/feature_pic3.png" alt="">
+				<ul>
+					<li><strong>IonAuth</strong> - A simple and lightweight authentication library for the CodeIgniter framework. (Currently using IonAuth v2.6.0).</li>
+					<li><strong>Administration</strong> – Administrators of the site are able to moderate the site and other activities.</li>
+					<li><strong>Member Profile</strong> – Members of the site are able to manipulate their events and other activities.</li>
+					<li><strong>Group</strong> – Easily become or not a member of a particular group.</li>
+					<li><strong>Member's unique url</strong> – Share your own public events by URL <a href="#" >(yoursite.com/yourusername)</a></li>
+				</ul> 				 			
+			</div><!-- /#members -->
+			
+			<div id="templates">
+				<img src="assets/img/features/feature_pic4.png" alt="">
+				<ul>					
+					<li><strong>CMS</strong> – Easily create/update/delete pages and page contents.</li>
+					<li><strong>Print friendly</strong> - Use your browser to print your calendar events in its current view.</li>
+					<li><strong>Template</strong> – Easily customize your own themes. (Currently using bootstrap v3.3.6).</li>
+					<li><strong>Icons</strong> – Easily add icons within your own themes. (Currently using font-awesome v4.6.3).</li>
+					<li><strong>Language</strong> – Easily select your desire language. (<strong>en</strong> default language code).
+					<a href="https://github.com/CIFullCalendar/cifullcalendar/tree/master/application/language" target="_blank">Language Request</a></li> 
+				</ul> 				 			
+			</div><!-- /#members -->
+			   
+			<div id="app-overview">
+			
+				<h2 id="overview">Overview</h2>
+
+				<p>A successful installation requires a properly configure Apache server. <br />Please do checks within your php.ini because properly adding a desire <b>date.timezone</b> for example is a requirement.</p>
+				
+				<p><b>Google Maps</b> requires API Key. <a href="https://developers.google.com/maps/documentation/javascript/get-api-key#key">reference here</a></p> 
+				
+				<p><b>FullCalendar Scheduler</b> installation requires API Key. <a href="https://fullcalendar.io/scheduler/purchase">reference here</a>.</p>  
+				
+				
+			</div><!-- /#notes -->   
+			
+			<div id="sourcesandcredits">
+			
+				<h2 id="sources-and-credits" >Sources and Credits</h2>
+				
+				<p>I've used the following images, icons, js or other files as listed.
+				
+				<ul>
+					<li>Codeigniter v2.2.6 by EllisLab, Inc., British Columbia Institute of Technology and contributors</li>
+					<li>FullCalendar v3.0.1* by Adam Shaw and contributors</li> 
+					<li>JQuery v3.1.0 with JQuery UI by jQuery Foundation and other contributors Licensed MIT</li>  
+					<li>Moment.js v2.18.1 & moment-timezone.js v0.5.12 Tim Wood, Iskren Chernev, and contributors</li>					
+					<li>IonAuth v2.6.0* by Ben Edmunds and contributors</li> 
+					<li>Bootstrap v3.3.6 by Twitter, Inc. and contributors</li>
+					<li>Bootstrap-datetimepicker v4.17.42 by Eonasdan and contributors</li>
+					<li>Bootstrap-select v1.11.0 by Silvio Moreto and contributors</li>				
+					<li>Bootstrap-table v1.11.1 by Zhixin Wen and contributors</li>	 
+					<li>Font Awesome v4.7.0 by @davegandy and contributors</li>					
+					<li>Google Maps API v3 by Google</li> 
+					<li>Summernote by v0.8.3 Alan Hong and other contributors</li>
+					<li>MarkerClusterer v1.0.1 by Luke Mahe and contributors</li>
+					<li>CI Installer by Mike Crittenden and contributors</li>
+					<li>CodeMirror by Marijn Haverbeke and contributors</li>	
+					<li>jekyll-table-of-contents by Alex Ghiculescu and contributors</li>	
+					<li>jQuery Validation Plugin by Jörn Zaefferer and contributors</li> 
+				</ul>				
+			</div><!-- /#sourcesandcredits -->
+			
+		<hr>
+		
+		<p>Thank you for your support and purchase of &ldquo;CIFullcalendar v3&rdquo;. If you have any questions that are beyond the scope of this help file, please feel free to contact me via <a href="//sirdre.com"> Support </a>. Thanks so much! No guarantees on &quotETA&quot, but I'll do my best to assist.</p> 
+		
+		<p class="large pull-right"><strong>Andre Gardiner</strong><br/><strong>Document review 09/19/2017</strong></p> 
+	 	 
+	  
+	  
+	<!-- jQuery & JavaScript -->  
+	<script src="./assets/js/jquery-1.11.1.min.js"></script>
+	<script src="./assets/js/jquery.validate.min.js"></script>
+	<script src="./assets/js/form-validation.js"></script> 
+
+	<script src="./assets/js/bootstrap.js"></script> 
+
+	<script type="text/javascript" src="./assets/js/codemirror.min.js"></script>
+	<script type="text/javascript" src="./assets/js/xml.min.js"></script>
+	<script type="text/javascript" src="./assets/js/formatting.min.js"></script>
+	  
+	<!-- for website --> 
+	<script src="./assets/js/toc.js"></script>
+	<script src="./assets/js/sidebar.js"></script> 		
+     </div>
+      <footer class="doc-footer"> 
+		<p>CIFullcalendar v2 - created and maintained by <a href="https://www.sirdre.com">Sir.Dre</a></p> 
+      </footer>
+    </div>
+  </div>
+</div>
+ 
+  </body>
+</html>

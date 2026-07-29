@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Documentation</title>
+	<meta name="description" content="A server-side dynamic web application that is responsive to any layout of a viewing screen">
+	<meta name="author" content="sirdre">
+	
+	<meta property="og:site_name" content="CIFullCalendar - a calendar web application">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="CIFullCalendar - a calendar web application">
+	<meta property="og:url" content="https://cifullcalendar.com/docs">
+	<meta property="og:image" content="./assets/img/icons/icon_192x192.png">
+	<meta property="og:description" content="A server-side dynamic web application that is responsive to any layout of a viewing screen">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://cifullcalendar.com/docs">
+	<meta name="twitter:title" content="CIFullCalendar - a calendar web application">
+	<meta name="twitter:description" content="A server-side dynamic web application that is responsive to any layout of a viewing screen">
+	<meta name="twitter:image" content="./assets/img/icons/icon_180x180.png">
+	<meta name="twitter:site" content="@SenorDre">
+	<meta name="twitter:domain" content="https://cifullcalendar.com">	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="./assets/img/icons/icon_ios_57x57.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icons/icon_ios_76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./assets/img/icons/icon_ios_120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/img/icons/icon_ios_152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/icon_ios_180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./assets/img/icons/android_icon_192x192.png"> 
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="./assets/js/html5shiv.js"></script>
+	<![endif]--> 
+	<link href="./assets/css/bootstrap.css" rel="stylesheet">
+	<link href="./assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
+    <link href="./assets/main.css"  rel="stylesheet" > 
+
+	<link href="./assets/css/codemirror.min.css" rel="stylesheet" type="text/css" >
+	<link href="./assets/css/monokai.min.css" rel="stylesheet" type="text/css" >	
+	 
+  </head>
+  
+  <body class="doc">
+
+  <header class="navbar navbar-default navbar-fixed-top fix-navbar" role="navigation">
+  <div class="page-container header-page-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <a class="navbar-brand fix-header-brand header-bi" href="/"><span class="ir">CIFullCalendar v3</span></a>
+      <a href="https://cifullcalendar.com/v3" id="demo">
+        <span class="fa fa-calendar"></span>
+      </a>	  	  
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">  
+		  <li><a class="header-page-link" href="index.html" >Documentation</a></li>  
+		  <li class="active"><a class="header-page-link" href="#" >License</a></li>   
+		  <li><a class="header-page-link" href="terms.html" >Terms and Conditions</a></li>  
+          <li><a class="header-page-link" href="https://github.com/CIFullCalendar/cifullcalendar/releases">Download</a></li>
+      </ul> 
+    </div>
+  </div>
+</header>   
+
+<div class="page-container">
+  <div class="row">
+    <div class="col-md-3 doc-nav">
+      <h2>CIFullCalendar v3</h2> 
+	  <p class="muted">This is base on the current version of the CodeIgniter framework v3.x</p>
+      <div class="bs-page-sidebar" side-navbar role="complementary">
+        <div id="toc"></div>
+      </div>
+    </div>
+    <div class="col-md-9 doc-content-wrap">
+      <div class="doc-content" role="main">  
+						 
+		<h2 id="license">License</h2> 
+		<p>This page will help you decide which of the available license type suits your situation. Otherwise, for quick comparison, skip directly to the <a href="#compare-license">comparison</a> table below, or <a href="mailto:andre@sirdre.com?subject=CIFullcalendar+License+Questions">contact</a>.</p> 
+
+		<h3 id="gpl-license">GNU General Public License</h3> 
+		<p>Under the GPL license, CIFullcalendar is now intended to guarantee your freedom to share, promote the freedom to use, study, copy, modify, and redistribute the software / web app so that there is more freedom to its users. <a href="http://www.gnu.org/licenses/gpl-3.0.html#content">Read More...</a></p>
+ 
+		<h3 id="commercial-license">Commercial License</h3> 
+		<p>This license type is good for individuals creating commercial sites for example event site, booking site, appointment site or any other site use to charge its users.</p> 
+		<p>The license for the purchaser allow all of its subsidiaries to make full use of it for their own commercial purposes. Please <a href="mailto:andre@sirdre.com?subject=CIFullcalendar+Commercial+License+Questions">contact here</a></p>
+		
+		<figure class="highlight">
+		<h2 id="compare-license">Compare license</h2> 
+		<table class="table table-comparison">
+			<tbody>
+				<tr class="tr-hide">
+					<th class="first"></th>
+					<th class="license-single">GNU GPL<p>
+					<small>For non-commercial use only <br>&nbsp;</small></p><p>CIFullCalendar v2</p></th>
+					<th class="license-oem">Commercial license
+					<p><small>For commercial use and modify its core source code.</small></p><p>CIFullCalendar v3</p></th>
+				</tr> 
+				<tr class="features">
+					<td class="feature first">Pages / Instances</td>
+					<td class="feature"> 
+						<p><span class="unlimited">Unlimited</span></p>
+					</td> 
+					<td class="feature">
+						<p><span class="unlimited">Unlimited</span></p>
+					</td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">Public or Private Domains<br>
+					<small>(Domains that display the web app for all users)</small></td>
+					<td class="feature"> 
+						<p>non-commercial</p>
+					</td> 
+					<td class="feature"> 
+						<p><span class="unlimited">Unlimited</span></p>
+					</td>
+				</tr>  			
+				<tr class="features">
+					<td class="feature first">Physical/Virtual servers</td>
+					<td class="feature"> 
+						<p><span class="unlimited">Unlimited</span></p>
+					</td> 
+					<td class="feature"> 
+						<p><span class="unlimited">Unlimited</span></p>
+					</td>
+				</tr> 
+				<tr class="features">
+					<td class="feature-group" colspan="4"><h3 id="support-upgrades">Support</h3></td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">Reference <b>links</b></td>
+					<td class="feature"> 
+						<p><a href="https://github.com/CIFullCalendar/cifullcalendar">Open Source</a></p>
+					</td> 
+					<td class="feature"> 
+						<p><span class="unlimited"><a href="//sirdre.com">Support</a></span></p>
+					</td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">Upgrades</td>
+					<td class="feature"> 
+						<p><span class="no">-</span></p>
+					</td> 
+					<td class="feature">
+						<p><span class="yes">free</span></p>
+					</td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">FullCalendar Scheduler Integration</td>
+					<td class="feature"> 
+						<p><span class="no">-</span></p>
+					</td> 
+					<td class="feature">
+						<p><span class="yes"><a href="https://fullcalendar.io/scheduler/purchase">License Required</a></span></p>
+					</td>
+				</tr> 
+				<tr class="features">
+					<td class="feature-group" colspan="4"><h3 id="support-development">Development</h3></td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">Removable Branding</td>
+					<td class="feature"> 
+						<p><span class="no">no</span></p>
+					</td> 
+					<td class="feature"> 
+						<p><span class="yes">Yes</span></p>
+					</td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">Includes source code</td>
+					<td class="feature"> 
+						<p><span class="yes"><a href="https://github.com/CIFullCalendar/cifullcalendar/tree/v2">Yes</a></span></p>
+					</td> 
+					<td class="feature"> 
+						<p><span class="yes">Yes</span></p>
+					</td>
+				</tr> 
+				<tr class="features" id="prices">
+					<td class="feature-group" colspan="4"><h3 id="support-prices">Prices</h3></td>
+				</tr>
+				<tr class="features">
+					<td class="feature first">Prices</td>
+					<td class="feature"> 
+						<p><span class="free">free for non-commercial</span><br />
+						<p><a href="https://github.com/CIFullCalendar/cifullcalendar/tree/v2">Free</a></p>
+						</p>
+					</td> 
+					<td class="feature"> 
+						<p><span class="25">$27CAD</span><br>
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="hosted_button_id" value="AQP4QUY28JMAG">
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form> 
+						</p>
+					</td>
+				</tr> 
+				
+			</tbody>
+		</table>
+		</figure>
+	
+	<p>Still not sure about which one&nbsp;to go with? <a href="mailto:andre@sirdre.com?subject=CIFullcalendar+License+Questions">Contact</a>.</p> 
+	   
+	  
+	<!-- jQuery & JavaScript -->  
+	<script src="./assets/js/jquery-1.11.1.min.js"></script>
+	<script src="./assets/js/jquery.validate.min.js"></script>
+	<script src="./assets/js/form-validation.js"></script> 
+
+	<script src="./assets/js/bootstrap.js"></script> 
+
+	<script type="text/javascript" src="./assets/js/codemirror.min.js"></script>
+	<script type="text/javascript" src="./assets/js/xml.min.js"></script>
+	<script type="text/javascript" src="./assets/js/formatting.min.js"></script>
+	  
+	<!-- for website --> 
+	<script src="./assets/js/toc.js"></script>
+	<script src="./assets/js/sidebar.js"></script> 		
+     </div>
+      <footer class="doc-footer"> 
+		<p>CIFullcalendar v3 - created and maintained by <a href="https://www.sirdre.com">Sir.Dre</a></p> 
+      </footer>
+    </div>
+  </div>
+</div>
+ 
+  </body>
+</html>

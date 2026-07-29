@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
+  <url>
+    <loc>https://www.cifullcalendar.com/v2</loc> 
+	<image:image>
+		<image:loc>https://www.cifullcalendar.com/v2/assets/img/logo.png</image:loc>
+		<image:caption>CIFullcalendar</image:caption>
+    </image:image>
+	<priority>1.0</priority>
+  </url>
+  <url>
+	<loc>https://www.cifullcalendar.com/v2/docs</loc>
+	<priority>1.0</priority>
+  </url>
+  <url>
+	<loc>https://www.cifullcalendar.com/v2/docs/license.html</loc>
+	<priority>1.0</priority>
+  </url>
+  <url>
+	<loc>https://www.cifullcalendar.com/v2/docs/terms.html</loc>
+	<priority>1.0</priority>
+  </url>  
+</urlset>  
