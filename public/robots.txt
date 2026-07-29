@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /app/
+Disallow: /assets/
+Disallow: /system/
+
+User-agent: Googlebot 
+Disallow: /app/
+Disallow: /assets/
+Disallow: /system/
+
+User-agent: msnbot
+Crawl-delay: 120
+Disallow: /app/
+Disallow: /assets/
+Disallow: /system/
+
+User-agent: discobot
+Disallow: /
+
+User-agent: Slurp
+Crawl-delay: 4

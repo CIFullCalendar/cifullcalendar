@@ -1,10 +1,31 @@
-# CIFullCalendar v3 - Legacy **3.6.2.9**.
+# CIFullCalendar v4
 
 ## Overview
 
-CIFullCalendar is a server-side calendar and scheduling web application built on CodeIgniter 3. It provides tools for publishing, managing, and sharing events across public and private views, with role-based access for visitors, members, and administrators.
+CIFullCalendar is a server-side calendar and scheduling web application built on CodeIgniter v4 and Fullcalendar. It provides tools for publishing, managing, and sharing events across public and private views, with role-based access for visitors, members, and administrators.
 
-## Core Capabilities
+## What is CodeIgniter?
+
+CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
+More information can be found at the [official site](https://codeigniter.com).
+
+More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+
+The [User Guide](https://codeigniter.com/user_guide/) is the primary documentation for CodeIgniter 4.
+
+You might also be interested in the [API documentation](https://codeigniter4.github.io/api/) for the framework components.
+
+
+## What is FullCalendar?
+
+FullCalendar is a full-sized drag & drop event calendar. [official site](https://fullcalendar.io).
+
+More information about the plans for releases and features can be found in [Road map](https://fullcalendar.io/roadmap).
+
+The [User Guide](https://fullcalendar.io/docs) is the primary documentation.
+
+
+## The “Super Saiyan Fusion” Capabilities
 
 ### Calendar and Event Management
 
@@ -17,11 +38,11 @@ CIFullCalendar is a server-side calendar and scheduling web application built on
 
 ### Sharing and Publishing
 
-- Publish public events as JSON feeds (for example, `/home/json`).
-- Publish user-scoped event feeds (for example, `/home/ujson/{username}`).
-- Publish RSS feeds via `/feeds`.
+- Publish public events as JSON feeds .
+- Publish user-scoped event feeds.
+- Publish RSS feeds.
 - Export events to iCalendar (`.ics`) format.
-- Generate sitemap output via `/sitemap.xml` for SEO workflows.
+- Generate sitemap for SEO workflows.
 
 ### Member and Group Features
 
@@ -53,11 +74,11 @@ CIFullCalendar is a server-side calendar and scheduling web application built on
 
 ## Default Routing Highlights
 
-- Default controller: `home`
-- Public profile route: `/{username}` maps to `home/view/{username}`
-- Main routes: `/login`, `/register`, `/feeds`, `/calendar`, `/profile`, `/admin`
-- SEO route: `/sitemap.xml`
-- Dynamic page titles/slugs routed through `page/title/{slug}`
+- Default controller
+- Public profile route
+- Main routes
+- SEO route
+- Dynamic page titles/slugs routes
 
 ## Autoloaded Modules
 
@@ -66,50 +87,49 @@ The application autoloads the following key components:
 ### Libraries
 
 - `database`
-- `ion_auth`
+- `auth`
 - `template`
 - `languages`
 - `recurrence`
 - `icalendar`
 - `notify`
 
-### Helpers
-
-- `url`, `file`, `text`, `string`, `date`, `xml`, `form`, `html`, `language`, `log`
-
-### Models
-
-- `Setting_model`
 
 ## Module Inventory
 
 ### Controllers
 
-- Root controllers: `Home`, `Login`, `Logout`, `Register`, `Feeds`, `Page`, `Seo`
-- Member calendar controllers: `calendar/Home`, `calendar/Categories`, `calendar/Sources`, `calendar/Gmaps`, `calendar/Login`, `calendar/Logout`
-- Profile controllers: `profile/Home`, `profile/User`, `profile/Forgot_login`, `profile/Login`, `profile/Logout`
-- Admin controllers: `admin/Home`, `admin/Login`, `admin/Logout`, `admin/Userslist`, `admin/Group`, `admin/Categories`, `admin/Pages`, `admin/Settings`, `admin/Calendarlist`, `admin/Maplist`, `admin/Queuelist`, `admin/Sessionlist`
+- Root controllers
+- Calendar controllers
+- Profile controllers
+- Admin controllers
 
 ### Models
 
-- Event and calendar: `Fullcalendar_model`, `Fullcalendar_admin_model`, `Eventsources_model`, `Feed_model`
-- Categories and maps: `Category_model`, `Category_admin_model`, `Gmaps_model`, `Gmaps_admin_model`
-- User and identity: `Ion_auth_model`, `Member_model`, `Member_admin_model`, `Sessions_model`
-- Site and content: `Setting_model`, `Page_model`, `Notification_model`
+- Event and calendar
+- Categories and maps
+- User and identity
+- Site and content
 
 ### Custom Libraries
 
-- `Ion_auth`, `Bcrypt`, `Recurrence`, `Icalendar`, `Notify`, `Template`, `Languages`
+- `auth`
 
 ## Project Structure
 
 ```text
 cifullcalendar/
-|-- index.php
+|-- LICENSE
 |-- README.md
-|-- application/
+|-- SECURITY.md
+|-- preload.php
+|-- psalm-autoload.php
+|-- spark
+|-- app/
 |   |-- config/                 # Core configuration (routes, db, auth, email, version)
+|   |   |-- boot/
 |   |-- controllers/            # HTTP entry points (public, member, admin)
+|   |   |-- auth/
 |   |   |-- admin/
 |   |   |-- calendar/
 |   |   `-- profile/
@@ -118,58 +138,23 @@ cifullcalendar/
 |   |-- helpers/                # Custom helper functions
 |   |-- language/               # Translation files
 |   `-- views/                  # Presentation templates
-|-- assets/                     # CSS, JS, images, plugins, uploads, captcha, ics
+|-- public/
+|   |-- themes/                 # CSS, JS, icons, images
+|   |-- assets/                 # CSS, JS, images, vendors
+|   |   |-- vendors/            # CSS, JS, images, vendors
+|   |-- index.php               # index, htaccess, robots, favicon
 |-- install/                    # Installation wizard and setup scripts
+|-- writable/                   # Temporary and transient files
 `-- system/                     # CodeIgniter framework core
 ```
 
-## Installation
-
-1. Deploy the project to a PHP-enabled web server.
-2. Open the application URL. If configuration files are missing, the app redirects to the installer at `/install`.
-3. Complete the installation wizard and set:
-	- database connection values,
-	- application URL values,
-	- email transport values.
-4. Confirm that the following files are present and configured:
-	- `application/config/database.php`
-	- `application/config/email.php`
-5. Remove the `install` directory after setup (required for production safety).
-
-## Configuration Notes
-
-- `application/config/config.php`: base URL, language, logging, query settings, and environment behavior.
-- `application/config/routes.php`: route mapping and language-prefix behavior.
-- `application/config/ion_auth.php`: identity policy, password constraints, login lockout, and cookie settings.
-- `application/config/email.php`: SMTP and email transport settings.
-- `application/config/version.php`: application version metadata.
-
-## Security and Operations Recommendations
-
-- Set `ENVIRONMENT` to `production` in production deployments.
-- Disable verbose database and SMTP debug outputs in production.
-- Use strong SMTP credentials and secure transport (`tls` or `ssl`) where available.
-- Keep the database prefix customized (`dbprefix`) for baseline hardening.
-- Rotate admin credentials and review group permissions regularly.
-- Keep write permissions minimal for `application/cache`, `application/logs`, and upload folders.
-
-## Known Access Points
-
-- Public calendar page: `/home`
-- Public JSON feed: `/home/json`
-- User JSON feed: `/home/ujson/{username}`
-- RSS feed: `/feeds`
-- Profile area: `/profile`
-- Member calendar area: `/calendar`
-- Admin area: `/admin`
-- Sitemap: `/sitemap.xml`
 
 ## Resources
 
-- User documentation: <https://cifullcalendar.com/v3/docs>
+- User documentation: <https://cifullcalendar.com/v4/docs>
 - Support: <https://sirdre.com>
 
 ## License and Terms
 
-- License: <https://cifullcalendar.com/v3/docs/license.html>
-- Terms and conditions: <https://cifullcalendar.com/v3/docs/terms.html>
+- License: <https://cifullcalendar.com/v4/docs/license.html>
+- Terms and conditions: <https://cifullcalendar.com/v4/docs/terms.html>
