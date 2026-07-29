@@ -1,0 +1,332 @@
+@font-face{
+    font-family:FontAwesome;
+    src:url(../fonts/fontawesome-webfont.eot?#iefix) format('eot'),
+	url(../fonts/fontawesome-webfont.woff) format('woff'),
+	url(../fonts/fontawesome-webfont.ttf) format('truetype'),
+	url(../fonts/fontawesome-webfont.svg#FontAwesome) format('svg');
+    font-weight:400;font-style:normal;}
+ 
+.title {
+	font-size: 120px;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: 2px 2px 0 #000;
+	
+	color:#FFF;
+	
+	padding-bottom: 50px;
+}
+
+.subtitle {
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+ 
+.oi_preview_up {
+	margin-bottom: 0;
+	margin-top: 17px;
+	display: none;
+}
+
+label {
+	color:white;
+}
+
+.modal label {
+	color: #000;
+}
+
+.map {
+	min-height: 400px;
+	border: 4px solid white;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.admin_marker {
+	padding: 3px;
+}
+
+.btn-create-pin {
+	padding-bottom: 10px;
+}
+
+.pin_marker_example {
+	height:30px;
+	margin:3px;
+	margin-top:2px;
+}
+
+.mapaw_icon {
+	font-family: FontAwesome !important;
+	text-align: center !important;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.bootstrap-select.form-control:not([class*="span"]) {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.mapaw_color {
+	margin-bottom: 8px;
+}
+
+.mapaw_part2 {
+	display:none;
+}
+
+.or_preview {
+	color: #656565;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.icon-preview {
+	font-family: FontAwesome;
+	text-align: center;
+	font-size: 20px;
+	padding: 8px;
+	background: #E3DED3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+
+.oi_well {
+	text-align: center;
+	margin-top: 10px;
+	display: none;
+}
+
+.marker-preview {
+	text-align: center;
+	font-size: 20px;
+	padding: 8px;
+	background: #E3DED3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+
+.streetview_preview_form {
+	text-align: center;
+}
+
+.modal_address {
+	font-weight: bold;
+}
+
+.marker-preview img {
+	margin: 3px;
+	cursor: pointer;
+	padding: 3px;
+	border:3px solid transparent;
+}
+
+.marker-preview img:hover{
+	background: rgba(255,255,255,0.4);
+	border: 3px solid white;
+}
+
+.marker-preview .selected {
+	padding: 3px;
+	background: rgba(255,255,255,0.4);
+	border: 3px solid white;
+}
+
+select.mapaw_icon option {
+	padding: 8px;
+}
+
+.save_map_block {
+	padding: 10px;
+	padding-right: 0;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.feature_title {
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.demo hr {
+	border-color: #4c4c4c;
+}
+
+.demo .features {
+	text-align: center;
+}
+
+.demo .features img {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+}
+
+.demo h4 {
+	color: white;
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.demo .features p {
+	color: #E0E0E0;
+	font-family: 'Actor', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+::-webkit-input-placeholder {
+   color: #4A4A4A !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #4A4A4A !important;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #4A4A4A !important;  
+}
+
+:-ms-input-placeholder {  
+   color: #4A4A4A !important;  
+}
+
+
+
+
+/*Markers
+---------------------------------------------------------------*/
+#awm_map div {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+#awm_map {
+	width: 100% !important;
+}
+
+.contentbox {
+	line-height:1.35;
+	overflow:hidden;
+	width: 100%;
+	max-width: 400px;
+	min-width: 200px;
+}
+
+.contentbox .contentbox_inner {
+	padding: 10px;
+	padding-bottom: 4px;
+}
+
+.contentbox .streetview {
+	/*height: 100px;*/
+}
+
+.contentbox .streetview img {
+    border: none !important;
+    max-width: none !important;
+    width: 100%;
+    max-width: 400px !important;
+}
+
+.contentbox_inner .awm_title {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.contentbox_inner .awm_desc {
+	font-size: 12px;
+}
+
+.contentbox_inner .awm_address {
+	color: #8F8F8F;
+	padding-top: 5px;
+	border-top: 1px solid #EEEEEE;
+	word-wrap: break-word;
+}
+
+.arrowup {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid black;
+}
+
+.infoBox {
+	width: auto !important;
+	margin-top: 21px;
+	min-width: 130px;
+	margin-left: -14px;
+	max-width: 400px;
+}
+
+.infoBox:after, .infoBox:before { bottom: 100%; left: -1px; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; } .infoBox:after { border-color: rgba(136, 183, 213, 0); border-bottom-color: rgba(255,255,255,1); border-width: 12px; left:1px; } .infoBox:before { border-color: rgba(194, 225, 245, 0); border-bottom-color: #959595; border-width: 14px; }
+
+.pin_marker {
+	width: 36px;
+	height: 50px;	
+	background-image: url("../img/marker1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.pin_marker .fa {
+	display: block;
+    font-size: 15px;
+    padding-top: 11px;
+    text-align: center;
+    width: 36px;
+}
+
+.pin_marker.preview {
+	text-align: center;
+	display: block;
+	width: 36px;
+    padding-top: 9px;
+    padding-left: 1px;
+	font-size: 15px;
+	margin: auto;
+}
+
+.awm_search {
+	position: relative;
+	z-index:2;
+	width:25%;
+	float: right;
+	top: 80px;
+	height: 33px;
+	margin-top: -45px;
+	right:9px;
+}
+
+.awm_search input {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 100%;
+}

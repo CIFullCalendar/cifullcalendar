@@ -1,0 +1,237 @@
+
+#calendar {
+  background-color: #F4F4F4;	
+  position: relative;
+}
+
+#loading {
+  position: relative;
+  z-index: 1040; 
+} 	
+
+.fc-event {
+  padding: 2px;
+}
+
+.fc-past {
+  background: rgba(245, 245, 245, 0.03) !important;
+}
+
+.fc-future {
+  background: rgba(252, 248, 227, 0.4) !important;
+}
+
+.fc-day-number {
+  margin: 2px 2px 0 0;
+}
+ 
+.fc-today .fc-day-number {
+  font-weight: bold;
+}
+
+.fc-state-highlight {
+  background: #FCE3E3 !important;
+}
+
+.fc-event .fc-view-container > span:first-child:before, .fc-resizable:before {
+  font-family: FontAwesome;
+  font-size: 7px;
+  line-height: 10px;
+  padding-right: 4px;
+  float: left;
+}
+
+.fc-day-grid-event .fc-resizable {
+  top: 0           !important; /* importants override pre jquery ui 1.7 styles */
+  right: -3px      !important;
+  width: 18px       !important;
+  height: 100%     !important;
+  cursor: e-resize;
+}
+ 
+.fc-resizable:before {
+  content: "\f0b2";
+}
+ 
+.external-event {
+  display: inline-block;
+  cursor: move;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.fc-scroller {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.fc-month-view .fc-scroller {
+  height: auto !important;
+} 
+
+.fc-button {
+  position: static !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: 0;
+  height: 30px;
+  padding: 6px 8px 7px 8px;
+  margin-left: 2px;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: #ddd;
+  background: transparent;
+  color: #fff;
+  top: -45px;
+  outline: none !important;
+}
+
+.fc-toolbar {
+  margin-bottom: 0px !important;
+}
+
+.fc-toolbar h2 {
+  margin-top: 3px;
+  font-size: 17px;
+}
+
+.fc-header {
+  margin-bottom: 0px;
+}
+
+.fc-button-prev {
+  padding-right: 10px;
+  padding-left: 8px;
+}
+
+.fc-button-next {
+  padding-right: 8px;
+  padding-left: 10px;
+}
+
+.fc-button.fc-state-active, .fc-button.fc-state-hover {
+  color: #666;
+  background-color: #fff;
+}
+
+.fc-button.fc-state-disabled {
+  color: #ddd;
+}
+
+.fc-icon:after {
+	position: relative;
+	margin: 0 0 !important;
+}
+
+.fc-text-arrow {
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+  vertical-align: baseline;
+}
+ 
+.fc-event .fc-content {
+  border: 0px;
+}
+
+.fc-event .fc-time {
+  float: left;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+}
+ 
+.fc-widget-header {
+  background-image: none;
+  filter: none;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.fc-button {
+  top: -60px;
+  color: #666;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-bottom: 35px;
+}
+
+.fc-button .fc-text-arrow {
+  margin-top: -6px;
+  display: inline-block;
+}
+
+.fc-button.fc-state-active, .fc-button.fc-state-hover {
+  color: #333; 
+}
+
+.fc-button.fc-state-disabled {
+  color: #aaa;
+}
+
+.fc-button {
+  padding: 0px 6px 10px 6px;
+  margin-left: 2px;
+  border: 0;
+  background-color: #dddddd;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #000;
+  text-shadow: none;
+  text-align: center;
+}
+.fc-button.fc-state-hover, .fc-button.fc-state-active {
+  background-color: #eeeeee;
+}
+.fc-button.fc-state-disabled {
+  color: #bbbbbb;
+}
+.fc-button-prev {
+  margin-right: 5px;
+  margin-top: 0px;
+}
+.fc-button-next {
+  margin-right: -0px;
+  margin-top: 0px;
+}
+.fc-header-space {
+  margin: 0px;
+  padding: 0px;
+  width: 0px;
+}
+.fc-header-left {
+  position: absolute;
+  z-index: 10;
+}
+.fc-header-left .fc-button {
+  top: 5px;
+}
+.fc-header-right {
+  position: relative;
+  right: 0;
+}
+.fc-header-right .fc-button {
+  top: 3px;
+}
+.fc-content {
+  margin-top: 0px;
+}
+
+.fc-list-header-left {
+	float: left;
+	padding-left: 5px;
+}
+
+.fc-list-header-right {
+	float: right;
+	padding-right: 5px; 
+}
